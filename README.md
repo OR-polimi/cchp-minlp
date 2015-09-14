@@ -10,11 +10,11 @@ If you use these instances, please consider citing the following reference:
 
 
 ### Data format
-In the folder `instances`, we include the instances used in the article in `.nl`, `.lp` and GAMS format, ready to be given to a MINLP solver.   
+In the folder `instances`, we include the instances used in the article in `.nl` (AMPL binary format) and GAMS format.   
 
 We also provide the raw data as plain text files: the `data` directory contains two subfolders, corresponding to two scenarios. Each scenario includes a set of heat and/or power units, that can be combined in different configurations. 
 Each unit corresponds to a different file.
-To define an instance of the problem, additional parameters must be specified: in particular, power/heat demand profiles, market prices for electrical power, fuel costs, fixed costs, and other values related to the technical constraints. 
+To define an instance of the problem, additional parameters must be specified: in particular, power/heat demand profiles, market prices for electrical power, temperature, and storage-related parameters. 
 For scenario 1, we provide one such example (instance `1a` in the article), while, for the scenario 2, we provide four files (corresponding to instances `2a`, `2b`, `2c` and `2d`) with different power/heat demand profiles.
 
 ##Description
