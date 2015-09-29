@@ -1,4 +1,4 @@
-# Short-term planning of cogeneration systems via MINLP
+# MINLP instances for short-term planning problem of combined heat and power (CHP) systems 
 
 This repository contains the instances used in the article "[Short-term planning of cogeneration energy systems via MINLP]()" by [Leonardo Taccari](https://twitter.com/leotac), [Edoardo Amaldi](http://home.deib.polimi.it/amaldi/), [Aldo Bischi]() and [Emanuele Martelli](http://www.energia.polimi.it/dipartimento/scheda_persona.php?id=242), 
 to be published as an invited chapter in "Advances and Trends in Optimization with Engineering Applications. MOS-SIAM Series on Optimization, 2015".
