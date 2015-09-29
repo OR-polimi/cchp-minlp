@@ -31,8 +31,10 @@
         <h1>
 <a id="minlp-instances-for-short-term-planning-problem-of-combined-heat-and-power-chp-systems" class="anchor" href="#minlp-instances-for-short-term-planning-problem-of-combined-heat-and-power-chp-systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>MINLP instances for short-term planning problem of combined heat and power (CHP) systems</h1>
 
-<p>This repository contains the instances used in the article "<a href="">Short-term planning of cogeneration energy systems via MINLP</a>" by <a href="">Leonardo Taccari</a>, <a href="http://home.deib.polimi.it/amaldi/">Edoardo Amaldi</a>, <a href="">Aldo Bischi</a> and <a href="http://www.energia.polimi.it/dipartimento/scheda_persona.php?id=242">Emanuele Martelli</a>, 
-to be published as an invited chapter in "Advances and Trends in Optimization with Engineering Applications. MOS-SIAM series, SIAM, Philadelphia, 2015".</p>
+<p>This repository contains the instances used in the article "<a href="">Short-term planning of cogeneration energy systems via MINLP</a>" by <a href="https://twitter.com/leotac">Leonardo Taccari</a>, <a href="http://home.deib.polimi.it/amaldi/">Edoardo Amaldi</a>, <a href="">Aldo Bischi</a> and <a href="http://www.energia.polimi.it/dipartimento/scheda_persona.php?id=242">Emanuele Martelli</a>, 
+to be published as an invited chapter in "Advances and Trends in Optimization with Engineering Applications. MOS-SIAM Series on Optimization, 2015".</p>
+
+<p><a href="https://zenodo.org/badge/latestdoi/18298/OR-polimi/cchp-minlp"><img src="https://zenodo.org/badge/18298/OR-polimi/cchp-minlp.svg" alt="DOI"></a></p>
 
 <p>If you use these instances, please consider citing the following reference:</p>
 
@@ -40,15 +42,23 @@ to be published as an invited chapter in "Advances and Trends in Optimization wi
 <p>L. Taccari, E. Amaldi, A. Bischi, E. Martelli, "Short-term planning of cogeneration energy systems via MINLP", in T. Terlaky, M. Anjos and S. Ahmed (Eds.), <em>Advances and Trends in Optimization with Engineering Applications</em>. MOS-SIAM Series on Optimization, SIAM, Philadelphia, 2015.</p>
 </blockquote>
 
+<p>Bibtex:</p>
+
+<div class="highlight highlight-text-tex"><pre>@incollection{TABM2015,
+  author      = "Taccari, Leonardo and Amaldi, Edoardo and Bischi, Aldo and Martelli, Emanuele"
+  title       = "Short-term planning of cogeneration energy systems via MINLP",
+  editor      = "T. Terlaky and M. Anjos and S. Ahmed",
+  booktitle   = "Advances and Trends in Optimization with Engineering Applications"
+  publisher   = "SIAM",
+  series      = "MOS-SIAM Series on Optimization"
+  address     = "Philadelphia",
+  year        = 2015
+}</pre></div>
+
 <h3>
 <a id="data-format" class="anchor" href="#data-format" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data format</h3>
 
-<p>In the folder <code>instances</code>, we include the instances used in the article in <code>.nl</code> (AMPL binary format) and GAMS format.   </p>
-
-<p>We also provide the raw data as plain text files: the <code>data</code> directory contains two subfolders, corresponding to two scenarios. Each scenario includes a set of heat and/or power units, that can be combined in different configurations. 
-Each unit corresponds to a different file.
-To define an instance of the problem, additional parameters must be specified: in particular, power/heat demand profiles, market prices for electrical power, temperature, and storage-related parameters. 
-For scenario 1, we provide one such example (instance <code>1a</code> in the article), while, for the scenario 2, we provide four files (corresponding to instances <code>2a</code>, <code>2b</code>, <code>2c</code> and <code>2d</code>) with different power/heat demand profiles.</p>
+<p>In the folder <code>instances</code>, we include the instances used in the article in <code>.nl</code> (AMPL binary format) and <code>.gms</code> (GAMS) format.   </p>
 
 <h2>
 <a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
