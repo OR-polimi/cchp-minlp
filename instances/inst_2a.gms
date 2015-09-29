@@ -25795,5 +25795,5 @@ Model m / all /;
 m.workspace = 15000;
 m.optcr = 0.0001;
 m.reslim = 7200;
-Option MINLP = Couenne;
+Option MINLP = BARON;
 Solve m using MINLP minimizing total_revenue;
