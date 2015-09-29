@@ -1,0 +1,14068 @@
+$offdigit
+Variables total_revenue,
+fuel_AuxiliaryBoilerHT_1_1,
+fuel_AuxiliaryBoilerHT_1_2,
+fuel_AuxiliaryBoilerHT_1_3,
+fuel_AuxiliaryBoilerHT_1_4,
+fuel_AuxiliaryBoilerHT_1_5,
+fuel_AuxiliaryBoilerHT_1_6,
+fuel_AuxiliaryBoilerHT_1_7,
+fuel_AuxiliaryBoilerHT_1_8,
+fuel_AuxiliaryBoilerHT_1_9,
+fuel_AuxiliaryBoilerHT_1_10,
+fuel_AuxiliaryBoilerHT_1_11,
+fuel_AuxiliaryBoilerHT_1_12,
+fuel_AuxiliaryBoilerHT_1_13,
+fuel_AuxiliaryBoilerHT_1_14,
+fuel_AuxiliaryBoilerHT_1_15,
+fuel_AuxiliaryBoilerHT_1_16,
+fuel_AuxiliaryBoilerHT_1_17,
+fuel_AuxiliaryBoilerHT_1_18,
+fuel_AuxiliaryBoilerHT_1_19,
+fuel_AuxiliaryBoilerHT_1_20,
+fuel_AuxiliaryBoilerHT_1_21,
+fuel_AuxiliaryBoilerHT_1_22,
+fuel_AuxiliaryBoilerHT_1_23,
+fuel_AuxiliaryBoilerHT_1_24,
+fuel_AuxiliaryBoilerHT_2_1,
+fuel_AuxiliaryBoilerHT_2_2,
+fuel_AuxiliaryBoilerHT_2_3,
+fuel_AuxiliaryBoilerHT_2_4,
+fuel_AuxiliaryBoilerHT_2_5,
+fuel_AuxiliaryBoilerHT_2_6,
+fuel_AuxiliaryBoilerHT_2_7,
+fuel_AuxiliaryBoilerHT_2_8,
+fuel_AuxiliaryBoilerHT_2_9,
+fuel_AuxiliaryBoilerHT_2_10,
+fuel_AuxiliaryBoilerHT_2_11,
+fuel_AuxiliaryBoilerHT_2_12,
+fuel_AuxiliaryBoilerHT_2_13,
+fuel_AuxiliaryBoilerHT_2_14,
+fuel_AuxiliaryBoilerHT_2_15,
+fuel_AuxiliaryBoilerHT_2_16,
+fuel_AuxiliaryBoilerHT_2_17,
+fuel_AuxiliaryBoilerHT_2_18,
+fuel_AuxiliaryBoilerHT_2_19,
+fuel_AuxiliaryBoilerHT_2_20,
+fuel_AuxiliaryBoilerHT_2_21,
+fuel_AuxiliaryBoilerHT_2_22,
+fuel_AuxiliaryBoilerHT_2_23,
+fuel_AuxiliaryBoilerHT_2_24,
+fuel_FuelCell_1_1,
+fuel_FuelCell_1_2,
+fuel_FuelCell_1_3,
+fuel_FuelCell_1_4,
+fuel_FuelCell_1_5,
+fuel_FuelCell_1_6,
+fuel_FuelCell_1_7,
+fuel_FuelCell_1_8,
+fuel_FuelCell_1_9,
+fuel_FuelCell_1_10,
+fuel_FuelCell_1_11,
+fuel_FuelCell_1_12,
+fuel_FuelCell_1_13,
+fuel_FuelCell_1_14,
+fuel_FuelCell_1_15,
+fuel_FuelCell_1_16,
+fuel_FuelCell_1_17,
+fuel_FuelCell_1_18,
+fuel_FuelCell_1_19,
+fuel_FuelCell_1_20,
+fuel_FuelCell_1_21,
+fuel_FuelCell_1_22,
+fuel_FuelCell_1_23,
+fuel_FuelCell_1_24,
+fuel_FuelCell_2_1,
+fuel_FuelCell_2_2,
+fuel_FuelCell_2_3,
+fuel_FuelCell_2_4,
+fuel_FuelCell_2_5,
+fuel_FuelCell_2_6,
+fuel_FuelCell_2_7,
+fuel_FuelCell_2_8,
+fuel_FuelCell_2_9,
+fuel_FuelCell_2_10,
+fuel_FuelCell_2_11,
+fuel_FuelCell_2_12,
+fuel_FuelCell_2_13,
+fuel_FuelCell_2_14,
+fuel_FuelCell_2_15,
+fuel_FuelCell_2_16,
+fuel_FuelCell_2_17,
+fuel_FuelCell_2_18,
+fuel_FuelCell_2_19,
+fuel_FuelCell_2_20,
+fuel_FuelCell_2_21,
+fuel_FuelCell_2_22,
+fuel_FuelCell_2_23,
+fuel_FuelCell_2_24,
+used_power_Compression_HeatPump_AirWater_1_1,
+used_power_Compression_HeatPump_AirWater_1_2,
+used_power_Compression_HeatPump_AirWater_1_3,
+used_power_Compression_HeatPump_AirWater_1_4,
+used_power_Compression_HeatPump_AirWater_1_5,
+used_power_Compression_HeatPump_AirWater_1_6,
+used_power_Compression_HeatPump_AirWater_1_7,
+used_power_Compression_HeatPump_AirWater_1_8,
+used_power_Compression_HeatPump_AirWater_1_9,
+used_power_Compression_HeatPump_AirWater_1_10,
+used_power_Compression_HeatPump_AirWater_1_11,
+used_power_Compression_HeatPump_AirWater_1_12,
+used_power_Compression_HeatPump_AirWater_1_13,
+used_power_Compression_HeatPump_AirWater_1_14,
+used_power_Compression_HeatPump_AirWater_1_15,
+used_power_Compression_HeatPump_AirWater_1_16,
+used_power_Compression_HeatPump_AirWater_1_17,
+used_power_Compression_HeatPump_AirWater_1_18,
+used_power_Compression_HeatPump_AirWater_1_19,
+used_power_Compression_HeatPump_AirWater_1_20,
+used_power_Compression_HeatPump_AirWater_1_21,
+used_power_Compression_HeatPump_AirWater_1_22,
+used_power_Compression_HeatPump_AirWater_1_23,
+used_power_Compression_HeatPump_AirWater_1_24,
+used_power_Compression_HeatPump_AirWater_2_1,
+used_power_Compression_HeatPump_AirWater_2_2,
+used_power_Compression_HeatPump_AirWater_2_3,
+used_power_Compression_HeatPump_AirWater_2_4,
+used_power_Compression_HeatPump_AirWater_2_5,
+used_power_Compression_HeatPump_AirWater_2_6,
+used_power_Compression_HeatPump_AirWater_2_7,
+used_power_Compression_HeatPump_AirWater_2_8,
+used_power_Compression_HeatPump_AirWater_2_9,
+used_power_Compression_HeatPump_AirWater_2_10,
+used_power_Compression_HeatPump_AirWater_2_11,
+used_power_Compression_HeatPump_AirWater_2_12,
+used_power_Compression_HeatPump_AirWater_2_13,
+used_power_Compression_HeatPump_AirWater_2_14,
+used_power_Compression_HeatPump_AirWater_2_15,
+used_power_Compression_HeatPump_AirWater_2_16,
+used_power_Compression_HeatPump_AirWater_2_17,
+used_power_Compression_HeatPump_AirWater_2_18,
+used_power_Compression_HeatPump_AirWater_2_19,
+used_power_Compression_HeatPump_AirWater_2_20,
+used_power_Compression_HeatPump_AirWater_2_21,
+used_power_Compression_HeatPump_AirWater_2_22,
+used_power_Compression_HeatPump_AirWater_2_23,
+used_power_Compression_HeatPump_AirWater_2_24,
+grid_power_sold_1_1,
+grid_power_sold_1_2,
+grid_power_sold_1_3,
+grid_power_sold_1_4,
+grid_power_sold_1_5,
+grid_power_sold_1_6,
+grid_power_sold_1_7,
+grid_power_sold_1_8,
+grid_power_sold_1_9,
+grid_power_sold_1_10,
+grid_power_sold_1_11,
+grid_power_sold_1_12,
+grid_power_sold_1_13,
+grid_power_sold_1_14,
+grid_power_sold_1_15,
+grid_power_sold_1_16,
+grid_power_sold_1_17,
+grid_power_sold_1_18,
+grid_power_sold_1_19,
+grid_power_sold_1_20,
+grid_power_sold_1_21,
+grid_power_sold_1_22,
+grid_power_sold_1_23,
+grid_power_sold_1_24,
+grid_power_sold_2_1,
+grid_power_sold_2_2,
+grid_power_sold_2_3,
+grid_power_sold_2_4,
+grid_power_sold_2_5,
+grid_power_sold_2_6,
+grid_power_sold_2_7,
+grid_power_sold_2_8,
+grid_power_sold_2_9,
+grid_power_sold_2_10,
+grid_power_sold_2_11,
+grid_power_sold_2_12,
+grid_power_sold_2_13,
+grid_power_sold_2_14,
+grid_power_sold_2_15,
+grid_power_sold_2_16,
+grid_power_sold_2_17,
+grid_power_sold_2_18,
+grid_power_sold_2_19,
+grid_power_sold_2_20,
+grid_power_sold_2_21,
+grid_power_sold_2_22,
+grid_power_sold_2_23,
+grid_power_sold_2_24,
+grid_power_bought_1_1,
+grid_power_bought_1_2,
+grid_power_bought_1_3,
+grid_power_bought_1_4,
+grid_power_bought_1_5,
+grid_power_bought_1_6,
+grid_power_bought_1_7,
+grid_power_bought_1_8,
+grid_power_bought_1_9,
+grid_power_bought_1_10,
+grid_power_bought_1_11,
+grid_power_bought_1_12,
+grid_power_bought_1_13,
+grid_power_bought_1_14,
+grid_power_bought_1_15,
+grid_power_bought_1_16,
+grid_power_bought_1_17,
+grid_power_bought_1_18,
+grid_power_bought_1_19,
+grid_power_bought_1_20,
+grid_power_bought_1_21,
+grid_power_bought_1_22,
+grid_power_bought_1_23,
+grid_power_bought_1_24,
+grid_power_bought_2_1,
+grid_power_bought_2_2,
+grid_power_bought_2_3,
+grid_power_bought_2_4,
+grid_power_bought_2_5,
+grid_power_bought_2_6,
+grid_power_bought_2_7,
+grid_power_bought_2_8,
+grid_power_bought_2_9,
+grid_power_bought_2_10,
+grid_power_bought_2_11,
+grid_power_bought_2_12,
+grid_power_bought_2_13,
+grid_power_bought_2_14,
+grid_power_bought_2_15,
+grid_power_bought_2_16,
+grid_power_bought_2_17,
+grid_power_bought_2_18,
+grid_power_bought_2_19,
+grid_power_bought_2_20,
+grid_power_bought_2_21,
+grid_power_bought_2_22,
+grid_power_bought_2_23,
+grid_power_bought_2_24,
+gen_power_FuelCell_1_1,
+gen_power_FuelCell_1_2,
+gen_power_FuelCell_1_3,
+gen_power_FuelCell_1_4,
+gen_power_FuelCell_1_5,
+gen_power_FuelCell_1_6,
+gen_power_FuelCell_1_7,
+gen_power_FuelCell_1_8,
+gen_power_FuelCell_1_9,
+gen_power_FuelCell_1_10,
+gen_power_FuelCell_1_11,
+gen_power_FuelCell_1_12,
+gen_power_FuelCell_1_13,
+gen_power_FuelCell_1_14,
+gen_power_FuelCell_1_15,
+gen_power_FuelCell_1_16,
+gen_power_FuelCell_1_17,
+gen_power_FuelCell_1_18,
+gen_power_FuelCell_1_19,
+gen_power_FuelCell_1_20,
+gen_power_FuelCell_1_21,
+gen_power_FuelCell_1_22,
+gen_power_FuelCell_1_23,
+gen_power_FuelCell_1_24,
+gen_power_FuelCell_2_1,
+gen_power_FuelCell_2_2,
+gen_power_FuelCell_2_3,
+gen_power_FuelCell_2_4,
+gen_power_FuelCell_2_5,
+gen_power_FuelCell_2_6,
+gen_power_FuelCell_2_7,
+gen_power_FuelCell_2_8,
+gen_power_FuelCell_2_9,
+gen_power_FuelCell_2_10,
+gen_power_FuelCell_2_11,
+gen_power_FuelCell_2_12,
+gen_power_FuelCell_2_13,
+gen_power_FuelCell_2_14,
+gen_power_FuelCell_2_15,
+gen_power_FuelCell_2_16,
+gen_power_FuelCell_2_17,
+gen_power_FuelCell_2_18,
+gen_power_FuelCell_2_19,
+gen_power_FuelCell_2_20,
+gen_power_FuelCell_2_21,
+gen_power_FuelCell_2_22,
+gen_power_FuelCell_2_23,
+gen_power_FuelCell_2_24,
+gen_high_AuxiliaryBoilerHT_1_1,
+gen_high_AuxiliaryBoilerHT_1_2,
+gen_high_AuxiliaryBoilerHT_1_3,
+gen_high_AuxiliaryBoilerHT_1_4,
+gen_high_AuxiliaryBoilerHT_1_5,
+gen_high_AuxiliaryBoilerHT_1_6,
+gen_high_AuxiliaryBoilerHT_1_7,
+gen_high_AuxiliaryBoilerHT_1_8,
+gen_high_AuxiliaryBoilerHT_1_9,
+gen_high_AuxiliaryBoilerHT_1_10,
+gen_high_AuxiliaryBoilerHT_1_11,
+gen_high_AuxiliaryBoilerHT_1_12,
+gen_high_AuxiliaryBoilerHT_1_13,
+gen_high_AuxiliaryBoilerHT_1_14,
+gen_high_AuxiliaryBoilerHT_1_15,
+gen_high_AuxiliaryBoilerHT_1_16,
+gen_high_AuxiliaryBoilerHT_1_17,
+gen_high_AuxiliaryBoilerHT_1_18,
+gen_high_AuxiliaryBoilerHT_1_19,
+gen_high_AuxiliaryBoilerHT_1_20,
+gen_high_AuxiliaryBoilerHT_1_21,
+gen_high_AuxiliaryBoilerHT_1_22,
+gen_high_AuxiliaryBoilerHT_1_23,
+gen_high_AuxiliaryBoilerHT_1_24,
+gen_high_AuxiliaryBoilerHT_2_1,
+gen_high_AuxiliaryBoilerHT_2_2,
+gen_high_AuxiliaryBoilerHT_2_3,
+gen_high_AuxiliaryBoilerHT_2_4,
+gen_high_AuxiliaryBoilerHT_2_5,
+gen_high_AuxiliaryBoilerHT_2_6,
+gen_high_AuxiliaryBoilerHT_2_7,
+gen_high_AuxiliaryBoilerHT_2_8,
+gen_high_AuxiliaryBoilerHT_2_9,
+gen_high_AuxiliaryBoilerHT_2_10,
+gen_high_AuxiliaryBoilerHT_2_11,
+gen_high_AuxiliaryBoilerHT_2_12,
+gen_high_AuxiliaryBoilerHT_2_13,
+gen_high_AuxiliaryBoilerHT_2_14,
+gen_high_AuxiliaryBoilerHT_2_15,
+gen_high_AuxiliaryBoilerHT_2_16,
+gen_high_AuxiliaryBoilerHT_2_17,
+gen_high_AuxiliaryBoilerHT_2_18,
+gen_high_AuxiliaryBoilerHT_2_19,
+gen_high_AuxiliaryBoilerHT_2_20,
+gen_high_AuxiliaryBoilerHT_2_21,
+gen_high_AuxiliaryBoilerHT_2_22,
+gen_high_AuxiliaryBoilerHT_2_23,
+gen_high_AuxiliaryBoilerHT_2_24,
+gen_high_FuelCell_1_1,
+gen_high_FuelCell_1_2,
+gen_high_FuelCell_1_3,
+gen_high_FuelCell_1_4,
+gen_high_FuelCell_1_5,
+gen_high_FuelCell_1_6,
+gen_high_FuelCell_1_7,
+gen_high_FuelCell_1_8,
+gen_high_FuelCell_1_9,
+gen_high_FuelCell_1_10,
+gen_high_FuelCell_1_11,
+gen_high_FuelCell_1_12,
+gen_high_FuelCell_1_13,
+gen_high_FuelCell_1_14,
+gen_high_FuelCell_1_15,
+gen_high_FuelCell_1_16,
+gen_high_FuelCell_1_17,
+gen_high_FuelCell_1_18,
+gen_high_FuelCell_1_19,
+gen_high_FuelCell_1_20,
+gen_high_FuelCell_1_21,
+gen_high_FuelCell_1_22,
+gen_high_FuelCell_1_23,
+gen_high_FuelCell_1_24,
+gen_high_FuelCell_2_1,
+gen_high_FuelCell_2_2,
+gen_high_FuelCell_2_3,
+gen_high_FuelCell_2_4,
+gen_high_FuelCell_2_5,
+gen_high_FuelCell_2_6,
+gen_high_FuelCell_2_7,
+gen_high_FuelCell_2_8,
+gen_high_FuelCell_2_9,
+gen_high_FuelCell_2_10,
+gen_high_FuelCell_2_11,
+gen_high_FuelCell_2_12,
+gen_high_FuelCell_2_13,
+gen_high_FuelCell_2_14,
+gen_high_FuelCell_2_15,
+gen_high_FuelCell_2_16,
+gen_high_FuelCell_2_17,
+gen_high_FuelCell_2_18,
+gen_high_FuelCell_2_19,
+gen_high_FuelCell_2_20,
+gen_high_FuelCell_2_21,
+gen_high_FuelCell_2_22,
+gen_high_FuelCell_2_23,
+gen_high_FuelCell_2_24,
+gen_low_FuelCell_1_1,
+gen_low_FuelCell_1_2,
+gen_low_FuelCell_1_3,
+gen_low_FuelCell_1_4,
+gen_low_FuelCell_1_5,
+gen_low_FuelCell_1_6,
+gen_low_FuelCell_1_7,
+gen_low_FuelCell_1_8,
+gen_low_FuelCell_1_9,
+gen_low_FuelCell_1_10,
+gen_low_FuelCell_1_11,
+gen_low_FuelCell_1_12,
+gen_low_FuelCell_1_13,
+gen_low_FuelCell_1_14,
+gen_low_FuelCell_1_15,
+gen_low_FuelCell_1_16,
+gen_low_FuelCell_1_17,
+gen_low_FuelCell_1_18,
+gen_low_FuelCell_1_19,
+gen_low_FuelCell_1_20,
+gen_low_FuelCell_1_21,
+gen_low_FuelCell_1_22,
+gen_low_FuelCell_1_23,
+gen_low_FuelCell_1_24,
+gen_low_FuelCell_2_1,
+gen_low_FuelCell_2_2,
+gen_low_FuelCell_2_3,
+gen_low_FuelCell_2_4,
+gen_low_FuelCell_2_5,
+gen_low_FuelCell_2_6,
+gen_low_FuelCell_2_7,
+gen_low_FuelCell_2_8,
+gen_low_FuelCell_2_9,
+gen_low_FuelCell_2_10,
+gen_low_FuelCell_2_11,
+gen_low_FuelCell_2_12,
+gen_low_FuelCell_2_13,
+gen_low_FuelCell_2_14,
+gen_low_FuelCell_2_15,
+gen_low_FuelCell_2_16,
+gen_low_FuelCell_2_17,
+gen_low_FuelCell_2_18,
+gen_low_FuelCell_2_19,
+gen_low_FuelCell_2_20,
+gen_low_FuelCell_2_21,
+gen_low_FuelCell_2_22,
+gen_low_FuelCell_2_23,
+gen_low_FuelCell_2_24,
+gen_low_Compression_HeatPump_AirWater_1_1,
+gen_low_Compression_HeatPump_AirWater_1_2,
+gen_low_Compression_HeatPump_AirWater_1_3,
+gen_low_Compression_HeatPump_AirWater_1_4,
+gen_low_Compression_HeatPump_AirWater_1_5,
+gen_low_Compression_HeatPump_AirWater_1_6,
+gen_low_Compression_HeatPump_AirWater_1_7,
+gen_low_Compression_HeatPump_AirWater_1_8,
+gen_low_Compression_HeatPump_AirWater_1_9,
+gen_low_Compression_HeatPump_AirWater_1_10,
+gen_low_Compression_HeatPump_AirWater_1_11,
+gen_low_Compression_HeatPump_AirWater_1_12,
+gen_low_Compression_HeatPump_AirWater_1_13,
+gen_low_Compression_HeatPump_AirWater_1_14,
+gen_low_Compression_HeatPump_AirWater_1_15,
+gen_low_Compression_HeatPump_AirWater_1_16,
+gen_low_Compression_HeatPump_AirWater_1_17,
+gen_low_Compression_HeatPump_AirWater_1_18,
+gen_low_Compression_HeatPump_AirWater_1_19,
+gen_low_Compression_HeatPump_AirWater_1_20,
+gen_low_Compression_HeatPump_AirWater_1_21,
+gen_low_Compression_HeatPump_AirWater_1_22,
+gen_low_Compression_HeatPump_AirWater_1_23,
+gen_low_Compression_HeatPump_AirWater_1_24,
+gen_low_Compression_HeatPump_AirWater_2_1,
+gen_low_Compression_HeatPump_AirWater_2_2,
+gen_low_Compression_HeatPump_AirWater_2_3,
+gen_low_Compression_HeatPump_AirWater_2_4,
+gen_low_Compression_HeatPump_AirWater_2_5,
+gen_low_Compression_HeatPump_AirWater_2_6,
+gen_low_Compression_HeatPump_AirWater_2_7,
+gen_low_Compression_HeatPump_AirWater_2_8,
+gen_low_Compression_HeatPump_AirWater_2_9,
+gen_low_Compression_HeatPump_AirWater_2_10,
+gen_low_Compression_HeatPump_AirWater_2_11,
+gen_low_Compression_HeatPump_AirWater_2_12,
+gen_low_Compression_HeatPump_AirWater_2_13,
+gen_low_Compression_HeatPump_AirWater_2_14,
+gen_low_Compression_HeatPump_AirWater_2_15,
+gen_low_Compression_HeatPump_AirWater_2_16,
+gen_low_Compression_HeatPump_AirWater_2_17,
+gen_low_Compression_HeatPump_AirWater_2_18,
+gen_low_Compression_HeatPump_AirWater_2_19,
+gen_low_Compression_HeatPump_AirWater_2_20,
+gen_low_Compression_HeatPump_AirWater_2_21,
+gen_low_Compression_HeatPump_AirWater_2_22,
+gen_low_Compression_HeatPump_AirWater_2_23,
+gen_low_Compression_HeatPump_AirWater_2_24,
+u_low_1_1,
+u_low_1_2,
+u_low_1_3,
+u_low_1_4,
+u_low_1_5,
+u_low_1_6,
+u_low_1_7,
+u_low_1_8,
+u_low_1_9,
+u_low_1_10,
+u_low_1_11,
+u_low_1_12,
+u_low_1_13,
+u_low_1_14,
+u_low_1_15,
+u_low_1_16,
+u_low_1_17,
+u_low_1_18,
+u_low_1_19,
+u_low_1_20,
+u_low_1_21,
+u_low_1_22,
+u_low_1_23,
+u_low_1_24,
+u_low_2_1,
+u_low_2_2,
+u_low_2_3,
+u_low_2_4,
+u_low_2_5,
+u_low_2_6,
+u_low_2_7,
+u_low_2_8,
+u_low_2_9,
+u_low_2_10,
+u_low_2_11,
+u_low_2_12,
+u_low_2_13,
+u_low_2_14,
+u_low_2_15,
+u_low_2_16,
+u_low_2_17,
+u_low_2_18,
+u_low_2_19,
+u_low_2_20,
+u_low_2_21,
+u_low_2_22,
+u_low_2_23,
+u_low_2_24,
+u_high_1_1,
+u_high_1_2,
+u_high_1_3,
+u_high_1_4,
+u_high_1_5,
+u_high_1_6,
+u_high_1_7,
+u_high_1_8,
+u_high_1_9,
+u_high_1_10,
+u_high_1_11,
+u_high_1_12,
+u_high_1_13,
+u_high_1_14,
+u_high_1_15,
+u_high_1_16,
+u_high_1_17,
+u_high_1_18,
+u_high_1_19,
+u_high_1_20,
+u_high_1_21,
+u_high_1_22,
+u_high_1_23,
+u_high_1_24,
+u_high_2_1,
+u_high_2_2,
+u_high_2_3,
+u_high_2_4,
+u_high_2_5,
+u_high_2_6,
+u_high_2_7,
+u_high_2_8,
+u_high_2_9,
+u_high_2_10,
+u_high_2_11,
+u_high_2_12,
+u_high_2_13,
+u_high_2_14,
+u_high_2_15,
+u_high_2_16,
+u_high_2_17,
+u_high_2_18,
+u_high_2_19,
+u_high_2_20,
+u_high_2_21,
+u_high_2_22,
+u_high_2_23,
+u_high_2_24,
+u_cold_1_1,
+u_cold_1_2,
+u_cold_1_3,
+u_cold_1_4,
+u_cold_1_5,
+u_cold_1_6,
+u_cold_1_7,
+u_cold_1_8,
+u_cold_1_9,
+u_cold_1_10,
+u_cold_1_11,
+u_cold_1_12,
+u_cold_1_13,
+u_cold_1_14,
+u_cold_1_15,
+u_cold_1_16,
+u_cold_1_17,
+u_cold_1_18,
+u_cold_1_19,
+u_cold_1_20,
+u_cold_1_21,
+u_cold_1_22,
+u_cold_1_23,
+u_cold_1_24,
+u_cold_2_1,
+u_cold_2_2,
+u_cold_2_3,
+u_cold_2_4,
+u_cold_2_5,
+u_cold_2_6,
+u_cold_2_7,
+u_cold_2_8,
+u_cold_2_9,
+u_cold_2_10,
+u_cold_2_11,
+u_cold_2_12,
+u_cold_2_13,
+u_cold_2_14,
+u_cold_2_15,
+u_cold_2_16,
+u_cold_2_17,
+u_cold_2_18,
+u_cold_2_19,
+u_cold_2_20,
+u_cold_2_21,
+u_cold_2_22,
+u_cold_2_23,
+u_cold_2_24,
+downgraded_1_1,
+downgraded_1_2,
+downgraded_1_3,
+downgraded_1_4,
+downgraded_1_5,
+downgraded_1_6,
+downgraded_1_7,
+downgraded_1_8,
+downgraded_1_9,
+downgraded_1_10,
+downgraded_1_11,
+downgraded_1_12,
+downgraded_1_13,
+downgraded_1_14,
+downgraded_1_15,
+downgraded_1_16,
+downgraded_1_17,
+downgraded_1_18,
+downgraded_1_19,
+downgraded_1_20,
+downgraded_1_21,
+downgraded_1_22,
+downgraded_1_23,
+downgraded_1_24,
+downgraded_2_1,
+downgraded_2_2,
+downgraded_2_3,
+downgraded_2_4,
+downgraded_2_5,
+downgraded_2_6,
+downgraded_2_7,
+downgraded_2_8,
+downgraded_2_9,
+downgraded_2_10,
+downgraded_2_11,
+downgraded_2_12,
+downgraded_2_13,
+downgraded_2_14,
+downgraded_2_15,
+downgraded_2_16,
+downgraded_2_17,
+downgraded_2_18,
+downgraded_2_19,
+downgraded_2_20,
+downgraded_2_21,
+downgraded_2_22,
+downgraded_2_23,
+downgraded_2_24,
+delta_FuelCell_1_1,
+delta_FuelCell_1_2,
+delta_FuelCell_1_3,
+delta_FuelCell_1_4,
+delta_FuelCell_1_5,
+delta_FuelCell_1_6,
+delta_FuelCell_1_7,
+delta_FuelCell_1_8,
+delta_FuelCell_1_9,
+delta_FuelCell_1_10,
+delta_FuelCell_1_11,
+delta_FuelCell_1_12,
+delta_FuelCell_1_13,
+delta_FuelCell_1_14,
+delta_FuelCell_1_15,
+delta_FuelCell_1_16,
+delta_FuelCell_1_17,
+delta_FuelCell_1_18,
+delta_FuelCell_1_19,
+delta_FuelCell_1_20,
+delta_FuelCell_1_21,
+delta_FuelCell_1_22,
+delta_FuelCell_1_23,
+delta_FuelCell_1_24,
+delta_FuelCell_2_1,
+delta_FuelCell_2_2,
+delta_FuelCell_2_3,
+delta_FuelCell_2_4,
+delta_FuelCell_2_5,
+delta_FuelCell_2_6,
+delta_FuelCell_2_7,
+delta_FuelCell_2_8,
+delta_FuelCell_2_9,
+delta_FuelCell_2_10,
+delta_FuelCell_2_11,
+delta_FuelCell_2_12,
+delta_FuelCell_2_13,
+delta_FuelCell_2_14,
+delta_FuelCell_2_15,
+delta_FuelCell_2_16,
+delta_FuelCell_2_17,
+delta_FuelCell_2_18,
+delta_FuelCell_2_19,
+delta_FuelCell_2_20,
+delta_FuelCell_2_21,
+delta_FuelCell_2_22,
+delta_FuelCell_2_23,
+delta_FuelCell_2_24,
+delta_AuxiliaryBoilerHT_1_1,
+delta_AuxiliaryBoilerHT_1_2,
+delta_AuxiliaryBoilerHT_1_3,
+delta_AuxiliaryBoilerHT_1_4,
+delta_AuxiliaryBoilerHT_1_5,
+delta_AuxiliaryBoilerHT_1_6,
+delta_AuxiliaryBoilerHT_1_7,
+delta_AuxiliaryBoilerHT_1_8,
+delta_AuxiliaryBoilerHT_1_9,
+delta_AuxiliaryBoilerHT_1_10,
+delta_AuxiliaryBoilerHT_1_11,
+delta_AuxiliaryBoilerHT_1_12,
+delta_AuxiliaryBoilerHT_1_13,
+delta_AuxiliaryBoilerHT_1_14,
+delta_AuxiliaryBoilerHT_1_15,
+delta_AuxiliaryBoilerHT_1_16,
+delta_AuxiliaryBoilerHT_1_17,
+delta_AuxiliaryBoilerHT_1_18,
+delta_AuxiliaryBoilerHT_1_19,
+delta_AuxiliaryBoilerHT_1_20,
+delta_AuxiliaryBoilerHT_1_21,
+delta_AuxiliaryBoilerHT_1_22,
+delta_AuxiliaryBoilerHT_1_23,
+delta_AuxiliaryBoilerHT_1_24,
+delta_AuxiliaryBoilerHT_2_1,
+delta_AuxiliaryBoilerHT_2_2,
+delta_AuxiliaryBoilerHT_2_3,
+delta_AuxiliaryBoilerHT_2_4,
+delta_AuxiliaryBoilerHT_2_5,
+delta_AuxiliaryBoilerHT_2_6,
+delta_AuxiliaryBoilerHT_2_7,
+delta_AuxiliaryBoilerHT_2_8,
+delta_AuxiliaryBoilerHT_2_9,
+delta_AuxiliaryBoilerHT_2_10,
+delta_AuxiliaryBoilerHT_2_11,
+delta_AuxiliaryBoilerHT_2_12,
+delta_AuxiliaryBoilerHT_2_13,
+delta_AuxiliaryBoilerHT_2_14,
+delta_AuxiliaryBoilerHT_2_15,
+delta_AuxiliaryBoilerHT_2_16,
+delta_AuxiliaryBoilerHT_2_17,
+delta_AuxiliaryBoilerHT_2_18,
+delta_AuxiliaryBoilerHT_2_19,
+delta_AuxiliaryBoilerHT_2_20,
+delta_AuxiliaryBoilerHT_2_21,
+delta_AuxiliaryBoilerHT_2_22,
+delta_AuxiliaryBoilerHT_2_23,
+delta_AuxiliaryBoilerHT_2_24,
+delta_Compression_HeatPump_AirWater_1_1,
+delta_Compression_HeatPump_AirWater_1_2,
+delta_Compression_HeatPump_AirWater_1_3,
+delta_Compression_HeatPump_AirWater_1_4,
+delta_Compression_HeatPump_AirWater_1_5,
+delta_Compression_HeatPump_AirWater_1_6,
+delta_Compression_HeatPump_AirWater_1_7,
+delta_Compression_HeatPump_AirWater_1_8,
+delta_Compression_HeatPump_AirWater_1_9,
+delta_Compression_HeatPump_AirWater_1_10,
+delta_Compression_HeatPump_AirWater_1_11,
+delta_Compression_HeatPump_AirWater_1_12,
+delta_Compression_HeatPump_AirWater_1_13,
+delta_Compression_HeatPump_AirWater_1_14,
+delta_Compression_HeatPump_AirWater_1_15,
+delta_Compression_HeatPump_AirWater_1_16,
+delta_Compression_HeatPump_AirWater_1_17,
+delta_Compression_HeatPump_AirWater_1_18,
+delta_Compression_HeatPump_AirWater_1_19,
+delta_Compression_HeatPump_AirWater_1_20,
+delta_Compression_HeatPump_AirWater_1_21,
+delta_Compression_HeatPump_AirWater_1_22,
+delta_Compression_HeatPump_AirWater_1_23,
+delta_Compression_HeatPump_AirWater_1_24,
+delta_Compression_HeatPump_AirWater_2_1,
+delta_Compression_HeatPump_AirWater_2_2,
+delta_Compression_HeatPump_AirWater_2_3,
+delta_Compression_HeatPump_AirWater_2_4,
+delta_Compression_HeatPump_AirWater_2_5,
+delta_Compression_HeatPump_AirWater_2_6,
+delta_Compression_HeatPump_AirWater_2_7,
+delta_Compression_HeatPump_AirWater_2_8,
+delta_Compression_HeatPump_AirWater_2_9,
+delta_Compression_HeatPump_AirWater_2_10,
+delta_Compression_HeatPump_AirWater_2_11,
+delta_Compression_HeatPump_AirWater_2_12,
+delta_Compression_HeatPump_AirWater_2_13,
+delta_Compression_HeatPump_AirWater_2_14,
+delta_Compression_HeatPump_AirWater_2_15,
+delta_Compression_HeatPump_AirWater_2_16,
+delta_Compression_HeatPump_AirWater_2_17,
+delta_Compression_HeatPump_AirWater_2_18,
+delta_Compression_HeatPump_AirWater_2_19,
+delta_Compression_HeatPump_AirWater_2_20,
+delta_Compression_HeatPump_AirWater_2_21,
+delta_Compression_HeatPump_AirWater_2_22,
+delta_Compression_HeatPump_AirWater_2_23,
+delta_Compression_HeatPump_AirWater_2_24,
+z_FuelCell_1_1,
+z_FuelCell_1_2,
+z_FuelCell_1_3,
+z_FuelCell_1_4,
+z_FuelCell_1_5,
+z_FuelCell_1_6,
+z_FuelCell_1_7,
+z_FuelCell_1_8,
+z_FuelCell_1_9,
+z_FuelCell_1_10,
+z_FuelCell_1_11,
+z_FuelCell_1_12,
+z_FuelCell_1_13,
+z_FuelCell_1_14,
+z_FuelCell_1_15,
+z_FuelCell_1_16,
+z_FuelCell_1_17,
+z_FuelCell_1_18,
+z_FuelCell_1_19,
+z_FuelCell_1_20,
+z_FuelCell_1_21,
+z_FuelCell_1_22,
+z_FuelCell_1_23,
+z_FuelCell_1_24,
+z_FuelCell_2_1,
+z_FuelCell_2_2,
+z_FuelCell_2_3,
+z_FuelCell_2_4,
+z_FuelCell_2_5,
+z_FuelCell_2_6,
+z_FuelCell_2_7,
+z_FuelCell_2_8,
+z_FuelCell_2_9,
+z_FuelCell_2_10,
+z_FuelCell_2_11,
+z_FuelCell_2_12,
+z_FuelCell_2_13,
+z_FuelCell_2_14,
+z_FuelCell_2_15,
+z_FuelCell_2_16,
+z_FuelCell_2_17,
+z_FuelCell_2_18,
+z_FuelCell_2_19,
+z_FuelCell_2_20,
+z_FuelCell_2_21,
+z_FuelCell_2_22,
+z_FuelCell_2_23,
+z_FuelCell_2_24,
+z_AuxiliaryBoilerHT_1_1,
+z_AuxiliaryBoilerHT_1_2,
+z_AuxiliaryBoilerHT_1_3,
+z_AuxiliaryBoilerHT_1_4,
+z_AuxiliaryBoilerHT_1_5,
+z_AuxiliaryBoilerHT_1_6,
+z_AuxiliaryBoilerHT_1_7,
+z_AuxiliaryBoilerHT_1_8,
+z_AuxiliaryBoilerHT_1_9,
+z_AuxiliaryBoilerHT_1_10,
+z_AuxiliaryBoilerHT_1_11,
+z_AuxiliaryBoilerHT_1_12,
+z_AuxiliaryBoilerHT_1_13,
+z_AuxiliaryBoilerHT_1_14,
+z_AuxiliaryBoilerHT_1_15,
+z_AuxiliaryBoilerHT_1_16,
+z_AuxiliaryBoilerHT_1_17,
+z_AuxiliaryBoilerHT_1_18,
+z_AuxiliaryBoilerHT_1_19,
+z_AuxiliaryBoilerHT_1_20,
+z_AuxiliaryBoilerHT_1_21,
+z_AuxiliaryBoilerHT_1_22,
+z_AuxiliaryBoilerHT_1_23,
+z_AuxiliaryBoilerHT_1_24,
+z_AuxiliaryBoilerHT_2_1,
+z_AuxiliaryBoilerHT_2_2,
+z_AuxiliaryBoilerHT_2_3,
+z_AuxiliaryBoilerHT_2_4,
+z_AuxiliaryBoilerHT_2_5,
+z_AuxiliaryBoilerHT_2_6,
+z_AuxiliaryBoilerHT_2_7,
+z_AuxiliaryBoilerHT_2_8,
+z_AuxiliaryBoilerHT_2_9,
+z_AuxiliaryBoilerHT_2_10,
+z_AuxiliaryBoilerHT_2_11,
+z_AuxiliaryBoilerHT_2_12,
+z_AuxiliaryBoilerHT_2_13,
+z_AuxiliaryBoilerHT_2_14,
+z_AuxiliaryBoilerHT_2_15,
+z_AuxiliaryBoilerHT_2_16,
+z_AuxiliaryBoilerHT_2_17,
+z_AuxiliaryBoilerHT_2_18,
+z_AuxiliaryBoilerHT_2_19,
+z_AuxiliaryBoilerHT_2_20,
+z_AuxiliaryBoilerHT_2_21,
+z_AuxiliaryBoilerHT_2_22,
+z_AuxiliaryBoilerHT_2_23,
+z_AuxiliaryBoilerHT_2_24,
+z_Compression_HeatPump_AirWater_1_1,
+z_Compression_HeatPump_AirWater_1_2,
+z_Compression_HeatPump_AirWater_1_3,
+z_Compression_HeatPump_AirWater_1_4,
+z_Compression_HeatPump_AirWater_1_5,
+z_Compression_HeatPump_AirWater_1_6,
+z_Compression_HeatPump_AirWater_1_7,
+z_Compression_HeatPump_AirWater_1_8,
+z_Compression_HeatPump_AirWater_1_9,
+z_Compression_HeatPump_AirWater_1_10,
+z_Compression_HeatPump_AirWater_1_11,
+z_Compression_HeatPump_AirWater_1_12,
+z_Compression_HeatPump_AirWater_1_13,
+z_Compression_HeatPump_AirWater_1_14,
+z_Compression_HeatPump_AirWater_1_15,
+z_Compression_HeatPump_AirWater_1_16,
+z_Compression_HeatPump_AirWater_1_17,
+z_Compression_HeatPump_AirWater_1_18,
+z_Compression_HeatPump_AirWater_1_19,
+z_Compression_HeatPump_AirWater_1_20,
+z_Compression_HeatPump_AirWater_1_21,
+z_Compression_HeatPump_AirWater_1_22,
+z_Compression_HeatPump_AirWater_1_23,
+z_Compression_HeatPump_AirWater_1_24,
+z_Compression_HeatPump_AirWater_2_1,
+z_Compression_HeatPump_AirWater_2_2,
+z_Compression_HeatPump_AirWater_2_3,
+z_Compression_HeatPump_AirWater_2_4,
+z_Compression_HeatPump_AirWater_2_5,
+z_Compression_HeatPump_AirWater_2_6,
+z_Compression_HeatPump_AirWater_2_7,
+z_Compression_HeatPump_AirWater_2_8,
+z_Compression_HeatPump_AirWater_2_9,
+z_Compression_HeatPump_AirWater_2_10,
+z_Compression_HeatPump_AirWater_2_11,
+z_Compression_HeatPump_AirWater_2_12,
+z_Compression_HeatPump_AirWater_2_13,
+z_Compression_HeatPump_AirWater_2_14,
+z_Compression_HeatPump_AirWater_2_15,
+z_Compression_HeatPump_AirWater_2_16,
+z_Compression_HeatPump_AirWater_2_17,
+z_Compression_HeatPump_AirWater_2_18,
+z_Compression_HeatPump_AirWater_2_19,
+z_Compression_HeatPump_AirWater_2_20,
+z_Compression_HeatPump_AirWater_2_21,
+z_Compression_HeatPump_AirWater_2_22,
+z_Compression_HeatPump_AirWater_2_23,
+z_Compression_HeatPump_AirWater_2_24,
+revenue_1_1,
+revenue_1_2,
+revenue_1_3,
+revenue_1_4,
+revenue_1_5,
+revenue_1_6,
+revenue_1_7,
+revenue_1_8,
+revenue_1_9,
+revenue_1_10,
+revenue_1_11,
+revenue_1_12,
+revenue_1_13,
+revenue_1_14,
+revenue_1_15,
+revenue_1_16,
+revenue_1_17,
+revenue_1_18,
+revenue_1_19,
+revenue_1_20,
+revenue_1_21,
+revenue_1_22,
+revenue_1_23,
+revenue_1_24,
+revenue_2_1,
+revenue_2_2,
+revenue_2_3,
+revenue_2_4,
+revenue_2_5,
+revenue_2_6,
+revenue_2_7,
+revenue_2_8,
+revenue_2_9,
+revenue_2_10,
+revenue_2_11,
+revenue_2_12,
+revenue_2_13,
+revenue_2_14,
+revenue_2_15,
+revenue_2_16,
+revenue_2_17,
+revenue_2_18,
+revenue_2_19,
+revenue_2_20,
+revenue_2_21,
+revenue_2_22,
+revenue_2_23,
+revenue_2_24;
+
+Binary Variables z_FuelCell_1_1, z_FuelCell_1_2, z_FuelCell_1_3, z_FuelCell_1_4, z_FuelCell_1_5, z_FuelCell_1_6, z_FuelCell_1_7, z_FuelCell_1_8, z_FuelCell_1_9, z_FuelCell_1_10, z_FuelCell_1_11, z_FuelCell_1_12, z_FuelCell_1_13, z_FuelCell_1_14, z_FuelCell_1_15, z_FuelCell_1_16, z_FuelCell_1_17, z_FuelCell_1_18, z_FuelCell_1_19, z_FuelCell_1_20, z_FuelCell_1_21, z_FuelCell_1_22, z_FuelCell_1_23, z_FuelCell_1_24, z_FuelCell_2_1, z_FuelCell_2_2, z_FuelCell_2_3, z_FuelCell_2_4, z_FuelCell_2_5, z_FuelCell_2_6, z_FuelCell_2_7, z_FuelCell_2_8, z_FuelCell_2_9, z_FuelCell_2_10, z_FuelCell_2_11, z_FuelCell_2_12, z_FuelCell_2_13, z_FuelCell_2_14, z_FuelCell_2_15, z_FuelCell_2_16, z_FuelCell_2_17, z_FuelCell_2_18, z_FuelCell_2_19, z_FuelCell_2_20, z_FuelCell_2_21, z_FuelCell_2_22, z_FuelCell_2_23, z_FuelCell_2_24, z_AuxiliaryBoilerHT_1_1, z_AuxiliaryBoilerHT_1_2, z_AuxiliaryBoilerHT_1_3, z_AuxiliaryBoilerHT_1_4, z_AuxiliaryBoilerHT_1_5, z_AuxiliaryBoilerHT_1_6, z_AuxiliaryBoilerHT_1_7, z_AuxiliaryBoilerHT_1_8, z_AuxiliaryBoilerHT_1_9, z_AuxiliaryBoilerHT_1_10, z_AuxiliaryBoilerHT_1_11, z_AuxiliaryBoilerHT_1_12, z_AuxiliaryBoilerHT_1_13, z_AuxiliaryBoilerHT_1_14, z_AuxiliaryBoilerHT_1_15, z_AuxiliaryBoilerHT_1_16, z_AuxiliaryBoilerHT_1_17, z_AuxiliaryBoilerHT_1_18, z_AuxiliaryBoilerHT_1_19, z_AuxiliaryBoilerHT_1_20, z_AuxiliaryBoilerHT_1_21, z_AuxiliaryBoilerHT_1_22, z_AuxiliaryBoilerHT_1_23, z_AuxiliaryBoilerHT_1_24, z_AuxiliaryBoilerHT_2_1, z_AuxiliaryBoilerHT_2_2, z_AuxiliaryBoilerHT_2_3, z_AuxiliaryBoilerHT_2_4, z_AuxiliaryBoilerHT_2_5, z_AuxiliaryBoilerHT_2_6, z_AuxiliaryBoilerHT_2_7, z_AuxiliaryBoilerHT_2_8, z_AuxiliaryBoilerHT_2_9, z_AuxiliaryBoilerHT_2_10, z_AuxiliaryBoilerHT_2_11, z_AuxiliaryBoilerHT_2_12, z_AuxiliaryBoilerHT_2_13, z_AuxiliaryBoilerHT_2_14, z_AuxiliaryBoilerHT_2_15, z_AuxiliaryBoilerHT_2_16, z_AuxiliaryBoilerHT_2_17, z_AuxiliaryBoilerHT_2_18, z_AuxiliaryBoilerHT_2_19, z_AuxiliaryBoilerHT_2_20, z_AuxiliaryBoilerHT_2_21, z_AuxiliaryBoilerHT_2_22, z_AuxiliaryBoilerHT_2_23, z_AuxiliaryBoilerHT_2_24, z_Compression_HeatPump_AirWater_1_1, z_Compression_HeatPump_AirWater_1_2, z_Compression_HeatPump_AirWater_1_3, z_Compression_HeatPump_AirWater_1_4, z_Compression_HeatPump_AirWater_1_5, z_Compression_HeatPump_AirWater_1_6, z_Compression_HeatPump_AirWater_1_7, z_Compression_HeatPump_AirWater_1_8, z_Compression_HeatPump_AirWater_1_9, z_Compression_HeatPump_AirWater_1_10, z_Compression_HeatPump_AirWater_1_11, z_Compression_HeatPump_AirWater_1_12, z_Compression_HeatPump_AirWater_1_13, z_Compression_HeatPump_AirWater_1_14, z_Compression_HeatPump_AirWater_1_15, z_Compression_HeatPump_AirWater_1_16, z_Compression_HeatPump_AirWater_1_17, z_Compression_HeatPump_AirWater_1_18, z_Compression_HeatPump_AirWater_1_19, z_Compression_HeatPump_AirWater_1_20, z_Compression_HeatPump_AirWater_1_21, z_Compression_HeatPump_AirWater_1_22, z_Compression_HeatPump_AirWater_1_23, z_Compression_HeatPump_AirWater_1_24, z_Compression_HeatPump_AirWater_2_1, z_Compression_HeatPump_AirWater_2_2, z_Compression_HeatPump_AirWater_2_3, z_Compression_HeatPump_AirWater_2_4, z_Compression_HeatPump_AirWater_2_5, z_Compression_HeatPump_AirWater_2_6, z_Compression_HeatPump_AirWater_2_7, z_Compression_HeatPump_AirWater_2_8, z_Compression_HeatPump_AirWater_2_9, z_Compression_HeatPump_AirWater_2_10, z_Compression_HeatPump_AirWater_2_11, z_Compression_HeatPump_AirWater_2_12, z_Compression_HeatPump_AirWater_2_13, z_Compression_HeatPump_AirWater_2_14, z_Compression_HeatPump_AirWater_2_15, z_Compression_HeatPump_AirWater_2_16, z_Compression_HeatPump_AirWater_2_17, z_Compression_HeatPump_AirWater_2_18, z_Compression_HeatPump_AirWater_2_19, z_Compression_HeatPump_AirWater_2_20, z_Compression_HeatPump_AirWater_2_21, z_Compression_HeatPump_AirWater_2_22, z_Compression_HeatPump_AirWater_2_23, z_Compression_HeatPump_AirWater_2_24;
+
+Equations  objective_function,
+objective_function_1_1,
+objective_function_1_2,
+objective_function_1_3,
+objective_function_1_4,
+objective_function_1_5,
+objective_function_1_6,
+objective_function_1_7,
+objective_function_1_8,
+objective_function_1_9,
+objective_function_1_10,
+objective_function_1_11,
+objective_function_1_12,
+objective_function_1_13,
+objective_function_1_14,
+objective_function_1_15,
+objective_function_1_16,
+objective_function_1_17,
+objective_function_1_18,
+objective_function_1_19,
+objective_function_1_20,
+objective_function_1_21,
+objective_function_1_22,
+objective_function_1_23,
+objective_function_1_24,
+objective_function_2_1,
+objective_function_2_2,
+objective_function_2_3,
+objective_function_2_4,
+objective_function_2_5,
+objective_function_2_6,
+objective_function_2_7,
+objective_function_2_8,
+objective_function_2_9,
+objective_function_2_10,
+objective_function_2_11,
+objective_function_2_12,
+objective_function_2_13,
+objective_function_2_14,
+objective_function_2_15,
+objective_function_2_16,
+objective_function_2_17,
+objective_function_2_18,
+objective_function_2_19,
+objective_function_2_20,
+objective_function_2_21,
+objective_function_2_22,
+objective_function_2_23,
+objective_function_2_24,
+delta_ctr_first_FuelCell_1_1,
+delta_ctr_first_FuelCell_2_1,
+delta_ctr_first_AuxiliaryBoilerHT_1_1,
+delta_ctr_first_AuxiliaryBoilerHT_2_1,
+delta_ctr_first_Compression_HeatPump_AirWater_1_1,
+delta_ctr_first_Compression_HeatPump_AirWater_2_1,
+delta_ctr_FuelCell_1_2,
+delta_ctr_FuelCell_1_3,
+delta_ctr_FuelCell_1_4,
+delta_ctr_FuelCell_1_5,
+delta_ctr_FuelCell_1_6,
+delta_ctr_FuelCell_1_7,
+delta_ctr_FuelCell_1_8,
+delta_ctr_FuelCell_1_9,
+delta_ctr_FuelCell_1_10,
+delta_ctr_FuelCell_1_11,
+delta_ctr_FuelCell_1_12,
+delta_ctr_FuelCell_1_13,
+delta_ctr_FuelCell_1_14,
+delta_ctr_FuelCell_1_15,
+delta_ctr_FuelCell_1_16,
+delta_ctr_FuelCell_1_17,
+delta_ctr_FuelCell_1_18,
+delta_ctr_FuelCell_1_19,
+delta_ctr_FuelCell_1_20,
+delta_ctr_FuelCell_1_21,
+delta_ctr_FuelCell_1_22,
+delta_ctr_FuelCell_1_23,
+delta_ctr_FuelCell_1_24,
+delta_ctr_FuelCell_2_2,
+delta_ctr_FuelCell_2_3,
+delta_ctr_FuelCell_2_4,
+delta_ctr_FuelCell_2_5,
+delta_ctr_FuelCell_2_6,
+delta_ctr_FuelCell_2_7,
+delta_ctr_FuelCell_2_8,
+delta_ctr_FuelCell_2_9,
+delta_ctr_FuelCell_2_10,
+delta_ctr_FuelCell_2_11,
+delta_ctr_FuelCell_2_12,
+delta_ctr_FuelCell_2_13,
+delta_ctr_FuelCell_2_14,
+delta_ctr_FuelCell_2_15,
+delta_ctr_FuelCell_2_16,
+delta_ctr_FuelCell_2_17,
+delta_ctr_FuelCell_2_18,
+delta_ctr_FuelCell_2_19,
+delta_ctr_FuelCell_2_20,
+delta_ctr_FuelCell_2_21,
+delta_ctr_FuelCell_2_22,
+delta_ctr_FuelCell_2_23,
+delta_ctr_FuelCell_2_24,
+delta_ctr_AuxiliaryBoilerHT_1_2,
+delta_ctr_AuxiliaryBoilerHT_1_3,
+delta_ctr_AuxiliaryBoilerHT_1_4,
+delta_ctr_AuxiliaryBoilerHT_1_5,
+delta_ctr_AuxiliaryBoilerHT_1_6,
+delta_ctr_AuxiliaryBoilerHT_1_7,
+delta_ctr_AuxiliaryBoilerHT_1_8,
+delta_ctr_AuxiliaryBoilerHT_1_9,
+delta_ctr_AuxiliaryBoilerHT_1_10,
+delta_ctr_AuxiliaryBoilerHT_1_11,
+delta_ctr_AuxiliaryBoilerHT_1_12,
+delta_ctr_AuxiliaryBoilerHT_1_13,
+delta_ctr_AuxiliaryBoilerHT_1_14,
+delta_ctr_AuxiliaryBoilerHT_1_15,
+delta_ctr_AuxiliaryBoilerHT_1_16,
+delta_ctr_AuxiliaryBoilerHT_1_17,
+delta_ctr_AuxiliaryBoilerHT_1_18,
+delta_ctr_AuxiliaryBoilerHT_1_19,
+delta_ctr_AuxiliaryBoilerHT_1_20,
+delta_ctr_AuxiliaryBoilerHT_1_21,
+delta_ctr_AuxiliaryBoilerHT_1_22,
+delta_ctr_AuxiliaryBoilerHT_1_23,
+delta_ctr_AuxiliaryBoilerHT_1_24,
+delta_ctr_AuxiliaryBoilerHT_2_2,
+delta_ctr_AuxiliaryBoilerHT_2_3,
+delta_ctr_AuxiliaryBoilerHT_2_4,
+delta_ctr_AuxiliaryBoilerHT_2_5,
+delta_ctr_AuxiliaryBoilerHT_2_6,
+delta_ctr_AuxiliaryBoilerHT_2_7,
+delta_ctr_AuxiliaryBoilerHT_2_8,
+delta_ctr_AuxiliaryBoilerHT_2_9,
+delta_ctr_AuxiliaryBoilerHT_2_10,
+delta_ctr_AuxiliaryBoilerHT_2_11,
+delta_ctr_AuxiliaryBoilerHT_2_12,
+delta_ctr_AuxiliaryBoilerHT_2_13,
+delta_ctr_AuxiliaryBoilerHT_2_14,
+delta_ctr_AuxiliaryBoilerHT_2_15,
+delta_ctr_AuxiliaryBoilerHT_2_16,
+delta_ctr_AuxiliaryBoilerHT_2_17,
+delta_ctr_AuxiliaryBoilerHT_2_18,
+delta_ctr_AuxiliaryBoilerHT_2_19,
+delta_ctr_AuxiliaryBoilerHT_2_20,
+delta_ctr_AuxiliaryBoilerHT_2_21,
+delta_ctr_AuxiliaryBoilerHT_2_22,
+delta_ctr_AuxiliaryBoilerHT_2_23,
+delta_ctr_AuxiliaryBoilerHT_2_24,
+delta_ctr_Compression_HeatPump_AirWater_1_2,
+delta_ctr_Compression_HeatPump_AirWater_1_3,
+delta_ctr_Compression_HeatPump_AirWater_1_4,
+delta_ctr_Compression_HeatPump_AirWater_1_5,
+delta_ctr_Compression_HeatPump_AirWater_1_6,
+delta_ctr_Compression_HeatPump_AirWater_1_7,
+delta_ctr_Compression_HeatPump_AirWater_1_8,
+delta_ctr_Compression_HeatPump_AirWater_1_9,
+delta_ctr_Compression_HeatPump_AirWater_1_10,
+delta_ctr_Compression_HeatPump_AirWater_1_11,
+delta_ctr_Compression_HeatPump_AirWater_1_12,
+delta_ctr_Compression_HeatPump_AirWater_1_13,
+delta_ctr_Compression_HeatPump_AirWater_1_14,
+delta_ctr_Compression_HeatPump_AirWater_1_15,
+delta_ctr_Compression_HeatPump_AirWater_1_16,
+delta_ctr_Compression_HeatPump_AirWater_1_17,
+delta_ctr_Compression_HeatPump_AirWater_1_18,
+delta_ctr_Compression_HeatPump_AirWater_1_19,
+delta_ctr_Compression_HeatPump_AirWater_1_20,
+delta_ctr_Compression_HeatPump_AirWater_1_21,
+delta_ctr_Compression_HeatPump_AirWater_1_22,
+delta_ctr_Compression_HeatPump_AirWater_1_23,
+delta_ctr_Compression_HeatPump_AirWater_1_24,
+delta_ctr_Compression_HeatPump_AirWater_2_2,
+delta_ctr_Compression_HeatPump_AirWater_2_3,
+delta_ctr_Compression_HeatPump_AirWater_2_4,
+delta_ctr_Compression_HeatPump_AirWater_2_5,
+delta_ctr_Compression_HeatPump_AirWater_2_6,
+delta_ctr_Compression_HeatPump_AirWater_2_7,
+delta_ctr_Compression_HeatPump_AirWater_2_8,
+delta_ctr_Compression_HeatPump_AirWater_2_9,
+delta_ctr_Compression_HeatPump_AirWater_2_10,
+delta_ctr_Compression_HeatPump_AirWater_2_11,
+delta_ctr_Compression_HeatPump_AirWater_2_12,
+delta_ctr_Compression_HeatPump_AirWater_2_13,
+delta_ctr_Compression_HeatPump_AirWater_2_14,
+delta_ctr_Compression_HeatPump_AirWater_2_15,
+delta_ctr_Compression_HeatPump_AirWater_2_16,
+delta_ctr_Compression_HeatPump_AirWater_2_17,
+delta_ctr_Compression_HeatPump_AirWater_2_18,
+delta_ctr_Compression_HeatPump_AirWater_2_19,
+delta_ctr_Compression_HeatPump_AirWater_2_20,
+delta_ctr_Compression_HeatPump_AirWater_2_21,
+delta_ctr_Compression_HeatPump_AirWater_2_22,
+delta_ctr_Compression_HeatPump_AirWater_2_23,
+delta_ctr_Compression_HeatPump_AirWater_2_24,
+max_startup_1_FuelCell,
+max_startup_1_AuxiliaryBoilerHT,
+max_startup_1_Compression_HeatPump_AirWater,
+max_startup_2_FuelCell,
+max_startup_2_AuxiliaryBoilerHT,
+max_startup_2_Compression_HeatPump_AirWater,
+ramp_up_power_FuelCell_1_1,
+ramp_up_power_FuelCell_1_2,
+ramp_up_power_FuelCell_1_3,
+ramp_up_power_FuelCell_1_4,
+ramp_up_power_FuelCell_1_5,
+ramp_up_power_FuelCell_1_6,
+ramp_up_power_FuelCell_1_7,
+ramp_up_power_FuelCell_1_8,
+ramp_up_power_FuelCell_1_9,
+ramp_up_power_FuelCell_1_10,
+ramp_up_power_FuelCell_1_11,
+ramp_up_power_FuelCell_1_12,
+ramp_up_power_FuelCell_1_13,
+ramp_up_power_FuelCell_1_14,
+ramp_up_power_FuelCell_1_15,
+ramp_up_power_FuelCell_1_16,
+ramp_up_power_FuelCell_1_17,
+ramp_up_power_FuelCell_1_18,
+ramp_up_power_FuelCell_1_19,
+ramp_up_power_FuelCell_1_20,
+ramp_up_power_FuelCell_1_21,
+ramp_up_power_FuelCell_1_22,
+ramp_up_power_FuelCell_1_23,
+ramp_up_power_FuelCell_1_24,
+ramp_up_power_FuelCell_2_1,
+ramp_up_power_FuelCell_2_2,
+ramp_up_power_FuelCell_2_3,
+ramp_up_power_FuelCell_2_4,
+ramp_up_power_FuelCell_2_5,
+ramp_up_power_FuelCell_2_6,
+ramp_up_power_FuelCell_2_7,
+ramp_up_power_FuelCell_2_8,
+ramp_up_power_FuelCell_2_9,
+ramp_up_power_FuelCell_2_10,
+ramp_up_power_FuelCell_2_11,
+ramp_up_power_FuelCell_2_12,
+ramp_up_power_FuelCell_2_13,
+ramp_up_power_FuelCell_2_14,
+ramp_up_power_FuelCell_2_15,
+ramp_up_power_FuelCell_2_16,
+ramp_up_power_FuelCell_2_17,
+ramp_up_power_FuelCell_2_18,
+ramp_up_power_FuelCell_2_19,
+ramp_up_power_FuelCell_2_20,
+ramp_up_power_FuelCell_2_21,
+ramp_up_power_FuelCell_2_22,
+ramp_up_power_FuelCell_2_23,
+ramp_up_power_FuelCell_2_24,
+ramp_down_power_FuelCell_1_1,
+ramp_down_power_FuelCell_1_2,
+ramp_down_power_FuelCell_1_3,
+ramp_down_power_FuelCell_1_4,
+ramp_down_power_FuelCell_1_5,
+ramp_down_power_FuelCell_1_6,
+ramp_down_power_FuelCell_1_7,
+ramp_down_power_FuelCell_1_8,
+ramp_down_power_FuelCell_1_9,
+ramp_down_power_FuelCell_1_10,
+ramp_down_power_FuelCell_1_11,
+ramp_down_power_FuelCell_1_12,
+ramp_down_power_FuelCell_1_13,
+ramp_down_power_FuelCell_1_14,
+ramp_down_power_FuelCell_1_15,
+ramp_down_power_FuelCell_1_16,
+ramp_down_power_FuelCell_1_17,
+ramp_down_power_FuelCell_1_18,
+ramp_down_power_FuelCell_1_19,
+ramp_down_power_FuelCell_1_20,
+ramp_down_power_FuelCell_1_21,
+ramp_down_power_FuelCell_1_22,
+ramp_down_power_FuelCell_1_23,
+ramp_down_power_FuelCell_1_24,
+ramp_down_power_FuelCell_2_1,
+ramp_down_power_FuelCell_2_2,
+ramp_down_power_FuelCell_2_3,
+ramp_down_power_FuelCell_2_4,
+ramp_down_power_FuelCell_2_5,
+ramp_down_power_FuelCell_2_6,
+ramp_down_power_FuelCell_2_7,
+ramp_down_power_FuelCell_2_8,
+ramp_down_power_FuelCell_2_9,
+ramp_down_power_FuelCell_2_10,
+ramp_down_power_FuelCell_2_11,
+ramp_down_power_FuelCell_2_12,
+ramp_down_power_FuelCell_2_13,
+ramp_down_power_FuelCell_2_14,
+ramp_down_power_FuelCell_2_15,
+ramp_down_power_FuelCell_2_16,
+ramp_down_power_FuelCell_2_17,
+ramp_down_power_FuelCell_2_18,
+ramp_down_power_FuelCell_2_19,
+ramp_down_power_FuelCell_2_20,
+ramp_down_power_FuelCell_2_21,
+ramp_down_power_FuelCell_2_22,
+ramp_down_power_FuelCell_2_23,
+ramp_down_power_FuelCell_2_24,
+ramp_up_high_AuxiliaryBoilerHT_1_1,
+ramp_up_high_AuxiliaryBoilerHT_1_2,
+ramp_up_high_AuxiliaryBoilerHT_1_3,
+ramp_up_high_AuxiliaryBoilerHT_1_4,
+ramp_up_high_AuxiliaryBoilerHT_1_5,
+ramp_up_high_AuxiliaryBoilerHT_1_6,
+ramp_up_high_AuxiliaryBoilerHT_1_7,
+ramp_up_high_AuxiliaryBoilerHT_1_8,
+ramp_up_high_AuxiliaryBoilerHT_1_9,
+ramp_up_high_AuxiliaryBoilerHT_1_10,
+ramp_up_high_AuxiliaryBoilerHT_1_11,
+ramp_up_high_AuxiliaryBoilerHT_1_12,
+ramp_up_high_AuxiliaryBoilerHT_1_13,
+ramp_up_high_AuxiliaryBoilerHT_1_14,
+ramp_up_high_AuxiliaryBoilerHT_1_15,
+ramp_up_high_AuxiliaryBoilerHT_1_16,
+ramp_up_high_AuxiliaryBoilerHT_1_17,
+ramp_up_high_AuxiliaryBoilerHT_1_18,
+ramp_up_high_AuxiliaryBoilerHT_1_19,
+ramp_up_high_AuxiliaryBoilerHT_1_20,
+ramp_up_high_AuxiliaryBoilerHT_1_21,
+ramp_up_high_AuxiliaryBoilerHT_1_22,
+ramp_up_high_AuxiliaryBoilerHT_1_23,
+ramp_up_high_AuxiliaryBoilerHT_1_24,
+ramp_up_high_AuxiliaryBoilerHT_2_1,
+ramp_up_high_AuxiliaryBoilerHT_2_2,
+ramp_up_high_AuxiliaryBoilerHT_2_3,
+ramp_up_high_AuxiliaryBoilerHT_2_4,
+ramp_up_high_AuxiliaryBoilerHT_2_5,
+ramp_up_high_AuxiliaryBoilerHT_2_6,
+ramp_up_high_AuxiliaryBoilerHT_2_7,
+ramp_up_high_AuxiliaryBoilerHT_2_8,
+ramp_up_high_AuxiliaryBoilerHT_2_9,
+ramp_up_high_AuxiliaryBoilerHT_2_10,
+ramp_up_high_AuxiliaryBoilerHT_2_11,
+ramp_up_high_AuxiliaryBoilerHT_2_12,
+ramp_up_high_AuxiliaryBoilerHT_2_13,
+ramp_up_high_AuxiliaryBoilerHT_2_14,
+ramp_up_high_AuxiliaryBoilerHT_2_15,
+ramp_up_high_AuxiliaryBoilerHT_2_16,
+ramp_up_high_AuxiliaryBoilerHT_2_17,
+ramp_up_high_AuxiliaryBoilerHT_2_18,
+ramp_up_high_AuxiliaryBoilerHT_2_19,
+ramp_up_high_AuxiliaryBoilerHT_2_20,
+ramp_up_high_AuxiliaryBoilerHT_2_21,
+ramp_up_high_AuxiliaryBoilerHT_2_22,
+ramp_up_high_AuxiliaryBoilerHT_2_23,
+ramp_up_high_AuxiliaryBoilerHT_2_24,
+ramp_up_high_FuelCell_1_1,
+ramp_up_high_FuelCell_1_2,
+ramp_up_high_FuelCell_1_3,
+ramp_up_high_FuelCell_1_4,
+ramp_up_high_FuelCell_1_5,
+ramp_up_high_FuelCell_1_6,
+ramp_up_high_FuelCell_1_7,
+ramp_up_high_FuelCell_1_8,
+ramp_up_high_FuelCell_1_9,
+ramp_up_high_FuelCell_1_10,
+ramp_up_high_FuelCell_1_11,
+ramp_up_high_FuelCell_1_12,
+ramp_up_high_FuelCell_1_13,
+ramp_up_high_FuelCell_1_14,
+ramp_up_high_FuelCell_1_15,
+ramp_up_high_FuelCell_1_16,
+ramp_up_high_FuelCell_1_17,
+ramp_up_high_FuelCell_1_18,
+ramp_up_high_FuelCell_1_19,
+ramp_up_high_FuelCell_1_20,
+ramp_up_high_FuelCell_1_21,
+ramp_up_high_FuelCell_1_22,
+ramp_up_high_FuelCell_1_23,
+ramp_up_high_FuelCell_1_24,
+ramp_up_high_FuelCell_2_1,
+ramp_up_high_FuelCell_2_2,
+ramp_up_high_FuelCell_2_3,
+ramp_up_high_FuelCell_2_4,
+ramp_up_high_FuelCell_2_5,
+ramp_up_high_FuelCell_2_6,
+ramp_up_high_FuelCell_2_7,
+ramp_up_high_FuelCell_2_8,
+ramp_up_high_FuelCell_2_9,
+ramp_up_high_FuelCell_2_10,
+ramp_up_high_FuelCell_2_11,
+ramp_up_high_FuelCell_2_12,
+ramp_up_high_FuelCell_2_13,
+ramp_up_high_FuelCell_2_14,
+ramp_up_high_FuelCell_2_15,
+ramp_up_high_FuelCell_2_16,
+ramp_up_high_FuelCell_2_17,
+ramp_up_high_FuelCell_2_18,
+ramp_up_high_FuelCell_2_19,
+ramp_up_high_FuelCell_2_20,
+ramp_up_high_FuelCell_2_21,
+ramp_up_high_FuelCell_2_22,
+ramp_up_high_FuelCell_2_23,
+ramp_up_high_FuelCell_2_24,
+ramp_down_high_AuxiliaryBoilerHT_1_1,
+ramp_down_high_AuxiliaryBoilerHT_1_2,
+ramp_down_high_AuxiliaryBoilerHT_1_3,
+ramp_down_high_AuxiliaryBoilerHT_1_4,
+ramp_down_high_AuxiliaryBoilerHT_1_5,
+ramp_down_high_AuxiliaryBoilerHT_1_6,
+ramp_down_high_AuxiliaryBoilerHT_1_7,
+ramp_down_high_AuxiliaryBoilerHT_1_8,
+ramp_down_high_AuxiliaryBoilerHT_1_9,
+ramp_down_high_AuxiliaryBoilerHT_1_10,
+ramp_down_high_AuxiliaryBoilerHT_1_11,
+ramp_down_high_AuxiliaryBoilerHT_1_12,
+ramp_down_high_AuxiliaryBoilerHT_1_13,
+ramp_down_high_AuxiliaryBoilerHT_1_14,
+ramp_down_high_AuxiliaryBoilerHT_1_15,
+ramp_down_high_AuxiliaryBoilerHT_1_16,
+ramp_down_high_AuxiliaryBoilerHT_1_17,
+ramp_down_high_AuxiliaryBoilerHT_1_18,
+ramp_down_high_AuxiliaryBoilerHT_1_19,
+ramp_down_high_AuxiliaryBoilerHT_1_20,
+ramp_down_high_AuxiliaryBoilerHT_1_21,
+ramp_down_high_AuxiliaryBoilerHT_1_22,
+ramp_down_high_AuxiliaryBoilerHT_1_23,
+ramp_down_high_AuxiliaryBoilerHT_1_24,
+ramp_down_high_AuxiliaryBoilerHT_2_1,
+ramp_down_high_AuxiliaryBoilerHT_2_2,
+ramp_down_high_AuxiliaryBoilerHT_2_3,
+ramp_down_high_AuxiliaryBoilerHT_2_4,
+ramp_down_high_AuxiliaryBoilerHT_2_5,
+ramp_down_high_AuxiliaryBoilerHT_2_6,
+ramp_down_high_AuxiliaryBoilerHT_2_7,
+ramp_down_high_AuxiliaryBoilerHT_2_8,
+ramp_down_high_AuxiliaryBoilerHT_2_9,
+ramp_down_high_AuxiliaryBoilerHT_2_10,
+ramp_down_high_AuxiliaryBoilerHT_2_11,
+ramp_down_high_AuxiliaryBoilerHT_2_12,
+ramp_down_high_AuxiliaryBoilerHT_2_13,
+ramp_down_high_AuxiliaryBoilerHT_2_14,
+ramp_down_high_AuxiliaryBoilerHT_2_15,
+ramp_down_high_AuxiliaryBoilerHT_2_16,
+ramp_down_high_AuxiliaryBoilerHT_2_17,
+ramp_down_high_AuxiliaryBoilerHT_2_18,
+ramp_down_high_AuxiliaryBoilerHT_2_19,
+ramp_down_high_AuxiliaryBoilerHT_2_20,
+ramp_down_high_AuxiliaryBoilerHT_2_21,
+ramp_down_high_AuxiliaryBoilerHT_2_22,
+ramp_down_high_AuxiliaryBoilerHT_2_23,
+ramp_down_high_AuxiliaryBoilerHT_2_24,
+ramp_down_high_FuelCell_1_1,
+ramp_down_high_FuelCell_1_2,
+ramp_down_high_FuelCell_1_3,
+ramp_down_high_FuelCell_1_4,
+ramp_down_high_FuelCell_1_5,
+ramp_down_high_FuelCell_1_6,
+ramp_down_high_FuelCell_1_7,
+ramp_down_high_FuelCell_1_8,
+ramp_down_high_FuelCell_1_9,
+ramp_down_high_FuelCell_1_10,
+ramp_down_high_FuelCell_1_11,
+ramp_down_high_FuelCell_1_12,
+ramp_down_high_FuelCell_1_13,
+ramp_down_high_FuelCell_1_14,
+ramp_down_high_FuelCell_1_15,
+ramp_down_high_FuelCell_1_16,
+ramp_down_high_FuelCell_1_17,
+ramp_down_high_FuelCell_1_18,
+ramp_down_high_FuelCell_1_19,
+ramp_down_high_FuelCell_1_20,
+ramp_down_high_FuelCell_1_21,
+ramp_down_high_FuelCell_1_22,
+ramp_down_high_FuelCell_1_23,
+ramp_down_high_FuelCell_1_24,
+ramp_down_high_FuelCell_2_1,
+ramp_down_high_FuelCell_2_2,
+ramp_down_high_FuelCell_2_3,
+ramp_down_high_FuelCell_2_4,
+ramp_down_high_FuelCell_2_5,
+ramp_down_high_FuelCell_2_6,
+ramp_down_high_FuelCell_2_7,
+ramp_down_high_FuelCell_2_8,
+ramp_down_high_FuelCell_2_9,
+ramp_down_high_FuelCell_2_10,
+ramp_down_high_FuelCell_2_11,
+ramp_down_high_FuelCell_2_12,
+ramp_down_high_FuelCell_2_13,
+ramp_down_high_FuelCell_2_14,
+ramp_down_high_FuelCell_2_15,
+ramp_down_high_FuelCell_2_16,
+ramp_down_high_FuelCell_2_17,
+ramp_down_high_FuelCell_2_18,
+ramp_down_high_FuelCell_2_19,
+ramp_down_high_FuelCell_2_20,
+ramp_down_high_FuelCell_2_21,
+ramp_down_high_FuelCell_2_22,
+ramp_down_high_FuelCell_2_23,
+ramp_down_high_FuelCell_2_24,
+max_consec_1_1_AuxiliaryBoilerHT,
+max_consec_1_1_Compression_HeatPump_AirWater,
+max_consec_1_2_AuxiliaryBoilerHT,
+max_consec_1_2_Compression_HeatPump_AirWater,
+max_consec_2_1_AuxiliaryBoilerHT,
+max_consec_2_1_Compression_HeatPump_AirWater,
+max_consec_2_2_AuxiliaryBoilerHT,
+max_consec_2_2_Compression_HeatPump_AirWater,
+max_consec_3_1_AuxiliaryBoilerHT,
+max_consec_3_1_Compression_HeatPump_AirWater,
+max_consec_3_2_AuxiliaryBoilerHT,
+max_consec_3_2_Compression_HeatPump_AirWater,
+max_consec_4_1_AuxiliaryBoilerHT,
+max_consec_4_1_Compression_HeatPump_AirWater,
+max_consec_4_2_AuxiliaryBoilerHT,
+max_consec_4_2_Compression_HeatPump_AirWater,
+max_consec_5_1_AuxiliaryBoilerHT,
+max_consec_5_1_Compression_HeatPump_AirWater,
+max_consec_5_2_AuxiliaryBoilerHT,
+max_consec_5_2_Compression_HeatPump_AirWater,
+max_consec_6_1_AuxiliaryBoilerHT,
+max_consec_6_1_Compression_HeatPump_AirWater,
+max_consec_6_2_AuxiliaryBoilerHT,
+max_consec_6_2_Compression_HeatPump_AirWater,
+max_consec_7_1_AuxiliaryBoilerHT,
+max_consec_7_1_Compression_HeatPump_AirWater,
+max_consec_7_2_AuxiliaryBoilerHT,
+max_consec_7_2_Compression_HeatPump_AirWater,
+max_consec_8_1_AuxiliaryBoilerHT,
+max_consec_8_1_Compression_HeatPump_AirWater,
+max_consec_8_2_AuxiliaryBoilerHT,
+max_consec_8_2_Compression_HeatPump_AirWater,
+max_consec_9_1_AuxiliaryBoilerHT,
+max_consec_9_1_Compression_HeatPump_AirWater,
+max_consec_9_2_AuxiliaryBoilerHT,
+max_consec_9_2_Compression_HeatPump_AirWater,
+max_consec_10_1_AuxiliaryBoilerHT,
+max_consec_10_1_Compression_HeatPump_AirWater,
+max_consec_10_2_AuxiliaryBoilerHT,
+max_consec_10_2_Compression_HeatPump_AirWater,
+max_consec_11_1_AuxiliaryBoilerHT,
+max_consec_11_1_Compression_HeatPump_AirWater,
+max_consec_11_2_AuxiliaryBoilerHT,
+max_consec_11_2_Compression_HeatPump_AirWater,
+max_consec_12_1_AuxiliaryBoilerHT,
+max_consec_12_1_Compression_HeatPump_AirWater,
+max_consec_12_2_AuxiliaryBoilerHT,
+max_consec_12_2_Compression_HeatPump_AirWater,
+max_consec_13_1_AuxiliaryBoilerHT,
+max_consec_13_1_Compression_HeatPump_AirWater,
+max_consec_13_2_AuxiliaryBoilerHT,
+max_consec_13_2_Compression_HeatPump_AirWater,
+max_consec_14_1_AuxiliaryBoilerHT,
+max_consec_14_1_Compression_HeatPump_AirWater,
+max_consec_14_2_AuxiliaryBoilerHT,
+max_consec_14_2_Compression_HeatPump_AirWater,
+max_consec_15_1_AuxiliaryBoilerHT,
+max_consec_15_1_Compression_HeatPump_AirWater,
+max_consec_15_2_AuxiliaryBoilerHT,
+max_consec_15_2_Compression_HeatPump_AirWater,
+max_consec_16_1_AuxiliaryBoilerHT,
+max_consec_16_1_Compression_HeatPump_AirWater,
+max_consec_16_2_AuxiliaryBoilerHT,
+max_consec_16_2_Compression_HeatPump_AirWater,
+max_consec_17_1_AuxiliaryBoilerHT,
+max_consec_17_1_Compression_HeatPump_AirWater,
+max_consec_17_2_AuxiliaryBoilerHT,
+max_consec_17_2_Compression_HeatPump_AirWater,
+max_consec_18_1_AuxiliaryBoilerHT,
+max_consec_18_1_Compression_HeatPump_AirWater,
+max_consec_18_2_AuxiliaryBoilerHT,
+max_consec_18_2_Compression_HeatPump_AirWater,
+max_consec_19_1_AuxiliaryBoilerHT,
+max_consec_19_1_Compression_HeatPump_AirWater,
+max_consec_19_2_AuxiliaryBoilerHT,
+max_consec_19_2_Compression_HeatPump_AirWater,
+max_consec_20_1_AuxiliaryBoilerHT,
+max_consec_20_1_Compression_HeatPump_AirWater,
+max_consec_20_2_AuxiliaryBoilerHT,
+max_consec_20_2_Compression_HeatPump_AirWater,
+max_consec_21_1_AuxiliaryBoilerHT,
+max_consec_21_1_Compression_HeatPump_AirWater,
+max_consec_21_2_AuxiliaryBoilerHT,
+max_consec_21_2_Compression_HeatPump_AirWater,
+max_consec_22_1_AuxiliaryBoilerHT,
+max_consec_22_1_Compression_HeatPump_AirWater,
+max_consec_22_2_AuxiliaryBoilerHT,
+max_consec_22_2_Compression_HeatPump_AirWater,
+max_consec_23_1_AuxiliaryBoilerHT,
+max_consec_23_1_Compression_HeatPump_AirWater,
+max_consec_23_2_AuxiliaryBoilerHT,
+max_consec_23_2_Compression_HeatPump_AirWater,
+max_consec_24_1_AuxiliaryBoilerHT,
+max_consec_24_1_Compression_HeatPump_AirWater,
+max_consec_24_2_AuxiliaryBoilerHT,
+max_consec_24_2_Compression_HeatPump_AirWater,
+high_temp_balance_1_1,
+high_temp_balance_1_2,
+high_temp_balance_1_3,
+high_temp_balance_1_4,
+high_temp_balance_1_5,
+high_temp_balance_1_6,
+high_temp_balance_1_7,
+high_temp_balance_1_8,
+high_temp_balance_1_9,
+high_temp_balance_1_10,
+high_temp_balance_1_11,
+high_temp_balance_1_12,
+high_temp_balance_1_13,
+high_temp_balance_1_14,
+high_temp_balance_1_15,
+high_temp_balance_1_16,
+high_temp_balance_1_17,
+high_temp_balance_1_18,
+high_temp_balance_1_19,
+high_temp_balance_1_20,
+high_temp_balance_1_21,
+high_temp_balance_1_22,
+high_temp_balance_1_23,
+high_temp_balance_2_1,
+high_temp_balance_2_2,
+high_temp_balance_2_3,
+high_temp_balance_2_4,
+high_temp_balance_2_5,
+high_temp_balance_2_6,
+high_temp_balance_2_7,
+high_temp_balance_2_8,
+high_temp_balance_2_9,
+high_temp_balance_2_10,
+high_temp_balance_2_11,
+high_temp_balance_2_12,
+high_temp_balance_2_13,
+high_temp_balance_2_14,
+high_temp_balance_2_15,
+high_temp_balance_2_16,
+high_temp_balance_2_17,
+high_temp_balance_2_18,
+high_temp_balance_2_19,
+high_temp_balance_2_20,
+high_temp_balance_2_21,
+high_temp_balance_2_22,
+high_temp_balance_2_23,
+high_temp_loss_1_1,
+high_temp_loss_1_2,
+high_temp_loss_1_3,
+high_temp_loss_1_4,
+high_temp_loss_1_5,
+high_temp_loss_1_6,
+high_temp_loss_1_7,
+high_temp_loss_1_8,
+high_temp_loss_1_9,
+high_temp_loss_1_10,
+high_temp_loss_1_11,
+high_temp_loss_1_12,
+high_temp_loss_1_13,
+high_temp_loss_1_14,
+high_temp_loss_1_15,
+high_temp_loss_1_16,
+high_temp_loss_1_17,
+high_temp_loss_1_18,
+high_temp_loss_1_19,
+high_temp_loss_1_20,
+high_temp_loss_1_21,
+high_temp_loss_1_22,
+high_temp_loss_1_23,
+high_temp_loss_2_1,
+high_temp_loss_2_2,
+high_temp_loss_2_3,
+high_temp_loss_2_4,
+high_temp_loss_2_5,
+high_temp_loss_2_6,
+high_temp_loss_2_7,
+high_temp_loss_2_8,
+high_temp_loss_2_9,
+high_temp_loss_2_10,
+high_temp_loss_2_11,
+high_temp_loss_2_12,
+high_temp_loss_2_13,
+high_temp_loss_2_14,
+high_temp_loss_2_15,
+high_temp_loss_2_16,
+high_temp_loss_2_17,
+high_temp_loss_2_18,
+high_temp_loss_2_19,
+high_temp_loss_2_20,
+high_temp_loss_2_21,
+high_temp_loss_2_22,
+high_temp_loss_2_23,
+high_temp_balance_last_1_24,
+high_temp_balance_last_2_24,
+low_temp_balance_1_1,
+low_temp_balance_1_2,
+low_temp_balance_1_3,
+low_temp_balance_1_4,
+low_temp_balance_1_5,
+low_temp_balance_1_6,
+low_temp_balance_1_7,
+low_temp_balance_1_8,
+low_temp_balance_1_9,
+low_temp_balance_1_10,
+low_temp_balance_1_11,
+low_temp_balance_1_12,
+low_temp_balance_1_13,
+low_temp_balance_1_14,
+low_temp_balance_1_15,
+low_temp_balance_1_16,
+low_temp_balance_1_17,
+low_temp_balance_1_18,
+low_temp_balance_1_19,
+low_temp_balance_1_20,
+low_temp_balance_1_21,
+low_temp_balance_1_22,
+low_temp_balance_1_23,
+low_temp_balance_2_1,
+low_temp_balance_2_2,
+low_temp_balance_2_3,
+low_temp_balance_2_4,
+low_temp_balance_2_5,
+low_temp_balance_2_6,
+low_temp_balance_2_7,
+low_temp_balance_2_8,
+low_temp_balance_2_9,
+low_temp_balance_2_10,
+low_temp_balance_2_11,
+low_temp_balance_2_12,
+low_temp_balance_2_13,
+low_temp_balance_2_14,
+low_temp_balance_2_15,
+low_temp_balance_2_16,
+low_temp_balance_2_17,
+low_temp_balance_2_18,
+low_temp_balance_2_19,
+low_temp_balance_2_20,
+low_temp_balance_2_21,
+low_temp_balance_2_22,
+low_temp_balance_2_23,
+low_temp_balance_last_1_24,
+low_temp_balance_last_2_24,
+electric_power_balance_1_1,
+electric_power_balance_1_2,
+electric_power_balance_1_3,
+electric_power_balance_1_4,
+electric_power_balance_1_5,
+electric_power_balance_1_6,
+electric_power_balance_1_7,
+electric_power_balance_1_8,
+electric_power_balance_1_9,
+electric_power_balance_1_10,
+electric_power_balance_1_11,
+electric_power_balance_1_12,
+electric_power_balance_1_13,
+electric_power_balance_1_14,
+electric_power_balance_1_15,
+electric_power_balance_1_16,
+electric_power_balance_1_17,
+electric_power_balance_1_18,
+electric_power_balance_1_19,
+electric_power_balance_1_20,
+electric_power_balance_1_21,
+electric_power_balance_1_22,
+electric_power_balance_1_23,
+electric_power_balance_1_24,
+electric_power_balance_2_1,
+electric_power_balance_2_2,
+electric_power_balance_2_3,
+electric_power_balance_2_4,
+electric_power_balance_2_5,
+electric_power_balance_2_6,
+electric_power_balance_2_7,
+electric_power_balance_2_8,
+electric_power_balance_2_9,
+electric_power_balance_2_10,
+electric_power_balance_2_11,
+electric_power_balance_2_12,
+electric_power_balance_2_13,
+electric_power_balance_2_14,
+electric_power_balance_2_15,
+electric_power_balance_2_16,
+electric_power_balance_2_17,
+electric_power_balance_2_18,
+electric_power_balance_2_19,
+electric_power_balance_2_20,
+electric_power_balance_2_21,
+electric_power_balance_2_22,
+electric_power_balance_2_23,
+electric_power_balance_2_24,
+cold_balance_1_1,
+cold_balance_1_2,
+cold_balance_1_3,
+cold_balance_1_4,
+cold_balance_1_5,
+cold_balance_1_6,
+cold_balance_1_7,
+cold_balance_1_8,
+cold_balance_1_9,
+cold_balance_1_10,
+cold_balance_1_11,
+cold_balance_1_12,
+cold_balance_1_13,
+cold_balance_1_14,
+cold_balance_1_15,
+cold_balance_1_16,
+cold_balance_1_17,
+cold_balance_1_18,
+cold_balance_1_19,
+cold_balance_1_20,
+cold_balance_1_21,
+cold_balance_1_22,
+cold_balance_1_23,
+cold_balance_2_1,
+cold_balance_2_2,
+cold_balance_2_3,
+cold_balance_2_4,
+cold_balance_2_5,
+cold_balance_2_6,
+cold_balance_2_7,
+cold_balance_2_8,
+cold_balance_2_9,
+cold_balance_2_10,
+cold_balance_2_11,
+cold_balance_2_12,
+cold_balance_2_13,
+cold_balance_2_14,
+cold_balance_2_15,
+cold_balance_2_16,
+cold_balance_2_17,
+cold_balance_2_18,
+cold_balance_2_19,
+cold_balance_2_20,
+cold_balance_2_21,
+cold_balance_2_22,
+cold_balance_2_23,
+cold_balance_last_1_24,
+cold_balance_last_2_24,
+fuel_bounds_AuxiliaryBoilerHT_1_1,
+fuel_bounds_AuxiliaryBoilerHT_1_2,
+fuel_bounds_AuxiliaryBoilerHT_1_3,
+fuel_bounds_AuxiliaryBoilerHT_1_4,
+fuel_bounds_AuxiliaryBoilerHT_1_5,
+fuel_bounds_AuxiliaryBoilerHT_1_6,
+fuel_bounds_AuxiliaryBoilerHT_1_7,
+fuel_bounds_AuxiliaryBoilerHT_1_8,
+fuel_bounds_AuxiliaryBoilerHT_1_9,
+fuel_bounds_AuxiliaryBoilerHT_1_10,
+fuel_bounds_AuxiliaryBoilerHT_1_11,
+fuel_bounds_AuxiliaryBoilerHT_1_12,
+fuel_bounds_AuxiliaryBoilerHT_1_13,
+fuel_bounds_AuxiliaryBoilerHT_1_14,
+fuel_bounds_AuxiliaryBoilerHT_1_15,
+fuel_bounds_AuxiliaryBoilerHT_1_16,
+fuel_bounds_AuxiliaryBoilerHT_1_17,
+fuel_bounds_AuxiliaryBoilerHT_1_18,
+fuel_bounds_AuxiliaryBoilerHT_1_19,
+fuel_bounds_AuxiliaryBoilerHT_1_20,
+fuel_bounds_AuxiliaryBoilerHT_1_21,
+fuel_bounds_AuxiliaryBoilerHT_1_22,
+fuel_bounds_AuxiliaryBoilerHT_1_23,
+fuel_bounds_AuxiliaryBoilerHT_1_24,
+fuel_bounds_AuxiliaryBoilerHT_2_1,
+fuel_bounds_AuxiliaryBoilerHT_2_2,
+fuel_bounds_AuxiliaryBoilerHT_2_3,
+fuel_bounds_AuxiliaryBoilerHT_2_4,
+fuel_bounds_AuxiliaryBoilerHT_2_5,
+fuel_bounds_AuxiliaryBoilerHT_2_6,
+fuel_bounds_AuxiliaryBoilerHT_2_7,
+fuel_bounds_AuxiliaryBoilerHT_2_8,
+fuel_bounds_AuxiliaryBoilerHT_2_9,
+fuel_bounds_AuxiliaryBoilerHT_2_10,
+fuel_bounds_AuxiliaryBoilerHT_2_11,
+fuel_bounds_AuxiliaryBoilerHT_2_12,
+fuel_bounds_AuxiliaryBoilerHT_2_13,
+fuel_bounds_AuxiliaryBoilerHT_2_14,
+fuel_bounds_AuxiliaryBoilerHT_2_15,
+fuel_bounds_AuxiliaryBoilerHT_2_16,
+fuel_bounds_AuxiliaryBoilerHT_2_17,
+fuel_bounds_AuxiliaryBoilerHT_2_18,
+fuel_bounds_AuxiliaryBoilerHT_2_19,
+fuel_bounds_AuxiliaryBoilerHT_2_20,
+fuel_bounds_AuxiliaryBoilerHT_2_21,
+fuel_bounds_AuxiliaryBoilerHT_2_22,
+fuel_bounds_AuxiliaryBoilerHT_2_23,
+fuel_bounds_AuxiliaryBoilerHT_2_24,
+fuel_bounds_FuelCell_1_1,
+fuel_bounds_FuelCell_1_2,
+fuel_bounds_FuelCell_1_3,
+fuel_bounds_FuelCell_1_4,
+fuel_bounds_FuelCell_1_5,
+fuel_bounds_FuelCell_1_6,
+fuel_bounds_FuelCell_1_7,
+fuel_bounds_FuelCell_1_8,
+fuel_bounds_FuelCell_1_9,
+fuel_bounds_FuelCell_1_10,
+fuel_bounds_FuelCell_1_11,
+fuel_bounds_FuelCell_1_12,
+fuel_bounds_FuelCell_1_13,
+fuel_bounds_FuelCell_1_14,
+fuel_bounds_FuelCell_1_15,
+fuel_bounds_FuelCell_1_16,
+fuel_bounds_FuelCell_1_17,
+fuel_bounds_FuelCell_1_18,
+fuel_bounds_FuelCell_1_19,
+fuel_bounds_FuelCell_1_20,
+fuel_bounds_FuelCell_1_21,
+fuel_bounds_FuelCell_1_22,
+fuel_bounds_FuelCell_1_23,
+fuel_bounds_FuelCell_1_24,
+fuel_bounds_FuelCell_2_1,
+fuel_bounds_FuelCell_2_2,
+fuel_bounds_FuelCell_2_3,
+fuel_bounds_FuelCell_2_4,
+fuel_bounds_FuelCell_2_5,
+fuel_bounds_FuelCell_2_6,
+fuel_bounds_FuelCell_2_7,
+fuel_bounds_FuelCell_2_8,
+fuel_bounds_FuelCell_2_9,
+fuel_bounds_FuelCell_2_10,
+fuel_bounds_FuelCell_2_11,
+fuel_bounds_FuelCell_2_12,
+fuel_bounds_FuelCell_2_13,
+fuel_bounds_FuelCell_2_14,
+fuel_bounds_FuelCell_2_15,
+fuel_bounds_FuelCell_2_16,
+fuel_bounds_FuelCell_2_17,
+fuel_bounds_FuelCell_2_18,
+fuel_bounds_FuelCell_2_19,
+fuel_bounds_FuelCell_2_20,
+fuel_bounds_FuelCell_2_21,
+fuel_bounds_FuelCell_2_22,
+fuel_bounds_FuelCell_2_23,
+fuel_bounds_FuelCell_2_24,
+fuel_bounds_2_AuxiliaryBoilerHT_1_1,
+fuel_bounds_2_AuxiliaryBoilerHT_1_2,
+fuel_bounds_2_AuxiliaryBoilerHT_1_3,
+fuel_bounds_2_AuxiliaryBoilerHT_1_4,
+fuel_bounds_2_AuxiliaryBoilerHT_1_5,
+fuel_bounds_2_AuxiliaryBoilerHT_1_6,
+fuel_bounds_2_AuxiliaryBoilerHT_1_7,
+fuel_bounds_2_AuxiliaryBoilerHT_1_8,
+fuel_bounds_2_AuxiliaryBoilerHT_1_9,
+fuel_bounds_2_AuxiliaryBoilerHT_1_10,
+fuel_bounds_2_AuxiliaryBoilerHT_1_11,
+fuel_bounds_2_AuxiliaryBoilerHT_1_12,
+fuel_bounds_2_AuxiliaryBoilerHT_1_13,
+fuel_bounds_2_AuxiliaryBoilerHT_1_14,
+fuel_bounds_2_AuxiliaryBoilerHT_1_15,
+fuel_bounds_2_AuxiliaryBoilerHT_1_16,
+fuel_bounds_2_AuxiliaryBoilerHT_1_17,
+fuel_bounds_2_AuxiliaryBoilerHT_1_18,
+fuel_bounds_2_AuxiliaryBoilerHT_1_19,
+fuel_bounds_2_AuxiliaryBoilerHT_1_20,
+fuel_bounds_2_AuxiliaryBoilerHT_1_21,
+fuel_bounds_2_AuxiliaryBoilerHT_1_22,
+fuel_bounds_2_AuxiliaryBoilerHT_1_23,
+fuel_bounds_2_AuxiliaryBoilerHT_1_24,
+fuel_bounds_2_AuxiliaryBoilerHT_2_1,
+fuel_bounds_2_AuxiliaryBoilerHT_2_2,
+fuel_bounds_2_AuxiliaryBoilerHT_2_3,
+fuel_bounds_2_AuxiliaryBoilerHT_2_4,
+fuel_bounds_2_AuxiliaryBoilerHT_2_5,
+fuel_bounds_2_AuxiliaryBoilerHT_2_6,
+fuel_bounds_2_AuxiliaryBoilerHT_2_7,
+fuel_bounds_2_AuxiliaryBoilerHT_2_8,
+fuel_bounds_2_AuxiliaryBoilerHT_2_9,
+fuel_bounds_2_AuxiliaryBoilerHT_2_10,
+fuel_bounds_2_AuxiliaryBoilerHT_2_11,
+fuel_bounds_2_AuxiliaryBoilerHT_2_12,
+fuel_bounds_2_AuxiliaryBoilerHT_2_13,
+fuel_bounds_2_AuxiliaryBoilerHT_2_14,
+fuel_bounds_2_AuxiliaryBoilerHT_2_15,
+fuel_bounds_2_AuxiliaryBoilerHT_2_16,
+fuel_bounds_2_AuxiliaryBoilerHT_2_17,
+fuel_bounds_2_AuxiliaryBoilerHT_2_18,
+fuel_bounds_2_AuxiliaryBoilerHT_2_19,
+fuel_bounds_2_AuxiliaryBoilerHT_2_20,
+fuel_bounds_2_AuxiliaryBoilerHT_2_21,
+fuel_bounds_2_AuxiliaryBoilerHT_2_22,
+fuel_bounds_2_AuxiliaryBoilerHT_2_23,
+fuel_bounds_2_AuxiliaryBoilerHT_2_24,
+fuel_bounds_2_FuelCell_1_1,
+fuel_bounds_2_FuelCell_1_2,
+fuel_bounds_2_FuelCell_1_3,
+fuel_bounds_2_FuelCell_1_4,
+fuel_bounds_2_FuelCell_1_5,
+fuel_bounds_2_FuelCell_1_6,
+fuel_bounds_2_FuelCell_1_7,
+fuel_bounds_2_FuelCell_1_8,
+fuel_bounds_2_FuelCell_1_9,
+fuel_bounds_2_FuelCell_1_10,
+fuel_bounds_2_FuelCell_1_11,
+fuel_bounds_2_FuelCell_1_12,
+fuel_bounds_2_FuelCell_1_13,
+fuel_bounds_2_FuelCell_1_14,
+fuel_bounds_2_FuelCell_1_15,
+fuel_bounds_2_FuelCell_1_16,
+fuel_bounds_2_FuelCell_1_17,
+fuel_bounds_2_FuelCell_1_18,
+fuel_bounds_2_FuelCell_1_19,
+fuel_bounds_2_FuelCell_1_20,
+fuel_bounds_2_FuelCell_1_21,
+fuel_bounds_2_FuelCell_1_22,
+fuel_bounds_2_FuelCell_1_23,
+fuel_bounds_2_FuelCell_1_24,
+fuel_bounds_2_FuelCell_2_1,
+fuel_bounds_2_FuelCell_2_2,
+fuel_bounds_2_FuelCell_2_3,
+fuel_bounds_2_FuelCell_2_4,
+fuel_bounds_2_FuelCell_2_5,
+fuel_bounds_2_FuelCell_2_6,
+fuel_bounds_2_FuelCell_2_7,
+fuel_bounds_2_FuelCell_2_8,
+fuel_bounds_2_FuelCell_2_9,
+fuel_bounds_2_FuelCell_2_10,
+fuel_bounds_2_FuelCell_2_11,
+fuel_bounds_2_FuelCell_2_12,
+fuel_bounds_2_FuelCell_2_13,
+fuel_bounds_2_FuelCell_2_14,
+fuel_bounds_2_FuelCell_2_15,
+fuel_bounds_2_FuelCell_2_16,
+fuel_bounds_2_FuelCell_2_17,
+fuel_bounds_2_FuelCell_2_18,
+fuel_bounds_2_FuelCell_2_19,
+fuel_bounds_2_FuelCell_2_20,
+fuel_bounds_2_FuelCell_2_21,
+fuel_bounds_2_FuelCell_2_22,
+fuel_bounds_2_FuelCell_2_23,
+fuel_bounds_2_FuelCell_2_24,
+electricity_bounds_Compression_HeatPump_AirWater_1_1,
+electricity_bounds_Compression_HeatPump_AirWater_1_2,
+electricity_bounds_Compression_HeatPump_AirWater_1_3,
+electricity_bounds_Compression_HeatPump_AirWater_1_4,
+electricity_bounds_Compression_HeatPump_AirWater_1_5,
+electricity_bounds_Compression_HeatPump_AirWater_1_6,
+electricity_bounds_Compression_HeatPump_AirWater_1_7,
+electricity_bounds_Compression_HeatPump_AirWater_1_8,
+electricity_bounds_Compression_HeatPump_AirWater_1_9,
+electricity_bounds_Compression_HeatPump_AirWater_1_10,
+electricity_bounds_Compression_HeatPump_AirWater_1_11,
+electricity_bounds_Compression_HeatPump_AirWater_1_12,
+electricity_bounds_Compression_HeatPump_AirWater_1_13,
+electricity_bounds_Compression_HeatPump_AirWater_1_14,
+electricity_bounds_Compression_HeatPump_AirWater_1_15,
+electricity_bounds_Compression_HeatPump_AirWater_1_16,
+electricity_bounds_Compression_HeatPump_AirWater_1_17,
+electricity_bounds_Compression_HeatPump_AirWater_1_18,
+electricity_bounds_Compression_HeatPump_AirWater_1_19,
+electricity_bounds_Compression_HeatPump_AirWater_1_20,
+electricity_bounds_Compression_HeatPump_AirWater_1_21,
+electricity_bounds_Compression_HeatPump_AirWater_1_22,
+electricity_bounds_Compression_HeatPump_AirWater_1_23,
+electricity_bounds_Compression_HeatPump_AirWater_1_24,
+electricity_bounds_Compression_HeatPump_AirWater_2_1,
+electricity_bounds_Compression_HeatPump_AirWater_2_2,
+electricity_bounds_Compression_HeatPump_AirWater_2_3,
+electricity_bounds_Compression_HeatPump_AirWater_2_4,
+electricity_bounds_Compression_HeatPump_AirWater_2_5,
+electricity_bounds_Compression_HeatPump_AirWater_2_6,
+electricity_bounds_Compression_HeatPump_AirWater_2_7,
+electricity_bounds_Compression_HeatPump_AirWater_2_8,
+electricity_bounds_Compression_HeatPump_AirWater_2_9,
+electricity_bounds_Compression_HeatPump_AirWater_2_10,
+electricity_bounds_Compression_HeatPump_AirWater_2_11,
+electricity_bounds_Compression_HeatPump_AirWater_2_12,
+electricity_bounds_Compression_HeatPump_AirWater_2_13,
+electricity_bounds_Compression_HeatPump_AirWater_2_14,
+electricity_bounds_Compression_HeatPump_AirWater_2_15,
+electricity_bounds_Compression_HeatPump_AirWater_2_16,
+electricity_bounds_Compression_HeatPump_AirWater_2_17,
+electricity_bounds_Compression_HeatPump_AirWater_2_18,
+electricity_bounds_Compression_HeatPump_AirWater_2_19,
+electricity_bounds_Compression_HeatPump_AirWater_2_20,
+electricity_bounds_Compression_HeatPump_AirWater_2_21,
+electricity_bounds_Compression_HeatPump_AirWater_2_22,
+electricity_bounds_Compression_HeatPump_AirWater_2_23,
+electricity_bounds_Compression_HeatPump_AirWater_2_24,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_1,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_2,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_3,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_4,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_5,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_6,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_7,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_8,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_9,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_10,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_11,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_12,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_13,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_14,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_15,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_16,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_17,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_18,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_19,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_20,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_21,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_22,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_23,
+electricity_bounds_2_Compression_HeatPump_AirWater_1_24,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_1,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_2,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_3,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_4,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_5,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_6,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_7,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_8,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_9,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_10,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_11,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_12,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_13,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_14,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_15,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_16,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_17,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_18,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_19,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_20,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_21,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_22,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_23,
+electricity_bounds_2_Compression_HeatPump_AirWater_2_24,
+load_power_FuelCell_1_1,
+load_power_FuelCell_1_2,
+load_power_FuelCell_1_3,
+load_power_FuelCell_1_4,
+load_power_FuelCell_1_5,
+load_power_FuelCell_1_6,
+load_power_FuelCell_1_7,
+load_power_FuelCell_1_8,
+load_power_FuelCell_1_9,
+load_power_FuelCell_1_10,
+load_power_FuelCell_1_11,
+load_power_FuelCell_1_12,
+load_power_FuelCell_1_13,
+load_power_FuelCell_1_14,
+load_power_FuelCell_1_15,
+load_power_FuelCell_1_16,
+load_power_FuelCell_1_17,
+load_power_FuelCell_1_18,
+load_power_FuelCell_1_19,
+load_power_FuelCell_1_20,
+load_power_FuelCell_1_21,
+load_power_FuelCell_1_22,
+load_power_FuelCell_1_23,
+load_power_FuelCell_1_24,
+load_power_FuelCell_2_1,
+load_power_FuelCell_2_2,
+load_power_FuelCell_2_3,
+load_power_FuelCell_2_4,
+load_power_FuelCell_2_5,
+load_power_FuelCell_2_6,
+load_power_FuelCell_2_7,
+load_power_FuelCell_2_8,
+load_power_FuelCell_2_9,
+load_power_FuelCell_2_10,
+load_power_FuelCell_2_11,
+load_power_FuelCell_2_12,
+load_power_FuelCell_2_13,
+load_power_FuelCell_2_14,
+load_power_FuelCell_2_15,
+load_power_FuelCell_2_16,
+load_power_FuelCell_2_17,
+load_power_FuelCell_2_18,
+load_power_FuelCell_2_19,
+load_power_FuelCell_2_20,
+load_power_FuelCell_2_21,
+load_power_FuelCell_2_22,
+load_power_FuelCell_2_23,
+load_power_FuelCell_2_24,
+load_power_2_FuelCell_1_1,
+load_power_2_FuelCell_1_2,
+load_power_2_FuelCell_1_3,
+load_power_2_FuelCell_1_4,
+load_power_2_FuelCell_1_5,
+load_power_2_FuelCell_1_6,
+load_power_2_FuelCell_1_7,
+load_power_2_FuelCell_1_8,
+load_power_2_FuelCell_1_9,
+load_power_2_FuelCell_1_10,
+load_power_2_FuelCell_1_11,
+load_power_2_FuelCell_1_12,
+load_power_2_FuelCell_1_13,
+load_power_2_FuelCell_1_14,
+load_power_2_FuelCell_1_15,
+load_power_2_FuelCell_1_16,
+load_power_2_FuelCell_1_17,
+load_power_2_FuelCell_1_18,
+load_power_2_FuelCell_1_19,
+load_power_2_FuelCell_1_20,
+load_power_2_FuelCell_1_21,
+load_power_2_FuelCell_1_22,
+load_power_2_FuelCell_1_23,
+load_power_2_FuelCell_1_24,
+load_power_2_FuelCell_2_1,
+load_power_2_FuelCell_2_2,
+load_power_2_FuelCell_2_3,
+load_power_2_FuelCell_2_4,
+load_power_2_FuelCell_2_5,
+load_power_2_FuelCell_2_6,
+load_power_2_FuelCell_2_7,
+load_power_2_FuelCell_2_8,
+load_power_2_FuelCell_2_9,
+load_power_2_FuelCell_2_10,
+load_power_2_FuelCell_2_11,
+load_power_2_FuelCell_2_12,
+load_power_2_FuelCell_2_13,
+load_power_2_FuelCell_2_14,
+load_power_2_FuelCell_2_15,
+load_power_2_FuelCell_2_16,
+load_power_2_FuelCell_2_17,
+load_power_2_FuelCell_2_18,
+load_power_2_FuelCell_2_19,
+load_power_2_FuelCell_2_20,
+load_power_2_FuelCell_2_21,
+load_power_2_FuelCell_2_22,
+load_power_2_FuelCell_2_23,
+load_power_2_FuelCell_2_24,
+load_low_FuelCell_1_1,
+load_low_FuelCell_1_2,
+load_low_FuelCell_1_3,
+load_low_FuelCell_1_4,
+load_low_FuelCell_1_5,
+load_low_FuelCell_1_6,
+load_low_FuelCell_1_7,
+load_low_FuelCell_1_8,
+load_low_FuelCell_1_9,
+load_low_FuelCell_1_10,
+load_low_FuelCell_1_11,
+load_low_FuelCell_1_12,
+load_low_FuelCell_1_13,
+load_low_FuelCell_1_14,
+load_low_FuelCell_1_15,
+load_low_FuelCell_1_16,
+load_low_FuelCell_1_17,
+load_low_FuelCell_1_18,
+load_low_FuelCell_1_19,
+load_low_FuelCell_1_20,
+load_low_FuelCell_1_21,
+load_low_FuelCell_1_22,
+load_low_FuelCell_1_23,
+load_low_FuelCell_1_24,
+load_low_FuelCell_2_1,
+load_low_FuelCell_2_2,
+load_low_FuelCell_2_3,
+load_low_FuelCell_2_4,
+load_low_FuelCell_2_5,
+load_low_FuelCell_2_6,
+load_low_FuelCell_2_7,
+load_low_FuelCell_2_8,
+load_low_FuelCell_2_9,
+load_low_FuelCell_2_10,
+load_low_FuelCell_2_11,
+load_low_FuelCell_2_12,
+load_low_FuelCell_2_13,
+load_low_FuelCell_2_14,
+load_low_FuelCell_2_15,
+load_low_FuelCell_2_16,
+load_low_FuelCell_2_17,
+load_low_FuelCell_2_18,
+load_low_FuelCell_2_19,
+load_low_FuelCell_2_20,
+load_low_FuelCell_2_21,
+load_low_FuelCell_2_22,
+load_low_FuelCell_2_23,
+load_low_FuelCell_2_24,
+load_low_Compression_HeatPump_AirWater_1_1,
+load_low_Compression_HeatPump_AirWater_1_2,
+load_low_Compression_HeatPump_AirWater_1_3,
+load_low_Compression_HeatPump_AirWater_1_4,
+load_low_Compression_HeatPump_AirWater_1_5,
+load_low_Compression_HeatPump_AirWater_1_6,
+load_low_Compression_HeatPump_AirWater_1_7,
+load_low_Compression_HeatPump_AirWater_1_8,
+load_low_Compression_HeatPump_AirWater_1_9,
+load_low_Compression_HeatPump_AirWater_1_10,
+load_low_Compression_HeatPump_AirWater_1_11,
+load_low_Compression_HeatPump_AirWater_1_12,
+load_low_Compression_HeatPump_AirWater_1_13,
+load_low_Compression_HeatPump_AirWater_1_14,
+load_low_Compression_HeatPump_AirWater_1_15,
+load_low_Compression_HeatPump_AirWater_1_16,
+load_low_Compression_HeatPump_AirWater_1_17,
+load_low_Compression_HeatPump_AirWater_1_18,
+load_low_Compression_HeatPump_AirWater_1_19,
+load_low_Compression_HeatPump_AirWater_1_20,
+load_low_Compression_HeatPump_AirWater_1_21,
+load_low_Compression_HeatPump_AirWater_1_22,
+load_low_Compression_HeatPump_AirWater_1_23,
+load_low_Compression_HeatPump_AirWater_1_24,
+load_low_Compression_HeatPump_AirWater_2_1,
+load_low_Compression_HeatPump_AirWater_2_2,
+load_low_Compression_HeatPump_AirWater_2_3,
+load_low_Compression_HeatPump_AirWater_2_4,
+load_low_Compression_HeatPump_AirWater_2_5,
+load_low_Compression_HeatPump_AirWater_2_6,
+load_low_Compression_HeatPump_AirWater_2_7,
+load_low_Compression_HeatPump_AirWater_2_8,
+load_low_Compression_HeatPump_AirWater_2_9,
+load_low_Compression_HeatPump_AirWater_2_10,
+load_low_Compression_HeatPump_AirWater_2_11,
+load_low_Compression_HeatPump_AirWater_2_12,
+load_low_Compression_HeatPump_AirWater_2_13,
+load_low_Compression_HeatPump_AirWater_2_14,
+load_low_Compression_HeatPump_AirWater_2_15,
+load_low_Compression_HeatPump_AirWater_2_16,
+load_low_Compression_HeatPump_AirWater_2_17,
+load_low_Compression_HeatPump_AirWater_2_18,
+load_low_Compression_HeatPump_AirWater_2_19,
+load_low_Compression_HeatPump_AirWater_2_20,
+load_low_Compression_HeatPump_AirWater_2_21,
+load_low_Compression_HeatPump_AirWater_2_22,
+load_low_Compression_HeatPump_AirWater_2_23,
+load_low_Compression_HeatPump_AirWater_2_24,
+load_low_2_FuelCell_1_1,
+load_low_2_FuelCell_1_2,
+load_low_2_FuelCell_1_3,
+load_low_2_FuelCell_1_4,
+load_low_2_FuelCell_1_5,
+load_low_2_FuelCell_1_6,
+load_low_2_FuelCell_1_7,
+load_low_2_FuelCell_1_8,
+load_low_2_FuelCell_1_9,
+load_low_2_FuelCell_1_10,
+load_low_2_FuelCell_1_11,
+load_low_2_FuelCell_1_12,
+load_low_2_FuelCell_1_13,
+load_low_2_FuelCell_1_14,
+load_low_2_FuelCell_1_15,
+load_low_2_FuelCell_1_16,
+load_low_2_FuelCell_1_17,
+load_low_2_FuelCell_1_18,
+load_low_2_FuelCell_1_19,
+load_low_2_FuelCell_1_20,
+load_low_2_FuelCell_1_21,
+load_low_2_FuelCell_1_22,
+load_low_2_FuelCell_1_23,
+load_low_2_FuelCell_1_24,
+load_low_2_FuelCell_2_1,
+load_low_2_FuelCell_2_2,
+load_low_2_FuelCell_2_3,
+load_low_2_FuelCell_2_4,
+load_low_2_FuelCell_2_5,
+load_low_2_FuelCell_2_6,
+load_low_2_FuelCell_2_7,
+load_low_2_FuelCell_2_8,
+load_low_2_FuelCell_2_9,
+load_low_2_FuelCell_2_10,
+load_low_2_FuelCell_2_11,
+load_low_2_FuelCell_2_12,
+load_low_2_FuelCell_2_13,
+load_low_2_FuelCell_2_14,
+load_low_2_FuelCell_2_15,
+load_low_2_FuelCell_2_16,
+load_low_2_FuelCell_2_17,
+load_low_2_FuelCell_2_18,
+load_low_2_FuelCell_2_19,
+load_low_2_FuelCell_2_20,
+load_low_2_FuelCell_2_21,
+load_low_2_FuelCell_2_22,
+load_low_2_FuelCell_2_23,
+load_low_2_FuelCell_2_24,
+load_low_2_Compression_HeatPump_AirWater_1_1,
+load_low_2_Compression_HeatPump_AirWater_1_2,
+load_low_2_Compression_HeatPump_AirWater_1_3,
+load_low_2_Compression_HeatPump_AirWater_1_4,
+load_low_2_Compression_HeatPump_AirWater_1_5,
+load_low_2_Compression_HeatPump_AirWater_1_6,
+load_low_2_Compression_HeatPump_AirWater_1_7,
+load_low_2_Compression_HeatPump_AirWater_1_8,
+load_low_2_Compression_HeatPump_AirWater_1_9,
+load_low_2_Compression_HeatPump_AirWater_1_10,
+load_low_2_Compression_HeatPump_AirWater_1_11,
+load_low_2_Compression_HeatPump_AirWater_1_12,
+load_low_2_Compression_HeatPump_AirWater_1_13,
+load_low_2_Compression_HeatPump_AirWater_1_14,
+load_low_2_Compression_HeatPump_AirWater_1_15,
+load_low_2_Compression_HeatPump_AirWater_1_16,
+load_low_2_Compression_HeatPump_AirWater_1_17,
+load_low_2_Compression_HeatPump_AirWater_1_18,
+load_low_2_Compression_HeatPump_AirWater_1_19,
+load_low_2_Compression_HeatPump_AirWater_1_20,
+load_low_2_Compression_HeatPump_AirWater_1_21,
+load_low_2_Compression_HeatPump_AirWater_1_22,
+load_low_2_Compression_HeatPump_AirWater_1_23,
+load_low_2_Compression_HeatPump_AirWater_1_24,
+load_low_2_Compression_HeatPump_AirWater_2_1,
+load_low_2_Compression_HeatPump_AirWater_2_2,
+load_low_2_Compression_HeatPump_AirWater_2_3,
+load_low_2_Compression_HeatPump_AirWater_2_4,
+load_low_2_Compression_HeatPump_AirWater_2_5,
+load_low_2_Compression_HeatPump_AirWater_2_6,
+load_low_2_Compression_HeatPump_AirWater_2_7,
+load_low_2_Compression_HeatPump_AirWater_2_8,
+load_low_2_Compression_HeatPump_AirWater_2_9,
+load_low_2_Compression_HeatPump_AirWater_2_10,
+load_low_2_Compression_HeatPump_AirWater_2_11,
+load_low_2_Compression_HeatPump_AirWater_2_12,
+load_low_2_Compression_HeatPump_AirWater_2_13,
+load_low_2_Compression_HeatPump_AirWater_2_14,
+load_low_2_Compression_HeatPump_AirWater_2_15,
+load_low_2_Compression_HeatPump_AirWater_2_16,
+load_low_2_Compression_HeatPump_AirWater_2_17,
+load_low_2_Compression_HeatPump_AirWater_2_18,
+load_low_2_Compression_HeatPump_AirWater_2_19,
+load_low_2_Compression_HeatPump_AirWater_2_20,
+load_low_2_Compression_HeatPump_AirWater_2_21,
+load_low_2_Compression_HeatPump_AirWater_2_22,
+load_low_2_Compression_HeatPump_AirWater_2_23,
+load_low_2_Compression_HeatPump_AirWater_2_24,
+load_high_AuxiliaryBoilerHT_1_1,
+load_high_AuxiliaryBoilerHT_1_2,
+load_high_AuxiliaryBoilerHT_1_3,
+load_high_AuxiliaryBoilerHT_1_4,
+load_high_AuxiliaryBoilerHT_1_5,
+load_high_AuxiliaryBoilerHT_1_6,
+load_high_AuxiliaryBoilerHT_1_7,
+load_high_AuxiliaryBoilerHT_1_8,
+load_high_AuxiliaryBoilerHT_1_9,
+load_high_AuxiliaryBoilerHT_1_10,
+load_high_AuxiliaryBoilerHT_1_11,
+load_high_AuxiliaryBoilerHT_1_12,
+load_high_AuxiliaryBoilerHT_1_13,
+load_high_AuxiliaryBoilerHT_1_14,
+load_high_AuxiliaryBoilerHT_1_15,
+load_high_AuxiliaryBoilerHT_1_16,
+load_high_AuxiliaryBoilerHT_1_17,
+load_high_AuxiliaryBoilerHT_1_18,
+load_high_AuxiliaryBoilerHT_1_19,
+load_high_AuxiliaryBoilerHT_1_20,
+load_high_AuxiliaryBoilerHT_1_21,
+load_high_AuxiliaryBoilerHT_1_22,
+load_high_AuxiliaryBoilerHT_1_23,
+load_high_AuxiliaryBoilerHT_1_24,
+load_high_AuxiliaryBoilerHT_2_1,
+load_high_AuxiliaryBoilerHT_2_2,
+load_high_AuxiliaryBoilerHT_2_3,
+load_high_AuxiliaryBoilerHT_2_4,
+load_high_AuxiliaryBoilerHT_2_5,
+load_high_AuxiliaryBoilerHT_2_6,
+load_high_AuxiliaryBoilerHT_2_7,
+load_high_AuxiliaryBoilerHT_2_8,
+load_high_AuxiliaryBoilerHT_2_9,
+load_high_AuxiliaryBoilerHT_2_10,
+load_high_AuxiliaryBoilerHT_2_11,
+load_high_AuxiliaryBoilerHT_2_12,
+load_high_AuxiliaryBoilerHT_2_13,
+load_high_AuxiliaryBoilerHT_2_14,
+load_high_AuxiliaryBoilerHT_2_15,
+load_high_AuxiliaryBoilerHT_2_16,
+load_high_AuxiliaryBoilerHT_2_17,
+load_high_AuxiliaryBoilerHT_2_18,
+load_high_AuxiliaryBoilerHT_2_19,
+load_high_AuxiliaryBoilerHT_2_20,
+load_high_AuxiliaryBoilerHT_2_21,
+load_high_AuxiliaryBoilerHT_2_22,
+load_high_AuxiliaryBoilerHT_2_23,
+load_high_AuxiliaryBoilerHT_2_24,
+load_high_FuelCell_1_1,
+load_high_FuelCell_1_2,
+load_high_FuelCell_1_3,
+load_high_FuelCell_1_4,
+load_high_FuelCell_1_5,
+load_high_FuelCell_1_6,
+load_high_FuelCell_1_7,
+load_high_FuelCell_1_8,
+load_high_FuelCell_1_9,
+load_high_FuelCell_1_10,
+load_high_FuelCell_1_11,
+load_high_FuelCell_1_12,
+load_high_FuelCell_1_13,
+load_high_FuelCell_1_14,
+load_high_FuelCell_1_15,
+load_high_FuelCell_1_16,
+load_high_FuelCell_1_17,
+load_high_FuelCell_1_18,
+load_high_FuelCell_1_19,
+load_high_FuelCell_1_20,
+load_high_FuelCell_1_21,
+load_high_FuelCell_1_22,
+load_high_FuelCell_1_23,
+load_high_FuelCell_1_24,
+load_high_FuelCell_2_1,
+load_high_FuelCell_2_2,
+load_high_FuelCell_2_3,
+load_high_FuelCell_2_4,
+load_high_FuelCell_2_5,
+load_high_FuelCell_2_6,
+load_high_FuelCell_2_7,
+load_high_FuelCell_2_8,
+load_high_FuelCell_2_9,
+load_high_FuelCell_2_10,
+load_high_FuelCell_2_11,
+load_high_FuelCell_2_12,
+load_high_FuelCell_2_13,
+load_high_FuelCell_2_14,
+load_high_FuelCell_2_15,
+load_high_FuelCell_2_16,
+load_high_FuelCell_2_17,
+load_high_FuelCell_2_18,
+load_high_FuelCell_2_19,
+load_high_FuelCell_2_20,
+load_high_FuelCell_2_21,
+load_high_FuelCell_2_22,
+load_high_FuelCell_2_23,
+load_high_FuelCell_2_24,
+load_high_2_AuxiliaryBoilerHT_1_1,
+load_high_2_AuxiliaryBoilerHT_1_2,
+load_high_2_AuxiliaryBoilerHT_1_3,
+load_high_2_AuxiliaryBoilerHT_1_4,
+load_high_2_AuxiliaryBoilerHT_1_5,
+load_high_2_AuxiliaryBoilerHT_1_6,
+load_high_2_AuxiliaryBoilerHT_1_7,
+load_high_2_AuxiliaryBoilerHT_1_8,
+load_high_2_AuxiliaryBoilerHT_1_9,
+load_high_2_AuxiliaryBoilerHT_1_10,
+load_high_2_AuxiliaryBoilerHT_1_11,
+load_high_2_AuxiliaryBoilerHT_1_12,
+load_high_2_AuxiliaryBoilerHT_1_13,
+load_high_2_AuxiliaryBoilerHT_1_14,
+load_high_2_AuxiliaryBoilerHT_1_15,
+load_high_2_AuxiliaryBoilerHT_1_16,
+load_high_2_AuxiliaryBoilerHT_1_17,
+load_high_2_AuxiliaryBoilerHT_1_18,
+load_high_2_AuxiliaryBoilerHT_1_19,
+load_high_2_AuxiliaryBoilerHT_1_20,
+load_high_2_AuxiliaryBoilerHT_1_21,
+load_high_2_AuxiliaryBoilerHT_1_22,
+load_high_2_AuxiliaryBoilerHT_1_23,
+load_high_2_AuxiliaryBoilerHT_1_24,
+load_high_2_AuxiliaryBoilerHT_2_1,
+load_high_2_AuxiliaryBoilerHT_2_2,
+load_high_2_AuxiliaryBoilerHT_2_3,
+load_high_2_AuxiliaryBoilerHT_2_4,
+load_high_2_AuxiliaryBoilerHT_2_5,
+load_high_2_AuxiliaryBoilerHT_2_6,
+load_high_2_AuxiliaryBoilerHT_2_7,
+load_high_2_AuxiliaryBoilerHT_2_8,
+load_high_2_AuxiliaryBoilerHT_2_9,
+load_high_2_AuxiliaryBoilerHT_2_10,
+load_high_2_AuxiliaryBoilerHT_2_11,
+load_high_2_AuxiliaryBoilerHT_2_12,
+load_high_2_AuxiliaryBoilerHT_2_13,
+load_high_2_AuxiliaryBoilerHT_2_14,
+load_high_2_AuxiliaryBoilerHT_2_15,
+load_high_2_AuxiliaryBoilerHT_2_16,
+load_high_2_AuxiliaryBoilerHT_2_17,
+load_high_2_AuxiliaryBoilerHT_2_18,
+load_high_2_AuxiliaryBoilerHT_2_19,
+load_high_2_AuxiliaryBoilerHT_2_20,
+load_high_2_AuxiliaryBoilerHT_2_21,
+load_high_2_AuxiliaryBoilerHT_2_22,
+load_high_2_AuxiliaryBoilerHT_2_23,
+load_high_2_AuxiliaryBoilerHT_2_24,
+load_high_2_FuelCell_1_1,
+load_high_2_FuelCell_1_2,
+load_high_2_FuelCell_1_3,
+load_high_2_FuelCell_1_4,
+load_high_2_FuelCell_1_5,
+load_high_2_FuelCell_1_6,
+load_high_2_FuelCell_1_7,
+load_high_2_FuelCell_1_8,
+load_high_2_FuelCell_1_9,
+load_high_2_FuelCell_1_10,
+load_high_2_FuelCell_1_11,
+load_high_2_FuelCell_1_12,
+load_high_2_FuelCell_1_13,
+load_high_2_FuelCell_1_14,
+load_high_2_FuelCell_1_15,
+load_high_2_FuelCell_1_16,
+load_high_2_FuelCell_1_17,
+load_high_2_FuelCell_1_18,
+load_high_2_FuelCell_1_19,
+load_high_2_FuelCell_1_20,
+load_high_2_FuelCell_1_21,
+load_high_2_FuelCell_1_22,
+load_high_2_FuelCell_1_23,
+load_high_2_FuelCell_1_24,
+load_high_2_FuelCell_2_1,
+load_high_2_FuelCell_2_2,
+load_high_2_FuelCell_2_3,
+load_high_2_FuelCell_2_4,
+load_high_2_FuelCell_2_5,
+load_high_2_FuelCell_2_6,
+load_high_2_FuelCell_2_7,
+load_high_2_FuelCell_2_8,
+load_high_2_FuelCell_2_9,
+load_high_2_FuelCell_2_10,
+load_high_2_FuelCell_2_11,
+load_high_2_FuelCell_2_12,
+load_high_2_FuelCell_2_13,
+load_high_2_FuelCell_2_14,
+load_high_2_FuelCell_2_15,
+load_high_2_FuelCell_2_16,
+load_high_2_FuelCell_2_17,
+load_high_2_FuelCell_2_18,
+load_high_2_FuelCell_2_19,
+load_high_2_FuelCell_2_20,
+load_high_2_FuelCell_2_21,
+load_high_2_FuelCell_2_22,
+load_high_2_FuelCell_2_23,
+load_high_2_FuelCell_2_24,
+low_hp_Compression_HeatPump_AirWater_1_1,
+low_hp_Compression_HeatPump_AirWater_1_2,
+low_hp_Compression_HeatPump_AirWater_1_3,
+low_hp_Compression_HeatPump_AirWater_1_4,
+low_hp_Compression_HeatPump_AirWater_1_5,
+low_hp_Compression_HeatPump_AirWater_1_6,
+low_hp_Compression_HeatPump_AirWater_1_7,
+low_hp_Compression_HeatPump_AirWater_1_8,
+low_hp_Compression_HeatPump_AirWater_1_9,
+low_hp_Compression_HeatPump_AirWater_1_10,
+low_hp_Compression_HeatPump_AirWater_1_11,
+low_hp_Compression_HeatPump_AirWater_1_12,
+low_hp_Compression_HeatPump_AirWater_1_13,
+low_hp_Compression_HeatPump_AirWater_1_14,
+low_hp_Compression_HeatPump_AirWater_1_15,
+low_hp_Compression_HeatPump_AirWater_1_16,
+low_hp_Compression_HeatPump_AirWater_1_17,
+low_hp_Compression_HeatPump_AirWater_1_18,
+low_hp_Compression_HeatPump_AirWater_1_19,
+low_hp_Compression_HeatPump_AirWater_1_20,
+low_hp_Compression_HeatPump_AirWater_1_21,
+low_hp_Compression_HeatPump_AirWater_1_22,
+low_hp_Compression_HeatPump_AirWater_1_23,
+low_hp_Compression_HeatPump_AirWater_1_24,
+low_hp_Compression_HeatPump_AirWater_2_1,
+low_hp_Compression_HeatPump_AirWater_2_2,
+low_hp_Compression_HeatPump_AirWater_2_3,
+low_hp_Compression_HeatPump_AirWater_2_4,
+low_hp_Compression_HeatPump_AirWater_2_5,
+low_hp_Compression_HeatPump_AirWater_2_6,
+low_hp_Compression_HeatPump_AirWater_2_7,
+low_hp_Compression_HeatPump_AirWater_2_8,
+low_hp_Compression_HeatPump_AirWater_2_9,
+low_hp_Compression_HeatPump_AirWater_2_10,
+low_hp_Compression_HeatPump_AirWater_2_11,
+low_hp_Compression_HeatPump_AirWater_2_12,
+low_hp_Compression_HeatPump_AirWater_2_13,
+low_hp_Compression_HeatPump_AirWater_2_14,
+low_hp_Compression_HeatPump_AirWater_2_15,
+low_hp_Compression_HeatPump_AirWater_2_16,
+low_hp_Compression_HeatPump_AirWater_2_17,
+low_hp_Compression_HeatPump_AirWater_2_18,
+low_hp_Compression_HeatPump_AirWater_2_19,
+low_hp_Compression_HeatPump_AirWater_2_20,
+low_hp_Compression_HeatPump_AirWater_2_21,
+low_hp_Compression_HeatPump_AirWater_2_22,
+low_hp_Compression_HeatPump_AirWater_2_23,
+low_hp_Compression_HeatPump_AirWater_2_24,
+low_ice_FuelCell_1_1,
+low_ice_FuelCell_1_2,
+low_ice_FuelCell_1_3,
+low_ice_FuelCell_1_4,
+low_ice_FuelCell_1_5,
+low_ice_FuelCell_1_6,
+low_ice_FuelCell_1_7,
+low_ice_FuelCell_1_8,
+low_ice_FuelCell_1_9,
+low_ice_FuelCell_1_10,
+low_ice_FuelCell_1_11,
+low_ice_FuelCell_1_12,
+low_ice_FuelCell_1_13,
+low_ice_FuelCell_1_14,
+low_ice_FuelCell_1_15,
+low_ice_FuelCell_1_16,
+low_ice_FuelCell_1_17,
+low_ice_FuelCell_1_18,
+low_ice_FuelCell_1_19,
+low_ice_FuelCell_1_20,
+low_ice_FuelCell_1_21,
+low_ice_FuelCell_1_22,
+low_ice_FuelCell_1_23,
+low_ice_FuelCell_1_24,
+low_ice_FuelCell_2_1,
+low_ice_FuelCell_2_2,
+low_ice_FuelCell_2_3,
+low_ice_FuelCell_2_4,
+low_ice_FuelCell_2_5,
+low_ice_FuelCell_2_6,
+low_ice_FuelCell_2_7,
+low_ice_FuelCell_2_8,
+low_ice_FuelCell_2_9,
+low_ice_FuelCell_2_10,
+low_ice_FuelCell_2_11,
+low_ice_FuelCell_2_12,
+low_ice_FuelCell_2_13,
+low_ice_FuelCell_2_14,
+low_ice_FuelCell_2_15,
+low_ice_FuelCell_2_16,
+low_ice_FuelCell_2_17,
+low_ice_FuelCell_2_18,
+low_ice_FuelCell_2_19,
+low_ice_FuelCell_2_20,
+low_ice_FuelCell_2_21,
+low_ice_FuelCell_2_22,
+low_ice_FuelCell_2_23,
+low_ice_FuelCell_2_24,
+high_ice_FuelCell_1_1,
+high_ice_FuelCell_1_2,
+high_ice_FuelCell_1_3,
+high_ice_FuelCell_1_4,
+high_ice_FuelCell_1_5,
+high_ice_FuelCell_1_6,
+high_ice_FuelCell_1_7,
+high_ice_FuelCell_1_8,
+high_ice_FuelCell_1_9,
+high_ice_FuelCell_1_10,
+high_ice_FuelCell_1_11,
+high_ice_FuelCell_1_12,
+high_ice_FuelCell_1_13,
+high_ice_FuelCell_1_14,
+high_ice_FuelCell_1_15,
+high_ice_FuelCell_1_16,
+high_ice_FuelCell_1_17,
+high_ice_FuelCell_1_18,
+high_ice_FuelCell_1_19,
+high_ice_FuelCell_1_20,
+high_ice_FuelCell_1_21,
+high_ice_FuelCell_1_22,
+high_ice_FuelCell_1_23,
+high_ice_FuelCell_1_24,
+high_ice_FuelCell_2_1,
+high_ice_FuelCell_2_2,
+high_ice_FuelCell_2_3,
+high_ice_FuelCell_2_4,
+high_ice_FuelCell_2_5,
+high_ice_FuelCell_2_6,
+high_ice_FuelCell_2_7,
+high_ice_FuelCell_2_8,
+high_ice_FuelCell_2_9,
+high_ice_FuelCell_2_10,
+high_ice_FuelCell_2_11,
+high_ice_FuelCell_2_12,
+high_ice_FuelCell_2_13,
+high_ice_FuelCell_2_14,
+high_ice_FuelCell_2_15,
+high_ice_FuelCell_2_16,
+high_ice_FuelCell_2_17,
+high_ice_FuelCell_2_18,
+high_ice_FuelCell_2_19,
+high_ice_FuelCell_2_20,
+high_ice_FuelCell_2_21,
+high_ice_FuelCell_2_22,
+high_ice_FuelCell_2_23,
+high_ice_FuelCell_2_24,
+power_ice_FuelCell_1_1,
+power_ice_FuelCell_1_2,
+power_ice_FuelCell_1_3,
+power_ice_FuelCell_1_4,
+power_ice_FuelCell_1_5,
+power_ice_FuelCell_1_6,
+power_ice_FuelCell_1_7,
+power_ice_FuelCell_1_8,
+power_ice_FuelCell_1_9,
+power_ice_FuelCell_1_10,
+power_ice_FuelCell_1_11,
+power_ice_FuelCell_1_12,
+power_ice_FuelCell_1_13,
+power_ice_FuelCell_1_14,
+power_ice_FuelCell_1_15,
+power_ice_FuelCell_1_16,
+power_ice_FuelCell_1_17,
+power_ice_FuelCell_1_18,
+power_ice_FuelCell_1_19,
+power_ice_FuelCell_1_20,
+power_ice_FuelCell_1_21,
+power_ice_FuelCell_1_22,
+power_ice_FuelCell_1_23,
+power_ice_FuelCell_1_24,
+power_ice_FuelCell_2_1,
+power_ice_FuelCell_2_2,
+power_ice_FuelCell_2_3,
+power_ice_FuelCell_2_4,
+power_ice_FuelCell_2_5,
+power_ice_FuelCell_2_6,
+power_ice_FuelCell_2_7,
+power_ice_FuelCell_2_8,
+power_ice_FuelCell_2_9,
+power_ice_FuelCell_2_10,
+power_ice_FuelCell_2_11,
+power_ice_FuelCell_2_12,
+power_ice_FuelCell_2_13,
+power_ice_FuelCell_2_14,
+power_ice_FuelCell_2_15,
+power_ice_FuelCell_2_16,
+power_ice_FuelCell_2_17,
+power_ice_FuelCell_2_18,
+power_ice_FuelCell_2_19,
+power_ice_FuelCell_2_20,
+power_ice_FuelCell_2_21,
+power_ice_FuelCell_2_22,
+power_ice_FuelCell_2_23,
+power_ice_FuelCell_2_24,
+high_ab_AuxiliaryBoilerHT_1_1,
+high_ab_AuxiliaryBoilerHT_1_2,
+high_ab_AuxiliaryBoilerHT_1_3,
+high_ab_AuxiliaryBoilerHT_1_4,
+high_ab_AuxiliaryBoilerHT_1_5,
+high_ab_AuxiliaryBoilerHT_1_6,
+high_ab_AuxiliaryBoilerHT_1_7,
+high_ab_AuxiliaryBoilerHT_1_8,
+high_ab_AuxiliaryBoilerHT_1_9,
+high_ab_AuxiliaryBoilerHT_1_10,
+high_ab_AuxiliaryBoilerHT_1_11,
+high_ab_AuxiliaryBoilerHT_1_12,
+high_ab_AuxiliaryBoilerHT_1_13,
+high_ab_AuxiliaryBoilerHT_1_14,
+high_ab_AuxiliaryBoilerHT_1_15,
+high_ab_AuxiliaryBoilerHT_1_16,
+high_ab_AuxiliaryBoilerHT_1_17,
+high_ab_AuxiliaryBoilerHT_1_18,
+high_ab_AuxiliaryBoilerHT_1_19,
+high_ab_AuxiliaryBoilerHT_1_20,
+high_ab_AuxiliaryBoilerHT_1_21,
+high_ab_AuxiliaryBoilerHT_1_22,
+high_ab_AuxiliaryBoilerHT_1_23,
+high_ab_AuxiliaryBoilerHT_1_24,
+high_ab_AuxiliaryBoilerHT_2_1,
+high_ab_AuxiliaryBoilerHT_2_2,
+high_ab_AuxiliaryBoilerHT_2_3,
+high_ab_AuxiliaryBoilerHT_2_4,
+high_ab_AuxiliaryBoilerHT_2_5,
+high_ab_AuxiliaryBoilerHT_2_6,
+high_ab_AuxiliaryBoilerHT_2_7,
+high_ab_AuxiliaryBoilerHT_2_8,
+high_ab_AuxiliaryBoilerHT_2_9,
+high_ab_AuxiliaryBoilerHT_2_10,
+high_ab_AuxiliaryBoilerHT_2_11,
+high_ab_AuxiliaryBoilerHT_2_12,
+high_ab_AuxiliaryBoilerHT_2_13,
+high_ab_AuxiliaryBoilerHT_2_14,
+high_ab_AuxiliaryBoilerHT_2_15,
+high_ab_AuxiliaryBoilerHT_2_16,
+high_ab_AuxiliaryBoilerHT_2_17,
+high_ab_AuxiliaryBoilerHT_2_18,
+high_ab_AuxiliaryBoilerHT_2_19,
+high_ab_AuxiliaryBoilerHT_2_20,
+high_ab_AuxiliaryBoilerHT_2_21,
+high_ab_AuxiliaryBoilerHT_2_22,
+high_ab_AuxiliaryBoilerHT_2_23,
+high_ab_AuxiliaryBoilerHT_2_24,
+low_hp_M_Compression_HeatPump_AirWater_1_1,
+low_hp_M_Compression_HeatPump_AirWater_1_2,
+low_hp_M_Compression_HeatPump_AirWater_1_3,
+low_hp_M_Compression_HeatPump_AirWater_1_4,
+low_hp_M_Compression_HeatPump_AirWater_1_5,
+low_hp_M_Compression_HeatPump_AirWater_1_6,
+low_hp_M_Compression_HeatPump_AirWater_1_7,
+low_hp_M_Compression_HeatPump_AirWater_1_8,
+low_hp_M_Compression_HeatPump_AirWater_1_9,
+low_hp_M_Compression_HeatPump_AirWater_1_10,
+low_hp_M_Compression_HeatPump_AirWater_1_11,
+low_hp_M_Compression_HeatPump_AirWater_1_12,
+low_hp_M_Compression_HeatPump_AirWater_1_13,
+low_hp_M_Compression_HeatPump_AirWater_1_14,
+low_hp_M_Compression_HeatPump_AirWater_1_15,
+low_hp_M_Compression_HeatPump_AirWater_1_16,
+low_hp_M_Compression_HeatPump_AirWater_1_17,
+low_hp_M_Compression_HeatPump_AirWater_1_18,
+low_hp_M_Compression_HeatPump_AirWater_1_19,
+low_hp_M_Compression_HeatPump_AirWater_1_20,
+low_hp_M_Compression_HeatPump_AirWater_1_21,
+low_hp_M_Compression_HeatPump_AirWater_1_22,
+low_hp_M_Compression_HeatPump_AirWater_1_23,
+low_hp_M_Compression_HeatPump_AirWater_1_24,
+low_hp_M_Compression_HeatPump_AirWater_2_1,
+low_hp_M_Compression_HeatPump_AirWater_2_2,
+low_hp_M_Compression_HeatPump_AirWater_2_3,
+low_hp_M_Compression_HeatPump_AirWater_2_4,
+low_hp_M_Compression_HeatPump_AirWater_2_5,
+low_hp_M_Compression_HeatPump_AirWater_2_6,
+low_hp_M_Compression_HeatPump_AirWater_2_7,
+low_hp_M_Compression_HeatPump_AirWater_2_8,
+low_hp_M_Compression_HeatPump_AirWater_2_9,
+low_hp_M_Compression_HeatPump_AirWater_2_10,
+low_hp_M_Compression_HeatPump_AirWater_2_11,
+low_hp_M_Compression_HeatPump_AirWater_2_12,
+low_hp_M_Compression_HeatPump_AirWater_2_13,
+low_hp_M_Compression_HeatPump_AirWater_2_14,
+low_hp_M_Compression_HeatPump_AirWater_2_15,
+low_hp_M_Compression_HeatPump_AirWater_2_16,
+low_hp_M_Compression_HeatPump_AirWater_2_17,
+low_hp_M_Compression_HeatPump_AirWater_2_18,
+low_hp_M_Compression_HeatPump_AirWater_2_19,
+low_hp_M_Compression_HeatPump_AirWater_2_20,
+low_hp_M_Compression_HeatPump_AirWater_2_21,
+low_hp_M_Compression_HeatPump_AirWater_2_22,
+low_hp_M_Compression_HeatPump_AirWater_2_23,
+low_hp_M_Compression_HeatPump_AirWater_2_24,
+low_ice_M_FuelCell_1_1,
+low_ice_M_FuelCell_1_2,
+low_ice_M_FuelCell_1_3,
+low_ice_M_FuelCell_1_4,
+low_ice_M_FuelCell_1_5,
+low_ice_M_FuelCell_1_6,
+low_ice_M_FuelCell_1_7,
+low_ice_M_FuelCell_1_8,
+low_ice_M_FuelCell_1_9,
+low_ice_M_FuelCell_1_10,
+low_ice_M_FuelCell_1_11,
+low_ice_M_FuelCell_1_12,
+low_ice_M_FuelCell_1_13,
+low_ice_M_FuelCell_1_14,
+low_ice_M_FuelCell_1_15,
+low_ice_M_FuelCell_1_16,
+low_ice_M_FuelCell_1_17,
+low_ice_M_FuelCell_1_18,
+low_ice_M_FuelCell_1_19,
+low_ice_M_FuelCell_1_20,
+low_ice_M_FuelCell_1_21,
+low_ice_M_FuelCell_1_22,
+low_ice_M_FuelCell_1_23,
+low_ice_M_FuelCell_1_24,
+low_ice_M_FuelCell_2_1,
+low_ice_M_FuelCell_2_2,
+low_ice_M_FuelCell_2_3,
+low_ice_M_FuelCell_2_4,
+low_ice_M_FuelCell_2_5,
+low_ice_M_FuelCell_2_6,
+low_ice_M_FuelCell_2_7,
+low_ice_M_FuelCell_2_8,
+low_ice_M_FuelCell_2_9,
+low_ice_M_FuelCell_2_10,
+low_ice_M_FuelCell_2_11,
+low_ice_M_FuelCell_2_12,
+low_ice_M_FuelCell_2_13,
+low_ice_M_FuelCell_2_14,
+low_ice_M_FuelCell_2_15,
+low_ice_M_FuelCell_2_16,
+low_ice_M_FuelCell_2_17,
+low_ice_M_FuelCell_2_18,
+low_ice_M_FuelCell_2_19,
+low_ice_M_FuelCell_2_20,
+low_ice_M_FuelCell_2_21,
+low_ice_M_FuelCell_2_22,
+low_ice_M_FuelCell_2_23,
+low_ice_M_FuelCell_2_24,
+high_ice_M_FuelCell_1_1,
+high_ice_M_FuelCell_1_2,
+high_ice_M_FuelCell_1_3,
+high_ice_M_FuelCell_1_4,
+high_ice_M_FuelCell_1_5,
+high_ice_M_FuelCell_1_6,
+high_ice_M_FuelCell_1_7,
+high_ice_M_FuelCell_1_8,
+high_ice_M_FuelCell_1_9,
+high_ice_M_FuelCell_1_10,
+high_ice_M_FuelCell_1_11,
+high_ice_M_FuelCell_1_12,
+high_ice_M_FuelCell_1_13,
+high_ice_M_FuelCell_1_14,
+high_ice_M_FuelCell_1_15,
+high_ice_M_FuelCell_1_16,
+high_ice_M_FuelCell_1_17,
+high_ice_M_FuelCell_1_18,
+high_ice_M_FuelCell_1_19,
+high_ice_M_FuelCell_1_20,
+high_ice_M_FuelCell_1_21,
+high_ice_M_FuelCell_1_22,
+high_ice_M_FuelCell_1_23,
+high_ice_M_FuelCell_1_24,
+high_ice_M_FuelCell_2_1,
+high_ice_M_FuelCell_2_2,
+high_ice_M_FuelCell_2_3,
+high_ice_M_FuelCell_2_4,
+high_ice_M_FuelCell_2_5,
+high_ice_M_FuelCell_2_6,
+high_ice_M_FuelCell_2_7,
+high_ice_M_FuelCell_2_8,
+high_ice_M_FuelCell_2_9,
+high_ice_M_FuelCell_2_10,
+high_ice_M_FuelCell_2_11,
+high_ice_M_FuelCell_2_12,
+high_ice_M_FuelCell_2_13,
+high_ice_M_FuelCell_2_14,
+high_ice_M_FuelCell_2_15,
+high_ice_M_FuelCell_2_16,
+high_ice_M_FuelCell_2_17,
+high_ice_M_FuelCell_2_18,
+high_ice_M_FuelCell_2_19,
+high_ice_M_FuelCell_2_20,
+high_ice_M_FuelCell_2_21,
+high_ice_M_FuelCell_2_22,
+high_ice_M_FuelCell_2_23,
+high_ice_M_FuelCell_2_24,
+power_ice_M_FuelCell_1_1,
+power_ice_M_FuelCell_1_2,
+power_ice_M_FuelCell_1_3,
+power_ice_M_FuelCell_1_4,
+power_ice_M_FuelCell_1_5,
+power_ice_M_FuelCell_1_6,
+power_ice_M_FuelCell_1_7,
+power_ice_M_FuelCell_1_8,
+power_ice_M_FuelCell_1_9,
+power_ice_M_FuelCell_1_10,
+power_ice_M_FuelCell_1_11,
+power_ice_M_FuelCell_1_12,
+power_ice_M_FuelCell_1_13,
+power_ice_M_FuelCell_1_14,
+power_ice_M_FuelCell_1_15,
+power_ice_M_FuelCell_1_16,
+power_ice_M_FuelCell_1_17,
+power_ice_M_FuelCell_1_18,
+power_ice_M_FuelCell_1_19,
+power_ice_M_FuelCell_1_20,
+power_ice_M_FuelCell_1_21,
+power_ice_M_FuelCell_1_22,
+power_ice_M_FuelCell_1_23,
+power_ice_M_FuelCell_1_24,
+power_ice_M_FuelCell_2_1,
+power_ice_M_FuelCell_2_2,
+power_ice_M_FuelCell_2_3,
+power_ice_M_FuelCell_2_4,
+power_ice_M_FuelCell_2_5,
+power_ice_M_FuelCell_2_6,
+power_ice_M_FuelCell_2_7,
+power_ice_M_FuelCell_2_8,
+power_ice_M_FuelCell_2_9,
+power_ice_M_FuelCell_2_10,
+power_ice_M_FuelCell_2_11,
+power_ice_M_FuelCell_2_12,
+power_ice_M_FuelCell_2_13,
+power_ice_M_FuelCell_2_14,
+power_ice_M_FuelCell_2_15,
+power_ice_M_FuelCell_2_16,
+power_ice_M_FuelCell_2_17,
+power_ice_M_FuelCell_2_18,
+power_ice_M_FuelCell_2_19,
+power_ice_M_FuelCell_2_20,
+power_ice_M_FuelCell_2_21,
+power_ice_M_FuelCell_2_22,
+power_ice_M_FuelCell_2_23,
+power_ice_M_FuelCell_2_24,
+high_ab_M_AuxiliaryBoilerHT_1_1,
+high_ab_M_AuxiliaryBoilerHT_1_2,
+high_ab_M_AuxiliaryBoilerHT_1_3,
+high_ab_M_AuxiliaryBoilerHT_1_4,
+high_ab_M_AuxiliaryBoilerHT_1_5,
+high_ab_M_AuxiliaryBoilerHT_1_6,
+high_ab_M_AuxiliaryBoilerHT_1_7,
+high_ab_M_AuxiliaryBoilerHT_1_8,
+high_ab_M_AuxiliaryBoilerHT_1_9,
+high_ab_M_AuxiliaryBoilerHT_1_10,
+high_ab_M_AuxiliaryBoilerHT_1_11,
+high_ab_M_AuxiliaryBoilerHT_1_12,
+high_ab_M_AuxiliaryBoilerHT_1_13,
+high_ab_M_AuxiliaryBoilerHT_1_14,
+high_ab_M_AuxiliaryBoilerHT_1_15,
+high_ab_M_AuxiliaryBoilerHT_1_16,
+high_ab_M_AuxiliaryBoilerHT_1_17,
+high_ab_M_AuxiliaryBoilerHT_1_18,
+high_ab_M_AuxiliaryBoilerHT_1_19,
+high_ab_M_AuxiliaryBoilerHT_1_20,
+high_ab_M_AuxiliaryBoilerHT_1_21,
+high_ab_M_AuxiliaryBoilerHT_1_22,
+high_ab_M_AuxiliaryBoilerHT_1_23,
+high_ab_M_AuxiliaryBoilerHT_1_24,
+high_ab_M_AuxiliaryBoilerHT_2_1,
+high_ab_M_AuxiliaryBoilerHT_2_2,
+high_ab_M_AuxiliaryBoilerHT_2_3,
+high_ab_M_AuxiliaryBoilerHT_2_4,
+high_ab_M_AuxiliaryBoilerHT_2_5,
+high_ab_M_AuxiliaryBoilerHT_2_6,
+high_ab_M_AuxiliaryBoilerHT_2_7,
+high_ab_M_AuxiliaryBoilerHT_2_8,
+high_ab_M_AuxiliaryBoilerHT_2_9,
+high_ab_M_AuxiliaryBoilerHT_2_10,
+high_ab_M_AuxiliaryBoilerHT_2_11,
+high_ab_M_AuxiliaryBoilerHT_2_12,
+high_ab_M_AuxiliaryBoilerHT_2_13,
+high_ab_M_AuxiliaryBoilerHT_2_14,
+high_ab_M_AuxiliaryBoilerHT_2_15,
+high_ab_M_AuxiliaryBoilerHT_2_16,
+high_ab_M_AuxiliaryBoilerHT_2_17,
+high_ab_M_AuxiliaryBoilerHT_2_18,
+high_ab_M_AuxiliaryBoilerHT_2_19,
+high_ab_M_AuxiliaryBoilerHT_2_20,
+high_ab_M_AuxiliaryBoilerHT_2_21,
+high_ab_M_AuxiliaryBoilerHT_2_22,
+high_ab_M_AuxiliaryBoilerHT_2_23,
+high_ab_M_AuxiliaryBoilerHT_2_24;
+
+objective_function.. total_revenue =E=
+	-revenue_1_1 - revenue_1_2 - revenue_1_3 - revenue_1_4 - 
+	revenue_1_5 - revenue_1_6 - revenue_1_7 - revenue_1_8 - 
+	revenue_1_9 - revenue_1_10 - revenue_1_11 - revenue_1_12 - 
+	revenue_1_13 - revenue_1_14 - revenue_1_15 - revenue_1_16 - 
+	revenue_1_17 - revenue_1_18 - revenue_1_19 - revenue_1_20 - 
+	revenue_1_21 - revenue_1_22 - revenue_1_23 - revenue_1_24 - 
+	revenue_2_1 - revenue_2_2 - revenue_2_3 - revenue_2_4 - 
+	revenue_2_5 - revenue_2_6 - revenue_2_7 - revenue_2_8 - 
+	revenue_2_9 - revenue_2_10 - revenue_2_11 - revenue_2_12 - 
+	revenue_2_13 - revenue_2_14 - revenue_2_15 - revenue_2_16 - 
+	revenue_2_17 - revenue_2_18 - revenue_2_19 - revenue_2_20 - 
+	revenue_2_21 - revenue_2_22 - revenue_2_23 - revenue_2_24;
+
+objective_function_1_1..
+	0.07*fuel_AuxiliaryBoilerHT_1_1 + 0.07*fuel_FuelCell_1_1 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_1 - 
+	0.0701*grid_power_sold_1_1 + 0.0877*grid_power_bought_1_1 + 
+	0.9572*delta_FuelCell_1_1 + 1.4016*delta_AuxiliaryBoilerHT_1_1 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_1 + 
+	0.4*z_FuelCell_1_1 + 0.1*z_AuxiliaryBoilerHT_1_1 + 
+	0.1*z_Compression_HeatPump_AirWater_1_1 + revenue_1_1 =E= 0;
+
+objective_function_1_2..
+	0.07*fuel_AuxiliaryBoilerHT_1_2 + 0.07*fuel_FuelCell_1_2 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_2 - 
+	0.0701*grid_power_sold_1_2 + 0.0877*grid_power_bought_1_2 + 
+	0.9572*delta_FuelCell_1_2 + 1.4016*delta_AuxiliaryBoilerHT_1_2 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_2 + 
+	0.4*z_FuelCell_1_2 + 0.1*z_AuxiliaryBoilerHT_1_2 + 
+	0.1*z_Compression_HeatPump_AirWater_1_2 + revenue_1_2 =E= 0;
+
+objective_function_1_3..
+	0.07*fuel_AuxiliaryBoilerHT_1_3 + 0.07*fuel_FuelCell_1_3 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_3 - 
+	0.0701*grid_power_sold_1_3 + 0.0877*grid_power_bought_1_3 + 
+	0.9572*delta_FuelCell_1_3 + 1.4016*delta_AuxiliaryBoilerHT_1_3 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_3 + 
+	0.4*z_FuelCell_1_3 + 0.1*z_AuxiliaryBoilerHT_1_3 + 
+	0.1*z_Compression_HeatPump_AirWater_1_3 + revenue_1_3 =E= 0;
+
+objective_function_1_4..
+	0.07*fuel_AuxiliaryBoilerHT_1_4 + 0.07*fuel_FuelCell_1_4 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_4 - 
+	0.0701*grid_power_sold_1_4 + 0.0877*grid_power_bought_1_4 + 
+	0.9572*delta_FuelCell_1_4 + 1.4016*delta_AuxiliaryBoilerHT_1_4 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_4 + 
+	0.4*z_FuelCell_1_4 + 0.1*z_AuxiliaryBoilerHT_1_4 + 
+	0.1*z_Compression_HeatPump_AirWater_1_4 + revenue_1_4 =E= 0;
+
+objective_function_1_5..
+	0.07*fuel_AuxiliaryBoilerHT_1_5 + 0.07*fuel_FuelCell_1_5 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_5 - 
+	0.0701*grid_power_sold_1_5 + 0.0877*grid_power_bought_1_5 + 
+	0.9572*delta_FuelCell_1_5 + 1.4016*delta_AuxiliaryBoilerHT_1_5 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_5 + 
+	0.4*z_FuelCell_1_5 + 0.1*z_AuxiliaryBoilerHT_1_5 + 
+	0.1*z_Compression_HeatPump_AirWater_1_5 + revenue_1_5 =E= 0;
+
+objective_function_1_6..
+	0.07*fuel_AuxiliaryBoilerHT_1_6 + 0.07*fuel_FuelCell_1_6 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_6 - 
+	0.0701*grid_power_sold_1_6 + 0.0877*grid_power_bought_1_6 + 
+	0.9572*delta_FuelCell_1_6 + 1.4016*delta_AuxiliaryBoilerHT_1_6 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_6 + 
+	0.4*z_FuelCell_1_6 + 0.1*z_AuxiliaryBoilerHT_1_6 + 
+	0.1*z_Compression_HeatPump_AirWater_1_6 + revenue_1_6 =E= 0;
+
+objective_function_1_7..
+	0.07*fuel_AuxiliaryBoilerHT_1_7 + 0.07*fuel_FuelCell_1_7 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_7 - 
+	0.0701*grid_power_sold_1_7 + 0.0877*grid_power_bought_1_7 + 
+	0.9572*delta_FuelCell_1_7 + 1.4016*delta_AuxiliaryBoilerHT_1_7 + 
+	0.24556*delta_Compression_HeatPump_AirWater_1_7 + 
+	0.4*z_FuelCell_1_7 + 0.1*z_AuxiliaryBoilerHT_1_7 + 
+	0.1*z_Compression_HeatPump_AirWater_1_7 + revenue_1_7 =E= 0;
+
+objective_function_1_8..
+	0.07*fuel_AuxiliaryBoilerHT_1_8 + 0.07*fuel_FuelCell_1_8 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_8 - 
+	0.0926*grid_power_sold_1_8 + 0.1157*grid_power_bought_1_8 + 
+	0.9572*delta_FuelCell_1_8 + 1.4016*delta_AuxiliaryBoilerHT_1_8 + 
+	0.32396*delta_Compression_HeatPump_AirWater_1_8 + 
+	0.4*z_FuelCell_1_8 + 0.1*z_AuxiliaryBoilerHT_1_8 + 
+	0.1*z_Compression_HeatPump_AirWater_1_8 + revenue_1_8 =E= 0;
+
+objective_function_1_9..
+	0.07*fuel_AuxiliaryBoilerHT_1_9 + 0.07*fuel_FuelCell_1_9 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_9 - 
+	0.1262*grid_power_sold_1_9 + 0.1577*grid_power_bought_1_9 + 
+	0.9572*delta_FuelCell_1_9 + 1.4016*delta_AuxiliaryBoilerHT_1_9 + 
+	0.44156*delta_Compression_HeatPump_AirWater_1_9 + 
+	0.4*z_FuelCell_1_9 + 0.1*z_AuxiliaryBoilerHT_1_9 + 
+	0.1*z_Compression_HeatPump_AirWater_1_9 + revenue_1_9 =E= 0;
+
+objective_function_1_10..
+	0.07*fuel_AuxiliaryBoilerHT_1_10 + 0.07*fuel_FuelCell_1_10 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_10 - 
+	0.1262*grid_power_sold_1_10 + 0.1577*grid_power_bought_1_10 + 
+	0.9572*delta_FuelCell_1_10 + 1.4016*delta_AuxiliaryBoilerHT_1_10
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_10 + 
+	0.4*z_FuelCell_1_10 + 0.1*z_AuxiliaryBoilerHT_1_10 + 
+	0.1*z_Compression_HeatPump_AirWater_1_10 + revenue_1_10 =E= 0;
+
+objective_function_1_11..
+	0.07*fuel_AuxiliaryBoilerHT_1_11 + 0.07*fuel_FuelCell_1_11 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_11 - 
+	0.1262*grid_power_sold_1_11 + 0.1577*grid_power_bought_1_11 + 
+	0.9572*delta_FuelCell_1_11 + 1.4016*delta_AuxiliaryBoilerHT_1_11
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_11 + 
+	0.4*z_FuelCell_1_11 + 0.1*z_AuxiliaryBoilerHT_1_11 + 
+	0.1*z_Compression_HeatPump_AirWater_1_11 + revenue_1_11 =E= 0;
+
+objective_function_1_12..
+	0.07*fuel_AuxiliaryBoilerHT_1_12 + 0.07*fuel_FuelCell_1_12 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_12 - 
+	0.1262*grid_power_sold_1_12 + 0.1577*grid_power_bought_1_12 + 
+	0.9572*delta_FuelCell_1_12 + 1.4016*delta_AuxiliaryBoilerHT_1_12
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_12 + 
+	0.4*z_FuelCell_1_12 + 0.1*z_AuxiliaryBoilerHT_1_12 + 
+	0.1*z_Compression_HeatPump_AirWater_1_12 + revenue_1_12 =E= 0;
+
+objective_function_1_13..
+	0.07*fuel_AuxiliaryBoilerHT_1_13 + 0.07*fuel_FuelCell_1_13 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_13 - 
+	0.1262*grid_power_sold_1_13 + 0.1577*grid_power_bought_1_13 + 
+	0.9572*delta_FuelCell_1_13 + 1.4016*delta_AuxiliaryBoilerHT_1_13
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_13 + 
+	0.4*z_FuelCell_1_13 + 0.1*z_AuxiliaryBoilerHT_1_13 + 
+	0.1*z_Compression_HeatPump_AirWater_1_13 + revenue_1_13 =E= 0;
+
+objective_function_1_14..
+	0.07*fuel_AuxiliaryBoilerHT_1_14 + 0.07*fuel_FuelCell_1_14 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_14 - 
+	0.1262*grid_power_sold_1_14 + 0.1577*grid_power_bought_1_14 + 
+	0.9572*delta_FuelCell_1_14 + 1.4016*delta_AuxiliaryBoilerHT_1_14
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_14 + 
+	0.4*z_FuelCell_1_14 + 0.1*z_AuxiliaryBoilerHT_1_14 + 
+	0.1*z_Compression_HeatPump_AirWater_1_14 + revenue_1_14 =E= 0;
+
+objective_function_1_15..
+	0.07*fuel_AuxiliaryBoilerHT_1_15 + 0.07*fuel_FuelCell_1_15 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_15 - 
+	0.1262*grid_power_sold_1_15 + 0.1577*grid_power_bought_1_15 + 
+	0.9572*delta_FuelCell_1_15 + 1.4016*delta_AuxiliaryBoilerHT_1_15
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_15 + 
+	0.4*z_FuelCell_1_15 + 0.1*z_AuxiliaryBoilerHT_1_15 + 
+	0.1*z_Compression_HeatPump_AirWater_1_15 + revenue_1_15 =E= 0;
+
+objective_function_1_16..
+	0.07*fuel_AuxiliaryBoilerHT_1_16 + 0.07*fuel_FuelCell_1_16 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_16 - 
+	0.1262*grid_power_sold_1_16 + 0.1577*grid_power_bought_1_16 + 
+	0.9572*delta_FuelCell_1_16 + 1.4016*delta_AuxiliaryBoilerHT_1_16
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_16 + 
+	0.4*z_FuelCell_1_16 + 0.1*z_AuxiliaryBoilerHT_1_16 + 
+	0.1*z_Compression_HeatPump_AirWater_1_16 + revenue_1_16 =E= 0;
+
+objective_function_1_17..
+	0.07*fuel_AuxiliaryBoilerHT_1_17 + 0.07*fuel_FuelCell_1_17 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_17 - 
+	0.1262*grid_power_sold_1_17 + 0.1577*grid_power_bought_1_17 + 
+	0.9572*delta_FuelCell_1_17 + 1.4016*delta_AuxiliaryBoilerHT_1_17
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_17 + 
+	0.4*z_FuelCell_1_17 + 0.1*z_AuxiliaryBoilerHT_1_17 + 
+	0.1*z_Compression_HeatPump_AirWater_1_17 + revenue_1_17 =E= 0;
+
+objective_function_1_18..
+	0.07*fuel_AuxiliaryBoilerHT_1_18 + 0.07*fuel_FuelCell_1_18 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_18 - 
+	0.1262*grid_power_sold_1_18 + 0.1577*grid_power_bought_1_18 + 
+	0.9572*delta_FuelCell_1_18 + 1.4016*delta_AuxiliaryBoilerHT_1_18
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_18 + 
+	0.4*z_FuelCell_1_18 + 0.1*z_AuxiliaryBoilerHT_1_18 + 
+	0.1*z_Compression_HeatPump_AirWater_1_18 + revenue_1_18 =E= 0;
+
+objective_function_1_19..
+	0.07*fuel_AuxiliaryBoilerHT_1_19 + 0.07*fuel_FuelCell_1_19 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_19 - 
+	0.1262*grid_power_sold_1_19 + 0.1577*grid_power_bought_1_19 + 
+	0.9572*delta_FuelCell_1_19 + 1.4016*delta_AuxiliaryBoilerHT_1_19
+	 + 0.44156*delta_Compression_HeatPump_AirWater_1_19 + 
+	0.4*z_FuelCell_1_19 + 0.1*z_AuxiliaryBoilerHT_1_19 + 
+	0.1*z_Compression_HeatPump_AirWater_1_19 + revenue_1_19 =E= 0;
+
+objective_function_1_20..
+	0.07*fuel_AuxiliaryBoilerHT_1_20 + 0.07*fuel_FuelCell_1_20 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_20 - 
+	0.0926*grid_power_sold_1_20 + 0.1157*grid_power_bought_1_20 + 
+	0.9572*delta_FuelCell_1_20 + 1.4016*delta_AuxiliaryBoilerHT_1_20
+	 + 0.32396*delta_Compression_HeatPump_AirWater_1_20 + 
+	0.4*z_FuelCell_1_20 + 0.1*z_AuxiliaryBoilerHT_1_20 + 
+	0.1*z_Compression_HeatPump_AirWater_1_20 + revenue_1_20 =E= 0;
+
+objective_function_1_21..
+	0.07*fuel_AuxiliaryBoilerHT_1_21 + 0.07*fuel_FuelCell_1_21 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_21 - 
+	0.0926*grid_power_sold_1_21 + 0.1157*grid_power_bought_1_21 + 
+	0.9572*delta_FuelCell_1_21 + 1.4016*delta_AuxiliaryBoilerHT_1_21
+	 + 0.32396*delta_Compression_HeatPump_AirWater_1_21 + 
+	0.4*z_FuelCell_1_21 + 0.1*z_AuxiliaryBoilerHT_1_21 + 
+	0.1*z_Compression_HeatPump_AirWater_1_21 + revenue_1_21 =E= 0;
+
+objective_function_1_22..
+	0.07*fuel_AuxiliaryBoilerHT_1_22 + 0.07*fuel_FuelCell_1_22 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_22 - 
+	0.0926*grid_power_sold_1_22 + 0.1157*grid_power_bought_1_22 + 
+	0.9572*delta_FuelCell_1_22 + 1.4016*delta_AuxiliaryBoilerHT_1_22
+	 + 0.32396*delta_Compression_HeatPump_AirWater_1_22 + 
+	0.4*z_FuelCell_1_22 + 0.1*z_AuxiliaryBoilerHT_1_22 + 
+	0.1*z_Compression_HeatPump_AirWater_1_22 + revenue_1_22 =E= 0;
+
+objective_function_1_23..
+	0.07*fuel_AuxiliaryBoilerHT_1_23 + 0.07*fuel_FuelCell_1_23 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_23 - 
+	0.0926*grid_power_sold_1_23 + 0.1157*grid_power_bought_1_23 + 
+	0.9572*delta_FuelCell_1_23 + 1.4016*delta_AuxiliaryBoilerHT_1_23
+	 + 0.32396*delta_Compression_HeatPump_AirWater_1_23 + 
+	0.4*z_FuelCell_1_23 + 0.1*z_AuxiliaryBoilerHT_1_23 + 
+	0.1*z_Compression_HeatPump_AirWater_1_23 + revenue_1_23 =E= 0;
+
+objective_function_1_24..
+	0.07*fuel_AuxiliaryBoilerHT_1_24 + 0.07*fuel_FuelCell_1_24 + 
+	0.01*used_power_Compression_HeatPump_AirWater_1_24 - 
+	0.0701*grid_power_sold_1_24 + 0.0877*grid_power_bought_1_24 + 
+	0.9572*delta_FuelCell_1_24 + 1.4016*delta_AuxiliaryBoilerHT_1_24
+	 + 0.24556*delta_Compression_HeatPump_AirWater_1_24 + 
+	0.4*z_FuelCell_1_24 + 0.1*z_AuxiliaryBoilerHT_1_24 + 
+	0.1*z_Compression_HeatPump_AirWater_1_24 + revenue_1_24 =E= 0;
+
+objective_function_2_1..
+	0.07*fuel_AuxiliaryBoilerHT_2_1 + 0.07*fuel_FuelCell_2_1 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_1 - 
+	0.0801*grid_power_sold_2_1 + 0.0977*grid_power_bought_2_1 + 
+	0.9572*delta_FuelCell_2_1 + 1.4016*delta_AuxiliaryBoilerHT_2_1 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_1 + 
+	0.4*z_FuelCell_2_1 + 0.1*z_AuxiliaryBoilerHT_2_1 + 
+	0.1*z_Compression_HeatPump_AirWater_2_1 + revenue_2_1 =E= 0;
+
+objective_function_2_2..
+	0.07*fuel_AuxiliaryBoilerHT_2_2 + 0.07*fuel_FuelCell_2_2 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_2 - 
+	0.0801*grid_power_sold_2_2 + 0.0977*grid_power_bought_2_2 + 
+	0.9572*delta_FuelCell_2_2 + 1.4016*delta_AuxiliaryBoilerHT_2_2 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_2 + 
+	0.4*z_FuelCell_2_2 + 0.1*z_AuxiliaryBoilerHT_2_2 + 
+	0.1*z_Compression_HeatPump_AirWater_2_2 + revenue_2_2 =E= 0;
+
+objective_function_2_3..
+	0.07*fuel_AuxiliaryBoilerHT_2_3 + 0.07*fuel_FuelCell_2_3 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_3 - 
+	0.0801*grid_power_sold_2_3 + 0.0977*grid_power_bought_2_3 + 
+	0.9572*delta_FuelCell_2_3 + 1.4016*delta_AuxiliaryBoilerHT_2_3 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_3 + 
+	0.4*z_FuelCell_2_3 + 0.1*z_AuxiliaryBoilerHT_2_3 + 
+	0.1*z_Compression_HeatPump_AirWater_2_3 + revenue_2_3 =E= 0;
+
+objective_function_2_4..
+	0.07*fuel_AuxiliaryBoilerHT_2_4 + 0.07*fuel_FuelCell_2_4 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_4 - 
+	0.0801*grid_power_sold_2_4 + 0.0977*grid_power_bought_2_4 + 
+	0.9572*delta_FuelCell_2_4 + 1.4016*delta_AuxiliaryBoilerHT_2_4 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_4 + 
+	0.4*z_FuelCell_2_4 + 0.1*z_AuxiliaryBoilerHT_2_4 + 
+	0.1*z_Compression_HeatPump_AirWater_2_4 + revenue_2_4 =E= 0;
+
+objective_function_2_5..
+	0.07*fuel_AuxiliaryBoilerHT_2_5 + 0.07*fuel_FuelCell_2_5 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_5 - 
+	0.0801*grid_power_sold_2_5 + 0.0977*grid_power_bought_2_5 + 
+	0.9572*delta_FuelCell_2_5 + 1.4016*delta_AuxiliaryBoilerHT_2_5 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_5 + 
+	0.4*z_FuelCell_2_5 + 0.1*z_AuxiliaryBoilerHT_2_5 + 
+	0.1*z_Compression_HeatPump_AirWater_2_5 + revenue_2_5 =E= 0;
+
+objective_function_2_6..
+	0.07*fuel_AuxiliaryBoilerHT_2_6 + 0.07*fuel_FuelCell_2_6 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_6 - 
+	0.0801*grid_power_sold_2_6 + 0.0977*grid_power_bought_2_6 + 
+	0.9572*delta_FuelCell_2_6 + 1.4016*delta_AuxiliaryBoilerHT_2_6 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_6 + 
+	0.4*z_FuelCell_2_6 + 0.1*z_AuxiliaryBoilerHT_2_6 + 
+	0.1*z_Compression_HeatPump_AirWater_2_6 + revenue_2_6 =E= 0;
+
+objective_function_2_7..
+	0.07*fuel_AuxiliaryBoilerHT_2_7 + 0.07*fuel_FuelCell_2_7 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_7 - 
+	0.0801*grid_power_sold_2_7 + 0.0977*grid_power_bought_2_7 + 
+	0.9572*delta_FuelCell_2_7 + 1.4016*delta_AuxiliaryBoilerHT_2_7 + 
+	0.27356*delta_Compression_HeatPump_AirWater_2_7 + 
+	0.4*z_FuelCell_2_7 + 0.1*z_AuxiliaryBoilerHT_2_7 + 
+	0.1*z_Compression_HeatPump_AirWater_2_7 + revenue_2_7 =E= 0;
+
+objective_function_2_8..
+	0.07*fuel_AuxiliaryBoilerHT_2_8 + 0.07*fuel_FuelCell_2_8 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_8 - 
+	0.0926*grid_power_sold_2_8 + 0.1957*grid_power_bought_2_8 + 
+	0.9572*delta_FuelCell_2_8 + 1.4016*delta_AuxiliaryBoilerHT_2_8 + 
+	0.54796*delta_Compression_HeatPump_AirWater_2_8 + 
+	0.4*z_FuelCell_2_8 + 0.1*z_AuxiliaryBoilerHT_2_8 + 
+	0.1*z_Compression_HeatPump_AirWater_2_8 + revenue_2_8 =E= 0;
+
+objective_function_2_9..
+	0.07*fuel_AuxiliaryBoilerHT_2_9 + 0.07*fuel_FuelCell_2_9 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_9 - 
+	0.1262*grid_power_sold_2_9 + 0.1577*grid_power_bought_2_9 + 
+	0.9572*delta_FuelCell_2_9 + 1.4016*delta_AuxiliaryBoilerHT_2_9 + 
+	0.44156*delta_Compression_HeatPump_AirWater_2_9 + 
+	0.4*z_FuelCell_2_9 + 0.1*z_AuxiliaryBoilerHT_2_9 + 
+	0.1*z_Compression_HeatPump_AirWater_2_9 + revenue_2_9 =E= 0;
+
+objective_function_2_10..
+	0.07*fuel_AuxiliaryBoilerHT_2_10 + 0.07*fuel_FuelCell_2_10 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_10 - 
+	0.1262*grid_power_sold_2_10 + 0.1577*grid_power_bought_2_10 + 
+	0.9572*delta_FuelCell_2_10 + 1.4016*delta_AuxiliaryBoilerHT_2_10
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_10 + 
+	0.4*z_FuelCell_2_10 + 0.1*z_AuxiliaryBoilerHT_2_10 + 
+	0.1*z_Compression_HeatPump_AirWater_2_10 + revenue_2_10 =E= 0;
+
+objective_function_2_11..
+	0.07*fuel_AuxiliaryBoilerHT_2_11 + 0.07*fuel_FuelCell_2_11 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_11 - 
+	0.1262*grid_power_sold_2_11 + 0.1577*grid_power_bought_2_11 + 
+	0.9572*delta_FuelCell_2_11 + 1.4016*delta_AuxiliaryBoilerHT_2_11
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_11 + 
+	0.4*z_FuelCell_2_11 + 0.1*z_AuxiliaryBoilerHT_2_11 + 
+	0.1*z_Compression_HeatPump_AirWater_2_11 + revenue_2_11 =E= 0;
+
+objective_function_2_12..
+	0.07*fuel_AuxiliaryBoilerHT_2_12 + 0.07*fuel_FuelCell_2_12 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_12 - 
+	0.1362*grid_power_sold_2_12 + 0.1677*grid_power_bought_2_12 + 
+	0.9572*delta_FuelCell_2_12 + 1.4016*delta_AuxiliaryBoilerHT_2_12
+	 + 0.46956*delta_Compression_HeatPump_AirWater_2_12 + 
+	0.4*z_FuelCell_2_12 + 0.1*z_AuxiliaryBoilerHT_2_12 + 
+	0.1*z_Compression_HeatPump_AirWater_2_12 + revenue_2_12 =E= 0;
+
+objective_function_2_13..
+	0.07*fuel_AuxiliaryBoilerHT_2_13 + 0.07*fuel_FuelCell_2_13 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_13 - 
+	0.1362*grid_power_sold_2_13 + 0.1677*grid_power_bought_2_13 + 
+	0.9572*delta_FuelCell_2_13 + 1.4016*delta_AuxiliaryBoilerHT_2_13
+	 + 0.46956*delta_Compression_HeatPump_AirWater_2_13 + 
+	0.4*z_FuelCell_2_13 + 0.1*z_AuxiliaryBoilerHT_2_13 + 
+	0.1*z_Compression_HeatPump_AirWater_2_13 + revenue_2_13 =E= 0;
+
+objective_function_2_14..
+	0.07*fuel_AuxiliaryBoilerHT_2_14 + 0.07*fuel_FuelCell_2_14 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_14 - 
+	0.1462*grid_power_sold_2_14 + 0.1677*grid_power_bought_2_14 + 
+	0.9572*delta_FuelCell_2_14 + 1.4016*delta_AuxiliaryBoilerHT_2_14
+	 + 0.46956*delta_Compression_HeatPump_AirWater_2_14 + 
+	0.4*z_FuelCell_2_14 + 0.1*z_AuxiliaryBoilerHT_2_14 + 
+	0.1*z_Compression_HeatPump_AirWater_2_14 + revenue_2_14 =E= 0;
+
+objective_function_2_15..
+	0.07*fuel_AuxiliaryBoilerHT_2_15 + 0.07*fuel_FuelCell_2_15 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_15 - 
+	0.1362*grid_power_sold_2_15 + 0.1577*grid_power_bought_2_15 + 
+	0.9572*delta_FuelCell_2_15 + 1.4016*delta_AuxiliaryBoilerHT_2_15
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_15 + 
+	0.4*z_FuelCell_2_15 + 0.1*z_AuxiliaryBoilerHT_2_15 + 
+	0.1*z_Compression_HeatPump_AirWater_2_15 + revenue_2_15 =E= 0;
+
+objective_function_2_16..
+	0.07*fuel_AuxiliaryBoilerHT_2_16 + 0.07*fuel_FuelCell_2_16 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_16 - 
+	0.1362*grid_power_sold_2_16 + 0.1577*grid_power_bought_2_16 + 
+	0.9572*delta_FuelCell_2_16 + 1.4016*delta_AuxiliaryBoilerHT_2_16
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_16 + 
+	0.4*z_FuelCell_2_16 + 0.1*z_AuxiliaryBoilerHT_2_16 + 
+	0.1*z_Compression_HeatPump_AirWater_2_16 + revenue_2_16 =E= 0;
+
+objective_function_2_17..
+	0.07*fuel_AuxiliaryBoilerHT_2_17 + 0.07*fuel_FuelCell_2_17 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_17 - 
+	0.1262*grid_power_sold_2_17 + 0.1577*grid_power_bought_2_17 + 
+	0.9572*delta_FuelCell_2_17 + 1.4016*delta_AuxiliaryBoilerHT_2_17
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_17 + 
+	0.4*z_FuelCell_2_17 + 0.1*z_AuxiliaryBoilerHT_2_17 + 
+	0.1*z_Compression_HeatPump_AirWater_2_17 + revenue_2_17 =E= 0;
+
+objective_function_2_18..
+	0.07*fuel_AuxiliaryBoilerHT_2_18 + 0.07*fuel_FuelCell_2_18 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_18 - 
+	0.1262*grid_power_sold_2_18 + 0.1577*grid_power_bought_2_18 + 
+	0.9572*delta_FuelCell_2_18 + 1.4016*delta_AuxiliaryBoilerHT_2_18
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_18 + 
+	0.4*z_FuelCell_2_18 + 0.1*z_AuxiliaryBoilerHT_2_18 + 
+	0.1*z_Compression_HeatPump_AirWater_2_18 + revenue_2_18 =E= 0;
+
+objective_function_2_19..
+	0.07*fuel_AuxiliaryBoilerHT_2_19 + 0.07*fuel_FuelCell_2_19 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_19 - 
+	0.1262*grid_power_sold_2_19 + 0.1577*grid_power_bought_2_19 + 
+	0.9572*delta_FuelCell_2_19 + 1.4016*delta_AuxiliaryBoilerHT_2_19
+	 + 0.44156*delta_Compression_HeatPump_AirWater_2_19 + 
+	0.4*z_FuelCell_2_19 + 0.1*z_AuxiliaryBoilerHT_2_19 + 
+	0.1*z_Compression_HeatPump_AirWater_2_19 + revenue_2_19 =E= 0;
+
+objective_function_2_20..
+	0.07*fuel_AuxiliaryBoilerHT_2_20 + 0.07*fuel_FuelCell_2_20 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_20 - 
+	0.0926*grid_power_sold_2_20 + 0.1157*grid_power_bought_2_20 + 
+	0.9572*delta_FuelCell_2_20 + 1.4016*delta_AuxiliaryBoilerHT_2_20
+	 + 0.32396*delta_Compression_HeatPump_AirWater_2_20 + 
+	0.4*z_FuelCell_2_20 + 0.1*z_AuxiliaryBoilerHT_2_20 + 
+	0.1*z_Compression_HeatPump_AirWater_2_20 + revenue_2_20 =E= 0;
+
+objective_function_2_21..
+	0.07*fuel_AuxiliaryBoilerHT_2_21 + 0.07*fuel_FuelCell_2_21 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_21 - 
+	0.0926*grid_power_sold_2_21 + 0.1157*grid_power_bought_2_21 + 
+	0.9572*delta_FuelCell_2_21 + 1.4016*delta_AuxiliaryBoilerHT_2_21
+	 + 0.32396*delta_Compression_HeatPump_AirWater_2_21 + 
+	0.4*z_FuelCell_2_21 + 0.1*z_AuxiliaryBoilerHT_2_21 + 
+	0.1*z_Compression_HeatPump_AirWater_2_21 + revenue_2_21 =E= 0;
+
+objective_function_2_22..
+	0.07*fuel_AuxiliaryBoilerHT_2_22 + 0.07*fuel_FuelCell_2_22 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_22 - 
+	0.0926*grid_power_sold_2_22 + 0.1157*grid_power_bought_2_22 + 
+	0.9572*delta_FuelCell_2_22 + 1.4016*delta_AuxiliaryBoilerHT_2_22
+	 + 0.32396*delta_Compression_HeatPump_AirWater_2_22 + 
+	0.4*z_FuelCell_2_22 + 0.1*z_AuxiliaryBoilerHT_2_22 + 
+	0.1*z_Compression_HeatPump_AirWater_2_22 + revenue_2_22 =E= 0;
+
+objective_function_2_23..
+	0.07*fuel_AuxiliaryBoilerHT_2_23 + 0.07*fuel_FuelCell_2_23 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_23 - 
+	0.0926*grid_power_sold_2_23 + 0.1157*grid_power_bought_2_23 + 
+	0.9572*delta_FuelCell_2_23 + 1.4016*delta_AuxiliaryBoilerHT_2_23
+	 + 0.32396*delta_Compression_HeatPump_AirWater_2_23 + 
+	0.4*z_FuelCell_2_23 + 0.1*z_AuxiliaryBoilerHT_2_23 + 
+	0.1*z_Compression_HeatPump_AirWater_2_23 + revenue_2_23 =E= 0;
+
+objective_function_2_24..
+	0.07*fuel_AuxiliaryBoilerHT_2_24 + 0.07*fuel_FuelCell_2_24 + 
+	0.01*used_power_Compression_HeatPump_AirWater_2_24 - 
+	0.0801*grid_power_sold_2_24 + 0.0877*grid_power_bought_2_24 + 
+	0.9572*delta_FuelCell_2_24 + 1.4016*delta_AuxiliaryBoilerHT_2_24
+	 + 0.24556*delta_Compression_HeatPump_AirWater_2_24 + 
+	0.4*z_FuelCell_2_24 + 0.1*z_AuxiliaryBoilerHT_2_24 + 
+	0.1*z_Compression_HeatPump_AirWater_2_24 + revenue_2_24 =E= 0;
+
+delta_ctr_first_FuelCell_1_1..
+	-delta_FuelCell_1_1 + z_FuelCell_1_1 - z_FuelCell_2_24 =L= 0;
+
+delta_ctr_first_FuelCell_2_1..
+	-delta_FuelCell_2_1 - z_FuelCell_1_24 + z_FuelCell_2_1 =L= 0;
+
+delta_ctr_first_AuxiliaryBoilerHT_1_1..
+	-delta_AuxiliaryBoilerHT_1_1 + z_AuxiliaryBoilerHT_1_1 - 
+	z_AuxiliaryBoilerHT_2_24 =L= 0;
+
+delta_ctr_first_AuxiliaryBoilerHT_2_1..
+	-delta_AuxiliaryBoilerHT_2_1 - z_AuxiliaryBoilerHT_1_24 + 
+	z_AuxiliaryBoilerHT_2_1 =L= 0;
+
+delta_ctr_first_Compression_HeatPump_AirWater_1_1
+	..
+	-delta_Compression_HeatPump_AirWater_1_1 + 
+	z_Compression_HeatPump_AirWater_1_1 - 
+	z_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+delta_ctr_first_Compression_HeatPump_AirWater_2_1
+	..
+	-delta_Compression_HeatPump_AirWater_2_1 - 
+	z_Compression_HeatPump_AirWater_1_24 + 
+	z_Compression_HeatPump_AirWater_2_1 =L= 0;
+
+delta_ctr_FuelCell_1_2..
+	-delta_FuelCell_1_2 - z_FuelCell_1_1 + z_FuelCell_1_2 =L= 0;
+
+delta_ctr_FuelCell_1_3..
+	-delta_FuelCell_1_3 - z_FuelCell_1_2 + z_FuelCell_1_3 =L= 0;
+
+delta_ctr_FuelCell_1_4..
+	-delta_FuelCell_1_4 - z_FuelCell_1_3 + z_FuelCell_1_4 =L= 0;
+
+delta_ctr_FuelCell_1_5..
+	-delta_FuelCell_1_5 - z_FuelCell_1_4 + z_FuelCell_1_5 =L= 0;
+
+delta_ctr_FuelCell_1_6..
+	-delta_FuelCell_1_6 - z_FuelCell_1_5 + z_FuelCell_1_6 =L= 0;
+
+delta_ctr_FuelCell_1_7..
+	-delta_FuelCell_1_7 - z_FuelCell_1_6 + z_FuelCell_1_7 =L= 0;
+
+delta_ctr_FuelCell_1_8..
+	-delta_FuelCell_1_8 - z_FuelCell_1_7 + z_FuelCell_1_8 =L= 0;
+
+delta_ctr_FuelCell_1_9..
+	-delta_FuelCell_1_9 - z_FuelCell_1_8 + z_FuelCell_1_9 =L= 0;
+
+delta_ctr_FuelCell_1_10..
+	-delta_FuelCell_1_10 - z_FuelCell_1_9 + z_FuelCell_1_10 =L= 0;
+
+delta_ctr_FuelCell_1_11..
+	-delta_FuelCell_1_11 - z_FuelCell_1_10 + z_FuelCell_1_11 =L= 0;
+
+delta_ctr_FuelCell_1_12..
+	-delta_FuelCell_1_12 - z_FuelCell_1_11 + z_FuelCell_1_12 =L= 0;
+
+delta_ctr_FuelCell_1_13..
+	-delta_FuelCell_1_13 - z_FuelCell_1_12 + z_FuelCell_1_13 =L= 0;
+
+delta_ctr_FuelCell_1_14..
+	-delta_FuelCell_1_14 - z_FuelCell_1_13 + z_FuelCell_1_14 =L= 0;
+
+delta_ctr_FuelCell_1_15..
+	-delta_FuelCell_1_15 - z_FuelCell_1_14 + z_FuelCell_1_15 =L= 0;
+
+delta_ctr_FuelCell_1_16..
+	-delta_FuelCell_1_16 - z_FuelCell_1_15 + z_FuelCell_1_16 =L= 0;
+
+delta_ctr_FuelCell_1_17..
+	-delta_FuelCell_1_17 - z_FuelCell_1_16 + z_FuelCell_1_17 =L= 0;
+
+delta_ctr_FuelCell_1_18..
+	-delta_FuelCell_1_18 - z_FuelCell_1_17 + z_FuelCell_1_18 =L= 0;
+
+delta_ctr_FuelCell_1_19..
+	-delta_FuelCell_1_19 - z_FuelCell_1_18 + z_FuelCell_1_19 =L= 0;
+
+delta_ctr_FuelCell_1_20..
+	-delta_FuelCell_1_20 - z_FuelCell_1_19 + z_FuelCell_1_20 =L= 0;
+
+delta_ctr_FuelCell_1_21..
+	-delta_FuelCell_1_21 - z_FuelCell_1_20 + z_FuelCell_1_21 =L= 0;
+
+delta_ctr_FuelCell_1_22..
+	-delta_FuelCell_1_22 - z_FuelCell_1_21 + z_FuelCell_1_22 =L= 0;
+
+delta_ctr_FuelCell_1_23..
+	-delta_FuelCell_1_23 - z_FuelCell_1_22 + z_FuelCell_1_23 =L= 0;
+
+delta_ctr_FuelCell_1_24..
+	-delta_FuelCell_1_24 - z_FuelCell_1_23 + z_FuelCell_1_24 =L= 0;
+
+delta_ctr_FuelCell_2_2..
+	-delta_FuelCell_2_2 - z_FuelCell_2_1 + z_FuelCell_2_2 =L= 0;
+
+delta_ctr_FuelCell_2_3..
+	-delta_FuelCell_2_3 - z_FuelCell_2_2 + z_FuelCell_2_3 =L= 0;
+
+delta_ctr_FuelCell_2_4..
+	-delta_FuelCell_2_4 - z_FuelCell_2_3 + z_FuelCell_2_4 =L= 0;
+
+delta_ctr_FuelCell_2_5..
+	-delta_FuelCell_2_5 - z_FuelCell_2_4 + z_FuelCell_2_5 =L= 0;
+
+delta_ctr_FuelCell_2_6..
+	-delta_FuelCell_2_6 - z_FuelCell_2_5 + z_FuelCell_2_6 =L= 0;
+
+delta_ctr_FuelCell_2_7..
+	-delta_FuelCell_2_7 - z_FuelCell_2_6 + z_FuelCell_2_7 =L= 0;
+
+delta_ctr_FuelCell_2_8..
+	-delta_FuelCell_2_8 - z_FuelCell_2_7 + z_FuelCell_2_8 =L= 0;
+
+delta_ctr_FuelCell_2_9..
+	-delta_FuelCell_2_9 - z_FuelCell_2_8 + z_FuelCell_2_9 =L= 0;
+
+delta_ctr_FuelCell_2_10..
+	-delta_FuelCell_2_10 - z_FuelCell_2_9 + z_FuelCell_2_10 =L= 0;
+
+delta_ctr_FuelCell_2_11..
+	-delta_FuelCell_2_11 - z_FuelCell_2_10 + z_FuelCell_2_11 =L= 0;
+
+delta_ctr_FuelCell_2_12..
+	-delta_FuelCell_2_12 - z_FuelCell_2_11 + z_FuelCell_2_12 =L= 0;
+
+delta_ctr_FuelCell_2_13..
+	-delta_FuelCell_2_13 - z_FuelCell_2_12 + z_FuelCell_2_13 =L= 0;
+
+delta_ctr_FuelCell_2_14..
+	-delta_FuelCell_2_14 - z_FuelCell_2_13 + z_FuelCell_2_14 =L= 0;
+
+delta_ctr_FuelCell_2_15..
+	-delta_FuelCell_2_15 - z_FuelCell_2_14 + z_FuelCell_2_15 =L= 0;
+
+delta_ctr_FuelCell_2_16..
+	-delta_FuelCell_2_16 - z_FuelCell_2_15 + z_FuelCell_2_16 =L= 0;
+
+delta_ctr_FuelCell_2_17..
+	-delta_FuelCell_2_17 - z_FuelCell_2_16 + z_FuelCell_2_17 =L= 0;
+
+delta_ctr_FuelCell_2_18..
+	-delta_FuelCell_2_18 - z_FuelCell_2_17 + z_FuelCell_2_18 =L= 0;
+
+delta_ctr_FuelCell_2_19..
+	-delta_FuelCell_2_19 - z_FuelCell_2_18 + z_FuelCell_2_19 =L= 0;
+
+delta_ctr_FuelCell_2_20..
+	-delta_FuelCell_2_20 - z_FuelCell_2_19 + z_FuelCell_2_20 =L= 0;
+
+delta_ctr_FuelCell_2_21..
+	-delta_FuelCell_2_21 - z_FuelCell_2_20 + z_FuelCell_2_21 =L= 0;
+
+delta_ctr_FuelCell_2_22..
+	-delta_FuelCell_2_22 - z_FuelCell_2_21 + z_FuelCell_2_22 =L= 0;
+
+delta_ctr_FuelCell_2_23..
+	-delta_FuelCell_2_23 - z_FuelCell_2_22 + z_FuelCell_2_23 =L= 0;
+
+delta_ctr_FuelCell_2_24..
+	-delta_FuelCell_2_24 - z_FuelCell_2_23 + z_FuelCell_2_24 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_2..
+	-delta_AuxiliaryBoilerHT_1_2 - z_AuxiliaryBoilerHT_1_1 + 
+	z_AuxiliaryBoilerHT_1_2 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_3..
+	-delta_AuxiliaryBoilerHT_1_3 - z_AuxiliaryBoilerHT_1_2 + 
+	z_AuxiliaryBoilerHT_1_3 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_4..
+	-delta_AuxiliaryBoilerHT_1_4 - z_AuxiliaryBoilerHT_1_3 + 
+	z_AuxiliaryBoilerHT_1_4 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_5..
+	-delta_AuxiliaryBoilerHT_1_5 - z_AuxiliaryBoilerHT_1_4 + 
+	z_AuxiliaryBoilerHT_1_5 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_6..
+	-delta_AuxiliaryBoilerHT_1_6 - z_AuxiliaryBoilerHT_1_5 + 
+	z_AuxiliaryBoilerHT_1_6 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_7..
+	-delta_AuxiliaryBoilerHT_1_7 - z_AuxiliaryBoilerHT_1_6 + 
+	z_AuxiliaryBoilerHT_1_7 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_8..
+	-delta_AuxiliaryBoilerHT_1_8 - z_AuxiliaryBoilerHT_1_7 + 
+	z_AuxiliaryBoilerHT_1_8 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_9..
+	-delta_AuxiliaryBoilerHT_1_9 - z_AuxiliaryBoilerHT_1_8 + 
+	z_AuxiliaryBoilerHT_1_9 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_10..
+	-delta_AuxiliaryBoilerHT_1_10 - z_AuxiliaryBoilerHT_1_9 + 
+	z_AuxiliaryBoilerHT_1_10 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_11..
+	-delta_AuxiliaryBoilerHT_1_11 - z_AuxiliaryBoilerHT_1_10 + 
+	z_AuxiliaryBoilerHT_1_11 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_12..
+	-delta_AuxiliaryBoilerHT_1_12 - z_AuxiliaryBoilerHT_1_11 + 
+	z_AuxiliaryBoilerHT_1_12 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_13..
+	-delta_AuxiliaryBoilerHT_1_13 - z_AuxiliaryBoilerHT_1_12 + 
+	z_AuxiliaryBoilerHT_1_13 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_14..
+	-delta_AuxiliaryBoilerHT_1_14 - z_AuxiliaryBoilerHT_1_13 + 
+	z_AuxiliaryBoilerHT_1_14 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_15..
+	-delta_AuxiliaryBoilerHT_1_15 - z_AuxiliaryBoilerHT_1_14 + 
+	z_AuxiliaryBoilerHT_1_15 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_16..
+	-delta_AuxiliaryBoilerHT_1_16 - z_AuxiliaryBoilerHT_1_15 + 
+	z_AuxiliaryBoilerHT_1_16 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_17..
+	-delta_AuxiliaryBoilerHT_1_17 - z_AuxiliaryBoilerHT_1_16 + 
+	z_AuxiliaryBoilerHT_1_17 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_18..
+	-delta_AuxiliaryBoilerHT_1_18 - z_AuxiliaryBoilerHT_1_17 + 
+	z_AuxiliaryBoilerHT_1_18 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_19..
+	-delta_AuxiliaryBoilerHT_1_19 - z_AuxiliaryBoilerHT_1_18 + 
+	z_AuxiliaryBoilerHT_1_19 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_20..
+	-delta_AuxiliaryBoilerHT_1_20 - z_AuxiliaryBoilerHT_1_19 + 
+	z_AuxiliaryBoilerHT_1_20 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_21..
+	-delta_AuxiliaryBoilerHT_1_21 - z_AuxiliaryBoilerHT_1_20 + 
+	z_AuxiliaryBoilerHT_1_21 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_22..
+	-delta_AuxiliaryBoilerHT_1_22 - z_AuxiliaryBoilerHT_1_21 + 
+	z_AuxiliaryBoilerHT_1_22 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_23..
+	-delta_AuxiliaryBoilerHT_1_23 - z_AuxiliaryBoilerHT_1_22 + 
+	z_AuxiliaryBoilerHT_1_23 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_1_24..
+	-delta_AuxiliaryBoilerHT_1_24 - z_AuxiliaryBoilerHT_1_23 + 
+	z_AuxiliaryBoilerHT_1_24 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_2..
+	-delta_AuxiliaryBoilerHT_2_2 - z_AuxiliaryBoilerHT_2_1 + 
+	z_AuxiliaryBoilerHT_2_2 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_3..
+	-delta_AuxiliaryBoilerHT_2_3 - z_AuxiliaryBoilerHT_2_2 + 
+	z_AuxiliaryBoilerHT_2_3 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_4..
+	-delta_AuxiliaryBoilerHT_2_4 - z_AuxiliaryBoilerHT_2_3 + 
+	z_AuxiliaryBoilerHT_2_4 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_5..
+	-delta_AuxiliaryBoilerHT_2_5 - z_AuxiliaryBoilerHT_2_4 + 
+	z_AuxiliaryBoilerHT_2_5 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_6..
+	-delta_AuxiliaryBoilerHT_2_6 - z_AuxiliaryBoilerHT_2_5 + 
+	z_AuxiliaryBoilerHT_2_6 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_7..
+	-delta_AuxiliaryBoilerHT_2_7 - z_AuxiliaryBoilerHT_2_6 + 
+	z_AuxiliaryBoilerHT_2_7 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_8..
+	-delta_AuxiliaryBoilerHT_2_8 - z_AuxiliaryBoilerHT_2_7 + 
+	z_AuxiliaryBoilerHT_2_8 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_9..
+	-delta_AuxiliaryBoilerHT_2_9 - z_AuxiliaryBoilerHT_2_8 + 
+	z_AuxiliaryBoilerHT_2_9 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_10..
+	-delta_AuxiliaryBoilerHT_2_10 - z_AuxiliaryBoilerHT_2_9 + 
+	z_AuxiliaryBoilerHT_2_10 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_11..
+	-delta_AuxiliaryBoilerHT_2_11 - z_AuxiliaryBoilerHT_2_10 + 
+	z_AuxiliaryBoilerHT_2_11 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_12..
+	-delta_AuxiliaryBoilerHT_2_12 - z_AuxiliaryBoilerHT_2_11 + 
+	z_AuxiliaryBoilerHT_2_12 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_13..
+	-delta_AuxiliaryBoilerHT_2_13 - z_AuxiliaryBoilerHT_2_12 + 
+	z_AuxiliaryBoilerHT_2_13 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_14..
+	-delta_AuxiliaryBoilerHT_2_14 - z_AuxiliaryBoilerHT_2_13 + 
+	z_AuxiliaryBoilerHT_2_14 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_15..
+	-delta_AuxiliaryBoilerHT_2_15 - z_AuxiliaryBoilerHT_2_14 + 
+	z_AuxiliaryBoilerHT_2_15 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_16..
+	-delta_AuxiliaryBoilerHT_2_16 - z_AuxiliaryBoilerHT_2_15 + 
+	z_AuxiliaryBoilerHT_2_16 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_17..
+	-delta_AuxiliaryBoilerHT_2_17 - z_AuxiliaryBoilerHT_2_16 + 
+	z_AuxiliaryBoilerHT_2_17 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_18..
+	-delta_AuxiliaryBoilerHT_2_18 - z_AuxiliaryBoilerHT_2_17 + 
+	z_AuxiliaryBoilerHT_2_18 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_19..
+	-delta_AuxiliaryBoilerHT_2_19 - z_AuxiliaryBoilerHT_2_18 + 
+	z_AuxiliaryBoilerHT_2_19 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_20..
+	-delta_AuxiliaryBoilerHT_2_20 - z_AuxiliaryBoilerHT_2_19 + 
+	z_AuxiliaryBoilerHT_2_20 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_21..
+	-delta_AuxiliaryBoilerHT_2_21 - z_AuxiliaryBoilerHT_2_20 + 
+	z_AuxiliaryBoilerHT_2_21 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_22..
+	-delta_AuxiliaryBoilerHT_2_22 - z_AuxiliaryBoilerHT_2_21 + 
+	z_AuxiliaryBoilerHT_2_22 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_23..
+	-delta_AuxiliaryBoilerHT_2_23 - z_AuxiliaryBoilerHT_2_22 + 
+	z_AuxiliaryBoilerHT_2_23 =L= 0;
+
+delta_ctr_AuxiliaryBoilerHT_2_24..
+	-delta_AuxiliaryBoilerHT_2_24 - z_AuxiliaryBoilerHT_2_23 + 
+	z_AuxiliaryBoilerHT_2_24 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_2..
+	-delta_Compression_HeatPump_AirWater_1_2 - 
+	z_Compression_HeatPump_AirWater_1_1 + 
+	z_Compression_HeatPump_AirWater_1_2 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_3..
+	-delta_Compression_HeatPump_AirWater_1_3 - 
+	z_Compression_HeatPump_AirWater_1_2 + 
+	z_Compression_HeatPump_AirWater_1_3 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_4..
+	-delta_Compression_HeatPump_AirWater_1_4 - 
+	z_Compression_HeatPump_AirWater_1_3 + 
+	z_Compression_HeatPump_AirWater_1_4 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_5..
+	-delta_Compression_HeatPump_AirWater_1_5 - 
+	z_Compression_HeatPump_AirWater_1_4 + 
+	z_Compression_HeatPump_AirWater_1_5 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_6..
+	-delta_Compression_HeatPump_AirWater_1_6 - 
+	z_Compression_HeatPump_AirWater_1_5 + 
+	z_Compression_HeatPump_AirWater_1_6 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_7..
+	-delta_Compression_HeatPump_AirWater_1_7 - 
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_8..
+	-delta_Compression_HeatPump_AirWater_1_8 - 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_9..
+	-delta_Compression_HeatPump_AirWater_1_9 - 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_10..
+	-delta_Compression_HeatPump_AirWater_1_10 - 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_11..
+	-delta_Compression_HeatPump_AirWater_1_11 - 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_12..
+	-delta_Compression_HeatPump_AirWater_1_12 - 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_13..
+	-delta_Compression_HeatPump_AirWater_1_13 - 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_14..
+	-delta_Compression_HeatPump_AirWater_1_14 - 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_15..
+	-delta_Compression_HeatPump_AirWater_1_15 - 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_16..
+	-delta_Compression_HeatPump_AirWater_1_16 - 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_17..
+	-delta_Compression_HeatPump_AirWater_1_17 - 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_18..
+	-delta_Compression_HeatPump_AirWater_1_18 - 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_19..
+	-delta_Compression_HeatPump_AirWater_1_19 - 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_20..
+	-delta_Compression_HeatPump_AirWater_1_20 - 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_21..
+	-delta_Compression_HeatPump_AirWater_1_21 - 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_22..
+	-delta_Compression_HeatPump_AirWater_1_22 - 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_23..
+	-delta_Compression_HeatPump_AirWater_1_23 - 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_1_24..
+	-delta_Compression_HeatPump_AirWater_1_24 - 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_2..
+	-delta_Compression_HeatPump_AirWater_2_2 - 
+	z_Compression_HeatPump_AirWater_2_1 + 
+	z_Compression_HeatPump_AirWater_2_2 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_3..
+	-delta_Compression_HeatPump_AirWater_2_3 - 
+	z_Compression_HeatPump_AirWater_2_2 + 
+	z_Compression_HeatPump_AirWater_2_3 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_4..
+	-delta_Compression_HeatPump_AirWater_2_4 - 
+	z_Compression_HeatPump_AirWater_2_3 + 
+	z_Compression_HeatPump_AirWater_2_4 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_5..
+	-delta_Compression_HeatPump_AirWater_2_5 - 
+	z_Compression_HeatPump_AirWater_2_4 + 
+	z_Compression_HeatPump_AirWater_2_5 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_6..
+	-delta_Compression_HeatPump_AirWater_2_6 - 
+	z_Compression_HeatPump_AirWater_2_5 + 
+	z_Compression_HeatPump_AirWater_2_6 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_7..
+	-delta_Compression_HeatPump_AirWater_2_7 - 
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_8..
+	-delta_Compression_HeatPump_AirWater_2_8 - 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_9..
+	-delta_Compression_HeatPump_AirWater_2_9 - 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_10..
+	-delta_Compression_HeatPump_AirWater_2_10 - 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_11..
+	-delta_Compression_HeatPump_AirWater_2_11 - 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_12..
+	-delta_Compression_HeatPump_AirWater_2_12 - 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_13..
+	-delta_Compression_HeatPump_AirWater_2_13 - 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_14..
+	-delta_Compression_HeatPump_AirWater_2_14 - 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_15..
+	-delta_Compression_HeatPump_AirWater_2_15 - 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_16..
+	-delta_Compression_HeatPump_AirWater_2_16 - 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_17..
+	-delta_Compression_HeatPump_AirWater_2_17 - 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_18..
+	-delta_Compression_HeatPump_AirWater_2_18 - 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_19..
+	-delta_Compression_HeatPump_AirWater_2_19 - 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_20..
+	-delta_Compression_HeatPump_AirWater_2_20 - 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_21..
+	-delta_Compression_HeatPump_AirWater_2_21 - 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_22..
+	-delta_Compression_HeatPump_AirWater_2_22 - 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_23..
+	-delta_Compression_HeatPump_AirWater_2_23 - 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 =L= 0;
+
+delta_ctr_Compression_HeatPump_AirWater_2_24..
+	-delta_Compression_HeatPump_AirWater_2_24 - 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+max_startup_1_FuelCell..
+	delta_FuelCell_1_1 + delta_FuelCell_1_2 + delta_FuelCell_1_3
+	 + delta_FuelCell_1_4 + delta_FuelCell_1_5 + 
+	delta_FuelCell_1_6 + delta_FuelCell_1_7 + delta_FuelCell_1_8
+	 + delta_FuelCell_1_9 + delta_FuelCell_1_10 + 
+	delta_FuelCell_1_11 + delta_FuelCell_1_12 + 
+	delta_FuelCell_1_13 + delta_FuelCell_1_14 + 
+	delta_FuelCell_1_15 + delta_FuelCell_1_16 + 
+	delta_FuelCell_1_17 + delta_FuelCell_1_18 + 
+	delta_FuelCell_1_19 + delta_FuelCell_1_20 + 
+	delta_FuelCell_1_21 + delta_FuelCell_1_22 + 
+	delta_FuelCell_1_23 + delta_FuelCell_1_24 =L= 1;
+
+max_startup_1_AuxiliaryBoilerHT..
+	delta_AuxiliaryBoilerHT_1_1 + delta_AuxiliaryBoilerHT_1_2 + 
+	delta_AuxiliaryBoilerHT_1_3 + delta_AuxiliaryBoilerHT_1_4 + 
+	delta_AuxiliaryBoilerHT_1_5 + delta_AuxiliaryBoilerHT_1_6 + 
+	delta_AuxiliaryBoilerHT_1_7 + delta_AuxiliaryBoilerHT_1_8 + 
+	delta_AuxiliaryBoilerHT_1_9 + delta_AuxiliaryBoilerHT_1_10 + 
+	delta_AuxiliaryBoilerHT_1_11 + delta_AuxiliaryBoilerHT_1_12 + 
+	delta_AuxiliaryBoilerHT_1_13 + delta_AuxiliaryBoilerHT_1_14 + 
+	delta_AuxiliaryBoilerHT_1_15 + delta_AuxiliaryBoilerHT_1_16 + 
+	delta_AuxiliaryBoilerHT_1_17 + delta_AuxiliaryBoilerHT_1_18 + 
+	delta_AuxiliaryBoilerHT_1_19 + delta_AuxiliaryBoilerHT_1_20 + 
+	delta_AuxiliaryBoilerHT_1_21 + delta_AuxiliaryBoilerHT_1_22 + 
+	delta_AuxiliaryBoilerHT_1_23 + delta_AuxiliaryBoilerHT_1_24 =L= 24;
+
+max_startup_1_Compression_HeatPump_AirWater..
+	delta_Compression_HeatPump_AirWater_1_1 + 
+	delta_Compression_HeatPump_AirWater_1_2 + 
+	delta_Compression_HeatPump_AirWater_1_3 + 
+	delta_Compression_HeatPump_AirWater_1_4 + 
+	delta_Compression_HeatPump_AirWater_1_5 + 
+	delta_Compression_HeatPump_AirWater_1_6 + 
+	delta_Compression_HeatPump_AirWater_1_7 + 
+	delta_Compression_HeatPump_AirWater_1_8 + 
+	delta_Compression_HeatPump_AirWater_1_9 + 
+	delta_Compression_HeatPump_AirWater_1_10 + 
+	delta_Compression_HeatPump_AirWater_1_11 + 
+	delta_Compression_HeatPump_AirWater_1_12 + 
+	delta_Compression_HeatPump_AirWater_1_13 + 
+	delta_Compression_HeatPump_AirWater_1_14 + 
+	delta_Compression_HeatPump_AirWater_1_15 + 
+	delta_Compression_HeatPump_AirWater_1_16 + 
+	delta_Compression_HeatPump_AirWater_1_17 + 
+	delta_Compression_HeatPump_AirWater_1_18 + 
+	delta_Compression_HeatPump_AirWater_1_19 + 
+	delta_Compression_HeatPump_AirWater_1_20 + 
+	delta_Compression_HeatPump_AirWater_1_21 + 
+	delta_Compression_HeatPump_AirWater_1_22 + 
+	delta_Compression_HeatPump_AirWater_1_23 + 
+	delta_Compression_HeatPump_AirWater_1_24 =L= 3;
+
+max_startup_2_FuelCell..
+	delta_FuelCell_2_1 + delta_FuelCell_2_2 + delta_FuelCell_2_3
+	 + delta_FuelCell_2_4 + delta_FuelCell_2_5 + 
+	delta_FuelCell_2_6 + delta_FuelCell_2_7 + delta_FuelCell_2_8
+	 + delta_FuelCell_2_9 + delta_FuelCell_2_10 + 
+	delta_FuelCell_2_11 + delta_FuelCell_2_12 + 
+	delta_FuelCell_2_13 + delta_FuelCell_2_14 + 
+	delta_FuelCell_2_15 + delta_FuelCell_2_16 + 
+	delta_FuelCell_2_17 + delta_FuelCell_2_18 + 
+	delta_FuelCell_2_19 + delta_FuelCell_2_20 + 
+	delta_FuelCell_2_21 + delta_FuelCell_2_22 + 
+	delta_FuelCell_2_23 + delta_FuelCell_2_24 =L= 1;
+
+max_startup_2_AuxiliaryBoilerHT..
+	delta_AuxiliaryBoilerHT_2_1 + delta_AuxiliaryBoilerHT_2_2 + 
+	delta_AuxiliaryBoilerHT_2_3 + delta_AuxiliaryBoilerHT_2_4 + 
+	delta_AuxiliaryBoilerHT_2_5 + delta_AuxiliaryBoilerHT_2_6 + 
+	delta_AuxiliaryBoilerHT_2_7 + delta_AuxiliaryBoilerHT_2_8 + 
+	delta_AuxiliaryBoilerHT_2_9 + delta_AuxiliaryBoilerHT_2_10 + 
+	delta_AuxiliaryBoilerHT_2_11 + delta_AuxiliaryBoilerHT_2_12 + 
+	delta_AuxiliaryBoilerHT_2_13 + delta_AuxiliaryBoilerHT_2_14 + 
+	delta_AuxiliaryBoilerHT_2_15 + delta_AuxiliaryBoilerHT_2_16 + 
+	delta_AuxiliaryBoilerHT_2_17 + delta_AuxiliaryBoilerHT_2_18 + 
+	delta_AuxiliaryBoilerHT_2_19 + delta_AuxiliaryBoilerHT_2_20 + 
+	delta_AuxiliaryBoilerHT_2_21 + delta_AuxiliaryBoilerHT_2_22 + 
+	delta_AuxiliaryBoilerHT_2_23 + delta_AuxiliaryBoilerHT_2_24 =L= 24;
+
+max_startup_2_Compression_HeatPump_AirWater..
+	delta_Compression_HeatPump_AirWater_2_1 + 
+	delta_Compression_HeatPump_AirWater_2_2 + 
+	delta_Compression_HeatPump_AirWater_2_3 + 
+	delta_Compression_HeatPump_AirWater_2_4 + 
+	delta_Compression_HeatPump_AirWater_2_5 + 
+	delta_Compression_HeatPump_AirWater_2_6 + 
+	delta_Compression_HeatPump_AirWater_2_7 + 
+	delta_Compression_HeatPump_AirWater_2_8 + 
+	delta_Compression_HeatPump_AirWater_2_9 + 
+	delta_Compression_HeatPump_AirWater_2_10 + 
+	delta_Compression_HeatPump_AirWater_2_11 + 
+	delta_Compression_HeatPump_AirWater_2_12 + 
+	delta_Compression_HeatPump_AirWater_2_13 + 
+	delta_Compression_HeatPump_AirWater_2_14 + 
+	delta_Compression_HeatPump_AirWater_2_15 + 
+	delta_Compression_HeatPump_AirWater_2_16 + 
+	delta_Compression_HeatPump_AirWater_2_17 + 
+	delta_Compression_HeatPump_AirWater_2_18 + 
+	delta_Compression_HeatPump_AirWater_2_19 + 
+	delta_Compression_HeatPump_AirWater_2_20 + 
+	delta_Compression_HeatPump_AirWater_2_21 + 
+	delta_Compression_HeatPump_AirWater_2_22 + 
+	delta_Compression_HeatPump_AirWater_2_23 + 
+	delta_Compression_HeatPump_AirWater_2_24 =L= 3;
+
+ramp_up_power_FuelCell_1_1..
+	gen_power_FuelCell_1_1 - gen_power_FuelCell_1_24 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_2..
+	-gen_power_FuelCell_1_1 + gen_power_FuelCell_1_2 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_3..
+	-gen_power_FuelCell_1_2 + gen_power_FuelCell_1_3 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_4..
+	-gen_power_FuelCell_1_3 + gen_power_FuelCell_1_4 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_5..
+	-gen_power_FuelCell_1_4 + gen_power_FuelCell_1_5 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_6..
+	-gen_power_FuelCell_1_5 + gen_power_FuelCell_1_6 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_7..
+	-gen_power_FuelCell_1_6 + gen_power_FuelCell_1_7 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_8..
+	-gen_power_FuelCell_1_7 + gen_power_FuelCell_1_8 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_9..
+	-gen_power_FuelCell_1_8 + gen_power_FuelCell_1_9 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_10..
+	-gen_power_FuelCell_1_9 + gen_power_FuelCell_1_10 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_11..
+	-gen_power_FuelCell_1_10 + gen_power_FuelCell_1_11 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_12..
+	-gen_power_FuelCell_1_11 + gen_power_FuelCell_1_12 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_13..
+	-gen_power_FuelCell_1_12 + gen_power_FuelCell_1_13 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_14..
+	-gen_power_FuelCell_1_13 + gen_power_FuelCell_1_14 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_15..
+	-gen_power_FuelCell_1_14 + gen_power_FuelCell_1_15 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_16..
+	-gen_power_FuelCell_1_15 + gen_power_FuelCell_1_16 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_17..
+	-gen_power_FuelCell_1_16 + gen_power_FuelCell_1_17 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_18..
+	-gen_power_FuelCell_1_17 + gen_power_FuelCell_1_18 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_19..
+	-gen_power_FuelCell_1_18 + gen_power_FuelCell_1_19 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_20..
+	-gen_power_FuelCell_1_19 + gen_power_FuelCell_1_20 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_21..
+	-gen_power_FuelCell_1_20 + gen_power_FuelCell_1_21 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_22..
+	-gen_power_FuelCell_1_21 + gen_power_FuelCell_1_22 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_23..
+	-gen_power_FuelCell_1_22 + gen_power_FuelCell_1_23 =L= 2.19444;
+
+ramp_up_power_FuelCell_1_24..
+	-gen_power_FuelCell_1_23 + gen_power_FuelCell_1_24 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_1..
+	gen_power_FuelCell_2_1 - gen_power_FuelCell_2_24 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_2..
+	-gen_power_FuelCell_2_1 + gen_power_FuelCell_2_2 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_3..
+	-gen_power_FuelCell_2_2 + gen_power_FuelCell_2_3 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_4..
+	-gen_power_FuelCell_2_3 + gen_power_FuelCell_2_4 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_5..
+	-gen_power_FuelCell_2_4 + gen_power_FuelCell_2_5 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_6..
+	-gen_power_FuelCell_2_5 + gen_power_FuelCell_2_6 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_7..
+	-gen_power_FuelCell_2_6 + gen_power_FuelCell_2_7 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_8..
+	-gen_power_FuelCell_2_7 + gen_power_FuelCell_2_8 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_9..
+	-gen_power_FuelCell_2_8 + gen_power_FuelCell_2_9 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_10..
+	-gen_power_FuelCell_2_9 + gen_power_FuelCell_2_10 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_11..
+	-gen_power_FuelCell_2_10 + gen_power_FuelCell_2_11 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_12..
+	-gen_power_FuelCell_2_11 + gen_power_FuelCell_2_12 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_13..
+	-gen_power_FuelCell_2_12 + gen_power_FuelCell_2_13 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_14..
+	-gen_power_FuelCell_2_13 + gen_power_FuelCell_2_14 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_15..
+	-gen_power_FuelCell_2_14 + gen_power_FuelCell_2_15 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_16..
+	-gen_power_FuelCell_2_15 + gen_power_FuelCell_2_16 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_17..
+	-gen_power_FuelCell_2_16 + gen_power_FuelCell_2_17 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_18..
+	-gen_power_FuelCell_2_17 + gen_power_FuelCell_2_18 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_19..
+	-gen_power_FuelCell_2_18 + gen_power_FuelCell_2_19 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_20..
+	-gen_power_FuelCell_2_19 + gen_power_FuelCell_2_20 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_21..
+	-gen_power_FuelCell_2_20 + gen_power_FuelCell_2_21 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_22..
+	-gen_power_FuelCell_2_21 + gen_power_FuelCell_2_22 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_23..
+	-gen_power_FuelCell_2_22 + gen_power_FuelCell_2_23 =L= 2.19444;
+
+ramp_up_power_FuelCell_2_24..
+	-gen_power_FuelCell_2_23 + gen_power_FuelCell_2_24 =L= 2.19444;
+
+ramp_down_power_FuelCell_1_1..
+	gen_power_FuelCell_1_1 - gen_power_FuelCell_1_24 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_2..
+	-gen_power_FuelCell_1_1 + gen_power_FuelCell_1_2 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_3..
+	-gen_power_FuelCell_1_2 + gen_power_FuelCell_1_3 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_4..
+	-gen_power_FuelCell_1_3 + gen_power_FuelCell_1_4 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_5..
+	-gen_power_FuelCell_1_4 + gen_power_FuelCell_1_5 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_6..
+	-gen_power_FuelCell_1_5 + gen_power_FuelCell_1_6 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_7..
+	-gen_power_FuelCell_1_6 + gen_power_FuelCell_1_7 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_8..
+	-gen_power_FuelCell_1_7 + gen_power_FuelCell_1_8 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_9..
+	-gen_power_FuelCell_1_8 + gen_power_FuelCell_1_9 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_10..
+	-gen_power_FuelCell_1_9 + gen_power_FuelCell_1_10 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_11..
+	-gen_power_FuelCell_1_10 + gen_power_FuelCell_1_11 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_12..
+	-gen_power_FuelCell_1_11 + gen_power_FuelCell_1_12 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_13..
+	-gen_power_FuelCell_1_12 + gen_power_FuelCell_1_13 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_14..
+	-gen_power_FuelCell_1_13 + gen_power_FuelCell_1_14 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_15..
+	-gen_power_FuelCell_1_14 + gen_power_FuelCell_1_15 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_16..
+	-gen_power_FuelCell_1_15 + gen_power_FuelCell_1_16 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_17..
+	-gen_power_FuelCell_1_16 + gen_power_FuelCell_1_17 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_18..
+	-gen_power_FuelCell_1_17 + gen_power_FuelCell_1_18 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_19..
+	-gen_power_FuelCell_1_18 + gen_power_FuelCell_1_19 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_20..
+	-gen_power_FuelCell_1_19 + gen_power_FuelCell_1_20 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_21..
+	-gen_power_FuelCell_1_20 + gen_power_FuelCell_1_21 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_22..
+	-gen_power_FuelCell_1_21 + gen_power_FuelCell_1_22 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_23..
+	-gen_power_FuelCell_1_22 + gen_power_FuelCell_1_23 =G= -2.19444;
+
+ramp_down_power_FuelCell_1_24..
+	-gen_power_FuelCell_1_23 + gen_power_FuelCell_1_24 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_1..
+	gen_power_FuelCell_2_1 - gen_power_FuelCell_2_24 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_2..
+	-gen_power_FuelCell_2_1 + gen_power_FuelCell_2_2 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_3..
+	-gen_power_FuelCell_2_2 + gen_power_FuelCell_2_3 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_4..
+	-gen_power_FuelCell_2_3 + gen_power_FuelCell_2_4 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_5..
+	-gen_power_FuelCell_2_4 + gen_power_FuelCell_2_5 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_6..
+	-gen_power_FuelCell_2_5 + gen_power_FuelCell_2_6 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_7..
+	-gen_power_FuelCell_2_6 + gen_power_FuelCell_2_7 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_8..
+	-gen_power_FuelCell_2_7 + gen_power_FuelCell_2_8 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_9..
+	-gen_power_FuelCell_2_8 + gen_power_FuelCell_2_9 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_10..
+	-gen_power_FuelCell_2_9 + gen_power_FuelCell_2_10 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_11..
+	-gen_power_FuelCell_2_10 + gen_power_FuelCell_2_11 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_12..
+	-gen_power_FuelCell_2_11 + gen_power_FuelCell_2_12 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_13..
+	-gen_power_FuelCell_2_12 + gen_power_FuelCell_2_13 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_14..
+	-gen_power_FuelCell_2_13 + gen_power_FuelCell_2_14 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_15..
+	-gen_power_FuelCell_2_14 + gen_power_FuelCell_2_15 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_16..
+	-gen_power_FuelCell_2_15 + gen_power_FuelCell_2_16 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_17..
+	-gen_power_FuelCell_2_16 + gen_power_FuelCell_2_17 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_18..
+	-gen_power_FuelCell_2_17 + gen_power_FuelCell_2_18 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_19..
+	-gen_power_FuelCell_2_18 + gen_power_FuelCell_2_19 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_20..
+	-gen_power_FuelCell_2_19 + gen_power_FuelCell_2_20 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_21..
+	-gen_power_FuelCell_2_20 + gen_power_FuelCell_2_21 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_22..
+	-gen_power_FuelCell_2_21 + gen_power_FuelCell_2_22 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_23..
+	-gen_power_FuelCell_2_22 + gen_power_FuelCell_2_23 =G= -2.19444;
+
+ramp_down_power_FuelCell_2_24..
+	-gen_power_FuelCell_2_23 + gen_power_FuelCell_2_24 =G= -2.19444;
+
+ramp_up_high_AuxiliaryBoilerHT_1_1..
+	gen_high_AuxiliaryBoilerHT_1_1 - gen_high_AuxiliaryBoilerHT_1_24
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_2..
+	-gen_high_AuxiliaryBoilerHT_1_1 + gen_high_AuxiliaryBoilerHT_1_2
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_3..
+	-gen_high_AuxiliaryBoilerHT_1_2 + gen_high_AuxiliaryBoilerHT_1_3
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_4..
+	-gen_high_AuxiliaryBoilerHT_1_3 + gen_high_AuxiliaryBoilerHT_1_4
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_5..
+	-gen_high_AuxiliaryBoilerHT_1_4 + gen_high_AuxiliaryBoilerHT_1_5
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_6..
+	-gen_high_AuxiliaryBoilerHT_1_5 + gen_high_AuxiliaryBoilerHT_1_6
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_7..
+	-gen_high_AuxiliaryBoilerHT_1_6 + gen_high_AuxiliaryBoilerHT_1_7
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_8..
+	-gen_high_AuxiliaryBoilerHT_1_7 + gen_high_AuxiliaryBoilerHT_1_8
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_9..
+	-gen_high_AuxiliaryBoilerHT_1_8 + gen_high_AuxiliaryBoilerHT_1_9
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_10..
+	-gen_high_AuxiliaryBoilerHT_1_9 + gen_high_AuxiliaryBoilerHT_1_10
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_11..
+	-gen_high_AuxiliaryBoilerHT_1_10 + 
+	gen_high_AuxiliaryBoilerHT_1_11 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_12..
+	-gen_high_AuxiliaryBoilerHT_1_11 + 
+	gen_high_AuxiliaryBoilerHT_1_12 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_13..
+	-gen_high_AuxiliaryBoilerHT_1_12 + 
+	gen_high_AuxiliaryBoilerHT_1_13 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_14..
+	-gen_high_AuxiliaryBoilerHT_1_13 + 
+	gen_high_AuxiliaryBoilerHT_1_14 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_15..
+	-gen_high_AuxiliaryBoilerHT_1_14 + 
+	gen_high_AuxiliaryBoilerHT_1_15 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_16..
+	-gen_high_AuxiliaryBoilerHT_1_15 + 
+	gen_high_AuxiliaryBoilerHT_1_16 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_17..
+	-gen_high_AuxiliaryBoilerHT_1_16 + 
+	gen_high_AuxiliaryBoilerHT_1_17 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_18..
+	-gen_high_AuxiliaryBoilerHT_1_17 + 
+	gen_high_AuxiliaryBoilerHT_1_18 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_19..
+	-gen_high_AuxiliaryBoilerHT_1_18 + 
+	gen_high_AuxiliaryBoilerHT_1_19 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_20..
+	-gen_high_AuxiliaryBoilerHT_1_19 + 
+	gen_high_AuxiliaryBoilerHT_1_20 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_21..
+	-gen_high_AuxiliaryBoilerHT_1_20 + 
+	gen_high_AuxiliaryBoilerHT_1_21 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_22..
+	-gen_high_AuxiliaryBoilerHT_1_21 + 
+	gen_high_AuxiliaryBoilerHT_1_22 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_23..
+	-gen_high_AuxiliaryBoilerHT_1_22 + 
+	gen_high_AuxiliaryBoilerHT_1_23 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_1_24..
+	-gen_high_AuxiliaryBoilerHT_1_23 + 
+	gen_high_AuxiliaryBoilerHT_1_24 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_1..
+	gen_high_AuxiliaryBoilerHT_2_1 - gen_high_AuxiliaryBoilerHT_2_24
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_2..
+	-gen_high_AuxiliaryBoilerHT_2_1 + gen_high_AuxiliaryBoilerHT_2_2
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_3..
+	-gen_high_AuxiliaryBoilerHT_2_2 + gen_high_AuxiliaryBoilerHT_2_3
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_4..
+	-gen_high_AuxiliaryBoilerHT_2_3 + gen_high_AuxiliaryBoilerHT_2_4
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_5..
+	-gen_high_AuxiliaryBoilerHT_2_4 + gen_high_AuxiliaryBoilerHT_2_5
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_6..
+	-gen_high_AuxiliaryBoilerHT_2_5 + gen_high_AuxiliaryBoilerHT_2_6
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_7..
+	-gen_high_AuxiliaryBoilerHT_2_6 + gen_high_AuxiliaryBoilerHT_2_7
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_8..
+	-gen_high_AuxiliaryBoilerHT_2_7 + gen_high_AuxiliaryBoilerHT_2_8
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_9..
+	-gen_high_AuxiliaryBoilerHT_2_8 + gen_high_AuxiliaryBoilerHT_2_9
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_10..
+	-gen_high_AuxiliaryBoilerHT_2_9 + gen_high_AuxiliaryBoilerHT_2_10
+	 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_11..
+	-gen_high_AuxiliaryBoilerHT_2_10 + 
+	gen_high_AuxiliaryBoilerHT_2_11 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_12..
+	-gen_high_AuxiliaryBoilerHT_2_11 + 
+	gen_high_AuxiliaryBoilerHT_2_12 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_13..
+	-gen_high_AuxiliaryBoilerHT_2_12 + 
+	gen_high_AuxiliaryBoilerHT_2_13 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_14..
+	-gen_high_AuxiliaryBoilerHT_2_13 + 
+	gen_high_AuxiliaryBoilerHT_2_14 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_15..
+	-gen_high_AuxiliaryBoilerHT_2_14 + 
+	gen_high_AuxiliaryBoilerHT_2_15 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_16..
+	-gen_high_AuxiliaryBoilerHT_2_15 + 
+	gen_high_AuxiliaryBoilerHT_2_16 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_17..
+	-gen_high_AuxiliaryBoilerHT_2_16 + 
+	gen_high_AuxiliaryBoilerHT_2_17 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_18..
+	-gen_high_AuxiliaryBoilerHT_2_17 + 
+	gen_high_AuxiliaryBoilerHT_2_18 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_19..
+	-gen_high_AuxiliaryBoilerHT_2_18 + 
+	gen_high_AuxiliaryBoilerHT_2_19 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_20..
+	-gen_high_AuxiliaryBoilerHT_2_19 + 
+	gen_high_AuxiliaryBoilerHT_2_20 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_21..
+	-gen_high_AuxiliaryBoilerHT_2_20 + 
+	gen_high_AuxiliaryBoilerHT_2_21 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_22..
+	-gen_high_AuxiliaryBoilerHT_2_21 + 
+	gen_high_AuxiliaryBoilerHT_2_22 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_23..
+	-gen_high_AuxiliaryBoilerHT_2_22 + 
+	gen_high_AuxiliaryBoilerHT_2_23 =L= 17.448;
+
+ramp_up_high_AuxiliaryBoilerHT_2_24..
+	-gen_high_AuxiliaryBoilerHT_2_23 + 
+	gen_high_AuxiliaryBoilerHT_2_24 =L= 17.448;
+
+ramp_up_high_FuelCell_1_1..
+	gen_high_FuelCell_1_1 - gen_high_FuelCell_1_24 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_2..
+	-gen_high_FuelCell_1_1 + gen_high_FuelCell_1_2 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_3..
+	-gen_high_FuelCell_1_2 + gen_high_FuelCell_1_3 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_4..
+	-gen_high_FuelCell_1_3 + gen_high_FuelCell_1_4 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_5..
+	-gen_high_FuelCell_1_4 + gen_high_FuelCell_1_5 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_6..
+	-gen_high_FuelCell_1_5 + gen_high_FuelCell_1_6 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_7..
+	-gen_high_FuelCell_1_6 + gen_high_FuelCell_1_7 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_8..
+	-gen_high_FuelCell_1_7 + gen_high_FuelCell_1_8 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_9..
+	-gen_high_FuelCell_1_8 + gen_high_FuelCell_1_9 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_10..
+	-gen_high_FuelCell_1_9 + gen_high_FuelCell_1_10 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_11..
+	-gen_high_FuelCell_1_10 + gen_high_FuelCell_1_11 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_12..
+	-gen_high_FuelCell_1_11 + gen_high_FuelCell_1_12 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_13..
+	-gen_high_FuelCell_1_12 + gen_high_FuelCell_1_13 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_14..
+	-gen_high_FuelCell_1_13 + gen_high_FuelCell_1_14 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_15..
+	-gen_high_FuelCell_1_14 + gen_high_FuelCell_1_15 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_16..
+	-gen_high_FuelCell_1_15 + gen_high_FuelCell_1_16 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_17..
+	-gen_high_FuelCell_1_16 + gen_high_FuelCell_1_17 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_18..
+	-gen_high_FuelCell_1_17 + gen_high_FuelCell_1_18 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_19..
+	-gen_high_FuelCell_1_18 + gen_high_FuelCell_1_19 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_20..
+	-gen_high_FuelCell_1_19 + gen_high_FuelCell_1_20 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_21..
+	-gen_high_FuelCell_1_20 + gen_high_FuelCell_1_21 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_22..
+	-gen_high_FuelCell_1_21 + gen_high_FuelCell_1_22 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_23..
+	-gen_high_FuelCell_1_22 + gen_high_FuelCell_1_23 =L= 4.35296;
+
+ramp_up_high_FuelCell_1_24..
+	-gen_high_FuelCell_1_23 + gen_high_FuelCell_1_24 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_1..
+	gen_high_FuelCell_2_1 - gen_high_FuelCell_2_24 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_2..
+	-gen_high_FuelCell_2_1 + gen_high_FuelCell_2_2 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_3..
+	-gen_high_FuelCell_2_2 + gen_high_FuelCell_2_3 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_4..
+	-gen_high_FuelCell_2_3 + gen_high_FuelCell_2_4 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_5..
+	-gen_high_FuelCell_2_4 + gen_high_FuelCell_2_5 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_6..
+	-gen_high_FuelCell_2_5 + gen_high_FuelCell_2_6 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_7..
+	-gen_high_FuelCell_2_6 + gen_high_FuelCell_2_7 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_8..
+	-gen_high_FuelCell_2_7 + gen_high_FuelCell_2_8 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_9..
+	-gen_high_FuelCell_2_8 + gen_high_FuelCell_2_9 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_10..
+	-gen_high_FuelCell_2_9 + gen_high_FuelCell_2_10 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_11..
+	-gen_high_FuelCell_2_10 + gen_high_FuelCell_2_11 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_12..
+	-gen_high_FuelCell_2_11 + gen_high_FuelCell_2_12 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_13..
+	-gen_high_FuelCell_2_12 + gen_high_FuelCell_2_13 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_14..
+	-gen_high_FuelCell_2_13 + gen_high_FuelCell_2_14 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_15..
+	-gen_high_FuelCell_2_14 + gen_high_FuelCell_2_15 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_16..
+	-gen_high_FuelCell_2_15 + gen_high_FuelCell_2_16 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_17..
+	-gen_high_FuelCell_2_16 + gen_high_FuelCell_2_17 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_18..
+	-gen_high_FuelCell_2_17 + gen_high_FuelCell_2_18 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_19..
+	-gen_high_FuelCell_2_18 + gen_high_FuelCell_2_19 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_20..
+	-gen_high_FuelCell_2_19 + gen_high_FuelCell_2_20 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_21..
+	-gen_high_FuelCell_2_20 + gen_high_FuelCell_2_21 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_22..
+	-gen_high_FuelCell_2_21 + gen_high_FuelCell_2_22 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_23..
+	-gen_high_FuelCell_2_22 + gen_high_FuelCell_2_23 =L= 4.35296;
+
+ramp_up_high_FuelCell_2_24..
+	-gen_high_FuelCell_2_23 + gen_high_FuelCell_2_24 =L= 4.35296;
+
+ramp_down_high_AuxiliaryBoilerHT_1_1..
+	gen_high_AuxiliaryBoilerHT_1_1 - gen_high_AuxiliaryBoilerHT_1_24
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_2..
+	-gen_high_AuxiliaryBoilerHT_1_1 + gen_high_AuxiliaryBoilerHT_1_2
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_3..
+	-gen_high_AuxiliaryBoilerHT_1_2 + gen_high_AuxiliaryBoilerHT_1_3
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_4..
+	-gen_high_AuxiliaryBoilerHT_1_3 + gen_high_AuxiliaryBoilerHT_1_4
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_5..
+	-gen_high_AuxiliaryBoilerHT_1_4 + gen_high_AuxiliaryBoilerHT_1_5
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_6..
+	-gen_high_AuxiliaryBoilerHT_1_5 + gen_high_AuxiliaryBoilerHT_1_6
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_7..
+	-gen_high_AuxiliaryBoilerHT_1_6 + gen_high_AuxiliaryBoilerHT_1_7
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_8..
+	-gen_high_AuxiliaryBoilerHT_1_7 + gen_high_AuxiliaryBoilerHT_1_8
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_9..
+	-gen_high_AuxiliaryBoilerHT_1_8 + gen_high_AuxiliaryBoilerHT_1_9
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_10..
+	-gen_high_AuxiliaryBoilerHT_1_9 + gen_high_AuxiliaryBoilerHT_1_10
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_11..
+	-gen_high_AuxiliaryBoilerHT_1_10 + 
+	gen_high_AuxiliaryBoilerHT_1_11 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_12..
+	-gen_high_AuxiliaryBoilerHT_1_11 + 
+	gen_high_AuxiliaryBoilerHT_1_12 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_13..
+	-gen_high_AuxiliaryBoilerHT_1_12 + 
+	gen_high_AuxiliaryBoilerHT_1_13 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_14..
+	-gen_high_AuxiliaryBoilerHT_1_13 + 
+	gen_high_AuxiliaryBoilerHT_1_14 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_15..
+	-gen_high_AuxiliaryBoilerHT_1_14 + 
+	gen_high_AuxiliaryBoilerHT_1_15 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_16..
+	-gen_high_AuxiliaryBoilerHT_1_15 + 
+	gen_high_AuxiliaryBoilerHT_1_16 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_17..
+	-gen_high_AuxiliaryBoilerHT_1_16 + 
+	gen_high_AuxiliaryBoilerHT_1_17 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_18..
+	-gen_high_AuxiliaryBoilerHT_1_17 + 
+	gen_high_AuxiliaryBoilerHT_1_18 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_19..
+	-gen_high_AuxiliaryBoilerHT_1_18 + 
+	gen_high_AuxiliaryBoilerHT_1_19 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_20..
+	-gen_high_AuxiliaryBoilerHT_1_19 + 
+	gen_high_AuxiliaryBoilerHT_1_20 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_21..
+	-gen_high_AuxiliaryBoilerHT_1_20 + 
+	gen_high_AuxiliaryBoilerHT_1_21 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_22..
+	-gen_high_AuxiliaryBoilerHT_1_21 + 
+	gen_high_AuxiliaryBoilerHT_1_22 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_23..
+	-gen_high_AuxiliaryBoilerHT_1_22 + 
+	gen_high_AuxiliaryBoilerHT_1_23 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_1_24..
+	-gen_high_AuxiliaryBoilerHT_1_23 + 
+	gen_high_AuxiliaryBoilerHT_1_24 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_1..
+	gen_high_AuxiliaryBoilerHT_2_1 - gen_high_AuxiliaryBoilerHT_2_24
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_2..
+	-gen_high_AuxiliaryBoilerHT_2_1 + gen_high_AuxiliaryBoilerHT_2_2
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_3..
+	-gen_high_AuxiliaryBoilerHT_2_2 + gen_high_AuxiliaryBoilerHT_2_3
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_4..
+	-gen_high_AuxiliaryBoilerHT_2_3 + gen_high_AuxiliaryBoilerHT_2_4
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_5..
+	-gen_high_AuxiliaryBoilerHT_2_4 + gen_high_AuxiliaryBoilerHT_2_5
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_6..
+	-gen_high_AuxiliaryBoilerHT_2_5 + gen_high_AuxiliaryBoilerHT_2_6
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_7..
+	-gen_high_AuxiliaryBoilerHT_2_6 + gen_high_AuxiliaryBoilerHT_2_7
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_8..
+	-gen_high_AuxiliaryBoilerHT_2_7 + gen_high_AuxiliaryBoilerHT_2_8
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_9..
+	-gen_high_AuxiliaryBoilerHT_2_8 + gen_high_AuxiliaryBoilerHT_2_9
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_10..
+	-gen_high_AuxiliaryBoilerHT_2_9 + gen_high_AuxiliaryBoilerHT_2_10
+	 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_11..
+	-gen_high_AuxiliaryBoilerHT_2_10 + 
+	gen_high_AuxiliaryBoilerHT_2_11 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_12..
+	-gen_high_AuxiliaryBoilerHT_2_11 + 
+	gen_high_AuxiliaryBoilerHT_2_12 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_13..
+	-gen_high_AuxiliaryBoilerHT_2_12 + 
+	gen_high_AuxiliaryBoilerHT_2_13 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_14..
+	-gen_high_AuxiliaryBoilerHT_2_13 + 
+	gen_high_AuxiliaryBoilerHT_2_14 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_15..
+	-gen_high_AuxiliaryBoilerHT_2_14 + 
+	gen_high_AuxiliaryBoilerHT_2_15 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_16..
+	-gen_high_AuxiliaryBoilerHT_2_15 + 
+	gen_high_AuxiliaryBoilerHT_2_16 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_17..
+	-gen_high_AuxiliaryBoilerHT_2_16 + 
+	gen_high_AuxiliaryBoilerHT_2_17 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_18..
+	-gen_high_AuxiliaryBoilerHT_2_17 + 
+	gen_high_AuxiliaryBoilerHT_2_18 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_19..
+	-gen_high_AuxiliaryBoilerHT_2_18 + 
+	gen_high_AuxiliaryBoilerHT_2_19 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_20..
+	-gen_high_AuxiliaryBoilerHT_2_19 + 
+	gen_high_AuxiliaryBoilerHT_2_20 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_21..
+	-gen_high_AuxiliaryBoilerHT_2_20 + 
+	gen_high_AuxiliaryBoilerHT_2_21 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_22..
+	-gen_high_AuxiliaryBoilerHT_2_21 + 
+	gen_high_AuxiliaryBoilerHT_2_22 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_23..
+	-gen_high_AuxiliaryBoilerHT_2_22 + 
+	gen_high_AuxiliaryBoilerHT_2_23 =G= -17.448;
+
+ramp_down_high_AuxiliaryBoilerHT_2_24..
+	-gen_high_AuxiliaryBoilerHT_2_23 + 
+	gen_high_AuxiliaryBoilerHT_2_24 =G= -17.448;
+
+ramp_down_high_FuelCell_1_1..
+	gen_high_FuelCell_1_1 - gen_high_FuelCell_1_24 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_2..
+	-gen_high_FuelCell_1_1 + gen_high_FuelCell_1_2 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_3..
+	-gen_high_FuelCell_1_2 + gen_high_FuelCell_1_3 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_4..
+	-gen_high_FuelCell_1_3 + gen_high_FuelCell_1_4 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_5..
+	-gen_high_FuelCell_1_4 + gen_high_FuelCell_1_5 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_6..
+	-gen_high_FuelCell_1_5 + gen_high_FuelCell_1_6 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_7..
+	-gen_high_FuelCell_1_6 + gen_high_FuelCell_1_7 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_8..
+	-gen_high_FuelCell_1_7 + gen_high_FuelCell_1_8 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_9..
+	-gen_high_FuelCell_1_8 + gen_high_FuelCell_1_9 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_10..
+	-gen_high_FuelCell_1_9 + gen_high_FuelCell_1_10 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_11..
+	-gen_high_FuelCell_1_10 + gen_high_FuelCell_1_11 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_12..
+	-gen_high_FuelCell_1_11 + gen_high_FuelCell_1_12 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_13..
+	-gen_high_FuelCell_1_12 + gen_high_FuelCell_1_13 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_14..
+	-gen_high_FuelCell_1_13 + gen_high_FuelCell_1_14 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_15..
+	-gen_high_FuelCell_1_14 + gen_high_FuelCell_1_15 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_16..
+	-gen_high_FuelCell_1_15 + gen_high_FuelCell_1_16 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_17..
+	-gen_high_FuelCell_1_16 + gen_high_FuelCell_1_17 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_18..
+	-gen_high_FuelCell_1_17 + gen_high_FuelCell_1_18 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_19..
+	-gen_high_FuelCell_1_18 + gen_high_FuelCell_1_19 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_20..
+	-gen_high_FuelCell_1_19 + gen_high_FuelCell_1_20 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_21..
+	-gen_high_FuelCell_1_20 + gen_high_FuelCell_1_21 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_22..
+	-gen_high_FuelCell_1_21 + gen_high_FuelCell_1_22 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_23..
+	-gen_high_FuelCell_1_22 + gen_high_FuelCell_1_23 =G= -4.35296;
+
+ramp_down_high_FuelCell_1_24..
+	-gen_high_FuelCell_1_23 + gen_high_FuelCell_1_24 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_1..
+	gen_high_FuelCell_2_1 - gen_high_FuelCell_2_24 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_2..
+	-gen_high_FuelCell_2_1 + gen_high_FuelCell_2_2 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_3..
+	-gen_high_FuelCell_2_2 + gen_high_FuelCell_2_3 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_4..
+	-gen_high_FuelCell_2_3 + gen_high_FuelCell_2_4 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_5..
+	-gen_high_FuelCell_2_4 + gen_high_FuelCell_2_5 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_6..
+	-gen_high_FuelCell_2_5 + gen_high_FuelCell_2_6 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_7..
+	-gen_high_FuelCell_2_6 + gen_high_FuelCell_2_7 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_8..
+	-gen_high_FuelCell_2_7 + gen_high_FuelCell_2_8 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_9..
+	-gen_high_FuelCell_2_8 + gen_high_FuelCell_2_9 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_10..
+	-gen_high_FuelCell_2_9 + gen_high_FuelCell_2_10 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_11..
+	-gen_high_FuelCell_2_10 + gen_high_FuelCell_2_11 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_12..
+	-gen_high_FuelCell_2_11 + gen_high_FuelCell_2_12 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_13..
+	-gen_high_FuelCell_2_12 + gen_high_FuelCell_2_13 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_14..
+	-gen_high_FuelCell_2_13 + gen_high_FuelCell_2_14 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_15..
+	-gen_high_FuelCell_2_14 + gen_high_FuelCell_2_15 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_16..
+	-gen_high_FuelCell_2_15 + gen_high_FuelCell_2_16 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_17..
+	-gen_high_FuelCell_2_16 + gen_high_FuelCell_2_17 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_18..
+	-gen_high_FuelCell_2_17 + gen_high_FuelCell_2_18 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_19..
+	-gen_high_FuelCell_2_18 + gen_high_FuelCell_2_19 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_20..
+	-gen_high_FuelCell_2_19 + gen_high_FuelCell_2_20 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_21..
+	-gen_high_FuelCell_2_20 + gen_high_FuelCell_2_21 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_22..
+	-gen_high_FuelCell_2_21 + gen_high_FuelCell_2_22 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_23..
+	-gen_high_FuelCell_2_22 + gen_high_FuelCell_2_23 =G= -4.35296;
+
+ramp_down_high_FuelCell_2_24..
+	-gen_high_FuelCell_2_23 + gen_high_FuelCell_2_24 =G= -4.35296;
+
+max_consec_1_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_1 + z_AuxiliaryBoilerHT_1_2 + 
+	z_AuxiliaryBoilerHT_1_3 + z_AuxiliaryBoilerHT_1_4 + 
+	z_AuxiliaryBoilerHT_1_5 + z_AuxiliaryBoilerHT_1_6 + 
+	z_AuxiliaryBoilerHT_1_7 + z_AuxiliaryBoilerHT_1_8 =L= 7;
+
+max_consec_1_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_1 + 
+	z_Compression_HeatPump_AirWater_1_2 + 
+	z_Compression_HeatPump_AirWater_1_3 + 
+	z_Compression_HeatPump_AirWater_1_4 + 
+	z_Compression_HeatPump_AirWater_1_5 + 
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 =L= 7;
+
+max_consec_1_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_1 + z_AuxiliaryBoilerHT_2_2 + 
+	z_AuxiliaryBoilerHT_2_3 + z_AuxiliaryBoilerHT_2_4 + 
+	z_AuxiliaryBoilerHT_2_5 + z_AuxiliaryBoilerHT_2_6 + 
+	z_AuxiliaryBoilerHT_2_7 + z_AuxiliaryBoilerHT_2_8 =L= 7;
+
+max_consec_1_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_1 + 
+	z_Compression_HeatPump_AirWater_2_2 + 
+	z_Compression_HeatPump_AirWater_2_3 + 
+	z_Compression_HeatPump_AirWater_2_4 + 
+	z_Compression_HeatPump_AirWater_2_5 + 
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 =L= 7;
+
+max_consec_2_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_2 + z_AuxiliaryBoilerHT_1_3 + 
+	z_AuxiliaryBoilerHT_1_4 + z_AuxiliaryBoilerHT_1_5 + 
+	z_AuxiliaryBoilerHT_1_6 + z_AuxiliaryBoilerHT_1_7 + 
+	z_AuxiliaryBoilerHT_1_8 + z_AuxiliaryBoilerHT_1_9 =L= 7;
+
+max_consec_2_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_2 + 
+	z_Compression_HeatPump_AirWater_1_3 + 
+	z_Compression_HeatPump_AirWater_1_4 + 
+	z_Compression_HeatPump_AirWater_1_5 + 
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 =L= 7;
+
+max_consec_2_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_2 + z_AuxiliaryBoilerHT_2_3 + 
+	z_AuxiliaryBoilerHT_2_4 + z_AuxiliaryBoilerHT_2_5 + 
+	z_AuxiliaryBoilerHT_2_6 + z_AuxiliaryBoilerHT_2_7 + 
+	z_AuxiliaryBoilerHT_2_8 + z_AuxiliaryBoilerHT_2_9 =L= 7;
+
+max_consec_2_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_2 + 
+	z_Compression_HeatPump_AirWater_2_3 + 
+	z_Compression_HeatPump_AirWater_2_4 + 
+	z_Compression_HeatPump_AirWater_2_5 + 
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 =L= 7;
+
+max_consec_3_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_3 + z_AuxiliaryBoilerHT_1_4 + 
+	z_AuxiliaryBoilerHT_1_5 + z_AuxiliaryBoilerHT_1_6 + 
+	z_AuxiliaryBoilerHT_1_7 + z_AuxiliaryBoilerHT_1_8 + 
+	z_AuxiliaryBoilerHT_1_9 + z_AuxiliaryBoilerHT_1_10 =L= 7;
+
+max_consec_3_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_3 + 
+	z_Compression_HeatPump_AirWater_1_4 + 
+	z_Compression_HeatPump_AirWater_1_5 + 
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 =L= 7;
+
+max_consec_3_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_3 + z_AuxiliaryBoilerHT_2_4 + 
+	z_AuxiliaryBoilerHT_2_5 + z_AuxiliaryBoilerHT_2_6 + 
+	z_AuxiliaryBoilerHT_2_7 + z_AuxiliaryBoilerHT_2_8 + 
+	z_AuxiliaryBoilerHT_2_9 + z_AuxiliaryBoilerHT_2_10 =L= 7;
+
+max_consec_3_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_3 + 
+	z_Compression_HeatPump_AirWater_2_4 + 
+	z_Compression_HeatPump_AirWater_2_5 + 
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 =L= 7;
+
+max_consec_4_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_4 + z_AuxiliaryBoilerHT_1_5 + 
+	z_AuxiliaryBoilerHT_1_6 + z_AuxiliaryBoilerHT_1_7 + 
+	z_AuxiliaryBoilerHT_1_8 + z_AuxiliaryBoilerHT_1_9 + 
+	z_AuxiliaryBoilerHT_1_10 + z_AuxiliaryBoilerHT_1_11 =L= 7;
+
+max_consec_4_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_4 + 
+	z_Compression_HeatPump_AirWater_1_5 + 
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 =L= 7;
+
+max_consec_4_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_4 + z_AuxiliaryBoilerHT_2_5 + 
+	z_AuxiliaryBoilerHT_2_6 + z_AuxiliaryBoilerHT_2_7 + 
+	z_AuxiliaryBoilerHT_2_8 + z_AuxiliaryBoilerHT_2_9 + 
+	z_AuxiliaryBoilerHT_2_10 + z_AuxiliaryBoilerHT_2_11 =L= 7;
+
+max_consec_4_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_4 + 
+	z_Compression_HeatPump_AirWater_2_5 + 
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 =L= 7;
+
+max_consec_5_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_5 + z_AuxiliaryBoilerHT_1_6 + 
+	z_AuxiliaryBoilerHT_1_7 + z_AuxiliaryBoilerHT_1_8 + 
+	z_AuxiliaryBoilerHT_1_9 + z_AuxiliaryBoilerHT_1_10 + 
+	z_AuxiliaryBoilerHT_1_11 + z_AuxiliaryBoilerHT_1_12 =L= 7;
+
+max_consec_5_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_5 + 
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 =L= 7;
+
+max_consec_5_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_5 + z_AuxiliaryBoilerHT_2_6 + 
+	z_AuxiliaryBoilerHT_2_7 + z_AuxiliaryBoilerHT_2_8 + 
+	z_AuxiliaryBoilerHT_2_9 + z_AuxiliaryBoilerHT_2_10 + 
+	z_AuxiliaryBoilerHT_2_11 + z_AuxiliaryBoilerHT_2_12 =L= 7;
+
+max_consec_5_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_5 + 
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 =L= 7;
+
+max_consec_6_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_6 + z_AuxiliaryBoilerHT_1_7 + 
+	z_AuxiliaryBoilerHT_1_8 + z_AuxiliaryBoilerHT_1_9 + 
+	z_AuxiliaryBoilerHT_1_10 + z_AuxiliaryBoilerHT_1_11 + 
+	z_AuxiliaryBoilerHT_1_12 + z_AuxiliaryBoilerHT_1_13 =L= 7;
+
+max_consec_6_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_6 + 
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 =L= 7;
+
+max_consec_6_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_6 + z_AuxiliaryBoilerHT_2_7 + 
+	z_AuxiliaryBoilerHT_2_8 + z_AuxiliaryBoilerHT_2_9 + 
+	z_AuxiliaryBoilerHT_2_10 + z_AuxiliaryBoilerHT_2_11 + 
+	z_AuxiliaryBoilerHT_2_12 + z_AuxiliaryBoilerHT_2_13 =L= 7;
+
+max_consec_6_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_6 + 
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 =L= 7;
+
+max_consec_7_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_7 + z_AuxiliaryBoilerHT_1_8 + 
+	z_AuxiliaryBoilerHT_1_9 + z_AuxiliaryBoilerHT_1_10 + 
+	z_AuxiliaryBoilerHT_1_11 + z_AuxiliaryBoilerHT_1_12 + 
+	z_AuxiliaryBoilerHT_1_13 + z_AuxiliaryBoilerHT_1_14 =L= 7;
+
+max_consec_7_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_7 + 
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 =L= 7;
+
+max_consec_7_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_7 + z_AuxiliaryBoilerHT_2_8 + 
+	z_AuxiliaryBoilerHT_2_9 + z_AuxiliaryBoilerHT_2_10 + 
+	z_AuxiliaryBoilerHT_2_11 + z_AuxiliaryBoilerHT_2_12 + 
+	z_AuxiliaryBoilerHT_2_13 + z_AuxiliaryBoilerHT_2_14 =L= 7;
+
+max_consec_7_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_7 + 
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 =L= 7;
+
+max_consec_8_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_8 + z_AuxiliaryBoilerHT_1_9 + 
+	z_AuxiliaryBoilerHT_1_10 + z_AuxiliaryBoilerHT_1_11 + 
+	z_AuxiliaryBoilerHT_1_12 + z_AuxiliaryBoilerHT_1_13 + 
+	z_AuxiliaryBoilerHT_1_14 + z_AuxiliaryBoilerHT_1_15 =L= 7;
+
+max_consec_8_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_8 + 
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 =L= 7;
+
+max_consec_8_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_8 + z_AuxiliaryBoilerHT_2_9 + 
+	z_AuxiliaryBoilerHT_2_10 + z_AuxiliaryBoilerHT_2_11 + 
+	z_AuxiliaryBoilerHT_2_12 + z_AuxiliaryBoilerHT_2_13 + 
+	z_AuxiliaryBoilerHT_2_14 + z_AuxiliaryBoilerHT_2_15 =L= 7;
+
+max_consec_8_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_8 + 
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 =L= 7;
+
+max_consec_9_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_9 + z_AuxiliaryBoilerHT_1_10 + 
+	z_AuxiliaryBoilerHT_1_11 + z_AuxiliaryBoilerHT_1_12 + 
+	z_AuxiliaryBoilerHT_1_13 + z_AuxiliaryBoilerHT_1_14 + 
+	z_AuxiliaryBoilerHT_1_15 + z_AuxiliaryBoilerHT_1_16 =L= 7;
+
+max_consec_9_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_9 + 
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 =L= 7;
+
+max_consec_9_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_9 + z_AuxiliaryBoilerHT_2_10 + 
+	z_AuxiliaryBoilerHT_2_11 + z_AuxiliaryBoilerHT_2_12 + 
+	z_AuxiliaryBoilerHT_2_13 + z_AuxiliaryBoilerHT_2_14 + 
+	z_AuxiliaryBoilerHT_2_15 + z_AuxiliaryBoilerHT_2_16 =L= 7;
+
+max_consec_9_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_9 + 
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 =L= 7;
+
+max_consec_10_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_10 + z_AuxiliaryBoilerHT_1_11 + 
+	z_AuxiliaryBoilerHT_1_12 + z_AuxiliaryBoilerHT_1_13 + 
+	z_AuxiliaryBoilerHT_1_14 + z_AuxiliaryBoilerHT_1_15 + 
+	z_AuxiliaryBoilerHT_1_16 + z_AuxiliaryBoilerHT_1_17 =L= 7;
+
+max_consec_10_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_10 + 
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 =L= 7;
+
+max_consec_10_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_10 + z_AuxiliaryBoilerHT_2_11 + 
+	z_AuxiliaryBoilerHT_2_12 + z_AuxiliaryBoilerHT_2_13 + 
+	z_AuxiliaryBoilerHT_2_14 + z_AuxiliaryBoilerHT_2_15 + 
+	z_AuxiliaryBoilerHT_2_16 + z_AuxiliaryBoilerHT_2_17 =L= 7;
+
+max_consec_10_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_10 + 
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 =L= 7;
+
+max_consec_11_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_11 + z_AuxiliaryBoilerHT_1_12 + 
+	z_AuxiliaryBoilerHT_1_13 + z_AuxiliaryBoilerHT_1_14 + 
+	z_AuxiliaryBoilerHT_1_15 + z_AuxiliaryBoilerHT_1_16 + 
+	z_AuxiliaryBoilerHT_1_17 + z_AuxiliaryBoilerHT_1_18 =L= 7;
+
+max_consec_11_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_11 + 
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 =L= 7;
+
+max_consec_11_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_11 + z_AuxiliaryBoilerHT_2_12 + 
+	z_AuxiliaryBoilerHT_2_13 + z_AuxiliaryBoilerHT_2_14 + 
+	z_AuxiliaryBoilerHT_2_15 + z_AuxiliaryBoilerHT_2_16 + 
+	z_AuxiliaryBoilerHT_2_17 + z_AuxiliaryBoilerHT_2_18 =L= 7;
+
+max_consec_11_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_11 + 
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 =L= 7;
+
+max_consec_12_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_12 + z_AuxiliaryBoilerHT_1_13 + 
+	z_AuxiliaryBoilerHT_1_14 + z_AuxiliaryBoilerHT_1_15 + 
+	z_AuxiliaryBoilerHT_1_16 + z_AuxiliaryBoilerHT_1_17 + 
+	z_AuxiliaryBoilerHT_1_18 + z_AuxiliaryBoilerHT_1_19 =L= 7;
+
+max_consec_12_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_12 + 
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 =L= 7;
+
+max_consec_12_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_12 + z_AuxiliaryBoilerHT_2_13 + 
+	z_AuxiliaryBoilerHT_2_14 + z_AuxiliaryBoilerHT_2_15 + 
+	z_AuxiliaryBoilerHT_2_16 + z_AuxiliaryBoilerHT_2_17 + 
+	z_AuxiliaryBoilerHT_2_18 + z_AuxiliaryBoilerHT_2_19 =L= 7;
+
+max_consec_12_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_12 + 
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 =L= 7;
+
+max_consec_13_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_13 + z_AuxiliaryBoilerHT_1_14 + 
+	z_AuxiliaryBoilerHT_1_15 + z_AuxiliaryBoilerHT_1_16 + 
+	z_AuxiliaryBoilerHT_1_17 + z_AuxiliaryBoilerHT_1_18 + 
+	z_AuxiliaryBoilerHT_1_19 + z_AuxiliaryBoilerHT_1_20 =L= 7;
+
+max_consec_13_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_13 + 
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 =L= 7;
+
+max_consec_13_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_13 + z_AuxiliaryBoilerHT_2_14 + 
+	z_AuxiliaryBoilerHT_2_15 + z_AuxiliaryBoilerHT_2_16 + 
+	z_AuxiliaryBoilerHT_2_17 + z_AuxiliaryBoilerHT_2_18 + 
+	z_AuxiliaryBoilerHT_2_19 + z_AuxiliaryBoilerHT_2_20 =L= 7;
+
+max_consec_13_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_13 + 
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 =L= 7;
+
+max_consec_14_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_14 + z_AuxiliaryBoilerHT_1_15 + 
+	z_AuxiliaryBoilerHT_1_16 + z_AuxiliaryBoilerHT_1_17 + 
+	z_AuxiliaryBoilerHT_1_18 + z_AuxiliaryBoilerHT_1_19 + 
+	z_AuxiliaryBoilerHT_1_20 + z_AuxiliaryBoilerHT_1_21 =L= 7;
+
+max_consec_14_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_14 + 
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 =L= 7;
+
+max_consec_14_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_14 + z_AuxiliaryBoilerHT_2_15 + 
+	z_AuxiliaryBoilerHT_2_16 + z_AuxiliaryBoilerHT_2_17 + 
+	z_AuxiliaryBoilerHT_2_18 + z_AuxiliaryBoilerHT_2_19 + 
+	z_AuxiliaryBoilerHT_2_20 + z_AuxiliaryBoilerHT_2_21 =L= 7;
+
+max_consec_14_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_14 + 
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 =L= 7;
+
+max_consec_15_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_15 + z_AuxiliaryBoilerHT_1_16 + 
+	z_AuxiliaryBoilerHT_1_17 + z_AuxiliaryBoilerHT_1_18 + 
+	z_AuxiliaryBoilerHT_1_19 + z_AuxiliaryBoilerHT_1_20 + 
+	z_AuxiliaryBoilerHT_1_21 + z_AuxiliaryBoilerHT_1_22 =L= 7;
+
+max_consec_15_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_15 + 
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 =L= 7;
+
+max_consec_15_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_15 + z_AuxiliaryBoilerHT_2_16 + 
+	z_AuxiliaryBoilerHT_2_17 + z_AuxiliaryBoilerHT_2_18 + 
+	z_AuxiliaryBoilerHT_2_19 + z_AuxiliaryBoilerHT_2_20 + 
+	z_AuxiliaryBoilerHT_2_21 + z_AuxiliaryBoilerHT_2_22 =L= 7;
+
+max_consec_15_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_15 + 
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 =L= 7;
+
+max_consec_16_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_16 + z_AuxiliaryBoilerHT_1_17 + 
+	z_AuxiliaryBoilerHT_1_18 + z_AuxiliaryBoilerHT_1_19 + 
+	z_AuxiliaryBoilerHT_1_20 + z_AuxiliaryBoilerHT_1_21 + 
+	z_AuxiliaryBoilerHT_1_22 + z_AuxiliaryBoilerHT_1_23 =L= 7;
+
+max_consec_16_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_16 + 
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 =L= 7;
+
+max_consec_16_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_16 + z_AuxiliaryBoilerHT_2_17 + 
+	z_AuxiliaryBoilerHT_2_18 + z_AuxiliaryBoilerHT_2_19 + 
+	z_AuxiliaryBoilerHT_2_20 + z_AuxiliaryBoilerHT_2_21 + 
+	z_AuxiliaryBoilerHT_2_22 + z_AuxiliaryBoilerHT_2_23 =L= 7;
+
+max_consec_16_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_16 + 
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 =L= 7;
+
+max_consec_17_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_17 + z_AuxiliaryBoilerHT_1_18 + 
+	z_AuxiliaryBoilerHT_1_19 + z_AuxiliaryBoilerHT_1_20 + 
+	z_AuxiliaryBoilerHT_1_21 + z_AuxiliaryBoilerHT_1_22 + 
+	z_AuxiliaryBoilerHT_1_23 + z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_17_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_17 + 
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_17_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_17 + z_AuxiliaryBoilerHT_2_18 + 
+	z_AuxiliaryBoilerHT_2_19 + z_AuxiliaryBoilerHT_2_20 + 
+	z_AuxiliaryBoilerHT_2_21 + z_AuxiliaryBoilerHT_2_22 + 
+	z_AuxiliaryBoilerHT_2_23 + z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_17_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_17 + 
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_18_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_18 + z_AuxiliaryBoilerHT_1_19 + 
+	z_AuxiliaryBoilerHT_1_20 + z_AuxiliaryBoilerHT_1_21 + 
+	z_AuxiliaryBoilerHT_1_22 + z_AuxiliaryBoilerHT_1_23 + 
+	z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_18_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_18 + 
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_18_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_18 + z_AuxiliaryBoilerHT_2_19 + 
+	z_AuxiliaryBoilerHT_2_20 + z_AuxiliaryBoilerHT_2_21 + 
+	z_AuxiliaryBoilerHT_2_22 + z_AuxiliaryBoilerHT_2_23 + 
+	z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_18_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_18 + 
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_19_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_19 + z_AuxiliaryBoilerHT_1_20 + 
+	z_AuxiliaryBoilerHT_1_21 + z_AuxiliaryBoilerHT_1_22 + 
+	z_AuxiliaryBoilerHT_1_23 + z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_19_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_19 + 
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_19_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_19 + z_AuxiliaryBoilerHT_2_20 + 
+	z_AuxiliaryBoilerHT_2_21 + z_AuxiliaryBoilerHT_2_22 + 
+	z_AuxiliaryBoilerHT_2_23 + z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_19_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_19 + 
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_20_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_20 + z_AuxiliaryBoilerHT_1_21 + 
+	z_AuxiliaryBoilerHT_1_22 + z_AuxiliaryBoilerHT_1_23 + 
+	z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_20_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_20 + 
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_20_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_20 + z_AuxiliaryBoilerHT_2_21 + 
+	z_AuxiliaryBoilerHT_2_22 + z_AuxiliaryBoilerHT_2_23 + 
+	z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_20_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_20 + 
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_21_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_21 + z_AuxiliaryBoilerHT_1_22 + 
+	z_AuxiliaryBoilerHT_1_23 + z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_21_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_21 + 
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_21_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_21 + z_AuxiliaryBoilerHT_2_22 + 
+	z_AuxiliaryBoilerHT_2_23 + z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_21_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_21 + 
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_22_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_22 + z_AuxiliaryBoilerHT_1_23 + 
+	z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_22_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_22 + 
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_22_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_22 + z_AuxiliaryBoilerHT_2_23 + 
+	z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_22_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_22 + 
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_23_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_23 + z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_23_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_23 + 
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_23_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_23 + z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_23_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_23 + 
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+max_consec_24_1_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_1_24 =L= 7;
+
+max_consec_24_1_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_1_24 =L= 7;
+
+max_consec_24_2_AuxiliaryBoilerHT..
+	z_AuxiliaryBoilerHT_2_24 =L= 7;
+
+max_consec_24_2_Compression_HeatPump_AirWater..
+	z_Compression_HeatPump_AirWater_2_24 =L= 7;
+
+high_temp_balance_1_1..
+	gen_high_AuxiliaryBoilerHT_1_1 + gen_high_FuelCell_1_1 + 
+	0.9975*u_high_1_1 - u_high_1_2 - downgraded_1_1 =G= 0;
+
+high_temp_balance_1_2..
+	gen_high_AuxiliaryBoilerHT_1_2 + gen_high_FuelCell_1_2 + 
+	0.9975*u_high_1_2 - u_high_1_3 - downgraded_1_2 =G= 0;
+
+high_temp_balance_1_3..
+	gen_high_AuxiliaryBoilerHT_1_3 + gen_high_FuelCell_1_3 + 
+	0.9975*u_high_1_3 - u_high_1_4 - downgraded_1_3 =G= 0;
+
+high_temp_balance_1_4..
+	gen_high_AuxiliaryBoilerHT_1_4 + gen_high_FuelCell_1_4 + 
+	0.9975*u_high_1_4 - u_high_1_5 - downgraded_1_4 =G= 0;
+
+high_temp_balance_1_5..
+	gen_high_AuxiliaryBoilerHT_1_5 + gen_high_FuelCell_1_5 + 
+	0.9975*u_high_1_5 - u_high_1_6 - downgraded_1_5 =G= 0;
+
+high_temp_balance_1_6..
+	gen_high_AuxiliaryBoilerHT_1_6 + gen_high_FuelCell_1_6 + 
+	0.9975*u_high_1_6 - u_high_1_7 - downgraded_1_6 =G= 0;
+
+high_temp_balance_1_7..
+	gen_high_AuxiliaryBoilerHT_1_7 + gen_high_FuelCell_1_7 + 
+	0.9975*u_high_1_7 - u_high_1_8 - downgraded_1_7 =G= 0;
+
+high_temp_balance_1_8..
+	gen_high_AuxiliaryBoilerHT_1_8 + gen_high_FuelCell_1_8 + 
+	0.9975*u_high_1_8 - u_high_1_9 - downgraded_1_8 =G= 0;
+
+high_temp_balance_1_9..
+	gen_high_AuxiliaryBoilerHT_1_9 + gen_high_FuelCell_1_9 + 
+	0.9975*u_high_1_9 - u_high_1_10 - downgraded_1_9 =G= 0;
+
+high_temp_balance_1_10..
+	gen_high_AuxiliaryBoilerHT_1_10 + gen_high_FuelCell_1_10 + 
+	0.9975*u_high_1_10 - u_high_1_11 - downgraded_1_10 =G= 0;
+
+high_temp_balance_1_11..
+	gen_high_AuxiliaryBoilerHT_1_11 + gen_high_FuelCell_1_11 + 
+	0.9975*u_high_1_11 - u_high_1_12 - downgraded_1_11 =G= 0;
+
+high_temp_balance_1_12..
+	gen_high_AuxiliaryBoilerHT_1_12 + gen_high_FuelCell_1_12 + 
+	0.9975*u_high_1_12 - u_high_1_13 - downgraded_1_12 =G= 0;
+
+high_temp_balance_1_13..
+	gen_high_AuxiliaryBoilerHT_1_13 + gen_high_FuelCell_1_13 + 
+	0.9975*u_high_1_13 - u_high_1_14 - downgraded_1_13 =G= 0;
+
+high_temp_balance_1_14..
+	gen_high_AuxiliaryBoilerHT_1_14 + gen_high_FuelCell_1_14 + 
+	0.9975*u_high_1_14 - u_high_1_15 - downgraded_1_14 =G= 0;
+
+high_temp_balance_1_15..
+	gen_high_AuxiliaryBoilerHT_1_15 + gen_high_FuelCell_1_15 + 
+	0.9975*u_high_1_15 - u_high_1_16 - downgraded_1_15 =G= 0;
+
+high_temp_balance_1_16..
+	gen_high_AuxiliaryBoilerHT_1_16 + gen_high_FuelCell_1_16 + 
+	0.9975*u_high_1_16 - u_high_1_17 - downgraded_1_16 =G= 0;
+
+high_temp_balance_1_17..
+	gen_high_AuxiliaryBoilerHT_1_17 + gen_high_FuelCell_1_17 + 
+	0.9975*u_high_1_17 - u_high_1_18 - downgraded_1_17 =G= 0;
+
+high_temp_balance_1_18..
+	gen_high_AuxiliaryBoilerHT_1_18 + gen_high_FuelCell_1_18 + 
+	0.9975*u_high_1_18 - u_high_1_19 - downgraded_1_18 =G= 0;
+
+high_temp_balance_1_19..
+	gen_high_AuxiliaryBoilerHT_1_19 + gen_high_FuelCell_1_19 + 
+	0.9975*u_high_1_19 - u_high_1_20 - downgraded_1_19 =G= 0;
+
+high_temp_balance_1_20..
+	gen_high_AuxiliaryBoilerHT_1_20 + gen_high_FuelCell_1_20 + 
+	0.9975*u_high_1_20 - u_high_1_21 - downgraded_1_20 =G= 0;
+
+high_temp_balance_1_21..
+	gen_high_AuxiliaryBoilerHT_1_21 + gen_high_FuelCell_1_21 + 
+	0.9975*u_high_1_21 - u_high_1_22 - downgraded_1_21 =G= 0;
+
+high_temp_balance_1_22..
+	gen_high_AuxiliaryBoilerHT_1_22 + gen_high_FuelCell_1_22 + 
+	0.9975*u_high_1_22 - u_high_1_23 - downgraded_1_22 =G= 0;
+
+high_temp_balance_1_23..
+	gen_high_AuxiliaryBoilerHT_1_23 + gen_high_FuelCell_1_23 + 
+	0.9975*u_high_1_23 - u_high_1_24 - downgraded_1_23 =G= 0;
+
+high_temp_balance_2_1..
+	gen_high_AuxiliaryBoilerHT_2_1 + gen_high_FuelCell_2_1 + 
+	0.9975*u_high_2_1 - u_high_2_2 - downgraded_2_1 =G= 0;
+
+high_temp_balance_2_2..
+	gen_high_AuxiliaryBoilerHT_2_2 + gen_high_FuelCell_2_2 + 
+	0.9975*u_high_2_2 - u_high_2_3 - downgraded_2_2 =G= 0;
+
+high_temp_balance_2_3..
+	gen_high_AuxiliaryBoilerHT_2_3 + gen_high_FuelCell_2_3 + 
+	0.9975*u_high_2_3 - u_high_2_4 - downgraded_2_3 =G= 0;
+
+high_temp_balance_2_4..
+	gen_high_AuxiliaryBoilerHT_2_4 + gen_high_FuelCell_2_4 + 
+	0.9975*u_high_2_4 - u_high_2_5 - downgraded_2_4 =G= 0;
+
+high_temp_balance_2_5..
+	gen_high_AuxiliaryBoilerHT_2_5 + gen_high_FuelCell_2_5 + 
+	0.9975*u_high_2_5 - u_high_2_6 - downgraded_2_5 =G= 0;
+
+high_temp_balance_2_6..
+	gen_high_AuxiliaryBoilerHT_2_6 + gen_high_FuelCell_2_6 + 
+	0.9975*u_high_2_6 - u_high_2_7 - downgraded_2_6 =G= 0;
+
+high_temp_balance_2_7..
+	gen_high_AuxiliaryBoilerHT_2_7 + gen_high_FuelCell_2_7 + 
+	0.9975*u_high_2_7 - u_high_2_8 - downgraded_2_7 =G= 0;
+
+high_temp_balance_2_8..
+	gen_high_AuxiliaryBoilerHT_2_8 + gen_high_FuelCell_2_8 + 
+	0.9975*u_high_2_8 - u_high_2_9 - downgraded_2_8 =G= 0;
+
+high_temp_balance_2_9..
+	gen_high_AuxiliaryBoilerHT_2_9 + gen_high_FuelCell_2_9 + 
+	0.9975*u_high_2_9 - u_high_2_10 - downgraded_2_9 =G= 0;
+
+high_temp_balance_2_10..
+	gen_high_AuxiliaryBoilerHT_2_10 + gen_high_FuelCell_2_10 + 
+	0.9975*u_high_2_10 - u_high_2_11 - downgraded_2_10 =G= 0;
+
+high_temp_balance_2_11..
+	gen_high_AuxiliaryBoilerHT_2_11 + gen_high_FuelCell_2_11 + 
+	0.9975*u_high_2_11 - u_high_2_12 - downgraded_2_11 =G= 0;
+
+high_temp_balance_2_12..
+	gen_high_AuxiliaryBoilerHT_2_12 + gen_high_FuelCell_2_12 + 
+	0.9975*u_high_2_12 - u_high_2_13 - downgraded_2_12 =G= 0;
+
+high_temp_balance_2_13..
+	gen_high_AuxiliaryBoilerHT_2_13 + gen_high_FuelCell_2_13 + 
+	0.9975*u_high_2_13 - u_high_2_14 - downgraded_2_13 =G= 0;
+
+high_temp_balance_2_14..
+	gen_high_AuxiliaryBoilerHT_2_14 + gen_high_FuelCell_2_14 + 
+	0.9975*u_high_2_14 - u_high_2_15 - downgraded_2_14 =G= 0;
+
+high_temp_balance_2_15..
+	gen_high_AuxiliaryBoilerHT_2_15 + gen_high_FuelCell_2_15 + 
+	0.9975*u_high_2_15 - u_high_2_16 - downgraded_2_15 =G= 0;
+
+high_temp_balance_2_16..
+	gen_high_AuxiliaryBoilerHT_2_16 + gen_high_FuelCell_2_16 + 
+	0.9975*u_high_2_16 - u_high_2_17 - downgraded_2_16 =G= 0;
+
+high_temp_balance_2_17..
+	gen_high_AuxiliaryBoilerHT_2_17 + gen_high_FuelCell_2_17 + 
+	0.9975*u_high_2_17 - u_high_2_18 - downgraded_2_17 =G= 0;
+
+high_temp_balance_2_18..
+	gen_high_AuxiliaryBoilerHT_2_18 + gen_high_FuelCell_2_18 + 
+	0.9975*u_high_2_18 - u_high_2_19 - downgraded_2_18 =G= 0;
+
+high_temp_balance_2_19..
+	gen_high_AuxiliaryBoilerHT_2_19 + gen_high_FuelCell_2_19 + 
+	0.9975*u_high_2_19 - u_high_2_20 - downgraded_2_19 =G= 0;
+
+high_temp_balance_2_20..
+	gen_high_AuxiliaryBoilerHT_2_20 + gen_high_FuelCell_2_20 + 
+	0.9975*u_high_2_20 - u_high_2_21 - downgraded_2_20 =G= 0;
+
+high_temp_balance_2_21..
+	gen_high_AuxiliaryBoilerHT_2_21 + gen_high_FuelCell_2_21 + 
+	0.9975*u_high_2_21 - u_high_2_22 - downgraded_2_21 =G= 0;
+
+high_temp_balance_2_22..
+	gen_high_AuxiliaryBoilerHT_2_22 + gen_high_FuelCell_2_22 + 
+	0.9975*u_high_2_22 - u_high_2_23 - downgraded_2_22 =G= 0;
+
+high_temp_balance_2_23..
+	gen_high_AuxiliaryBoilerHT_2_23 + gen_high_FuelCell_2_23 + 
+	0.9975*u_high_2_23 - u_high_2_24 - downgraded_2_23 =G= 0;
+
+high_temp_loss_1_1..
+	gen_high_AuxiliaryBoilerHT_1_1 + gen_high_FuelCell_1_1 + 
+	0.9975*u_high_1_1 - u_high_1_2 - downgraded_1_1 =L= 0;
+
+high_temp_loss_1_2..
+	gen_high_AuxiliaryBoilerHT_1_2 + gen_high_FuelCell_1_2 + 
+	0.9975*u_high_1_2 - u_high_1_3 - downgraded_1_2 =L= 0;
+
+high_temp_loss_1_3..
+	gen_high_AuxiliaryBoilerHT_1_3 + gen_high_FuelCell_1_3 + 
+	0.9975*u_high_1_3 - u_high_1_4 - downgraded_1_3 =L= 0;
+
+high_temp_loss_1_4..
+	gen_high_AuxiliaryBoilerHT_1_4 + gen_high_FuelCell_1_4 + 
+	0.9975*u_high_1_4 - u_high_1_5 - downgraded_1_4 =L= 0;
+
+high_temp_loss_1_5..
+	gen_high_AuxiliaryBoilerHT_1_5 + gen_high_FuelCell_1_5 + 
+	0.9975*u_high_1_5 - u_high_1_6 - downgraded_1_5 =L= 0;
+
+high_temp_loss_1_6..
+	gen_high_AuxiliaryBoilerHT_1_6 + gen_high_FuelCell_1_6 + 
+	0.9975*u_high_1_6 - u_high_1_7 - downgraded_1_6 =L= 0;
+
+high_temp_loss_1_7..
+	gen_high_AuxiliaryBoilerHT_1_7 + gen_high_FuelCell_1_7 + 
+	0.9975*u_high_1_7 - u_high_1_8 - downgraded_1_7 =L= 0;
+
+high_temp_loss_1_8..
+	gen_high_AuxiliaryBoilerHT_1_8 + gen_high_FuelCell_1_8 + 
+	0.9975*u_high_1_8 - u_high_1_9 - downgraded_1_8 =L= 0;
+
+high_temp_loss_1_9..
+	gen_high_AuxiliaryBoilerHT_1_9 + gen_high_FuelCell_1_9 + 
+	0.9975*u_high_1_9 - u_high_1_10 - downgraded_1_9 =L= 0;
+
+high_temp_loss_1_10..
+	gen_high_AuxiliaryBoilerHT_1_10 + gen_high_FuelCell_1_10 + 
+	0.9975*u_high_1_10 - u_high_1_11 - downgraded_1_10 =L= 0;
+
+high_temp_loss_1_11..
+	gen_high_AuxiliaryBoilerHT_1_11 + gen_high_FuelCell_1_11 + 
+	0.9975*u_high_1_11 - u_high_1_12 - downgraded_1_11 =L= 0;
+
+high_temp_loss_1_12..
+	gen_high_AuxiliaryBoilerHT_1_12 + gen_high_FuelCell_1_12 + 
+	0.9975*u_high_1_12 - u_high_1_13 - downgraded_1_12 =L= 0;
+
+high_temp_loss_1_13..
+	gen_high_AuxiliaryBoilerHT_1_13 + gen_high_FuelCell_1_13 + 
+	0.9975*u_high_1_13 - u_high_1_14 - downgraded_1_13 =L= 0;
+
+high_temp_loss_1_14..
+	gen_high_AuxiliaryBoilerHT_1_14 + gen_high_FuelCell_1_14 + 
+	0.9975*u_high_1_14 - u_high_1_15 - downgraded_1_14 =L= 0;
+
+high_temp_loss_1_15..
+	gen_high_AuxiliaryBoilerHT_1_15 + gen_high_FuelCell_1_15 + 
+	0.9975*u_high_1_15 - u_high_1_16 - downgraded_1_15 =L= 0;
+
+high_temp_loss_1_16..
+	gen_high_AuxiliaryBoilerHT_1_16 + gen_high_FuelCell_1_16 + 
+	0.9975*u_high_1_16 - u_high_1_17 - downgraded_1_16 =L= 0;
+
+high_temp_loss_1_17..
+	gen_high_AuxiliaryBoilerHT_1_17 + gen_high_FuelCell_1_17 + 
+	0.9975*u_high_1_17 - u_high_1_18 - downgraded_1_17 =L= 0;
+
+high_temp_loss_1_18..
+	gen_high_AuxiliaryBoilerHT_1_18 + gen_high_FuelCell_1_18 + 
+	0.9975*u_high_1_18 - u_high_1_19 - downgraded_1_18 =L= 0;
+
+high_temp_loss_1_19..
+	gen_high_AuxiliaryBoilerHT_1_19 + gen_high_FuelCell_1_19 + 
+	0.9975*u_high_1_19 - u_high_1_20 - downgraded_1_19 =L= 0;
+
+high_temp_loss_1_20..
+	gen_high_AuxiliaryBoilerHT_1_20 + gen_high_FuelCell_1_20 + 
+	0.9975*u_high_1_20 - u_high_1_21 - downgraded_1_20 =L= 0;
+
+high_temp_loss_1_21..
+	gen_high_AuxiliaryBoilerHT_1_21 + gen_high_FuelCell_1_21 + 
+	0.9975*u_high_1_21 - u_high_1_22 - downgraded_1_21 =L= 0;
+
+high_temp_loss_1_22..
+	gen_high_AuxiliaryBoilerHT_1_22 + gen_high_FuelCell_1_22 + 
+	0.9975*u_high_1_22 - u_high_1_23 - downgraded_1_22 =L= 0;
+
+high_temp_loss_1_23..
+	gen_high_AuxiliaryBoilerHT_1_23 + gen_high_FuelCell_1_23 + 
+	0.9975*u_high_1_23 - u_high_1_24 - downgraded_1_23 =L= 0;
+
+high_temp_loss_2_1..
+	gen_high_AuxiliaryBoilerHT_2_1 + gen_high_FuelCell_2_1 + 
+	0.9975*u_high_2_1 - u_high_2_2 - downgraded_2_1 =L= 0;
+
+high_temp_loss_2_2..
+	gen_high_AuxiliaryBoilerHT_2_2 + gen_high_FuelCell_2_2 + 
+	0.9975*u_high_2_2 - u_high_2_3 - downgraded_2_2 =L= 0;
+
+high_temp_loss_2_3..
+	gen_high_AuxiliaryBoilerHT_2_3 + gen_high_FuelCell_2_3 + 
+	0.9975*u_high_2_3 - u_high_2_4 - downgraded_2_3 =L= 0;
+
+high_temp_loss_2_4..
+	gen_high_AuxiliaryBoilerHT_2_4 + gen_high_FuelCell_2_4 + 
+	0.9975*u_high_2_4 - u_high_2_5 - downgraded_2_4 =L= 0;
+
+high_temp_loss_2_5..
+	gen_high_AuxiliaryBoilerHT_2_5 + gen_high_FuelCell_2_5 + 
+	0.9975*u_high_2_5 - u_high_2_6 - downgraded_2_5 =L= 0;
+
+high_temp_loss_2_6..
+	gen_high_AuxiliaryBoilerHT_2_6 + gen_high_FuelCell_2_6 + 
+	0.9975*u_high_2_6 - u_high_2_7 - downgraded_2_6 =L= 0;
+
+high_temp_loss_2_7..
+	gen_high_AuxiliaryBoilerHT_2_7 + gen_high_FuelCell_2_7 + 
+	0.9975*u_high_2_7 - u_high_2_8 - downgraded_2_7 =L= 0;
+
+high_temp_loss_2_8..
+	gen_high_AuxiliaryBoilerHT_2_8 + gen_high_FuelCell_2_8 + 
+	0.9975*u_high_2_8 - u_high_2_9 - downgraded_2_8 =L= 0;
+
+high_temp_loss_2_9..
+	gen_high_AuxiliaryBoilerHT_2_9 + gen_high_FuelCell_2_9 + 
+	0.9975*u_high_2_9 - u_high_2_10 - downgraded_2_9 =L= 0;
+
+high_temp_loss_2_10..
+	gen_high_AuxiliaryBoilerHT_2_10 + gen_high_FuelCell_2_10 + 
+	0.9975*u_high_2_10 - u_high_2_11 - downgraded_2_10 =L= 0;
+
+high_temp_loss_2_11..
+	gen_high_AuxiliaryBoilerHT_2_11 + gen_high_FuelCell_2_11 + 
+	0.9975*u_high_2_11 - u_high_2_12 - downgraded_2_11 =L= 0;
+
+high_temp_loss_2_12..
+	gen_high_AuxiliaryBoilerHT_2_12 + gen_high_FuelCell_2_12 + 
+	0.9975*u_high_2_12 - u_high_2_13 - downgraded_2_12 =L= 0;
+
+high_temp_loss_2_13..
+	gen_high_AuxiliaryBoilerHT_2_13 + gen_high_FuelCell_2_13 + 
+	0.9975*u_high_2_13 - u_high_2_14 - downgraded_2_13 =L= 0;
+
+high_temp_loss_2_14..
+	gen_high_AuxiliaryBoilerHT_2_14 + gen_high_FuelCell_2_14 + 
+	0.9975*u_high_2_14 - u_high_2_15 - downgraded_2_14 =L= 0;
+
+high_temp_loss_2_15..
+	gen_high_AuxiliaryBoilerHT_2_15 + gen_high_FuelCell_2_15 + 
+	0.9975*u_high_2_15 - u_high_2_16 - downgraded_2_15 =L= 0;
+
+high_temp_loss_2_16..
+	gen_high_AuxiliaryBoilerHT_2_16 + gen_high_FuelCell_2_16 + 
+	0.9975*u_high_2_16 - u_high_2_17 - downgraded_2_16 =L= 0;
+
+high_temp_loss_2_17..
+	gen_high_AuxiliaryBoilerHT_2_17 + gen_high_FuelCell_2_17 + 
+	0.9975*u_high_2_17 - u_high_2_18 - downgraded_2_17 =L= 0;
+
+high_temp_loss_2_18..
+	gen_high_AuxiliaryBoilerHT_2_18 + gen_high_FuelCell_2_18 + 
+	0.9975*u_high_2_18 - u_high_2_19 - downgraded_2_18 =L= 0;
+
+high_temp_loss_2_19..
+	gen_high_AuxiliaryBoilerHT_2_19 + gen_high_FuelCell_2_19 + 
+	0.9975*u_high_2_19 - u_high_2_20 - downgraded_2_19 =L= 0;
+
+high_temp_loss_2_20..
+	gen_high_AuxiliaryBoilerHT_2_20 + gen_high_FuelCell_2_20 + 
+	0.9975*u_high_2_20 - u_high_2_21 - downgraded_2_20 =L= 0;
+
+high_temp_loss_2_21..
+	gen_high_AuxiliaryBoilerHT_2_21 + gen_high_FuelCell_2_21 + 
+	0.9975*u_high_2_21 - u_high_2_22 - downgraded_2_21 =L= 0;
+
+high_temp_loss_2_22..
+	gen_high_AuxiliaryBoilerHT_2_22 + gen_high_FuelCell_2_22 + 
+	0.9975*u_high_2_22 - u_high_2_23 - downgraded_2_22 =L= 0;
+
+high_temp_loss_2_23..
+	gen_high_AuxiliaryBoilerHT_2_23 + gen_high_FuelCell_2_23 + 
+	0.9975*u_high_2_23 - u_high_2_24 - downgraded_2_23 =L= 0;
+
+high_temp_balance_last_1_24..
+	gen_high_AuxiliaryBoilerHT_1_24 + gen_high_FuelCell_1_24 + 
+	0.9975*u_high_1_24 - u_high_2_1 - downgraded_1_24 =G= 0;
+
+high_temp_balance_last_2_24..
+	gen_high_AuxiliaryBoilerHT_2_24 + gen_high_FuelCell_2_24 - 
+	u_high_1_1 + 0.9975*u_high_2_24 - downgraded_2_24 =G= 0;
+
+low_temp_balance_1_1..
+	gen_low_FuelCell_1_1 + gen_low_Compression_HeatPump_AirWater_1_1
+	 + 0.9975*u_low_1_1 - u_low_1_2 + downgraded_1_1 =G= 54.15;
+
+low_temp_balance_1_2..
+	gen_low_FuelCell_1_2 + gen_low_Compression_HeatPump_AirWater_1_2
+	 + 0.9975*u_low_1_2 - u_low_1_3 + downgraded_1_2 =G= 55.56;
+
+low_temp_balance_1_3..
+	gen_low_FuelCell_1_3 + gen_low_Compression_HeatPump_AirWater_1_3
+	 + 0.9975*u_low_1_3 - u_low_1_4 + downgraded_1_3 =G= 56.98;
+
+low_temp_balance_1_4..
+	gen_low_FuelCell_1_4 + gen_low_Compression_HeatPump_AirWater_1_4
+	 + 0.9975*u_low_1_4 - u_low_1_5 + downgraded_1_4 =G= 56.98;
+
+low_temp_balance_1_5..
+	gen_low_FuelCell_1_5 + gen_low_Compression_HeatPump_AirWater_1_5
+	 + 0.9975*u_low_1_5 - u_low_1_6 + downgraded_1_5 =G= 55.56;
+
+low_temp_balance_1_6..
+	gen_low_FuelCell_1_6 + gen_low_Compression_HeatPump_AirWater_1_6
+	 + 0.9975*u_low_1_6 - u_low_1_7 + downgraded_1_6 =G= 68.57;
+
+low_temp_balance_1_7..
+	gen_low_FuelCell_1_7 + gen_low_Compression_HeatPump_AirWater_1_7
+	 + 0.9975*u_low_1_7 - u_low_1_8 + downgraded_1_7 =G= 71.29;
+
+low_temp_balance_1_8..
+	gen_low_FuelCell_1_8 + gen_low_Compression_HeatPump_AirWater_1_8
+	 + 0.9975*u_low_1_8 - u_low_1_9 + downgraded_1_8 =G= 41.38;
+
+low_temp_balance_1_9..
+	gen_low_FuelCell_1_9 + gen_low_Compression_HeatPump_AirWater_1_9
+	 + 0.9975*u_low_1_9 - u_low_1_10 + downgraded_1_9 =G= 39.11;
+
+low_temp_balance_1_10..
+	gen_low_FuelCell_1_10 + 
+	gen_low_Compression_HeatPump_AirWater_1_10 + 0.9975*u_low_1_10 - 
+	u_low_1_11 + downgraded_1_10 =G= 36.4;
+
+low_temp_balance_1_11..
+	gen_low_FuelCell_1_11 + 
+	gen_low_Compression_HeatPump_AirWater_1_11 + 0.9975*u_low_1_11 - 
+	u_low_1_12 + downgraded_1_11 =G= 33.57;
+
+low_temp_balance_1_12..
+	gen_low_FuelCell_1_12 + 
+	gen_low_Compression_HeatPump_AirWater_1_12 + 0.9975*u_low_1_12 - 
+	u_low_1_13 + downgraded_1_12 =G= 27.23;
+
+low_temp_balance_1_13..
+	gen_low_FuelCell_1_13 + 
+	gen_low_Compression_HeatPump_AirWater_1_13 + 0.9975*u_low_1_13 - 
+	u_low_1_14 + downgraded_1_13 =G= 23.92;
+
+low_temp_balance_1_14..
+	gen_low_FuelCell_1_14 + 
+	gen_low_Compression_HeatPump_AirWater_1_14 + 0.9975*u_low_1_14 - 
+	u_low_1_15 + downgraded_1_14 =G= 19.3;
+
+low_temp_balance_1_15..
+	gen_low_FuelCell_1_15 + 
+	gen_low_Compression_HeatPump_AirWater_1_15 + 0.9975*u_low_1_15 - 
+	u_low_1_16 + downgraded_1_15 =G= 20.58;
+
+low_temp_balance_1_16..
+	gen_low_FuelCell_1_16 + 
+	gen_low_Compression_HeatPump_AirWater_1_16 + 0.9975*u_low_1_16 - 
+	u_low_1_17 + downgraded_1_16 =G= 22.88;
+
+low_temp_balance_1_17..
+	gen_low_FuelCell_1_17 + 
+	gen_low_Compression_HeatPump_AirWater_1_17 + 0.9975*u_low_1_17 - 
+	u_low_1_18 + downgraded_1_17 =G= 26.71;
+
+low_temp_balance_1_18..
+	gen_low_FuelCell_1_18 + 
+	gen_low_Compression_HeatPump_AirWater_1_18 + 0.9975*u_low_1_18 - 
+	u_low_1_19 + downgraded_1_18 =G= 28.65;
+
+low_temp_balance_1_19..
+	gen_low_FuelCell_1_19 + 
+	gen_low_Compression_HeatPump_AirWater_1_19 + 0.9975*u_low_1_19 - 
+	u_low_1_20 + downgraded_1_19 =G= 36.78;
+
+low_temp_balance_1_20..
+	gen_low_FuelCell_1_20 + 
+	gen_low_Compression_HeatPump_AirWater_1_20 + 0.9975*u_low_1_20 - 
+	u_low_1_21 + downgraded_1_20 =G= 43.94;
+
+low_temp_balance_1_21..
+	gen_low_FuelCell_1_21 + 
+	gen_low_Compression_HeatPump_AirWater_1_21 + 0.9975*u_low_1_21 - 
+	u_low_1_22 + downgraded_1_21 =G= 44.06;
+
+low_temp_balance_1_22..
+	gen_low_FuelCell_1_22 + 
+	gen_low_Compression_HeatPump_AirWater_1_22 + 0.9975*u_low_1_22 - 
+	u_low_1_23 + downgraded_1_22 =G= 46.68;
+
+low_temp_balance_1_23..
+	gen_low_FuelCell_1_23 + 
+	gen_low_Compression_HeatPump_AirWater_1_23 + 0.9975*u_low_1_23 - 
+	u_low_1_24 + downgraded_1_23 =G= 34.97;
+
+low_temp_balance_2_1..
+	gen_low_FuelCell_2_1 + gen_low_Compression_HeatPump_AirWater_2_1
+	 + 0.9975*u_low_2_1 - u_low_2_2 + downgraded_2_1 =G= 44.15;
+
+low_temp_balance_2_2..
+	gen_low_FuelCell_2_2 + gen_low_Compression_HeatPump_AirWater_2_2
+	 + 0.9975*u_low_2_2 - u_low_2_3 + downgraded_2_2 =G= 45.56;
+
+low_temp_balance_2_3..
+	gen_low_FuelCell_2_3 + gen_low_Compression_HeatPump_AirWater_2_3
+	 + 0.9975*u_low_2_3 - u_low_2_4 + downgraded_2_3 =G= 46.98;
+
+low_temp_balance_2_4..
+	gen_low_FuelCell_2_4 + gen_low_Compression_HeatPump_AirWater_2_4
+	 + 0.9975*u_low_2_4 - u_low_2_5 + downgraded_2_4 =G= 46.98;
+
+low_temp_balance_2_5..
+	gen_low_FuelCell_2_5 + gen_low_Compression_HeatPump_AirWater_2_5
+	 + 0.9975*u_low_2_5 - u_low_2_6 + downgraded_2_5 =G= 45.56;
+
+low_temp_balance_2_6..
+	gen_low_FuelCell_2_6 + gen_low_Compression_HeatPump_AirWater_2_6
+	 + 0.9975*u_low_2_6 - u_low_2_7 + downgraded_2_6 =G= 58.57;
+
+low_temp_balance_2_7..
+	gen_low_FuelCell_2_7 + gen_low_Compression_HeatPump_AirWater_2_7
+	 + 0.9975*u_low_2_7 - u_low_2_8 + downgraded_2_7 =G= 65.29;
+
+low_temp_balance_2_8..
+	gen_low_FuelCell_2_8 + gen_low_Compression_HeatPump_AirWater_2_8
+	 + 0.9975*u_low_2_8 - u_low_2_9 + downgraded_2_8 =G= 41.38;
+
+low_temp_balance_2_9..
+	gen_low_FuelCell_2_9 + gen_low_Compression_HeatPump_AirWater_2_9
+	 + 0.9975*u_low_2_9 - u_low_2_10 + downgraded_2_9 =G= 39.11;
+
+low_temp_balance_2_10..
+	gen_low_FuelCell_2_10 + 
+	gen_low_Compression_HeatPump_AirWater_2_10 + 0.9975*u_low_2_10 - 
+	u_low_2_11 + downgraded_2_10 =G= 36.4;
+
+low_temp_balance_2_11..
+	gen_low_FuelCell_2_11 + 
+	gen_low_Compression_HeatPump_AirWater_2_11 + 0.9975*u_low_2_11 - 
+	u_low_2_12 + downgraded_2_11 =G= 33.57;
+
+low_temp_balance_2_12..
+	gen_low_FuelCell_2_12 + 
+	gen_low_Compression_HeatPump_AirWater_2_12 + 0.9975*u_low_2_12 - 
+	u_low_2_13 + downgraded_2_12 =G= 27.23;
+
+low_temp_balance_2_13..
+	gen_low_FuelCell_2_13 + 
+	gen_low_Compression_HeatPump_AirWater_2_13 + 0.9975*u_low_2_13 - 
+	u_low_2_14 + downgraded_2_13 =G= 23.92;
+
+low_temp_balance_2_14..
+	gen_low_FuelCell_2_14 + 
+	gen_low_Compression_HeatPump_AirWater_2_14 + 0.9975*u_low_2_14 - 
+	u_low_2_15 + downgraded_2_14 =G= 19.3;
+
+low_temp_balance_2_15..
+	gen_low_FuelCell_2_15 + 
+	gen_low_Compression_HeatPump_AirWater_2_15 + 0.9975*u_low_2_15 - 
+	u_low_2_16 + downgraded_2_15 =G= 15.58;
+
+low_temp_balance_2_16..
+	gen_low_FuelCell_2_16 + 
+	gen_low_Compression_HeatPump_AirWater_2_16 + 0.9975*u_low_2_16 - 
+	u_low_2_17 + downgraded_2_16 =G= 12.88;
+
+low_temp_balance_2_17..
+	gen_low_FuelCell_2_17 + 
+	gen_low_Compression_HeatPump_AirWater_2_17 + 0.9975*u_low_2_17 - 
+	u_low_2_18 + downgraded_2_17 =G= 16.71;
+
+low_temp_balance_2_18..
+	gen_low_FuelCell_2_18 + 
+	gen_low_Compression_HeatPump_AirWater_2_18 + 0.9975*u_low_2_18 - 
+	u_low_2_19 + downgraded_2_18 =G= 18.65;
+
+low_temp_balance_2_19..
+	gen_low_FuelCell_2_19 + 
+	gen_low_Compression_HeatPump_AirWater_2_19 + 0.9975*u_low_2_19 - 
+	u_low_2_20 + downgraded_2_19 =G= 26.78;
+
+low_temp_balance_2_20..
+	gen_low_FuelCell_2_20 + 
+	gen_low_Compression_HeatPump_AirWater_2_20 + 0.9975*u_low_2_20 - 
+	u_low_2_21 + downgraded_2_20 =G= 33.94;
+
+low_temp_balance_2_21..
+	gen_low_FuelCell_2_21 + 
+	gen_low_Compression_HeatPump_AirWater_2_21 + 0.9975*u_low_2_21 - 
+	u_low_2_22 + downgraded_2_21 =G= 34.06;
+
+low_temp_balance_2_22..
+	gen_low_FuelCell_2_22 + 
+	gen_low_Compression_HeatPump_AirWater_2_22 + 0.9975*u_low_2_22 - 
+	u_low_2_23 + downgraded_2_22 =G= 36.68;
+
+low_temp_balance_2_23..
+	gen_low_FuelCell_2_23 + 
+	gen_low_Compression_HeatPump_AirWater_2_23 + 0.9975*u_low_2_23 - 
+	u_low_2_24 + downgraded_2_23 =G= 24.97;
+
+low_temp_balance_last_1_24..
+	gen_low_FuelCell_1_24 + 
+	gen_low_Compression_HeatPump_AirWater_1_24 + 0.9975*u_low_1_24 - 
+	u_low_2_1 + downgraded_1_24 =G= 50.55;
+
+low_temp_balance_last_2_24..
+	gen_low_FuelCell_2_24 + 
+	gen_low_Compression_HeatPump_AirWater_2_24 - u_low_1_1 + 
+	0.9975*u_low_2_24 + downgraded_2_24 =G= 40.55;
+
+electric_power_balance_1_1..
+	-used_power_Compression_HeatPump_AirWater_1_1 - grid_power_sold_1_1
+	 + grid_power_bought_1_1 + gen_power_FuelCell_1_1 =E= 3.88;
+
+electric_power_balance_1_2..
+	-used_power_Compression_HeatPump_AirWater_1_2 - grid_power_sold_1_2
+	 + grid_power_bought_1_2 + gen_power_FuelCell_1_2 =E= 3.88;
+
+electric_power_balance_1_3..
+	-used_power_Compression_HeatPump_AirWater_1_3 - grid_power_sold_1_3
+	 + grid_power_bought_1_3 + gen_power_FuelCell_1_3 =E= 3.88;
+
+electric_power_balance_1_4..
+	-used_power_Compression_HeatPump_AirWater_1_4 - grid_power_sold_1_4
+	 + grid_power_bought_1_4 + gen_power_FuelCell_1_4 =E= 3.88;
+
+electric_power_balance_1_5..
+	-used_power_Compression_HeatPump_AirWater_1_5 - grid_power_sold_1_5
+	 + grid_power_bought_1_5 + gen_power_FuelCell_1_5 =E= 3.88;
+
+electric_power_balance_1_6..
+	-used_power_Compression_HeatPump_AirWater_1_6 - grid_power_sold_1_6
+	 + grid_power_bought_1_6 + gen_power_FuelCell_1_6 =E= 9.7;
+
+electric_power_balance_1_7..
+	-used_power_Compression_HeatPump_AirWater_1_7 - grid_power_sold_1_7
+	 + grid_power_bought_1_7 + gen_power_FuelCell_1_7 =E= 9.7;
+
+electric_power_balance_1_8..
+	-used_power_Compression_HeatPump_AirWater_1_8 - grid_power_sold_1_8
+	 + grid_power_bought_1_8 + gen_power_FuelCell_1_8 =E= 27.16;
+
+electric_power_balance_1_9..
+	-used_power_Compression_HeatPump_AirWater_1_9 - grid_power_sold_1_9
+	 + grid_power_bought_1_9 + gen_power_FuelCell_1_9 =E= 29.1;
+
+electric_power_balance_1_10..
+	-used_power_Compression_HeatPump_AirWater_1_10 - 
+	grid_power_sold_1_10 + grid_power_bought_1_10 + 
+	gen_power_FuelCell_1_10 =E= 29.1;
+
+electric_power_balance_1_11..
+	-used_power_Compression_HeatPump_AirWater_1_11 - 
+	grid_power_sold_1_11 + grid_power_bought_1_11 + 
+	gen_power_FuelCell_1_11 =E= 29.1;
+
+electric_power_balance_1_12..
+	-used_power_Compression_HeatPump_AirWater_1_12 - 
+	grid_power_sold_1_12 + grid_power_bought_1_12 + 
+	gen_power_FuelCell_1_12 =E= 36.86;
+
+electric_power_balance_1_13..
+	-used_power_Compression_HeatPump_AirWater_1_13 - 
+	grid_power_sold_1_13 + grid_power_bought_1_13 + 
+	gen_power_FuelCell_1_13 =E= 37.67;
+
+electric_power_balance_1_14..
+	-used_power_Compression_HeatPump_AirWater_1_14 - 
+	grid_power_sold_1_14 + grid_power_bought_1_14 + 
+	gen_power_FuelCell_1_14 =E= 36.86;
+
+electric_power_balance_1_15..
+	-used_power_Compression_HeatPump_AirWater_1_15 - 
+	grid_power_sold_1_15 + grid_power_bought_1_15 + 
+	gen_power_FuelCell_1_15 =E= 38.8;
+
+electric_power_balance_1_16..
+	-used_power_Compression_HeatPump_AirWater_1_16 - 
+	grid_power_sold_1_16 + grid_power_bought_1_16 + 
+	gen_power_FuelCell_1_16 =E= 36.86;
+
+electric_power_balance_1_17..
+	-used_power_Compression_HeatPump_AirWater_1_17 - 
+	grid_power_sold_1_17 + grid_power_bought_1_17 + 
+	gen_power_FuelCell_1_17 =E= 38.02;
+
+electric_power_balance_1_18..
+	-used_power_Compression_HeatPump_AirWater_1_18 - 
+	grid_power_sold_1_18 + grid_power_bought_1_18 + 
+	gen_power_FuelCell_1_18 =E= 36.86;
+
+electric_power_balance_1_19..
+	-used_power_Compression_HeatPump_AirWater_1_19 - 
+	grid_power_sold_1_19 + grid_power_bought_1_19 + 
+	gen_power_FuelCell_1_19 =E= 23.28;
+
+electric_power_balance_1_20..
+	-used_power_Compression_HeatPump_AirWater_1_20 - 
+	grid_power_sold_1_20 + grid_power_bought_1_20 + 
+	gen_power_FuelCell_1_20 =E= 15.52;
+
+electric_power_balance_1_21..
+	-used_power_Compression_HeatPump_AirWater_1_21 - 
+	grid_power_sold_1_21 + grid_power_bought_1_21 + 
+	gen_power_FuelCell_1_21 =E= 9.7;
+
+electric_power_balance_1_22..
+	-used_power_Compression_HeatPump_AirWater_1_22 - 
+	grid_power_sold_1_22 + grid_power_bought_1_22 + 
+	gen_power_FuelCell_1_22 =E= 3.88;
+
+electric_power_balance_1_23..
+	-used_power_Compression_HeatPump_AirWater_1_23 - 
+	grid_power_sold_1_23 + grid_power_bought_1_23 + 
+	gen_power_FuelCell_1_23 =E= 3.88;
+
+electric_power_balance_1_24..
+	-used_power_Compression_HeatPump_AirWater_1_24 - 
+	grid_power_sold_1_24 + grid_power_bought_1_24 + 
+	gen_power_FuelCell_1_24 =E= 3.88;
+
+electric_power_balance_2_1..
+	-used_power_Compression_HeatPump_AirWater_2_1 - grid_power_sold_2_1
+	 + grid_power_bought_2_1 + gen_power_FuelCell_2_1 =E= 3.88;
+
+electric_power_balance_2_2..
+	-used_power_Compression_HeatPump_AirWater_2_2 - grid_power_sold_2_2
+	 + grid_power_bought_2_2 + gen_power_FuelCell_2_2 =E= 3.88;
+
+electric_power_balance_2_3..
+	-used_power_Compression_HeatPump_AirWater_2_3 - grid_power_sold_2_3
+	 + grid_power_bought_2_3 + gen_power_FuelCell_2_3 =E= 3.88;
+
+electric_power_balance_2_4..
+	-used_power_Compression_HeatPump_AirWater_2_4 - grid_power_sold_2_4
+	 + grid_power_bought_2_4 + gen_power_FuelCell_2_4 =E= 3.88;
+
+electric_power_balance_2_5..
+	-used_power_Compression_HeatPump_AirWater_2_5 - grid_power_sold_2_5
+	 + grid_power_bought_2_5 + gen_power_FuelCell_2_5 =E= 3.88;
+
+electric_power_balance_2_6..
+	-used_power_Compression_HeatPump_AirWater_2_6 - grid_power_sold_2_6
+	 + grid_power_bought_2_6 + gen_power_FuelCell_2_6 =E= 9.7;
+
+electric_power_balance_2_7..
+	-used_power_Compression_HeatPump_AirWater_2_7 - grid_power_sold_2_7
+	 + grid_power_bought_2_7 + gen_power_FuelCell_2_7 =E= 9.7;
+
+electric_power_balance_2_8..
+	-used_power_Compression_HeatPump_AirWater_2_8 - grid_power_sold_2_8
+	 + grid_power_bought_2_8 + gen_power_FuelCell_2_8 =E= 27.16;
+
+electric_power_balance_2_9..
+	-used_power_Compression_HeatPump_AirWater_2_9 - grid_power_sold_2_9
+	 + grid_power_bought_2_9 + gen_power_FuelCell_2_9 =E= 29.1;
+
+electric_power_balance_2_10..
+	-used_power_Compression_HeatPump_AirWater_2_10 - 
+	grid_power_sold_2_10 + grid_power_bought_2_10 + 
+	gen_power_FuelCell_2_10 =E= 29.1;
+
+electric_power_balance_2_11..
+	-used_power_Compression_HeatPump_AirWater_2_11 - 
+	grid_power_sold_2_11 + grid_power_bought_2_11 + 
+	gen_power_FuelCell_2_11 =E= 29.1;
+
+electric_power_balance_2_12..
+	-used_power_Compression_HeatPump_AirWater_2_12 - 
+	grid_power_sold_2_12 + grid_power_bought_2_12 + 
+	gen_power_FuelCell_2_12 =E= 36.86;
+
+electric_power_balance_2_13..
+	-used_power_Compression_HeatPump_AirWater_2_13 - 
+	grid_power_sold_2_13 + grid_power_bought_2_13 + 
+	gen_power_FuelCell_2_13 =E= 37.67;
+
+electric_power_balance_2_14..
+	-used_power_Compression_HeatPump_AirWater_2_14 - 
+	grid_power_sold_2_14 + grid_power_bought_2_14 + 
+	gen_power_FuelCell_2_14 =E= 36.86;
+
+electric_power_balance_2_15..
+	-used_power_Compression_HeatPump_AirWater_2_15 - 
+	grid_power_sold_2_15 + grid_power_bought_2_15 + 
+	gen_power_FuelCell_2_15 =E= 38.8;
+
+electric_power_balance_2_16..
+	-used_power_Compression_HeatPump_AirWater_2_16 - 
+	grid_power_sold_2_16 + grid_power_bought_2_16 + 
+	gen_power_FuelCell_2_16 =E= 36.86;
+
+electric_power_balance_2_17..
+	-used_power_Compression_HeatPump_AirWater_2_17 - 
+	grid_power_sold_2_17 + grid_power_bought_2_17 + 
+	gen_power_FuelCell_2_17 =E= 38.02;
+
+electric_power_balance_2_18..
+	-used_power_Compression_HeatPump_AirWater_2_18 - 
+	grid_power_sold_2_18 + grid_power_bought_2_18 + 
+	gen_power_FuelCell_2_18 =E= 36.86;
+
+electric_power_balance_2_19..
+	-used_power_Compression_HeatPump_AirWater_2_19 - 
+	grid_power_sold_2_19 + grid_power_bought_2_19 + 
+	gen_power_FuelCell_2_19 =E= 23.28;
+
+electric_power_balance_2_20..
+	-used_power_Compression_HeatPump_AirWater_2_20 - 
+	grid_power_sold_2_20 + grid_power_bought_2_20 + 
+	gen_power_FuelCell_2_20 =E= 15.52;
+
+electric_power_balance_2_21..
+	-used_power_Compression_HeatPump_AirWater_2_21 - 
+	grid_power_sold_2_21 + grid_power_bought_2_21 + 
+	gen_power_FuelCell_2_21 =E= 9.7;
+
+electric_power_balance_2_22..
+	-used_power_Compression_HeatPump_AirWater_2_22 - 
+	grid_power_sold_2_22 + grid_power_bought_2_22 + 
+	gen_power_FuelCell_2_22 =E= 3.88;
+
+electric_power_balance_2_23..
+	-used_power_Compression_HeatPump_AirWater_2_23 - 
+	grid_power_sold_2_23 + grid_power_bought_2_23 + 
+	gen_power_FuelCell_2_23 =E= 3.88;
+
+electric_power_balance_2_24..
+	-used_power_Compression_HeatPump_AirWater_2_24 - 
+	grid_power_sold_2_24 + grid_power_bought_2_24 + 
+	gen_power_FuelCell_2_24 =E= 3.88;
+
+cold_balance_1_1..
+	0.997*u_cold_1_1 - u_cold_1_2 =G= 0;
+
+cold_balance_1_2..
+	0.997*u_cold_1_2 - u_cold_1_3 =G= 0;
+
+cold_balance_1_3..
+	0.997*u_cold_1_3 - u_cold_1_4 =G= 0;
+
+cold_balance_1_4..
+	0.997*u_cold_1_4 - u_cold_1_5 =G= 0;
+
+cold_balance_1_5..
+	0.997*u_cold_1_5 - u_cold_1_6 =G= 0;
+
+cold_balance_1_6..
+	0.997*u_cold_1_6 - u_cold_1_7 =G= 0;
+
+cold_balance_1_7..
+	0.997*u_cold_1_7 - u_cold_1_8 =G= 0;
+
+cold_balance_1_8..
+	0.997*u_cold_1_8 - u_cold_1_9 =G= 0;
+
+cold_balance_1_9..
+	0.997*u_cold_1_9 - u_cold_1_10 =G= 0;
+
+cold_balance_1_10..
+	0.997*u_cold_1_10 - u_cold_1_11 =G= 0;
+
+cold_balance_1_11..
+	0.997*u_cold_1_11 - u_cold_1_12 =G= 0;
+
+cold_balance_1_12..
+	0.997*u_cold_1_12 - u_cold_1_13 =G= 0;
+
+cold_balance_1_13..
+	0.997*u_cold_1_13 - u_cold_1_14 =G= 0;
+
+cold_balance_1_14..
+	0.997*u_cold_1_14 - u_cold_1_15 =G= 0;
+
+cold_balance_1_15..
+	0.997*u_cold_1_15 - u_cold_1_16 =G= 0;
+
+cold_balance_1_16..
+	0.997*u_cold_1_16 - u_cold_1_17 =G= 0;
+
+cold_balance_1_17..
+	0.997*u_cold_1_17 - u_cold_1_18 =G= 0;
+
+cold_balance_1_18..
+	0.997*u_cold_1_18 - u_cold_1_19 =G= 0;
+
+cold_balance_1_19..
+	0.997*u_cold_1_19 - u_cold_1_20 =G= 0;
+
+cold_balance_1_20..
+	0.997*u_cold_1_20 - u_cold_1_21 =G= 0;
+
+cold_balance_1_21..
+	0.997*u_cold_1_21 - u_cold_1_22 =G= 0;
+
+cold_balance_1_22..
+	0.997*u_cold_1_22 - u_cold_1_23 =G= 0;
+
+cold_balance_1_23..
+	0.997*u_cold_1_23 - u_cold_1_24 =G= 0;
+
+cold_balance_2_1..
+	0.997*u_cold_2_1 - u_cold_2_2 =G= 0;
+
+cold_balance_2_2..
+	0.997*u_cold_2_2 - u_cold_2_3 =G= 0;
+
+cold_balance_2_3..
+	0.997*u_cold_2_3 - u_cold_2_4 =G= 0;
+
+cold_balance_2_4..
+	0.997*u_cold_2_4 - u_cold_2_5 =G= 0;
+
+cold_balance_2_5..
+	0.997*u_cold_2_5 - u_cold_2_6 =G= 0;
+
+cold_balance_2_6..
+	0.997*u_cold_2_6 - u_cold_2_7 =G= 0;
+
+cold_balance_2_7..
+	0.997*u_cold_2_7 - u_cold_2_8 =G= 0;
+
+cold_balance_2_8..
+	0.997*u_cold_2_8 - u_cold_2_9 =G= 0;
+
+cold_balance_2_9..
+	0.997*u_cold_2_9 - u_cold_2_10 =G= 0;
+
+cold_balance_2_10..
+	0.997*u_cold_2_10 - u_cold_2_11 =G= 0;
+
+cold_balance_2_11..
+	0.997*u_cold_2_11 - u_cold_2_12 =G= 0;
+
+cold_balance_2_12..
+	0.997*u_cold_2_12 - u_cold_2_13 =G= 0;
+
+cold_balance_2_13..
+	0.997*u_cold_2_13 - u_cold_2_14 =G= 0;
+
+cold_balance_2_14..
+	0.997*u_cold_2_14 - u_cold_2_15 =G= 0;
+
+cold_balance_2_15..
+	0.997*u_cold_2_15 - u_cold_2_16 =G= 0;
+
+cold_balance_2_16..
+	0.997*u_cold_2_16 - u_cold_2_17 =G= 0;
+
+cold_balance_2_17..
+	0.997*u_cold_2_17 - u_cold_2_18 =G= 0;
+
+cold_balance_2_18..
+	0.997*u_cold_2_18 - u_cold_2_19 =G= 0;
+
+cold_balance_2_19..
+	0.997*u_cold_2_19 - u_cold_2_20 =G= 0;
+
+cold_balance_2_20..
+	0.997*u_cold_2_20 - u_cold_2_21 =G= 0;
+
+cold_balance_2_21..
+	0.997*u_cold_2_21 - u_cold_2_22 =G= 0;
+
+cold_balance_2_22..
+	0.997*u_cold_2_22 - u_cold_2_23 =G= 0;
+
+cold_balance_2_23..
+	0.997*u_cold_2_23 - u_cold_2_24 =G= 0;
+
+cold_balance_last_1_24..
+	0.997*u_cold_1_24 - u_cold_2_1 =G= 0;
+
+cold_balance_last_2_24..
+	-u_cold_1_1 + 0.997*u_cold_2_24 =G= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_1..
+	-fuel_AuxiliaryBoilerHT_1_1 + 1.58*z_AuxiliaryBoilerHT_1_1 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_2..
+	-fuel_AuxiliaryBoilerHT_1_2 + 1.58*z_AuxiliaryBoilerHT_1_2 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_3..
+	-fuel_AuxiliaryBoilerHT_1_3 + 1.58*z_AuxiliaryBoilerHT_1_3 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_4..
+	-fuel_AuxiliaryBoilerHT_1_4 + 1.58*z_AuxiliaryBoilerHT_1_4 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_5..
+	-fuel_AuxiliaryBoilerHT_1_5 + 1.58*z_AuxiliaryBoilerHT_1_5 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_6..
+	-fuel_AuxiliaryBoilerHT_1_6 + 1.58*z_AuxiliaryBoilerHT_1_6 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_7..
+	-fuel_AuxiliaryBoilerHT_1_7 + 1.58*z_AuxiliaryBoilerHT_1_7 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_8..
+	-fuel_AuxiliaryBoilerHT_1_8 + 1.58*z_AuxiliaryBoilerHT_1_8 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_9..
+	-fuel_AuxiliaryBoilerHT_1_9 + 1.58*z_AuxiliaryBoilerHT_1_9 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_10..
+	-fuel_AuxiliaryBoilerHT_1_10 + 1.58*z_AuxiliaryBoilerHT_1_10 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_11..
+	-fuel_AuxiliaryBoilerHT_1_11 + 1.58*z_AuxiliaryBoilerHT_1_11 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_12..
+	-fuel_AuxiliaryBoilerHT_1_12 + 1.58*z_AuxiliaryBoilerHT_1_12 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_13..
+	-fuel_AuxiliaryBoilerHT_1_13 + 1.58*z_AuxiliaryBoilerHT_1_13 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_14..
+	-fuel_AuxiliaryBoilerHT_1_14 + 1.58*z_AuxiliaryBoilerHT_1_14 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_15..
+	-fuel_AuxiliaryBoilerHT_1_15 + 1.58*z_AuxiliaryBoilerHT_1_15 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_16..
+	-fuel_AuxiliaryBoilerHT_1_16 + 1.58*z_AuxiliaryBoilerHT_1_16 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_17..
+	-fuel_AuxiliaryBoilerHT_1_17 + 1.58*z_AuxiliaryBoilerHT_1_17 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_18..
+	-fuel_AuxiliaryBoilerHT_1_18 + 1.58*z_AuxiliaryBoilerHT_1_18 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_19..
+	-fuel_AuxiliaryBoilerHT_1_19 + 1.58*z_AuxiliaryBoilerHT_1_19 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_20..
+	-fuel_AuxiliaryBoilerHT_1_20 + 1.58*z_AuxiliaryBoilerHT_1_20 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_21..
+	-fuel_AuxiliaryBoilerHT_1_21 + 1.58*z_AuxiliaryBoilerHT_1_21 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_22..
+	-fuel_AuxiliaryBoilerHT_1_22 + 1.58*z_AuxiliaryBoilerHT_1_22 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_23..
+	-fuel_AuxiliaryBoilerHT_1_23 + 1.58*z_AuxiliaryBoilerHT_1_23 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_1_24..
+	-fuel_AuxiliaryBoilerHT_1_24 + 1.58*z_AuxiliaryBoilerHT_1_24 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_1..
+	-fuel_AuxiliaryBoilerHT_2_1 + 1.58*z_AuxiliaryBoilerHT_2_1 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_2..
+	-fuel_AuxiliaryBoilerHT_2_2 + 1.58*z_AuxiliaryBoilerHT_2_2 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_3..
+	-fuel_AuxiliaryBoilerHT_2_3 + 1.58*z_AuxiliaryBoilerHT_2_3 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_4..
+	-fuel_AuxiliaryBoilerHT_2_4 + 1.58*z_AuxiliaryBoilerHT_2_4 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_5..
+	-fuel_AuxiliaryBoilerHT_2_5 + 1.58*z_AuxiliaryBoilerHT_2_5 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_6..
+	-fuel_AuxiliaryBoilerHT_2_6 + 1.58*z_AuxiliaryBoilerHT_2_6 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_7..
+	-fuel_AuxiliaryBoilerHT_2_7 + 1.58*z_AuxiliaryBoilerHT_2_7 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_8..
+	-fuel_AuxiliaryBoilerHT_2_8 + 1.58*z_AuxiliaryBoilerHT_2_8 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_9..
+	-fuel_AuxiliaryBoilerHT_2_9 + 1.58*z_AuxiliaryBoilerHT_2_9 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_10..
+	-fuel_AuxiliaryBoilerHT_2_10 + 1.58*z_AuxiliaryBoilerHT_2_10 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_11..
+	-fuel_AuxiliaryBoilerHT_2_11 + 1.58*z_AuxiliaryBoilerHT_2_11 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_12..
+	-fuel_AuxiliaryBoilerHT_2_12 + 1.58*z_AuxiliaryBoilerHT_2_12 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_13..
+	-fuel_AuxiliaryBoilerHT_2_13 + 1.58*z_AuxiliaryBoilerHT_2_13 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_14..
+	-fuel_AuxiliaryBoilerHT_2_14 + 1.58*z_AuxiliaryBoilerHT_2_14 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_15..
+	-fuel_AuxiliaryBoilerHT_2_15 + 1.58*z_AuxiliaryBoilerHT_2_15 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_16..
+	-fuel_AuxiliaryBoilerHT_2_16 + 1.58*z_AuxiliaryBoilerHT_2_16 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_17..
+	-fuel_AuxiliaryBoilerHT_2_17 + 1.58*z_AuxiliaryBoilerHT_2_17 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_18..
+	-fuel_AuxiliaryBoilerHT_2_18 + 1.58*z_AuxiliaryBoilerHT_2_18 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_19..
+	-fuel_AuxiliaryBoilerHT_2_19 + 1.58*z_AuxiliaryBoilerHT_2_19 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_20..
+	-fuel_AuxiliaryBoilerHT_2_20 + 1.58*z_AuxiliaryBoilerHT_2_20 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_21..
+	-fuel_AuxiliaryBoilerHT_2_21 + 1.58*z_AuxiliaryBoilerHT_2_21 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_22..
+	-fuel_AuxiliaryBoilerHT_2_22 + 1.58*z_AuxiliaryBoilerHT_2_22 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_23..
+	-fuel_AuxiliaryBoilerHT_2_23 + 1.58*z_AuxiliaryBoilerHT_2_23 =L= 0;
+
+fuel_bounds_AuxiliaryBoilerHT_2_24..
+	-fuel_AuxiliaryBoilerHT_2_24 + 1.58*z_AuxiliaryBoilerHT_2_24 =L= 0;
+
+fuel_bounds_FuelCell_1_1..
+	-fuel_FuelCell_1_1 + 17.5*z_FuelCell_1_1 =L= 0;
+
+fuel_bounds_FuelCell_1_2..
+	-fuel_FuelCell_1_2 + 17.5*z_FuelCell_1_2 =L= 0;
+
+fuel_bounds_FuelCell_1_3..
+	-fuel_FuelCell_1_3 + 17.5*z_FuelCell_1_3 =L= 0;
+
+fuel_bounds_FuelCell_1_4..
+	-fuel_FuelCell_1_4 + 17.5*z_FuelCell_1_4 =L= 0;
+
+fuel_bounds_FuelCell_1_5..
+	-fuel_FuelCell_1_5 + 17.5*z_FuelCell_1_5 =L= 0;
+
+fuel_bounds_FuelCell_1_6..
+	-fuel_FuelCell_1_6 + 17.5*z_FuelCell_1_6 =L= 0;
+
+fuel_bounds_FuelCell_1_7..
+	-fuel_FuelCell_1_7 + 17.5*z_FuelCell_1_7 =L= 0;
+
+fuel_bounds_FuelCell_1_8..
+	-fuel_FuelCell_1_8 + 17.5*z_FuelCell_1_8 =L= 0;
+
+fuel_bounds_FuelCell_1_9..
+	-fuel_FuelCell_1_9 + 17.5*z_FuelCell_1_9 =L= 0;
+
+fuel_bounds_FuelCell_1_10..
+	-fuel_FuelCell_1_10 + 17.5*z_FuelCell_1_10 =L= 0;
+
+fuel_bounds_FuelCell_1_11..
+	-fuel_FuelCell_1_11 + 17.5*z_FuelCell_1_11 =L= 0;
+
+fuel_bounds_FuelCell_1_12..
+	-fuel_FuelCell_1_12 + 17.5*z_FuelCell_1_12 =L= 0;
+
+fuel_bounds_FuelCell_1_13..
+	-fuel_FuelCell_1_13 + 17.5*z_FuelCell_1_13 =L= 0;
+
+fuel_bounds_FuelCell_1_14..
+	-fuel_FuelCell_1_14 + 17.5*z_FuelCell_1_14 =L= 0;
+
+fuel_bounds_FuelCell_1_15..
+	-fuel_FuelCell_1_15 + 17.5*z_FuelCell_1_15 =L= 0;
+
+fuel_bounds_FuelCell_1_16..
+	-fuel_FuelCell_1_16 + 17.5*z_FuelCell_1_16 =L= 0;
+
+fuel_bounds_FuelCell_1_17..
+	-fuel_FuelCell_1_17 + 17.5*z_FuelCell_1_17 =L= 0;
+
+fuel_bounds_FuelCell_1_18..
+	-fuel_FuelCell_1_18 + 17.5*z_FuelCell_1_18 =L= 0;
+
+fuel_bounds_FuelCell_1_19..
+	-fuel_FuelCell_1_19 + 17.5*z_FuelCell_1_19 =L= 0;
+
+fuel_bounds_FuelCell_1_20..
+	-fuel_FuelCell_1_20 + 17.5*z_FuelCell_1_20 =L= 0;
+
+fuel_bounds_FuelCell_1_21..
+	-fuel_FuelCell_1_21 + 17.5*z_FuelCell_1_21 =L= 0;
+
+fuel_bounds_FuelCell_1_22..
+	-fuel_FuelCell_1_22 + 17.5*z_FuelCell_1_22 =L= 0;
+
+fuel_bounds_FuelCell_1_23..
+	-fuel_FuelCell_1_23 + 17.5*z_FuelCell_1_23 =L= 0;
+
+fuel_bounds_FuelCell_1_24..
+	-fuel_FuelCell_1_24 + 17.5*z_FuelCell_1_24 =L= 0;
+
+fuel_bounds_FuelCell_2_1..
+	-fuel_FuelCell_2_1 + 17.5*z_FuelCell_2_1 =L= 0;
+
+fuel_bounds_FuelCell_2_2..
+	-fuel_FuelCell_2_2 + 17.5*z_FuelCell_2_2 =L= 0;
+
+fuel_bounds_FuelCell_2_3..
+	-fuel_FuelCell_2_3 + 17.5*z_FuelCell_2_3 =L= 0;
+
+fuel_bounds_FuelCell_2_4..
+	-fuel_FuelCell_2_4 + 17.5*z_FuelCell_2_4 =L= 0;
+
+fuel_bounds_FuelCell_2_5..
+	-fuel_FuelCell_2_5 + 17.5*z_FuelCell_2_5 =L= 0;
+
+fuel_bounds_FuelCell_2_6..
+	-fuel_FuelCell_2_6 + 17.5*z_FuelCell_2_6 =L= 0;
+
+fuel_bounds_FuelCell_2_7..
+	-fuel_FuelCell_2_7 + 17.5*z_FuelCell_2_7 =L= 0;
+
+fuel_bounds_FuelCell_2_8..
+	-fuel_FuelCell_2_8 + 17.5*z_FuelCell_2_8 =L= 0;
+
+fuel_bounds_FuelCell_2_9..
+	-fuel_FuelCell_2_9 + 17.5*z_FuelCell_2_9 =L= 0;
+
+fuel_bounds_FuelCell_2_10..
+	-fuel_FuelCell_2_10 + 17.5*z_FuelCell_2_10 =L= 0;
+
+fuel_bounds_FuelCell_2_11..
+	-fuel_FuelCell_2_11 + 17.5*z_FuelCell_2_11 =L= 0;
+
+fuel_bounds_FuelCell_2_12..
+	-fuel_FuelCell_2_12 + 17.5*z_FuelCell_2_12 =L= 0;
+
+fuel_bounds_FuelCell_2_13..
+	-fuel_FuelCell_2_13 + 17.5*z_FuelCell_2_13 =L= 0;
+
+fuel_bounds_FuelCell_2_14..
+	-fuel_FuelCell_2_14 + 17.5*z_FuelCell_2_14 =L= 0;
+
+fuel_bounds_FuelCell_2_15..
+	-fuel_FuelCell_2_15 + 17.5*z_FuelCell_2_15 =L= 0;
+
+fuel_bounds_FuelCell_2_16..
+	-fuel_FuelCell_2_16 + 17.5*z_FuelCell_2_16 =L= 0;
+
+fuel_bounds_FuelCell_2_17..
+	-fuel_FuelCell_2_17 + 17.5*z_FuelCell_2_17 =L= 0;
+
+fuel_bounds_FuelCell_2_18..
+	-fuel_FuelCell_2_18 + 17.5*z_FuelCell_2_18 =L= 0;
+
+fuel_bounds_FuelCell_2_19..
+	-fuel_FuelCell_2_19 + 17.5*z_FuelCell_2_19 =L= 0;
+
+fuel_bounds_FuelCell_2_20..
+	-fuel_FuelCell_2_20 + 17.5*z_FuelCell_2_20 =L= 0;
+
+fuel_bounds_FuelCell_2_21..
+	-fuel_FuelCell_2_21 + 17.5*z_FuelCell_2_21 =L= 0;
+
+fuel_bounds_FuelCell_2_22..
+	-fuel_FuelCell_2_22 + 17.5*z_FuelCell_2_22 =L= 0;
+
+fuel_bounds_FuelCell_2_23..
+	-fuel_FuelCell_2_23 + 17.5*z_FuelCell_2_23 =L= 0;
+
+fuel_bounds_FuelCell_2_24..
+	-fuel_FuelCell_2_24 + 17.5*z_FuelCell_2_24 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_1..
+	fuel_AuxiliaryBoilerHT_1_1 - 113.5*z_AuxiliaryBoilerHT_1_1 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_2..
+	fuel_AuxiliaryBoilerHT_1_2 - 113.5*z_AuxiliaryBoilerHT_1_2 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_3..
+	fuel_AuxiliaryBoilerHT_1_3 - 113.5*z_AuxiliaryBoilerHT_1_3 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_4..
+	fuel_AuxiliaryBoilerHT_1_4 - 113.5*z_AuxiliaryBoilerHT_1_4 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_5..
+	fuel_AuxiliaryBoilerHT_1_5 - 113.5*z_AuxiliaryBoilerHT_1_5 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_6..
+	fuel_AuxiliaryBoilerHT_1_6 - 113.5*z_AuxiliaryBoilerHT_1_6 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_7..
+	fuel_AuxiliaryBoilerHT_1_7 - 113.5*z_AuxiliaryBoilerHT_1_7 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_8..
+	fuel_AuxiliaryBoilerHT_1_8 - 113.5*z_AuxiliaryBoilerHT_1_8 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_9..
+	fuel_AuxiliaryBoilerHT_1_9 - 113.5*z_AuxiliaryBoilerHT_1_9 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_10..
+	fuel_AuxiliaryBoilerHT_1_10 - 113.5*z_AuxiliaryBoilerHT_1_10 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_11..
+	fuel_AuxiliaryBoilerHT_1_11 - 113.5*z_AuxiliaryBoilerHT_1_11 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_12..
+	fuel_AuxiliaryBoilerHT_1_12 - 113.5*z_AuxiliaryBoilerHT_1_12 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_13..
+	fuel_AuxiliaryBoilerHT_1_13 - 113.5*z_AuxiliaryBoilerHT_1_13 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_14..
+	fuel_AuxiliaryBoilerHT_1_14 - 113.5*z_AuxiliaryBoilerHT_1_14 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_15..
+	fuel_AuxiliaryBoilerHT_1_15 - 113.5*z_AuxiliaryBoilerHT_1_15 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_16..
+	fuel_AuxiliaryBoilerHT_1_16 - 113.5*z_AuxiliaryBoilerHT_1_16 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_17..
+	fuel_AuxiliaryBoilerHT_1_17 - 113.5*z_AuxiliaryBoilerHT_1_17 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_18..
+	fuel_AuxiliaryBoilerHT_1_18 - 113.5*z_AuxiliaryBoilerHT_1_18 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_19..
+	fuel_AuxiliaryBoilerHT_1_19 - 113.5*z_AuxiliaryBoilerHT_1_19 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_20..
+	fuel_AuxiliaryBoilerHT_1_20 - 113.5*z_AuxiliaryBoilerHT_1_20 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_21..
+	fuel_AuxiliaryBoilerHT_1_21 - 113.5*z_AuxiliaryBoilerHT_1_21 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_22..
+	fuel_AuxiliaryBoilerHT_1_22 - 113.5*z_AuxiliaryBoilerHT_1_22 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_23..
+	fuel_AuxiliaryBoilerHT_1_23 - 113.5*z_AuxiliaryBoilerHT_1_23 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_1_24..
+	fuel_AuxiliaryBoilerHT_1_24 - 113.5*z_AuxiliaryBoilerHT_1_24 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_1..
+	fuel_AuxiliaryBoilerHT_2_1 - 113.5*z_AuxiliaryBoilerHT_2_1 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_2..
+	fuel_AuxiliaryBoilerHT_2_2 - 113.5*z_AuxiliaryBoilerHT_2_2 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_3..
+	fuel_AuxiliaryBoilerHT_2_3 - 113.5*z_AuxiliaryBoilerHT_2_3 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_4..
+	fuel_AuxiliaryBoilerHT_2_4 - 113.5*z_AuxiliaryBoilerHT_2_4 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_5..
+	fuel_AuxiliaryBoilerHT_2_5 - 113.5*z_AuxiliaryBoilerHT_2_5 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_6..
+	fuel_AuxiliaryBoilerHT_2_6 - 113.5*z_AuxiliaryBoilerHT_2_6 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_7..
+	fuel_AuxiliaryBoilerHT_2_7 - 113.5*z_AuxiliaryBoilerHT_2_7 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_8..
+	fuel_AuxiliaryBoilerHT_2_8 - 113.5*z_AuxiliaryBoilerHT_2_8 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_9..
+	fuel_AuxiliaryBoilerHT_2_9 - 113.5*z_AuxiliaryBoilerHT_2_9 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_10..
+	fuel_AuxiliaryBoilerHT_2_10 - 113.5*z_AuxiliaryBoilerHT_2_10 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_11..
+	fuel_AuxiliaryBoilerHT_2_11 - 113.5*z_AuxiliaryBoilerHT_2_11 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_12..
+	fuel_AuxiliaryBoilerHT_2_12 - 113.5*z_AuxiliaryBoilerHT_2_12 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_13..
+	fuel_AuxiliaryBoilerHT_2_13 - 113.5*z_AuxiliaryBoilerHT_2_13 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_14..
+	fuel_AuxiliaryBoilerHT_2_14 - 113.5*z_AuxiliaryBoilerHT_2_14 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_15..
+	fuel_AuxiliaryBoilerHT_2_15 - 113.5*z_AuxiliaryBoilerHT_2_15 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_16..
+	fuel_AuxiliaryBoilerHT_2_16 - 113.5*z_AuxiliaryBoilerHT_2_16 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_17..
+	fuel_AuxiliaryBoilerHT_2_17 - 113.5*z_AuxiliaryBoilerHT_2_17 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_18..
+	fuel_AuxiliaryBoilerHT_2_18 - 113.5*z_AuxiliaryBoilerHT_2_18 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_19..
+	fuel_AuxiliaryBoilerHT_2_19 - 113.5*z_AuxiliaryBoilerHT_2_19 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_20..
+	fuel_AuxiliaryBoilerHT_2_20 - 113.5*z_AuxiliaryBoilerHT_2_20 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_21..
+	fuel_AuxiliaryBoilerHT_2_21 - 113.5*z_AuxiliaryBoilerHT_2_21 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_22..
+	fuel_AuxiliaryBoilerHT_2_22 - 113.5*z_AuxiliaryBoilerHT_2_22 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_23..
+	fuel_AuxiliaryBoilerHT_2_23 - 113.5*z_AuxiliaryBoilerHT_2_23 =L= 0;
+
+fuel_bounds_2_AuxiliaryBoilerHT_2_24..
+	fuel_AuxiliaryBoilerHT_2_24 - 113.5*z_AuxiliaryBoilerHT_2_24 =L= 0;
+
+fuel_bounds_2_FuelCell_1_1..
+	fuel_FuelCell_1_1 - 52*z_FuelCell_1_1 =L= 0;
+
+fuel_bounds_2_FuelCell_1_2..
+	fuel_FuelCell_1_2 - 52*z_FuelCell_1_2 =L= 0;
+
+fuel_bounds_2_FuelCell_1_3..
+	fuel_FuelCell_1_3 - 52*z_FuelCell_1_3 =L= 0;
+
+fuel_bounds_2_FuelCell_1_4..
+	fuel_FuelCell_1_4 - 52*z_FuelCell_1_4 =L= 0;
+
+fuel_bounds_2_FuelCell_1_5..
+	fuel_FuelCell_1_5 - 52*z_FuelCell_1_5 =L= 0;
+
+fuel_bounds_2_FuelCell_1_6..
+	fuel_FuelCell_1_6 - 52*z_FuelCell_1_6 =L= 0;
+
+fuel_bounds_2_FuelCell_1_7..
+	fuel_FuelCell_1_7 - 52*z_FuelCell_1_7 =L= 0;
+
+fuel_bounds_2_FuelCell_1_8..
+	fuel_FuelCell_1_8 - 52*z_FuelCell_1_8 =L= 0;
+
+fuel_bounds_2_FuelCell_1_9..
+	fuel_FuelCell_1_9 - 52*z_FuelCell_1_9 =L= 0;
+
+fuel_bounds_2_FuelCell_1_10..
+	fuel_FuelCell_1_10 - 52*z_FuelCell_1_10 =L= 0;
+
+fuel_bounds_2_FuelCell_1_11..
+	fuel_FuelCell_1_11 - 52*z_FuelCell_1_11 =L= 0;
+
+fuel_bounds_2_FuelCell_1_12..
+	fuel_FuelCell_1_12 - 52*z_FuelCell_1_12 =L= 0;
+
+fuel_bounds_2_FuelCell_1_13..
+	fuel_FuelCell_1_13 - 52*z_FuelCell_1_13 =L= 0;
+
+fuel_bounds_2_FuelCell_1_14..
+	fuel_FuelCell_1_14 - 52*z_FuelCell_1_14 =L= 0;
+
+fuel_bounds_2_FuelCell_1_15..
+	fuel_FuelCell_1_15 - 52*z_FuelCell_1_15 =L= 0;
+
+fuel_bounds_2_FuelCell_1_16..
+	fuel_FuelCell_1_16 - 52*z_FuelCell_1_16 =L= 0;
+
+fuel_bounds_2_FuelCell_1_17..
+	fuel_FuelCell_1_17 - 52*z_FuelCell_1_17 =L= 0;
+
+fuel_bounds_2_FuelCell_1_18..
+	fuel_FuelCell_1_18 - 52*z_FuelCell_1_18 =L= 0;
+
+fuel_bounds_2_FuelCell_1_19..
+	fuel_FuelCell_1_19 - 52*z_FuelCell_1_19 =L= 0;
+
+fuel_bounds_2_FuelCell_1_20..
+	fuel_FuelCell_1_20 - 52*z_FuelCell_1_20 =L= 0;
+
+fuel_bounds_2_FuelCell_1_21..
+	fuel_FuelCell_1_21 - 52*z_FuelCell_1_21 =L= 0;
+
+fuel_bounds_2_FuelCell_1_22..
+	fuel_FuelCell_1_22 - 52*z_FuelCell_1_22 =L= 0;
+
+fuel_bounds_2_FuelCell_1_23..
+	fuel_FuelCell_1_23 - 52*z_FuelCell_1_23 =L= 0;
+
+fuel_bounds_2_FuelCell_1_24..
+	fuel_FuelCell_1_24 - 52*z_FuelCell_1_24 =L= 0;
+
+fuel_bounds_2_FuelCell_2_1..
+	fuel_FuelCell_2_1 - 52*z_FuelCell_2_1 =L= 0;
+
+fuel_bounds_2_FuelCell_2_2..
+	fuel_FuelCell_2_2 - 52*z_FuelCell_2_2 =L= 0;
+
+fuel_bounds_2_FuelCell_2_3..
+	fuel_FuelCell_2_3 - 52*z_FuelCell_2_3 =L= 0;
+
+fuel_bounds_2_FuelCell_2_4..
+	fuel_FuelCell_2_4 - 52*z_FuelCell_2_4 =L= 0;
+
+fuel_bounds_2_FuelCell_2_5..
+	fuel_FuelCell_2_5 - 52*z_FuelCell_2_5 =L= 0;
+
+fuel_bounds_2_FuelCell_2_6..
+	fuel_FuelCell_2_6 - 52*z_FuelCell_2_6 =L= 0;
+
+fuel_bounds_2_FuelCell_2_7..
+	fuel_FuelCell_2_7 - 52*z_FuelCell_2_7 =L= 0;
+
+fuel_bounds_2_FuelCell_2_8..
+	fuel_FuelCell_2_8 - 52*z_FuelCell_2_8 =L= 0;
+
+fuel_bounds_2_FuelCell_2_9..
+	fuel_FuelCell_2_9 - 52*z_FuelCell_2_9 =L= 0;
+
+fuel_bounds_2_FuelCell_2_10..
+	fuel_FuelCell_2_10 - 52*z_FuelCell_2_10 =L= 0;
+
+fuel_bounds_2_FuelCell_2_11..
+	fuel_FuelCell_2_11 - 52*z_FuelCell_2_11 =L= 0;
+
+fuel_bounds_2_FuelCell_2_12..
+	fuel_FuelCell_2_12 - 52*z_FuelCell_2_12 =L= 0;
+
+fuel_bounds_2_FuelCell_2_13..
+	fuel_FuelCell_2_13 - 52*z_FuelCell_2_13 =L= 0;
+
+fuel_bounds_2_FuelCell_2_14..
+	fuel_FuelCell_2_14 - 52*z_FuelCell_2_14 =L= 0;
+
+fuel_bounds_2_FuelCell_2_15..
+	fuel_FuelCell_2_15 - 52*z_FuelCell_2_15 =L= 0;
+
+fuel_bounds_2_FuelCell_2_16..
+	fuel_FuelCell_2_16 - 52*z_FuelCell_2_16 =L= 0;
+
+fuel_bounds_2_FuelCell_2_17..
+	fuel_FuelCell_2_17 - 52*z_FuelCell_2_17 =L= 0;
+
+fuel_bounds_2_FuelCell_2_18..
+	fuel_FuelCell_2_18 - 52*z_FuelCell_2_18 =L= 0;
+
+fuel_bounds_2_FuelCell_2_19..
+	fuel_FuelCell_2_19 - 52*z_FuelCell_2_19 =L= 0;
+
+fuel_bounds_2_FuelCell_2_20..
+	fuel_FuelCell_2_20 - 52*z_FuelCell_2_20 =L= 0;
+
+fuel_bounds_2_FuelCell_2_21..
+	fuel_FuelCell_2_21 - 52*z_FuelCell_2_21 =L= 0;
+
+fuel_bounds_2_FuelCell_2_22..
+	fuel_FuelCell_2_22 - 52*z_FuelCell_2_22 =L= 0;
+
+fuel_bounds_2_FuelCell_2_23..
+	fuel_FuelCell_2_23 - 52*z_FuelCell_2_23 =L= 0;
+
+fuel_bounds_2_FuelCell_2_24..
+	fuel_FuelCell_2_24 - 52*z_FuelCell_2_24 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_1..
+	-used_power_Compression_HeatPump_AirWater_1_1 + 
+	5*z_Compression_HeatPump_AirWater_1_1 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_2..
+	-used_power_Compression_HeatPump_AirWater_1_2 + 
+	5*z_Compression_HeatPump_AirWater_1_2 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_3..
+	-used_power_Compression_HeatPump_AirWater_1_3 + 
+	5*z_Compression_HeatPump_AirWater_1_3 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_4..
+	-used_power_Compression_HeatPump_AirWater_1_4 + 
+	5*z_Compression_HeatPump_AirWater_1_4 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_5..
+	-used_power_Compression_HeatPump_AirWater_1_5 + 
+	5*z_Compression_HeatPump_AirWater_1_5 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_6..
+	-used_power_Compression_HeatPump_AirWater_1_6 + 
+	5*z_Compression_HeatPump_AirWater_1_6 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_7..
+	-used_power_Compression_HeatPump_AirWater_1_7 + 
+	5*z_Compression_HeatPump_AirWater_1_7 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_8..
+	-used_power_Compression_HeatPump_AirWater_1_8 + 
+	5*z_Compression_HeatPump_AirWater_1_8 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_9..
+	-used_power_Compression_HeatPump_AirWater_1_9 + 
+	5*z_Compression_HeatPump_AirWater_1_9 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_10..
+	-used_power_Compression_HeatPump_AirWater_1_10 + 
+	5*z_Compression_HeatPump_AirWater_1_10 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_11..
+	-used_power_Compression_HeatPump_AirWater_1_11 + 
+	5*z_Compression_HeatPump_AirWater_1_11 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_12..
+	-used_power_Compression_HeatPump_AirWater_1_12 + 
+	5*z_Compression_HeatPump_AirWater_1_12 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_13..
+	-used_power_Compression_HeatPump_AirWater_1_13 + 
+	5*z_Compression_HeatPump_AirWater_1_13 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_14..
+	-used_power_Compression_HeatPump_AirWater_1_14 + 
+	5*z_Compression_HeatPump_AirWater_1_14 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_15..
+	-used_power_Compression_HeatPump_AirWater_1_15 + 
+	5*z_Compression_HeatPump_AirWater_1_15 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_16..
+	-used_power_Compression_HeatPump_AirWater_1_16 + 
+	5*z_Compression_HeatPump_AirWater_1_16 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_17..
+	-used_power_Compression_HeatPump_AirWater_1_17 + 
+	5*z_Compression_HeatPump_AirWater_1_17 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_18..
+	-used_power_Compression_HeatPump_AirWater_1_18 + 
+	5*z_Compression_HeatPump_AirWater_1_18 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_19..
+	-used_power_Compression_HeatPump_AirWater_1_19 + 
+	5*z_Compression_HeatPump_AirWater_1_19 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_20..
+	-used_power_Compression_HeatPump_AirWater_1_20 + 
+	5*z_Compression_HeatPump_AirWater_1_20 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_21..
+	-used_power_Compression_HeatPump_AirWater_1_21 + 
+	5*z_Compression_HeatPump_AirWater_1_21 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_22..
+	-used_power_Compression_HeatPump_AirWater_1_22 + 
+	5*z_Compression_HeatPump_AirWater_1_22 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_23..
+	-used_power_Compression_HeatPump_AirWater_1_23 + 
+	5*z_Compression_HeatPump_AirWater_1_23 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_1_24..
+	-used_power_Compression_HeatPump_AirWater_1_24 + 
+	5*z_Compression_HeatPump_AirWater_1_24 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_1..
+	-used_power_Compression_HeatPump_AirWater_2_1 + 
+	5*z_Compression_HeatPump_AirWater_2_1 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_2..
+	-used_power_Compression_HeatPump_AirWater_2_2 + 
+	5*z_Compression_HeatPump_AirWater_2_2 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_3..
+	-used_power_Compression_HeatPump_AirWater_2_3 + 
+	5*z_Compression_HeatPump_AirWater_2_3 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_4..
+	-used_power_Compression_HeatPump_AirWater_2_4 + 
+	5*z_Compression_HeatPump_AirWater_2_4 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_5..
+	-used_power_Compression_HeatPump_AirWater_2_5 + 
+	5*z_Compression_HeatPump_AirWater_2_5 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_6..
+	-used_power_Compression_HeatPump_AirWater_2_6 + 
+	5*z_Compression_HeatPump_AirWater_2_6 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_7..
+	-used_power_Compression_HeatPump_AirWater_2_7 + 
+	5*z_Compression_HeatPump_AirWater_2_7 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_8..
+	-used_power_Compression_HeatPump_AirWater_2_8 + 
+	5*z_Compression_HeatPump_AirWater_2_8 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_9..
+	-used_power_Compression_HeatPump_AirWater_2_9 + 
+	5*z_Compression_HeatPump_AirWater_2_9 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_10..
+	-used_power_Compression_HeatPump_AirWater_2_10 + 
+	5*z_Compression_HeatPump_AirWater_2_10 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_11..
+	-used_power_Compression_HeatPump_AirWater_2_11 + 
+	5*z_Compression_HeatPump_AirWater_2_11 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_12..
+	-used_power_Compression_HeatPump_AirWater_2_12 + 
+	5*z_Compression_HeatPump_AirWater_2_12 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_13..
+	-used_power_Compression_HeatPump_AirWater_2_13 + 
+	5*z_Compression_HeatPump_AirWater_2_13 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_14..
+	-used_power_Compression_HeatPump_AirWater_2_14 + 
+	5*z_Compression_HeatPump_AirWater_2_14 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_15..
+	-used_power_Compression_HeatPump_AirWater_2_15 + 
+	5*z_Compression_HeatPump_AirWater_2_15 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_16..
+	-used_power_Compression_HeatPump_AirWater_2_16 + 
+	5*z_Compression_HeatPump_AirWater_2_16 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_17..
+	-used_power_Compression_HeatPump_AirWater_2_17 + 
+	5*z_Compression_HeatPump_AirWater_2_17 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_18..
+	-used_power_Compression_HeatPump_AirWater_2_18 + 
+	5*z_Compression_HeatPump_AirWater_2_18 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_19..
+	-used_power_Compression_HeatPump_AirWater_2_19 + 
+	5*z_Compression_HeatPump_AirWater_2_19 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_20..
+	-used_power_Compression_HeatPump_AirWater_2_20 + 
+	5*z_Compression_HeatPump_AirWater_2_20 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_21..
+	-used_power_Compression_HeatPump_AirWater_2_21 + 
+	5*z_Compression_HeatPump_AirWater_2_21 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_22..
+	-used_power_Compression_HeatPump_AirWater_2_22 + 
+	5*z_Compression_HeatPump_AirWater_2_22 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_23..
+	-used_power_Compression_HeatPump_AirWater_2_23 + 
+	5*z_Compression_HeatPump_AirWater_2_23 =L= 0;
+
+electricity_bounds_Compression_HeatPump_AirWater_2_24..
+	-used_power_Compression_HeatPump_AirWater_2_24 + 
+	5*z_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_1..
+	used_power_Compression_HeatPump_AirWater_1_1 - 
+	28*z_Compression_HeatPump_AirWater_1_1 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_2..
+	used_power_Compression_HeatPump_AirWater_1_2 - 
+	28*z_Compression_HeatPump_AirWater_1_2 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_3..
+	used_power_Compression_HeatPump_AirWater_1_3 - 
+	28*z_Compression_HeatPump_AirWater_1_3 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_4..
+	used_power_Compression_HeatPump_AirWater_1_4 - 
+	28*z_Compression_HeatPump_AirWater_1_4 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_5..
+	used_power_Compression_HeatPump_AirWater_1_5 - 
+	28*z_Compression_HeatPump_AirWater_1_5 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_6..
+	used_power_Compression_HeatPump_AirWater_1_6 - 
+	28*z_Compression_HeatPump_AirWater_1_6 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_7..
+	used_power_Compression_HeatPump_AirWater_1_7 - 
+	28*z_Compression_HeatPump_AirWater_1_7 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_8..
+	used_power_Compression_HeatPump_AirWater_1_8 - 
+	28*z_Compression_HeatPump_AirWater_1_8 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_9..
+	used_power_Compression_HeatPump_AirWater_1_9 - 
+	28*z_Compression_HeatPump_AirWater_1_9 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_10..
+	used_power_Compression_HeatPump_AirWater_1_10 - 
+	28*z_Compression_HeatPump_AirWater_1_10 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_11..
+	used_power_Compression_HeatPump_AirWater_1_11 - 
+	28*z_Compression_HeatPump_AirWater_1_11 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_12..
+	used_power_Compression_HeatPump_AirWater_1_12 - 
+	28*z_Compression_HeatPump_AirWater_1_12 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_13..
+	used_power_Compression_HeatPump_AirWater_1_13 - 
+	28*z_Compression_HeatPump_AirWater_1_13 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_14..
+	used_power_Compression_HeatPump_AirWater_1_14 - 
+	28*z_Compression_HeatPump_AirWater_1_14 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_15..
+	used_power_Compression_HeatPump_AirWater_1_15 - 
+	28*z_Compression_HeatPump_AirWater_1_15 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_16..
+	used_power_Compression_HeatPump_AirWater_1_16 - 
+	28*z_Compression_HeatPump_AirWater_1_16 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_17..
+	used_power_Compression_HeatPump_AirWater_1_17 - 
+	28*z_Compression_HeatPump_AirWater_1_17 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_18..
+	used_power_Compression_HeatPump_AirWater_1_18 - 
+	28*z_Compression_HeatPump_AirWater_1_18 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_19..
+	used_power_Compression_HeatPump_AirWater_1_19 - 
+	28*z_Compression_HeatPump_AirWater_1_19 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_20..
+	used_power_Compression_HeatPump_AirWater_1_20 - 
+	28*z_Compression_HeatPump_AirWater_1_20 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_21..
+	used_power_Compression_HeatPump_AirWater_1_21 - 
+	28*z_Compression_HeatPump_AirWater_1_21 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_22..
+	used_power_Compression_HeatPump_AirWater_1_22 - 
+	28*z_Compression_HeatPump_AirWater_1_22 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_23..
+	used_power_Compression_HeatPump_AirWater_1_23 - 
+	28*z_Compression_HeatPump_AirWater_1_23 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_1_24..
+	used_power_Compression_HeatPump_AirWater_1_24 - 
+	28*z_Compression_HeatPump_AirWater_1_24 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_1..
+	used_power_Compression_HeatPump_AirWater_2_1 - 
+	28*z_Compression_HeatPump_AirWater_2_1 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_2..
+	used_power_Compression_HeatPump_AirWater_2_2 - 
+	28*z_Compression_HeatPump_AirWater_2_2 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_3..
+	used_power_Compression_HeatPump_AirWater_2_3 - 
+	28*z_Compression_HeatPump_AirWater_2_3 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_4..
+	used_power_Compression_HeatPump_AirWater_2_4 - 
+	28*z_Compression_HeatPump_AirWater_2_4 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_5..
+	used_power_Compression_HeatPump_AirWater_2_5 - 
+	28*z_Compression_HeatPump_AirWater_2_5 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_6..
+	used_power_Compression_HeatPump_AirWater_2_6 - 
+	28*z_Compression_HeatPump_AirWater_2_6 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_7..
+	used_power_Compression_HeatPump_AirWater_2_7 - 
+	28*z_Compression_HeatPump_AirWater_2_7 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_8..
+	used_power_Compression_HeatPump_AirWater_2_8 - 
+	28*z_Compression_HeatPump_AirWater_2_8 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_9..
+	used_power_Compression_HeatPump_AirWater_2_9 - 
+	28*z_Compression_HeatPump_AirWater_2_9 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_10..
+	used_power_Compression_HeatPump_AirWater_2_10 - 
+	28*z_Compression_HeatPump_AirWater_2_10 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_11..
+	used_power_Compression_HeatPump_AirWater_2_11 - 
+	28*z_Compression_HeatPump_AirWater_2_11 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_12..
+	used_power_Compression_HeatPump_AirWater_2_12 - 
+	28*z_Compression_HeatPump_AirWater_2_12 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_13..
+	used_power_Compression_HeatPump_AirWater_2_13 - 
+	28*z_Compression_HeatPump_AirWater_2_13 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_14..
+	used_power_Compression_HeatPump_AirWater_2_14 - 
+	28*z_Compression_HeatPump_AirWater_2_14 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_15..
+	used_power_Compression_HeatPump_AirWater_2_15 - 
+	28*z_Compression_HeatPump_AirWater_2_15 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_16..
+	used_power_Compression_HeatPump_AirWater_2_16 - 
+	28*z_Compression_HeatPump_AirWater_2_16 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_17..
+	used_power_Compression_HeatPump_AirWater_2_17 - 
+	28*z_Compression_HeatPump_AirWater_2_17 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_18..
+	used_power_Compression_HeatPump_AirWater_2_18 - 
+	28*z_Compression_HeatPump_AirWater_2_18 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_19..
+	used_power_Compression_HeatPump_AirWater_2_19 - 
+	28*z_Compression_HeatPump_AirWater_2_19 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_20..
+	used_power_Compression_HeatPump_AirWater_2_20 - 
+	28*z_Compression_HeatPump_AirWater_2_20 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_21..
+	used_power_Compression_HeatPump_AirWater_2_21 - 
+	28*z_Compression_HeatPump_AirWater_2_21 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_22..
+	used_power_Compression_HeatPump_AirWater_2_22 - 
+	28*z_Compression_HeatPump_AirWater_2_22 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_23..
+	used_power_Compression_HeatPump_AirWater_2_23 - 
+	28*z_Compression_HeatPump_AirWater_2_23 =L= 0;
+
+electricity_bounds_2_Compression_HeatPump_AirWater_2_24..
+	used_power_Compression_HeatPump_AirWater_2_24 - 
+	28*z_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+load_power_FuelCell_1_1..
+	-gen_power_FuelCell_1_1 + 2.63089*z_FuelCell_1_1 =L= 0;
+
+load_power_FuelCell_1_2..
+	-gen_power_FuelCell_1_2 + 2.63089*z_FuelCell_1_2 =L= 0;
+
+load_power_FuelCell_1_3..
+	-gen_power_FuelCell_1_3 + 2.63089*z_FuelCell_1_3 =L= 0;
+
+load_power_FuelCell_1_4..
+	-gen_power_FuelCell_1_4 + 2.63089*z_FuelCell_1_4 =L= 0;
+
+load_power_FuelCell_1_5..
+	-gen_power_FuelCell_1_5 + 2.63089*z_FuelCell_1_5 =L= 0;
+
+load_power_FuelCell_1_6..
+	-gen_power_FuelCell_1_6 + 2.63089*z_FuelCell_1_6 =L= 0;
+
+load_power_FuelCell_1_7..
+	-gen_power_FuelCell_1_7 + 2.63089*z_FuelCell_1_7 =L= 0;
+
+load_power_FuelCell_1_8..
+	-gen_power_FuelCell_1_8 + 2.63089*z_FuelCell_1_8 =L= 0;
+
+load_power_FuelCell_1_9..
+	-gen_power_FuelCell_1_9 + 2.63089*z_FuelCell_1_9 =L= 0;
+
+load_power_FuelCell_1_10..
+	-gen_power_FuelCell_1_10 + 2.63089*z_FuelCell_1_10 =L= 0;
+
+load_power_FuelCell_1_11..
+	-gen_power_FuelCell_1_11 + 2.63089*z_FuelCell_1_11 =L= 0;
+
+load_power_FuelCell_1_12..
+	-gen_power_FuelCell_1_12 + 2.63089*z_FuelCell_1_12 =L= 0;
+
+load_power_FuelCell_1_13..
+	-gen_power_FuelCell_1_13 + 2.63089*z_FuelCell_1_13 =L= 0;
+
+load_power_FuelCell_1_14..
+	-gen_power_FuelCell_1_14 + 2.63089*z_FuelCell_1_14 =L= 0;
+
+load_power_FuelCell_1_15..
+	-gen_power_FuelCell_1_15 + 2.63089*z_FuelCell_1_15 =L= 0;
+
+load_power_FuelCell_1_16..
+	-gen_power_FuelCell_1_16 + 2.63089*z_FuelCell_1_16 =L= 0;
+
+load_power_FuelCell_1_17..
+	-gen_power_FuelCell_1_17 + 2.63089*z_FuelCell_1_17 =L= 0;
+
+load_power_FuelCell_1_18..
+	-gen_power_FuelCell_1_18 + 2.63089*z_FuelCell_1_18 =L= 0;
+
+load_power_FuelCell_1_19..
+	-gen_power_FuelCell_1_19 + 2.63089*z_FuelCell_1_19 =L= 0;
+
+load_power_FuelCell_1_20..
+	-gen_power_FuelCell_1_20 + 2.63089*z_FuelCell_1_20 =L= 0;
+
+load_power_FuelCell_1_21..
+	-gen_power_FuelCell_1_21 + 2.63089*z_FuelCell_1_21 =L= 0;
+
+load_power_FuelCell_1_22..
+	-gen_power_FuelCell_1_22 + 2.63089*z_FuelCell_1_22 =L= 0;
+
+load_power_FuelCell_1_23..
+	-gen_power_FuelCell_1_23 + 2.63089*z_FuelCell_1_23 =L= 0;
+
+load_power_FuelCell_1_24..
+	-gen_power_FuelCell_1_24 + 2.63089*z_FuelCell_1_24 =L= 0;
+
+load_power_FuelCell_2_1..
+	-gen_power_FuelCell_2_1 + 2.63089*z_FuelCell_2_1 =L= 0;
+
+load_power_FuelCell_2_2..
+	-gen_power_FuelCell_2_2 + 2.63089*z_FuelCell_2_2 =L= 0;
+
+load_power_FuelCell_2_3..
+	-gen_power_FuelCell_2_3 + 2.63089*z_FuelCell_2_3 =L= 0;
+
+load_power_FuelCell_2_4..
+	-gen_power_FuelCell_2_4 + 2.63089*z_FuelCell_2_4 =L= 0;
+
+load_power_FuelCell_2_5..
+	-gen_power_FuelCell_2_5 + 2.63089*z_FuelCell_2_5 =L= 0;
+
+load_power_FuelCell_2_6..
+	-gen_power_FuelCell_2_6 + 2.63089*z_FuelCell_2_6 =L= 0;
+
+load_power_FuelCell_2_7..
+	-gen_power_FuelCell_2_7 + 2.63089*z_FuelCell_2_7 =L= 0;
+
+load_power_FuelCell_2_8..
+	-gen_power_FuelCell_2_8 + 2.63089*z_FuelCell_2_8 =L= 0;
+
+load_power_FuelCell_2_9..
+	-gen_power_FuelCell_2_9 + 2.63089*z_FuelCell_2_9 =L= 0;
+
+load_power_FuelCell_2_10..
+	-gen_power_FuelCell_2_10 + 2.63089*z_FuelCell_2_10 =L= 0;
+
+load_power_FuelCell_2_11..
+	-gen_power_FuelCell_2_11 + 2.63089*z_FuelCell_2_11 =L= 0;
+
+load_power_FuelCell_2_12..
+	-gen_power_FuelCell_2_12 + 2.63089*z_FuelCell_2_12 =L= 0;
+
+load_power_FuelCell_2_13..
+	-gen_power_FuelCell_2_13 + 2.63089*z_FuelCell_2_13 =L= 0;
+
+load_power_FuelCell_2_14..
+	-gen_power_FuelCell_2_14 + 2.63089*z_FuelCell_2_14 =L= 0;
+
+load_power_FuelCell_2_15..
+	-gen_power_FuelCell_2_15 + 2.63089*z_FuelCell_2_15 =L= 0;
+
+load_power_FuelCell_2_16..
+	-gen_power_FuelCell_2_16 + 2.63089*z_FuelCell_2_16 =L= 0;
+
+load_power_FuelCell_2_17..
+	-gen_power_FuelCell_2_17 + 2.63089*z_FuelCell_2_17 =L= 0;
+
+load_power_FuelCell_2_18..
+	-gen_power_FuelCell_2_18 + 2.63089*z_FuelCell_2_18 =L= 0;
+
+load_power_FuelCell_2_19..
+	-gen_power_FuelCell_2_19 + 2.63089*z_FuelCell_2_19 =L= 0;
+
+load_power_FuelCell_2_20..
+	-gen_power_FuelCell_2_20 + 2.63089*z_FuelCell_2_20 =L= 0;
+
+load_power_FuelCell_2_21..
+	-gen_power_FuelCell_2_21 + 2.63089*z_FuelCell_2_21 =L= 0;
+
+load_power_FuelCell_2_22..
+	-gen_power_FuelCell_2_22 + 2.63089*z_FuelCell_2_22 =L= 0;
+
+load_power_FuelCell_2_23..
+	-gen_power_FuelCell_2_23 + 2.63089*z_FuelCell_2_23 =L= 0;
+
+load_power_FuelCell_2_24..
+	-gen_power_FuelCell_2_24 + 2.63089*z_FuelCell_2_24 =L= 0;
+
+load_power_2_FuelCell_1_1..
+	gen_power_FuelCell_1_1 - 8.77774*z_FuelCell_1_1 =L= 0;
+
+load_power_2_FuelCell_1_2..
+	gen_power_FuelCell_1_2 - 8.77774*z_FuelCell_1_2 =L= 0;
+
+load_power_2_FuelCell_1_3..
+	gen_power_FuelCell_1_3 - 8.77774*z_FuelCell_1_3 =L= 0;
+
+load_power_2_FuelCell_1_4..
+	gen_power_FuelCell_1_4 - 8.77774*z_FuelCell_1_4 =L= 0;
+
+load_power_2_FuelCell_1_5..
+	gen_power_FuelCell_1_5 - 8.77774*z_FuelCell_1_5 =L= 0;
+
+load_power_2_FuelCell_1_6..
+	gen_power_FuelCell_1_6 - 8.77774*z_FuelCell_1_6 =L= 0;
+
+load_power_2_FuelCell_1_7..
+	gen_power_FuelCell_1_7 - 8.77774*z_FuelCell_1_7 =L= 0;
+
+load_power_2_FuelCell_1_8..
+	gen_power_FuelCell_1_8 - 8.77774*z_FuelCell_1_8 =L= 0;
+
+load_power_2_FuelCell_1_9..
+	gen_power_FuelCell_1_9 - 8.77774*z_FuelCell_1_9 =L= 0;
+
+load_power_2_FuelCell_1_10..
+	gen_power_FuelCell_1_10 - 8.77774*z_FuelCell_1_10 =L= 0;
+
+load_power_2_FuelCell_1_11..
+	gen_power_FuelCell_1_11 - 8.77774*z_FuelCell_1_11 =L= 0;
+
+load_power_2_FuelCell_1_12..
+	gen_power_FuelCell_1_12 - 8.77774*z_FuelCell_1_12 =L= 0;
+
+load_power_2_FuelCell_1_13..
+	gen_power_FuelCell_1_13 - 8.77774*z_FuelCell_1_13 =L= 0;
+
+load_power_2_FuelCell_1_14..
+	gen_power_FuelCell_1_14 - 8.77774*z_FuelCell_1_14 =L= 0;
+
+load_power_2_FuelCell_1_15..
+	gen_power_FuelCell_1_15 - 8.77774*z_FuelCell_1_15 =L= 0;
+
+load_power_2_FuelCell_1_16..
+	gen_power_FuelCell_1_16 - 8.77774*z_FuelCell_1_16 =L= 0;
+
+load_power_2_FuelCell_1_17..
+	gen_power_FuelCell_1_17 - 8.77774*z_FuelCell_1_17 =L= 0;
+
+load_power_2_FuelCell_1_18..
+	gen_power_FuelCell_1_18 - 8.77774*z_FuelCell_1_18 =L= 0;
+
+load_power_2_FuelCell_1_19..
+	gen_power_FuelCell_1_19 - 8.77774*z_FuelCell_1_19 =L= 0;
+
+load_power_2_FuelCell_1_20..
+	gen_power_FuelCell_1_20 - 8.77774*z_FuelCell_1_20 =L= 0;
+
+load_power_2_FuelCell_1_21..
+	gen_power_FuelCell_1_21 - 8.77774*z_FuelCell_1_21 =L= 0;
+
+load_power_2_FuelCell_1_22..
+	gen_power_FuelCell_1_22 - 8.77774*z_FuelCell_1_22 =L= 0;
+
+load_power_2_FuelCell_1_23..
+	gen_power_FuelCell_1_23 - 8.77774*z_FuelCell_1_23 =L= 0;
+
+load_power_2_FuelCell_1_24..
+	gen_power_FuelCell_1_24 - 8.77774*z_FuelCell_1_24 =L= 0;
+
+load_power_2_FuelCell_2_1..
+	gen_power_FuelCell_2_1 - 8.77774*z_FuelCell_2_1 =L= 0;
+
+load_power_2_FuelCell_2_2..
+	gen_power_FuelCell_2_2 - 8.77774*z_FuelCell_2_2 =L= 0;
+
+load_power_2_FuelCell_2_3..
+	gen_power_FuelCell_2_3 - 8.77774*z_FuelCell_2_3 =L= 0;
+
+load_power_2_FuelCell_2_4..
+	gen_power_FuelCell_2_4 - 8.77774*z_FuelCell_2_4 =L= 0;
+
+load_power_2_FuelCell_2_5..
+	gen_power_FuelCell_2_5 - 8.77774*z_FuelCell_2_5 =L= 0;
+
+load_power_2_FuelCell_2_6..
+	gen_power_FuelCell_2_6 - 8.77774*z_FuelCell_2_6 =L= 0;
+
+load_power_2_FuelCell_2_7..
+	gen_power_FuelCell_2_7 - 8.77774*z_FuelCell_2_7 =L= 0;
+
+load_power_2_FuelCell_2_8..
+	gen_power_FuelCell_2_8 - 8.77774*z_FuelCell_2_8 =L= 0;
+
+load_power_2_FuelCell_2_9..
+	gen_power_FuelCell_2_9 - 8.77774*z_FuelCell_2_9 =L= 0;
+
+load_power_2_FuelCell_2_10..
+	gen_power_FuelCell_2_10 - 8.77774*z_FuelCell_2_10 =L= 0;
+
+load_power_2_FuelCell_2_11..
+	gen_power_FuelCell_2_11 - 8.77774*z_FuelCell_2_11 =L= 0;
+
+load_power_2_FuelCell_2_12..
+	gen_power_FuelCell_2_12 - 8.77774*z_FuelCell_2_12 =L= 0;
+
+load_power_2_FuelCell_2_13..
+	gen_power_FuelCell_2_13 - 8.77774*z_FuelCell_2_13 =L= 0;
+
+load_power_2_FuelCell_2_14..
+	gen_power_FuelCell_2_14 - 8.77774*z_FuelCell_2_14 =L= 0;
+
+load_power_2_FuelCell_2_15..
+	gen_power_FuelCell_2_15 - 8.77774*z_FuelCell_2_15 =L= 0;
+
+load_power_2_FuelCell_2_16..
+	gen_power_FuelCell_2_16 - 8.77774*z_FuelCell_2_16 =L= 0;
+
+load_power_2_FuelCell_2_17..
+	gen_power_FuelCell_2_17 - 8.77774*z_FuelCell_2_17 =L= 0;
+
+load_power_2_FuelCell_2_18..
+	gen_power_FuelCell_2_18 - 8.77774*z_FuelCell_2_18 =L= 0;
+
+load_power_2_FuelCell_2_19..
+	gen_power_FuelCell_2_19 - 8.77774*z_FuelCell_2_19 =L= 0;
+
+load_power_2_FuelCell_2_20..
+	gen_power_FuelCell_2_20 - 8.77774*z_FuelCell_2_20 =L= 0;
+
+load_power_2_FuelCell_2_21..
+	gen_power_FuelCell_2_21 - 8.77774*z_FuelCell_2_21 =L= 0;
+
+load_power_2_FuelCell_2_22..
+	gen_power_FuelCell_2_22 - 8.77774*z_FuelCell_2_22 =L= 0;
+
+load_power_2_FuelCell_2_23..
+	gen_power_FuelCell_2_23 - 8.77774*z_FuelCell_2_23 =L= 0;
+
+load_power_2_FuelCell_2_24..
+	gen_power_FuelCell_2_24 - 8.77774*z_FuelCell_2_24 =L= 0;
+
+load_low_FuelCell_1_1..
+	-gen_low_FuelCell_1_1 =L= 0;
+
+load_low_FuelCell_1_2..
+	-gen_low_FuelCell_1_2 =L= 0;
+
+load_low_FuelCell_1_3..
+	-gen_low_FuelCell_1_3 =L= 0;
+
+load_low_FuelCell_1_4..
+	-gen_low_FuelCell_1_4 =L= 0;
+
+load_low_FuelCell_1_5..
+	-gen_low_FuelCell_1_5 =L= 0;
+
+load_low_FuelCell_1_6..
+	-gen_low_FuelCell_1_6 =L= 0;
+
+load_low_FuelCell_1_7..
+	-gen_low_FuelCell_1_7 =L= 0;
+
+load_low_FuelCell_1_8..
+	-gen_low_FuelCell_1_8 =L= 0;
+
+load_low_FuelCell_1_9..
+	-gen_low_FuelCell_1_9 =L= 0;
+
+load_low_FuelCell_1_10..
+	-gen_low_FuelCell_1_10 =L= 0;
+
+load_low_FuelCell_1_11..
+	-gen_low_FuelCell_1_11 =L= 0;
+
+load_low_FuelCell_1_12..
+	-gen_low_FuelCell_1_12 =L= 0;
+
+load_low_FuelCell_1_13..
+	-gen_low_FuelCell_1_13 =L= 0;
+
+load_low_FuelCell_1_14..
+	-gen_low_FuelCell_1_14 =L= 0;
+
+load_low_FuelCell_1_15..
+	-gen_low_FuelCell_1_15 =L= 0;
+
+load_low_FuelCell_1_16..
+	-gen_low_FuelCell_1_16 =L= 0;
+
+load_low_FuelCell_1_17..
+	-gen_low_FuelCell_1_17 =L= 0;
+
+load_low_FuelCell_1_18..
+	-gen_low_FuelCell_1_18 =L= 0;
+
+load_low_FuelCell_1_19..
+	-gen_low_FuelCell_1_19 =L= 0;
+
+load_low_FuelCell_1_20..
+	-gen_low_FuelCell_1_20 =L= 0;
+
+load_low_FuelCell_1_21..
+	-gen_low_FuelCell_1_21 =L= 0;
+
+load_low_FuelCell_1_22..
+	-gen_low_FuelCell_1_22 =L= 0;
+
+load_low_FuelCell_1_23..
+	-gen_low_FuelCell_1_23 =L= 0;
+
+load_low_FuelCell_1_24..
+	-gen_low_FuelCell_1_24 =L= 0;
+
+load_low_FuelCell_2_1..
+	-gen_low_FuelCell_2_1 =L= 0;
+
+load_low_FuelCell_2_2..
+	-gen_low_FuelCell_2_2 =L= 0;
+
+load_low_FuelCell_2_3..
+	-gen_low_FuelCell_2_3 =L= 0;
+
+load_low_FuelCell_2_4..
+	-gen_low_FuelCell_2_4 =L= 0;
+
+load_low_FuelCell_2_5..
+	-gen_low_FuelCell_2_5 =L= 0;
+
+load_low_FuelCell_2_6..
+	-gen_low_FuelCell_2_6 =L= 0;
+
+load_low_FuelCell_2_7..
+	-gen_low_FuelCell_2_7 =L= 0;
+
+load_low_FuelCell_2_8..
+	-gen_low_FuelCell_2_8 =L= 0;
+
+load_low_FuelCell_2_9..
+	-gen_low_FuelCell_2_9 =L= 0;
+
+load_low_FuelCell_2_10..
+	-gen_low_FuelCell_2_10 =L= 0;
+
+load_low_FuelCell_2_11..
+	-gen_low_FuelCell_2_11 =L= 0;
+
+load_low_FuelCell_2_12..
+	-gen_low_FuelCell_2_12 =L= 0;
+
+load_low_FuelCell_2_13..
+	-gen_low_FuelCell_2_13 =L= 0;
+
+load_low_FuelCell_2_14..
+	-gen_low_FuelCell_2_14 =L= 0;
+
+load_low_FuelCell_2_15..
+	-gen_low_FuelCell_2_15 =L= 0;
+
+load_low_FuelCell_2_16..
+	-gen_low_FuelCell_2_16 =L= 0;
+
+load_low_FuelCell_2_17..
+	-gen_low_FuelCell_2_17 =L= 0;
+
+load_low_FuelCell_2_18..
+	-gen_low_FuelCell_2_18 =L= 0;
+
+load_low_FuelCell_2_19..
+	-gen_low_FuelCell_2_19 =L= 0;
+
+load_low_FuelCell_2_20..
+	-gen_low_FuelCell_2_20 =L= 0;
+
+load_low_FuelCell_2_21..
+	-gen_low_FuelCell_2_21 =L= 0;
+
+load_low_FuelCell_2_22..
+	-gen_low_FuelCell_2_22 =L= 0;
+
+load_low_FuelCell_2_23..
+	-gen_low_FuelCell_2_23 =L= 0;
+
+load_low_FuelCell_2_24..
+	-gen_low_FuelCell_2_24 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_1..
+	-gen_low_Compression_HeatPump_AirWater_1_1 + 
+	17.7638*z_Compression_HeatPump_AirWater_1_1 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_2..
+	-gen_low_Compression_HeatPump_AirWater_1_2 + 
+	17.5996*z_Compression_HeatPump_AirWater_1_2 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_3..
+	-gen_low_Compression_HeatPump_AirWater_1_3 + 
+	17.5175*z_Compression_HeatPump_AirWater_1_3 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_4..
+	-gen_low_Compression_HeatPump_AirWater_1_4 + 
+	17.3533*z_Compression_HeatPump_AirWater_1_4 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_5..
+	-gen_low_Compression_HeatPump_AirWater_1_5 + 
+	17.2712*z_Compression_HeatPump_AirWater_1_5 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_6..
+	-gen_low_Compression_HeatPump_AirWater_1_6 + 
+	17.1891*z_Compression_HeatPump_AirWater_1_6 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_7..
+	-gen_low_Compression_HeatPump_AirWater_1_7 + 
+	17.2712*z_Compression_HeatPump_AirWater_1_7 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_8..
+	-gen_low_Compression_HeatPump_AirWater_1_8 + 
+	17.4354*z_Compression_HeatPump_AirWater_1_8 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_9..
+	-gen_low_Compression_HeatPump_AirWater_1_9 + 
+	17.8459*z_Compression_HeatPump_AirWater_1_9 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_10..
+	-gen_low_Compression_HeatPump_AirWater_1_10 + 
+	18.667*z_Compression_HeatPump_AirWater_1_10 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_11..
+	-gen_low_Compression_HeatPump_AirWater_1_11 + 
+	19.9808*z_Compression_HeatPump_AirWater_1_11 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_12..
+	-gen_low_Compression_HeatPump_AirWater_1_12 + 
+	21.4587*z_Compression_HeatPump_AirWater_1_12 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_13..
+	-gen_low_Compression_HeatPump_AirWater_1_13 + 
+	23.183*z_Compression_HeatPump_AirWater_1_13 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_14..
+	-gen_low_Compression_HeatPump_AirWater_1_14 + 
+	23.5936*z_Compression_HeatPump_AirWater_1_14 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_15..
+	-gen_low_Compression_HeatPump_AirWater_1_15 + 
+	22.3619*z_Compression_HeatPump_AirWater_1_15 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_16..
+	-gen_low_Compression_HeatPump_AirWater_1_16 + 
+	22.0335*z_Compression_HeatPump_AirWater_1_16 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_17..
+	-gen_low_Compression_HeatPump_AirWater_1_17 + 
+	21.3766*z_Compression_HeatPump_AirWater_1_17 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_18..
+	-gen_low_Compression_HeatPump_AirWater_1_18 + 
+	20.3092*z_Compression_HeatPump_AirWater_1_18 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_19..
+	-gen_low_Compression_HeatPump_AirWater_1_19 + 
+	19.6523*z_Compression_HeatPump_AirWater_1_19 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_20..
+	-gen_low_Compression_HeatPump_AirWater_1_20 + 
+	19.3239*z_Compression_HeatPump_AirWater_1_20 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_21..
+	-gen_low_Compression_HeatPump_AirWater_1_21 + 
+	18.9955*z_Compression_HeatPump_AirWater_1_21 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_22..
+	-gen_low_Compression_HeatPump_AirWater_1_22 + 
+	18.667*z_Compression_HeatPump_AirWater_1_22 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_23..
+	-gen_low_Compression_HeatPump_AirWater_1_23 + 
+	18.4207*z_Compression_HeatPump_AirWater_1_23 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_1_24..
+	-gen_low_Compression_HeatPump_AirWater_1_24 + 
+	18.1744*z_Compression_HeatPump_AirWater_1_24 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_1..
+	-gen_low_Compression_HeatPump_AirWater_2_1 + 
+	17.7638*z_Compression_HeatPump_AirWater_2_1 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_2..
+	-gen_low_Compression_HeatPump_AirWater_2_2 + 
+	17.5996*z_Compression_HeatPump_AirWater_2_2 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_3..
+	-gen_low_Compression_HeatPump_AirWater_2_3 + 
+	17.5175*z_Compression_HeatPump_AirWater_2_3 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_4..
+	-gen_low_Compression_HeatPump_AirWater_2_4 + 
+	17.3533*z_Compression_HeatPump_AirWater_2_4 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_5..
+	-gen_low_Compression_HeatPump_AirWater_2_5 + 
+	17.2712*z_Compression_HeatPump_AirWater_2_5 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_6..
+	-gen_low_Compression_HeatPump_AirWater_2_6 + 
+	17.1891*z_Compression_HeatPump_AirWater_2_6 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_7..
+	-gen_low_Compression_HeatPump_AirWater_2_7 + 
+	17.2712*z_Compression_HeatPump_AirWater_2_7 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_8..
+	-gen_low_Compression_HeatPump_AirWater_2_8 + 
+	17.4354*z_Compression_HeatPump_AirWater_2_8 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_9..
+	-gen_low_Compression_HeatPump_AirWater_2_9 + 
+	17.8459*z_Compression_HeatPump_AirWater_2_9 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_10..
+	-gen_low_Compression_HeatPump_AirWater_2_10 + 
+	18.667*z_Compression_HeatPump_AirWater_2_10 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_11..
+	-gen_low_Compression_HeatPump_AirWater_2_11 + 
+	19.9808*z_Compression_HeatPump_AirWater_2_11 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_12..
+	-gen_low_Compression_HeatPump_AirWater_2_12 + 
+	21.4587*z_Compression_HeatPump_AirWater_2_12 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_13..
+	-gen_low_Compression_HeatPump_AirWater_2_13 + 
+	23.183*z_Compression_HeatPump_AirWater_2_13 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_14..
+	-gen_low_Compression_HeatPump_AirWater_2_14 + 
+	23.5936*z_Compression_HeatPump_AirWater_2_14 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_15..
+	-gen_low_Compression_HeatPump_AirWater_2_15 + 
+	22.3619*z_Compression_HeatPump_AirWater_2_15 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_16..
+	-gen_low_Compression_HeatPump_AirWater_2_16 + 
+	22.0335*z_Compression_HeatPump_AirWater_2_16 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_17..
+	-gen_low_Compression_HeatPump_AirWater_2_17 + 
+	21.3766*z_Compression_HeatPump_AirWater_2_17 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_18..
+	-gen_low_Compression_HeatPump_AirWater_2_18 + 
+	20.3092*z_Compression_HeatPump_AirWater_2_18 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_19..
+	-gen_low_Compression_HeatPump_AirWater_2_19 + 
+	19.6523*z_Compression_HeatPump_AirWater_2_19 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_20..
+	-gen_low_Compression_HeatPump_AirWater_2_20 + 
+	19.3239*z_Compression_HeatPump_AirWater_2_20 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_21..
+	-gen_low_Compression_HeatPump_AirWater_2_21 + 
+	18.9955*z_Compression_HeatPump_AirWater_2_21 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_22..
+	-gen_low_Compression_HeatPump_AirWater_2_22 + 
+	18.667*z_Compression_HeatPump_AirWater_2_22 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_23..
+	-gen_low_Compression_HeatPump_AirWater_2_23 + 
+	18.4207*z_Compression_HeatPump_AirWater_2_23 =L= 0;
+
+load_low_Compression_HeatPump_AirWater_2_24..
+	-gen_low_Compression_HeatPump_AirWater_2_24 + 
+	18.1744*z_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+load_low_2_FuelCell_1_1..
+	gen_low_FuelCell_1_1 =L= 0;
+
+load_low_2_FuelCell_1_2..
+	gen_low_FuelCell_1_2 =L= 0;
+
+load_low_2_FuelCell_1_3..
+	gen_low_FuelCell_1_3 =L= 0;
+
+load_low_2_FuelCell_1_4..
+	gen_low_FuelCell_1_4 =L= 0;
+
+load_low_2_FuelCell_1_5..
+	gen_low_FuelCell_1_5 =L= 0;
+
+load_low_2_FuelCell_1_6..
+	gen_low_FuelCell_1_6 =L= 0;
+
+load_low_2_FuelCell_1_7..
+	gen_low_FuelCell_1_7 =L= 0;
+
+load_low_2_FuelCell_1_8..
+	gen_low_FuelCell_1_8 =L= 0;
+
+load_low_2_FuelCell_1_9..
+	gen_low_FuelCell_1_9 =L= 0;
+
+load_low_2_FuelCell_1_10..
+	gen_low_FuelCell_1_10 =L= 0;
+
+load_low_2_FuelCell_1_11..
+	gen_low_FuelCell_1_11 =L= 0;
+
+load_low_2_FuelCell_1_12..
+	gen_low_FuelCell_1_12 =L= 0;
+
+load_low_2_FuelCell_1_13..
+	gen_low_FuelCell_1_13 =L= 0;
+
+load_low_2_FuelCell_1_14..
+	gen_low_FuelCell_1_14 =L= 0;
+
+load_low_2_FuelCell_1_15..
+	gen_low_FuelCell_1_15 =L= 0;
+
+load_low_2_FuelCell_1_16..
+	gen_low_FuelCell_1_16 =L= 0;
+
+load_low_2_FuelCell_1_17..
+	gen_low_FuelCell_1_17 =L= 0;
+
+load_low_2_FuelCell_1_18..
+	gen_low_FuelCell_1_18 =L= 0;
+
+load_low_2_FuelCell_1_19..
+	gen_low_FuelCell_1_19 =L= 0;
+
+load_low_2_FuelCell_1_20..
+	gen_low_FuelCell_1_20 =L= 0;
+
+load_low_2_FuelCell_1_21..
+	gen_low_FuelCell_1_21 =L= 0;
+
+load_low_2_FuelCell_1_22..
+	gen_low_FuelCell_1_22 =L= 0;
+
+load_low_2_FuelCell_1_23..
+	gen_low_FuelCell_1_23 =L= 0;
+
+load_low_2_FuelCell_1_24..
+	gen_low_FuelCell_1_24 =L= 0;
+
+load_low_2_FuelCell_2_1..
+	gen_low_FuelCell_2_1 =L= 0;
+
+load_low_2_FuelCell_2_2..
+	gen_low_FuelCell_2_2 =L= 0;
+
+load_low_2_FuelCell_2_3..
+	gen_low_FuelCell_2_3 =L= 0;
+
+load_low_2_FuelCell_2_4..
+	gen_low_FuelCell_2_4 =L= 0;
+
+load_low_2_FuelCell_2_5..
+	gen_low_FuelCell_2_5 =L= 0;
+
+load_low_2_FuelCell_2_6..
+	gen_low_FuelCell_2_6 =L= 0;
+
+load_low_2_FuelCell_2_7..
+	gen_low_FuelCell_2_7 =L= 0;
+
+load_low_2_FuelCell_2_8..
+	gen_low_FuelCell_2_8 =L= 0;
+
+load_low_2_FuelCell_2_9..
+	gen_low_FuelCell_2_9 =L= 0;
+
+load_low_2_FuelCell_2_10..
+	gen_low_FuelCell_2_10 =L= 0;
+
+load_low_2_FuelCell_2_11..
+	gen_low_FuelCell_2_11 =L= 0;
+
+load_low_2_FuelCell_2_12..
+	gen_low_FuelCell_2_12 =L= 0;
+
+load_low_2_FuelCell_2_13..
+	gen_low_FuelCell_2_13 =L= 0;
+
+load_low_2_FuelCell_2_14..
+	gen_low_FuelCell_2_14 =L= 0;
+
+load_low_2_FuelCell_2_15..
+	gen_low_FuelCell_2_15 =L= 0;
+
+load_low_2_FuelCell_2_16..
+	gen_low_FuelCell_2_16 =L= 0;
+
+load_low_2_FuelCell_2_17..
+	gen_low_FuelCell_2_17 =L= 0;
+
+load_low_2_FuelCell_2_18..
+	gen_low_FuelCell_2_18 =L= 0;
+
+load_low_2_FuelCell_2_19..
+	gen_low_FuelCell_2_19 =L= 0;
+
+load_low_2_FuelCell_2_20..
+	gen_low_FuelCell_2_20 =L= 0;
+
+load_low_2_FuelCell_2_21..
+	gen_low_FuelCell_2_21 =L= 0;
+
+load_low_2_FuelCell_2_22..
+	gen_low_FuelCell_2_22 =L= 0;
+
+load_low_2_FuelCell_2_23..
+	gen_low_FuelCell_2_23 =L= 0;
+
+load_low_2_FuelCell_2_24..
+	gen_low_FuelCell_2_24 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_1..
+	gen_low_Compression_HeatPump_AirWater_1_1 - 
+	60.0425*z_Compression_HeatPump_AirWater_1_1 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_2..
+	gen_low_Compression_HeatPump_AirWater_1_2 - 
+	59.1713*z_Compression_HeatPump_AirWater_1_2 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_3..
+	gen_low_Compression_HeatPump_AirWater_1_3 - 
+	58.7357*z_Compression_HeatPump_AirWater_1_3 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_4..
+	gen_low_Compression_HeatPump_AirWater_1_4 - 
+	57.8645*z_Compression_HeatPump_AirWater_1_4 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_5..
+	gen_low_Compression_HeatPump_AirWater_1_5 - 
+	57.4289*z_Compression_HeatPump_AirWater_1_5 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_6..
+	gen_low_Compression_HeatPump_AirWater_1_6 - 
+	56.9933*z_Compression_HeatPump_AirWater_1_6 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_7..
+	gen_low_Compression_HeatPump_AirWater_1_7 - 
+	57.4289*z_Compression_HeatPump_AirWater_1_7 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_8..
+	gen_low_Compression_HeatPump_AirWater_1_8 - 
+	58.3001*z_Compression_HeatPump_AirWater_1_8 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_9..
+	gen_low_Compression_HeatPump_AirWater_1_9 - 
+	60.4781*z_Compression_HeatPump_AirWater_1_9 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_10..
+	gen_low_Compression_HeatPump_AirWater_1_10 - 
+	64.8341*z_Compression_HeatPump_AirWater_1_10 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_11..
+	gen_low_Compression_HeatPump_AirWater_1_11 - 
+	71.8036*z_Compression_HeatPump_AirWater_1_11 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_12..
+	gen_low_Compression_HeatPump_AirWater_1_12 - 
+	79.6443*z_Compression_HeatPump_AirWater_1_12 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_13..
+	gen_low_Compression_HeatPump_AirWater_1_13 - 
+	88.7918*z_Compression_HeatPump_AirWater_1_13 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_14..
+	gen_low_Compression_HeatPump_AirWater_1_14 - 
+	90.9698*z_Compression_HeatPump_AirWater_1_14 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_15..
+	gen_low_Compression_HeatPump_AirWater_1_15 - 
+	84.4359*z_Compression_HeatPump_AirWater_1_15 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_16..
+	gen_low_Compression_HeatPump_AirWater_1_16 - 
+	82.6935*z_Compression_HeatPump_AirWater_1_16 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_17..
+	gen_low_Compression_HeatPump_AirWater_1_17 - 
+	79.2087*z_Compression_HeatPump_AirWater_1_17 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_18..
+	gen_low_Compression_HeatPump_AirWater_1_18 - 
+	73.546*z_Compression_HeatPump_AirWater_1_18 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_19..
+	gen_low_Compression_HeatPump_AirWater_1_19 - 
+	70.0612*z_Compression_HeatPump_AirWater_1_19 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_20..
+	gen_low_Compression_HeatPump_AirWater_1_20 - 
+	68.3188*z_Compression_HeatPump_AirWater_1_20 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_21..
+	gen_low_Compression_HeatPump_AirWater_1_21 - 
+	66.5764*z_Compression_HeatPump_AirWater_1_21 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_22..
+	gen_low_Compression_HeatPump_AirWater_1_22 - 
+	64.8341*z_Compression_HeatPump_AirWater_1_22 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_23..
+	gen_low_Compression_HeatPump_AirWater_1_23 - 
+	63.5273*z_Compression_HeatPump_AirWater_1_23 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_1_24..
+	gen_low_Compression_HeatPump_AirWater_1_24 - 
+	62.2205*z_Compression_HeatPump_AirWater_1_24 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_1..
+	gen_low_Compression_HeatPump_AirWater_2_1 - 
+	60.0425*z_Compression_HeatPump_AirWater_2_1 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_2..
+	gen_low_Compression_HeatPump_AirWater_2_2 - 
+	59.1713*z_Compression_HeatPump_AirWater_2_2 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_3..
+	gen_low_Compression_HeatPump_AirWater_2_3 - 
+	58.7357*z_Compression_HeatPump_AirWater_2_3 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_4..
+	gen_low_Compression_HeatPump_AirWater_2_4 - 
+	57.8645*z_Compression_HeatPump_AirWater_2_4 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_5..
+	gen_low_Compression_HeatPump_AirWater_2_5 - 
+	57.4289*z_Compression_HeatPump_AirWater_2_5 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_6..
+	gen_low_Compression_HeatPump_AirWater_2_6 - 
+	56.9933*z_Compression_HeatPump_AirWater_2_6 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_7..
+	gen_low_Compression_HeatPump_AirWater_2_7 - 
+	57.4289*z_Compression_HeatPump_AirWater_2_7 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_8..
+	gen_low_Compression_HeatPump_AirWater_2_8 - 
+	58.3001*z_Compression_HeatPump_AirWater_2_8 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_9..
+	gen_low_Compression_HeatPump_AirWater_2_9 - 
+	60.4781*z_Compression_HeatPump_AirWater_2_9 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_10..
+	gen_low_Compression_HeatPump_AirWater_2_10 - 
+	64.8341*z_Compression_HeatPump_AirWater_2_10 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_11..
+	gen_low_Compression_HeatPump_AirWater_2_11 - 
+	71.8036*z_Compression_HeatPump_AirWater_2_11 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_12..
+	gen_low_Compression_HeatPump_AirWater_2_12 - 
+	79.6443*z_Compression_HeatPump_AirWater_2_12 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_13..
+	gen_low_Compression_HeatPump_AirWater_2_13 - 
+	88.7918*z_Compression_HeatPump_AirWater_2_13 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_14..
+	gen_low_Compression_HeatPump_AirWater_2_14 - 
+	90.9698*z_Compression_HeatPump_AirWater_2_14 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_15..
+	gen_low_Compression_HeatPump_AirWater_2_15 - 
+	84.4359*z_Compression_HeatPump_AirWater_2_15 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_16..
+	gen_low_Compression_HeatPump_AirWater_2_16 - 
+	82.6935*z_Compression_HeatPump_AirWater_2_16 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_17..
+	gen_low_Compression_HeatPump_AirWater_2_17 - 
+	79.2087*z_Compression_HeatPump_AirWater_2_17 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_18..
+	gen_low_Compression_HeatPump_AirWater_2_18 - 
+	73.546*z_Compression_HeatPump_AirWater_2_18 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_19..
+	gen_low_Compression_HeatPump_AirWater_2_19 - 
+	70.0612*z_Compression_HeatPump_AirWater_2_19 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_20..
+	gen_low_Compression_HeatPump_AirWater_2_20 - 
+	68.3188*z_Compression_HeatPump_AirWater_2_20 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_21..
+	gen_low_Compression_HeatPump_AirWater_2_21 - 
+	66.5764*z_Compression_HeatPump_AirWater_2_21 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_22..
+	gen_low_Compression_HeatPump_AirWater_2_22 - 
+	64.8341*z_Compression_HeatPump_AirWater_2_22 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_23..
+	gen_low_Compression_HeatPump_AirWater_2_23 - 
+	63.5273*z_Compression_HeatPump_AirWater_2_23 =L= 0;
+
+load_low_2_Compression_HeatPump_AirWater_2_24..
+	gen_low_Compression_HeatPump_AirWater_2_24 - 
+	62.2205*z_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_1..
+	-gen_high_AuxiliaryBoilerHT_1_1 - 
+	0.876076*z_AuxiliaryBoilerHT_1_1 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_2..
+	-gen_high_AuxiliaryBoilerHT_1_2 - 
+	0.876076*z_AuxiliaryBoilerHT_1_2 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_3..
+	-gen_high_AuxiliaryBoilerHT_1_3 - 
+	0.876076*z_AuxiliaryBoilerHT_1_3 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_4..
+	-gen_high_AuxiliaryBoilerHT_1_4 - 
+	0.876076*z_AuxiliaryBoilerHT_1_4 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_5..
+	-gen_high_AuxiliaryBoilerHT_1_5 - 
+	0.876076*z_AuxiliaryBoilerHT_1_5 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_6..
+	-gen_high_AuxiliaryBoilerHT_1_6 - 
+	0.876076*z_AuxiliaryBoilerHT_1_6 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_7..
+	-gen_high_AuxiliaryBoilerHT_1_7 - 
+	0.876076*z_AuxiliaryBoilerHT_1_7 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_8..
+	-gen_high_AuxiliaryBoilerHT_1_8 - 
+	0.876076*z_AuxiliaryBoilerHT_1_8 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_9..
+	-gen_high_AuxiliaryBoilerHT_1_9 - 
+	0.876076*z_AuxiliaryBoilerHT_1_9 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_10..
+	-gen_high_AuxiliaryBoilerHT_1_10 - 
+	0.876076*z_AuxiliaryBoilerHT_1_10 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_11..
+	-gen_high_AuxiliaryBoilerHT_1_11 - 
+	0.876076*z_AuxiliaryBoilerHT_1_11 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_12..
+	-gen_high_AuxiliaryBoilerHT_1_12 - 
+	0.876076*z_AuxiliaryBoilerHT_1_12 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_13..
+	-gen_high_AuxiliaryBoilerHT_1_13 - 
+	0.876076*z_AuxiliaryBoilerHT_1_13 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_14..
+	-gen_high_AuxiliaryBoilerHT_1_14 - 
+	0.876076*z_AuxiliaryBoilerHT_1_14 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_15..
+	-gen_high_AuxiliaryBoilerHT_1_15 - 
+	0.876076*z_AuxiliaryBoilerHT_1_15 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_16..
+	-gen_high_AuxiliaryBoilerHT_1_16 - 
+	0.876076*z_AuxiliaryBoilerHT_1_16 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_17..
+	-gen_high_AuxiliaryBoilerHT_1_17 - 
+	0.876076*z_AuxiliaryBoilerHT_1_17 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_18..
+	-gen_high_AuxiliaryBoilerHT_1_18 - 
+	0.876076*z_AuxiliaryBoilerHT_1_18 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_19..
+	-gen_high_AuxiliaryBoilerHT_1_19 - 
+	0.876076*z_AuxiliaryBoilerHT_1_19 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_20..
+	-gen_high_AuxiliaryBoilerHT_1_20 - 
+	0.876076*z_AuxiliaryBoilerHT_1_20 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_21..
+	-gen_high_AuxiliaryBoilerHT_1_21 - 
+	0.876076*z_AuxiliaryBoilerHT_1_21 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_22..
+	-gen_high_AuxiliaryBoilerHT_1_22 - 
+	0.876076*z_AuxiliaryBoilerHT_1_22 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_23..
+	-gen_high_AuxiliaryBoilerHT_1_23 - 
+	0.876076*z_AuxiliaryBoilerHT_1_23 =L= 0;
+
+load_high_AuxiliaryBoilerHT_1_24..
+	-gen_high_AuxiliaryBoilerHT_1_24 - 
+	0.876076*z_AuxiliaryBoilerHT_1_24 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_1..
+	-gen_high_AuxiliaryBoilerHT_2_1 - 
+	0.876076*z_AuxiliaryBoilerHT_2_1 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_2..
+	-gen_high_AuxiliaryBoilerHT_2_2 - 
+	0.876076*z_AuxiliaryBoilerHT_2_2 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_3..
+	-gen_high_AuxiliaryBoilerHT_2_3 - 
+	0.876076*z_AuxiliaryBoilerHT_2_3 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_4..
+	-gen_high_AuxiliaryBoilerHT_2_4 - 
+	0.876076*z_AuxiliaryBoilerHT_2_4 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_5..
+	-gen_high_AuxiliaryBoilerHT_2_5 - 
+	0.876076*z_AuxiliaryBoilerHT_2_5 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_6..
+	-gen_high_AuxiliaryBoilerHT_2_6 - 
+	0.876076*z_AuxiliaryBoilerHT_2_6 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_7..
+	-gen_high_AuxiliaryBoilerHT_2_7 - 
+	0.876076*z_AuxiliaryBoilerHT_2_7 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_8..
+	-gen_high_AuxiliaryBoilerHT_2_8 - 
+	0.876076*z_AuxiliaryBoilerHT_2_8 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_9..
+	-gen_high_AuxiliaryBoilerHT_2_9 - 
+	0.876076*z_AuxiliaryBoilerHT_2_9 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_10..
+	-gen_high_AuxiliaryBoilerHT_2_10 - 
+	0.876076*z_AuxiliaryBoilerHT_2_10 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_11..
+	-gen_high_AuxiliaryBoilerHT_2_11 - 
+	0.876076*z_AuxiliaryBoilerHT_2_11 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_12..
+	-gen_high_AuxiliaryBoilerHT_2_12 - 
+	0.876076*z_AuxiliaryBoilerHT_2_12 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_13..
+	-gen_high_AuxiliaryBoilerHT_2_13 - 
+	0.876076*z_AuxiliaryBoilerHT_2_13 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_14..
+	-gen_high_AuxiliaryBoilerHT_2_14 - 
+	0.876076*z_AuxiliaryBoilerHT_2_14 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_15..
+	-gen_high_AuxiliaryBoilerHT_2_15 - 
+	0.876076*z_AuxiliaryBoilerHT_2_15 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_16..
+	-gen_high_AuxiliaryBoilerHT_2_16 - 
+	0.876076*z_AuxiliaryBoilerHT_2_16 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_17..
+	-gen_high_AuxiliaryBoilerHT_2_17 - 
+	0.876076*z_AuxiliaryBoilerHT_2_17 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_18..
+	-gen_high_AuxiliaryBoilerHT_2_18 - 
+	0.876076*z_AuxiliaryBoilerHT_2_18 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_19..
+	-gen_high_AuxiliaryBoilerHT_2_19 - 
+	0.876076*z_AuxiliaryBoilerHT_2_19 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_20..
+	-gen_high_AuxiliaryBoilerHT_2_20 - 
+	0.876076*z_AuxiliaryBoilerHT_2_20 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_21..
+	-gen_high_AuxiliaryBoilerHT_2_21 - 
+	0.876076*z_AuxiliaryBoilerHT_2_21 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_22..
+	-gen_high_AuxiliaryBoilerHT_2_22 - 
+	0.876076*z_AuxiliaryBoilerHT_2_22 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_23..
+	-gen_high_AuxiliaryBoilerHT_2_23 - 
+	0.876076*z_AuxiliaryBoilerHT_2_23 =L= 0;
+
+load_high_AuxiliaryBoilerHT_2_24..
+	-gen_high_AuxiliaryBoilerHT_2_24 - 
+	0.876076*z_AuxiliaryBoilerHT_2_24 =L= 0;
+
+load_high_FuelCell_1_1..
+	-gen_high_FuelCell_1_1 + 5.43842*z_FuelCell_1_1 =L= 0;
+
+load_high_FuelCell_1_2..
+	-gen_high_FuelCell_1_2 + 5.43842*z_FuelCell_1_2 =L= 0;
+
+load_high_FuelCell_1_3..
+	-gen_high_FuelCell_1_3 + 5.43842*z_FuelCell_1_3 =L= 0;
+
+load_high_FuelCell_1_4..
+	-gen_high_FuelCell_1_4 + 5.43842*z_FuelCell_1_4 =L= 0;
+
+load_high_FuelCell_1_5..
+	-gen_high_FuelCell_1_5 + 5.43842*z_FuelCell_1_5 =L= 0;
+
+load_high_FuelCell_1_6..
+	-gen_high_FuelCell_1_6 + 5.43842*z_FuelCell_1_6 =L= 0;
+
+load_high_FuelCell_1_7..
+	-gen_high_FuelCell_1_7 + 5.43842*z_FuelCell_1_7 =L= 0;
+
+load_high_FuelCell_1_8..
+	-gen_high_FuelCell_1_8 + 5.43842*z_FuelCell_1_8 =L= 0;
+
+load_high_FuelCell_1_9..
+	-gen_high_FuelCell_1_9 + 5.43842*z_FuelCell_1_9 =L= 0;
+
+load_high_FuelCell_1_10..
+	-gen_high_FuelCell_1_10 + 5.43842*z_FuelCell_1_10 =L= 0;
+
+load_high_FuelCell_1_11..
+	-gen_high_FuelCell_1_11 + 5.43842*z_FuelCell_1_11 =L= 0;
+
+load_high_FuelCell_1_12..
+	-gen_high_FuelCell_1_12 + 5.43842*z_FuelCell_1_12 =L= 0;
+
+load_high_FuelCell_1_13..
+	-gen_high_FuelCell_1_13 + 5.43842*z_FuelCell_1_13 =L= 0;
+
+load_high_FuelCell_1_14..
+	-gen_high_FuelCell_1_14 + 5.43842*z_FuelCell_1_14 =L= 0;
+
+load_high_FuelCell_1_15..
+	-gen_high_FuelCell_1_15 + 5.43842*z_FuelCell_1_15 =L= 0;
+
+load_high_FuelCell_1_16..
+	-gen_high_FuelCell_1_16 + 5.43842*z_FuelCell_1_16 =L= 0;
+
+load_high_FuelCell_1_17..
+	-gen_high_FuelCell_1_17 + 5.43842*z_FuelCell_1_17 =L= 0;
+
+load_high_FuelCell_1_18..
+	-gen_high_FuelCell_1_18 + 5.43842*z_FuelCell_1_18 =L= 0;
+
+load_high_FuelCell_1_19..
+	-gen_high_FuelCell_1_19 + 5.43842*z_FuelCell_1_19 =L= 0;
+
+load_high_FuelCell_1_20..
+	-gen_high_FuelCell_1_20 + 5.43842*z_FuelCell_1_20 =L= 0;
+
+load_high_FuelCell_1_21..
+	-gen_high_FuelCell_1_21 + 5.43842*z_FuelCell_1_21 =L= 0;
+
+load_high_FuelCell_1_22..
+	-gen_high_FuelCell_1_22 + 5.43842*z_FuelCell_1_22 =L= 0;
+
+load_high_FuelCell_1_23..
+	-gen_high_FuelCell_1_23 + 5.43842*z_FuelCell_1_23 =L= 0;
+
+load_high_FuelCell_1_24..
+	-gen_high_FuelCell_1_24 + 5.43842*z_FuelCell_1_24 =L= 0;
+
+load_high_FuelCell_2_1..
+	-gen_high_FuelCell_2_1 + 5.43842*z_FuelCell_2_1 =L= 0;
+
+load_high_FuelCell_2_2..
+	-gen_high_FuelCell_2_2 + 5.43842*z_FuelCell_2_2 =L= 0;
+
+load_high_FuelCell_2_3..
+	-gen_high_FuelCell_2_3 + 5.43842*z_FuelCell_2_3 =L= 0;
+
+load_high_FuelCell_2_4..
+	-gen_high_FuelCell_2_4 + 5.43842*z_FuelCell_2_4 =L= 0;
+
+load_high_FuelCell_2_5..
+	-gen_high_FuelCell_2_5 + 5.43842*z_FuelCell_2_5 =L= 0;
+
+load_high_FuelCell_2_6..
+	-gen_high_FuelCell_2_6 + 5.43842*z_FuelCell_2_6 =L= 0;
+
+load_high_FuelCell_2_7..
+	-gen_high_FuelCell_2_7 + 5.43842*z_FuelCell_2_7 =L= 0;
+
+load_high_FuelCell_2_8..
+	-gen_high_FuelCell_2_8 + 5.43842*z_FuelCell_2_8 =L= 0;
+
+load_high_FuelCell_2_9..
+	-gen_high_FuelCell_2_9 + 5.43842*z_FuelCell_2_9 =L= 0;
+
+load_high_FuelCell_2_10..
+	-gen_high_FuelCell_2_10 + 5.43842*z_FuelCell_2_10 =L= 0;
+
+load_high_FuelCell_2_11..
+	-gen_high_FuelCell_2_11 + 5.43842*z_FuelCell_2_11 =L= 0;
+
+load_high_FuelCell_2_12..
+	-gen_high_FuelCell_2_12 + 5.43842*z_FuelCell_2_12 =L= 0;
+
+load_high_FuelCell_2_13..
+	-gen_high_FuelCell_2_13 + 5.43842*z_FuelCell_2_13 =L= 0;
+
+load_high_FuelCell_2_14..
+	-gen_high_FuelCell_2_14 + 5.43842*z_FuelCell_2_14 =L= 0;
+
+load_high_FuelCell_2_15..
+	-gen_high_FuelCell_2_15 + 5.43842*z_FuelCell_2_15 =L= 0;
+
+load_high_FuelCell_2_16..
+	-gen_high_FuelCell_2_16 + 5.43842*z_FuelCell_2_16 =L= 0;
+
+load_high_FuelCell_2_17..
+	-gen_high_FuelCell_2_17 + 5.43842*z_FuelCell_2_17 =L= 0;
+
+load_high_FuelCell_2_18..
+	-gen_high_FuelCell_2_18 + 5.43842*z_FuelCell_2_18 =L= 0;
+
+load_high_FuelCell_2_19..
+	-gen_high_FuelCell_2_19 + 5.43842*z_FuelCell_2_19 =L= 0;
+
+load_high_FuelCell_2_20..
+	-gen_high_FuelCell_2_20 + 5.43842*z_FuelCell_2_20 =L= 0;
+
+load_high_FuelCell_2_21..
+	-gen_high_FuelCell_2_21 + 5.43842*z_FuelCell_2_21 =L= 0;
+
+load_high_FuelCell_2_22..
+	-gen_high_FuelCell_2_22 + 5.43842*z_FuelCell_2_22 =L= 0;
+
+load_high_FuelCell_2_23..
+	-gen_high_FuelCell_2_23 + 5.43842*z_FuelCell_2_23 =L= 0;
+
+load_high_FuelCell_2_24..
+	-gen_high_FuelCell_2_24 + 5.43842*z_FuelCell_2_24 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_1..
+	gen_high_AuxiliaryBoilerHT_1_1 - 69.792*z_AuxiliaryBoilerHT_1_1
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_2..
+	gen_high_AuxiliaryBoilerHT_1_2 - 69.792*z_AuxiliaryBoilerHT_1_2
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_3..
+	gen_high_AuxiliaryBoilerHT_1_3 - 69.792*z_AuxiliaryBoilerHT_1_3
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_4..
+	gen_high_AuxiliaryBoilerHT_1_4 - 69.792*z_AuxiliaryBoilerHT_1_4
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_5..
+	gen_high_AuxiliaryBoilerHT_1_5 - 69.792*z_AuxiliaryBoilerHT_1_5
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_6..
+	gen_high_AuxiliaryBoilerHT_1_6 - 69.792*z_AuxiliaryBoilerHT_1_6
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_7..
+	gen_high_AuxiliaryBoilerHT_1_7 - 69.792*z_AuxiliaryBoilerHT_1_7
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_8..
+	gen_high_AuxiliaryBoilerHT_1_8 - 69.792*z_AuxiliaryBoilerHT_1_8
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_9..
+	gen_high_AuxiliaryBoilerHT_1_9 - 69.792*z_AuxiliaryBoilerHT_1_9
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_10..
+	gen_high_AuxiliaryBoilerHT_1_10 - 69.792*z_AuxiliaryBoilerHT_1_10
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_11..
+	gen_high_AuxiliaryBoilerHT_1_11 - 69.792*z_AuxiliaryBoilerHT_1_11
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_12..
+	gen_high_AuxiliaryBoilerHT_1_12 - 69.792*z_AuxiliaryBoilerHT_1_12
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_13..
+	gen_high_AuxiliaryBoilerHT_1_13 - 69.792*z_AuxiliaryBoilerHT_1_13
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_14..
+	gen_high_AuxiliaryBoilerHT_1_14 - 69.792*z_AuxiliaryBoilerHT_1_14
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_15..
+	gen_high_AuxiliaryBoilerHT_1_15 - 69.792*z_AuxiliaryBoilerHT_1_15
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_16..
+	gen_high_AuxiliaryBoilerHT_1_16 - 69.792*z_AuxiliaryBoilerHT_1_16
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_17..
+	gen_high_AuxiliaryBoilerHT_1_17 - 69.792*z_AuxiliaryBoilerHT_1_17
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_18..
+	gen_high_AuxiliaryBoilerHT_1_18 - 69.792*z_AuxiliaryBoilerHT_1_18
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_19..
+	gen_high_AuxiliaryBoilerHT_1_19 - 69.792*z_AuxiliaryBoilerHT_1_19
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_20..
+	gen_high_AuxiliaryBoilerHT_1_20 - 69.792*z_AuxiliaryBoilerHT_1_20
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_21..
+	gen_high_AuxiliaryBoilerHT_1_21 - 69.792*z_AuxiliaryBoilerHT_1_21
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_22..
+	gen_high_AuxiliaryBoilerHT_1_22 - 69.792*z_AuxiliaryBoilerHT_1_22
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_23..
+	gen_high_AuxiliaryBoilerHT_1_23 - 69.792*z_AuxiliaryBoilerHT_1_23
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_1_24..
+	gen_high_AuxiliaryBoilerHT_1_24 - 69.792*z_AuxiliaryBoilerHT_1_24
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_1..
+	gen_high_AuxiliaryBoilerHT_2_1 - 69.792*z_AuxiliaryBoilerHT_2_1
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_2..
+	gen_high_AuxiliaryBoilerHT_2_2 - 69.792*z_AuxiliaryBoilerHT_2_2
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_3..
+	gen_high_AuxiliaryBoilerHT_2_3 - 69.792*z_AuxiliaryBoilerHT_2_3
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_4..
+	gen_high_AuxiliaryBoilerHT_2_4 - 69.792*z_AuxiliaryBoilerHT_2_4
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_5..
+	gen_high_AuxiliaryBoilerHT_2_5 - 69.792*z_AuxiliaryBoilerHT_2_5
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_6..
+	gen_high_AuxiliaryBoilerHT_2_6 - 69.792*z_AuxiliaryBoilerHT_2_6
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_7..
+	gen_high_AuxiliaryBoilerHT_2_7 - 69.792*z_AuxiliaryBoilerHT_2_7
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_8..
+	gen_high_AuxiliaryBoilerHT_2_8 - 69.792*z_AuxiliaryBoilerHT_2_8
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_9..
+	gen_high_AuxiliaryBoilerHT_2_9 - 69.792*z_AuxiliaryBoilerHT_2_9
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_10..
+	gen_high_AuxiliaryBoilerHT_2_10 - 69.792*z_AuxiliaryBoilerHT_2_10
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_11..
+	gen_high_AuxiliaryBoilerHT_2_11 - 69.792*z_AuxiliaryBoilerHT_2_11
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_12..
+	gen_high_AuxiliaryBoilerHT_2_12 - 69.792*z_AuxiliaryBoilerHT_2_12
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_13..
+	gen_high_AuxiliaryBoilerHT_2_13 - 69.792*z_AuxiliaryBoilerHT_2_13
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_14..
+	gen_high_AuxiliaryBoilerHT_2_14 - 69.792*z_AuxiliaryBoilerHT_2_14
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_15..
+	gen_high_AuxiliaryBoilerHT_2_15 - 69.792*z_AuxiliaryBoilerHT_2_15
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_16..
+	gen_high_AuxiliaryBoilerHT_2_16 - 69.792*z_AuxiliaryBoilerHT_2_16
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_17..
+	gen_high_AuxiliaryBoilerHT_2_17 - 69.792*z_AuxiliaryBoilerHT_2_17
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_18..
+	gen_high_AuxiliaryBoilerHT_2_18 - 69.792*z_AuxiliaryBoilerHT_2_18
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_19..
+	gen_high_AuxiliaryBoilerHT_2_19 - 69.792*z_AuxiliaryBoilerHT_2_19
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_20..
+	gen_high_AuxiliaryBoilerHT_2_20 - 69.792*z_AuxiliaryBoilerHT_2_20
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_21..
+	gen_high_AuxiliaryBoilerHT_2_21 - 69.792*z_AuxiliaryBoilerHT_2_21
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_22..
+	gen_high_AuxiliaryBoilerHT_2_22 - 69.792*z_AuxiliaryBoilerHT_2_22
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_23..
+	gen_high_AuxiliaryBoilerHT_2_23 - 69.792*z_AuxiliaryBoilerHT_2_23
+	 =L= 0;
+
+load_high_2_AuxiliaryBoilerHT_2_24..
+	gen_high_AuxiliaryBoilerHT_2_24 - 69.792*z_AuxiliaryBoilerHT_2_24
+	 =L= 0;
+
+load_high_2_FuelCell_1_1..
+	gen_high_FuelCell_1_1 - 17.4118*z_FuelCell_1_1 =L= 0;
+
+load_high_2_FuelCell_1_2..
+	gen_high_FuelCell_1_2 - 17.4118*z_FuelCell_1_2 =L= 0;
+
+load_high_2_FuelCell_1_3..
+	gen_high_FuelCell_1_3 - 17.4118*z_FuelCell_1_3 =L= 0;
+
+load_high_2_FuelCell_1_4..
+	gen_high_FuelCell_1_4 - 17.4118*z_FuelCell_1_4 =L= 0;
+
+load_high_2_FuelCell_1_5..
+	gen_high_FuelCell_1_5 - 17.4118*z_FuelCell_1_5 =L= 0;
+
+load_high_2_FuelCell_1_6..
+	gen_high_FuelCell_1_6 - 17.4118*z_FuelCell_1_6 =L= 0;
+
+load_high_2_FuelCell_1_7..
+	gen_high_FuelCell_1_7 - 17.4118*z_FuelCell_1_7 =L= 0;
+
+load_high_2_FuelCell_1_8..
+	gen_high_FuelCell_1_8 - 17.4118*z_FuelCell_1_8 =L= 0;
+
+load_high_2_FuelCell_1_9..
+	gen_high_FuelCell_1_9 - 17.4118*z_FuelCell_1_9 =L= 0;
+
+load_high_2_FuelCell_1_10..
+	gen_high_FuelCell_1_10 - 17.4118*z_FuelCell_1_10 =L= 0;
+
+load_high_2_FuelCell_1_11..
+	gen_high_FuelCell_1_11 - 17.4118*z_FuelCell_1_11 =L= 0;
+
+load_high_2_FuelCell_1_12..
+	gen_high_FuelCell_1_12 - 17.4118*z_FuelCell_1_12 =L= 0;
+
+load_high_2_FuelCell_1_13..
+	gen_high_FuelCell_1_13 - 17.4118*z_FuelCell_1_13 =L= 0;
+
+load_high_2_FuelCell_1_14..
+	gen_high_FuelCell_1_14 - 17.4118*z_FuelCell_1_14 =L= 0;
+
+load_high_2_FuelCell_1_15..
+	gen_high_FuelCell_1_15 - 17.4118*z_FuelCell_1_15 =L= 0;
+
+load_high_2_FuelCell_1_16..
+	gen_high_FuelCell_1_16 - 17.4118*z_FuelCell_1_16 =L= 0;
+
+load_high_2_FuelCell_1_17..
+	gen_high_FuelCell_1_17 - 17.4118*z_FuelCell_1_17 =L= 0;
+
+load_high_2_FuelCell_1_18..
+	gen_high_FuelCell_1_18 - 17.4118*z_FuelCell_1_18 =L= 0;
+
+load_high_2_FuelCell_1_19..
+	gen_high_FuelCell_1_19 - 17.4118*z_FuelCell_1_19 =L= 0;
+
+load_high_2_FuelCell_1_20..
+	gen_high_FuelCell_1_20 - 17.4118*z_FuelCell_1_20 =L= 0;
+
+load_high_2_FuelCell_1_21..
+	gen_high_FuelCell_1_21 - 17.4118*z_FuelCell_1_21 =L= 0;
+
+load_high_2_FuelCell_1_22..
+	gen_high_FuelCell_1_22 - 17.4118*z_FuelCell_1_22 =L= 0;
+
+load_high_2_FuelCell_1_23..
+	gen_high_FuelCell_1_23 - 17.4118*z_FuelCell_1_23 =L= 0;
+
+load_high_2_FuelCell_1_24..
+	gen_high_FuelCell_1_24 - 17.4118*z_FuelCell_1_24 =L= 0;
+
+load_high_2_FuelCell_2_1..
+	gen_high_FuelCell_2_1 - 17.4118*z_FuelCell_2_1 =L= 0;
+
+load_high_2_FuelCell_2_2..
+	gen_high_FuelCell_2_2 - 17.4118*z_FuelCell_2_2 =L= 0;
+
+load_high_2_FuelCell_2_3..
+	gen_high_FuelCell_2_3 - 17.4118*z_FuelCell_2_3 =L= 0;
+
+load_high_2_FuelCell_2_4..
+	gen_high_FuelCell_2_4 - 17.4118*z_FuelCell_2_4 =L= 0;
+
+load_high_2_FuelCell_2_5..
+	gen_high_FuelCell_2_5 - 17.4118*z_FuelCell_2_5 =L= 0;
+
+load_high_2_FuelCell_2_6..
+	gen_high_FuelCell_2_6 - 17.4118*z_FuelCell_2_6 =L= 0;
+
+load_high_2_FuelCell_2_7..
+	gen_high_FuelCell_2_7 - 17.4118*z_FuelCell_2_7 =L= 0;
+
+load_high_2_FuelCell_2_8..
+	gen_high_FuelCell_2_8 - 17.4118*z_FuelCell_2_8 =L= 0;
+
+load_high_2_FuelCell_2_9..
+	gen_high_FuelCell_2_9 - 17.4118*z_FuelCell_2_9 =L= 0;
+
+load_high_2_FuelCell_2_10..
+	gen_high_FuelCell_2_10 - 17.4118*z_FuelCell_2_10 =L= 0;
+
+load_high_2_FuelCell_2_11..
+	gen_high_FuelCell_2_11 - 17.4118*z_FuelCell_2_11 =L= 0;
+
+load_high_2_FuelCell_2_12..
+	gen_high_FuelCell_2_12 - 17.4118*z_FuelCell_2_12 =L= 0;
+
+load_high_2_FuelCell_2_13..
+	gen_high_FuelCell_2_13 - 17.4118*z_FuelCell_2_13 =L= 0;
+
+load_high_2_FuelCell_2_14..
+	gen_high_FuelCell_2_14 - 17.4118*z_FuelCell_2_14 =L= 0;
+
+load_high_2_FuelCell_2_15..
+	gen_high_FuelCell_2_15 - 17.4118*z_FuelCell_2_15 =L= 0;
+
+load_high_2_FuelCell_2_16..
+	gen_high_FuelCell_2_16 - 17.4118*z_FuelCell_2_16 =L= 0;
+
+load_high_2_FuelCell_2_17..
+	gen_high_FuelCell_2_17 - 17.4118*z_FuelCell_2_17 =L= 0;
+
+load_high_2_FuelCell_2_18..
+	gen_high_FuelCell_2_18 - 17.4118*z_FuelCell_2_18 =L= 0;
+
+load_high_2_FuelCell_2_19..
+	gen_high_FuelCell_2_19 - 17.4118*z_FuelCell_2_19 =L= 0;
+
+load_high_2_FuelCell_2_20..
+	gen_high_FuelCell_2_20 - 17.4118*z_FuelCell_2_20 =L= 0;
+
+load_high_2_FuelCell_2_21..
+	gen_high_FuelCell_2_21 - 17.4118*z_FuelCell_2_21 =L= 0;
+
+load_high_2_FuelCell_2_22..
+	gen_high_FuelCell_2_22 - 17.4118*z_FuelCell_2_22 =L= 0;
+
+load_high_2_FuelCell_2_23..
+	gen_high_FuelCell_2_23 - 17.4118*z_FuelCell_2_23 =L= 0;
+
+load_high_2_FuelCell_2_24..
+	gen_high_FuelCell_2_24 - 17.4118*z_FuelCell_2_24 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_1..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_1/28 -0.035 + 
+	0.04905*used_power_Compression_HeatPump_AirWater_1_1/28 -0.5608*(
+	used_power_Compression_HeatPump_AirWater_1_1/28)*(
+	used_power_Compression_HeatPump_AirWater_1_1/28))*
+	z_Compression_HeatPump_AirWater_1_1) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_1 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_2..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_2/28 -0.03508
+	 + 0.04251*used_power_Compression_HeatPump_AirWater_1_2/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_2/28)*(
+	used_power_Compression_HeatPump_AirWater_1_2/28))*
+	z_Compression_HeatPump_AirWater_1_2) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_2 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_3..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_3/28 -0.03512
+	 + 0.03924*used_power_Compression_HeatPump_AirWater_1_3/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_3/28)*(
+	used_power_Compression_HeatPump_AirWater_1_3/28))*
+	z_Compression_HeatPump_AirWater_1_3) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_3 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_4..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_4/28 -0.0352
+	 + 0.0327*used_power_Compression_HeatPump_AirWater_1_4/28 -0.5608*
+	(used_power_Compression_HeatPump_AirWater_1_4/28)*(
+	used_power_Compression_HeatPump_AirWater_1_4/28))*
+	z_Compression_HeatPump_AirWater_1_4) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_4 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_5..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_5/28 -0.03524
+	 + 0.02943*used_power_Compression_HeatPump_AirWater_1_5/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_5/28)*(
+	used_power_Compression_HeatPump_AirWater_1_5/28))*
+	z_Compression_HeatPump_AirWater_1_5) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_5 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_6..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_6/28 -0.03528
+	 + 0.02616*used_power_Compression_HeatPump_AirWater_1_6/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_6/28)*(
+	used_power_Compression_HeatPump_AirWater_1_6/28))*
+	z_Compression_HeatPump_AirWater_1_6) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_6 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_7..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_7/28 -0.03524
+	 + 0.02943*used_power_Compression_HeatPump_AirWater_1_7/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_7/28)*(
+	used_power_Compression_HeatPump_AirWater_1_7/28))*
+	z_Compression_HeatPump_AirWater_1_7) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_7 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_8..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_8/28 -0.03516
+	 + 0.03597*used_power_Compression_HeatPump_AirWater_1_8/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_8/28)*(
+	used_power_Compression_HeatPump_AirWater_1_8/28))*
+	z_Compression_HeatPump_AirWater_1_8) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_8 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_9..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_9/28 -0.03496
+	 + 0.05232*used_power_Compression_HeatPump_AirWater_1_9/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_9/28)*(
+	used_power_Compression_HeatPump_AirWater_1_9/28))*
+	z_Compression_HeatPump_AirWater_1_9) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_9 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_10..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_10/28 -0.03456
+	 + 0.08502*used_power_Compression_HeatPump_AirWater_1_10/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_10/28)*(
+	used_power_Compression_HeatPump_AirWater_1_10/28))*
+	z_Compression_HeatPump_AirWater_1_10) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_10 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_11..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_11/28 -0.03392
+	 + 0.13734*used_power_Compression_HeatPump_AirWater_1_11/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_11/28)*(
+	used_power_Compression_HeatPump_AirWater_1_11/28))*
+	z_Compression_HeatPump_AirWater_1_11) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_11 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_12..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_12/28 -0.0332
+	 + 0.1962*used_power_Compression_HeatPump_AirWater_1_12/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_12/28)*(
+	used_power_Compression_HeatPump_AirWater_1_12/28))*
+	z_Compression_HeatPump_AirWater_1_12) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_12 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_13..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_13/28 -0.03236
+	 + 0.26487*used_power_Compression_HeatPump_AirWater_1_13/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_13/28)*(
+	used_power_Compression_HeatPump_AirWater_1_13/28))*
+	z_Compression_HeatPump_AirWater_1_13) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_13 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_14..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_14/28 -0.03216
+	 + 0.28122*used_power_Compression_HeatPump_AirWater_1_14/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_14/28)*(
+	used_power_Compression_HeatPump_AirWater_1_14/28))*
+	z_Compression_HeatPump_AirWater_1_14) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_14 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_15..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_15/28 -0.03276
+	 + 0.23217*used_power_Compression_HeatPump_AirWater_1_15/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_15/28)*(
+	used_power_Compression_HeatPump_AirWater_1_15/28))*
+	z_Compression_HeatPump_AirWater_1_15) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_15 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_16..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_16/28 -0.03292
+	 + 0.21909*used_power_Compression_HeatPump_AirWater_1_16/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_16/28)*(
+	used_power_Compression_HeatPump_AirWater_1_16/28))*
+	z_Compression_HeatPump_AirWater_1_16) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_16 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_17..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_17/28 -0.03324
+	 + 0.19293*used_power_Compression_HeatPump_AirWater_1_17/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_17/28)*(
+	used_power_Compression_HeatPump_AirWater_1_17/28))*
+	z_Compression_HeatPump_AirWater_1_17) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_17 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_18..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_18/28 -0.03376
+	 + 0.15042*used_power_Compression_HeatPump_AirWater_1_18/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_18/28)*(
+	used_power_Compression_HeatPump_AirWater_1_18/28))*
+	z_Compression_HeatPump_AirWater_1_18) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_18 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_19..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_19/28 -0.03408
+	 + 0.12426*used_power_Compression_HeatPump_AirWater_1_19/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_19/28)*(
+	used_power_Compression_HeatPump_AirWater_1_19/28))*
+	z_Compression_HeatPump_AirWater_1_19) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_19 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_20..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_20/28 -0.03424
+	 + 0.11118*used_power_Compression_HeatPump_AirWater_1_20/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_20/28)*(
+	used_power_Compression_HeatPump_AirWater_1_20/28))*
+	z_Compression_HeatPump_AirWater_1_20) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_20 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_21..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_21/28 -0.0344
+	 + 0.0981*used_power_Compression_HeatPump_AirWater_1_21/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_21/28)*(
+	used_power_Compression_HeatPump_AirWater_1_21/28))*
+	z_Compression_HeatPump_AirWater_1_21) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_21 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_22..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_22/28 -0.03456
+	 + 0.08502*used_power_Compression_HeatPump_AirWater_1_22/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_22/28)*(
+	used_power_Compression_HeatPump_AirWater_1_22/28))*
+	z_Compression_HeatPump_AirWater_1_22) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_22 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_23..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_23/28 -0.03468
+	 + 0.07521*used_power_Compression_HeatPump_AirWater_1_23/28 -0.5608*(used_power_Compression_HeatPump_AirWater_1_23/28)*(
+	used_power_Compression_HeatPump_AirWater_1_23/28))*
+	z_Compression_HeatPump_AirWater_1_23) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_23 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_1_24..
+	-((1.003*used_power_Compression_HeatPump_AirWater_1_24/28 -0.0348
+	 + 0.0654*used_power_Compression_HeatPump_AirWater_1_24/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_1_24/28)*(
+	used_power_Compression_HeatPump_AirWater_1_24/28))*
+	z_Compression_HeatPump_AirWater_1_24) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_24 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_1..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_1/28 -0.035 + 
+	0.04905*used_power_Compression_HeatPump_AirWater_2_1/28 -0.5608*(
+	used_power_Compression_HeatPump_AirWater_2_1/28)*(
+	used_power_Compression_HeatPump_AirWater_2_1/28))*
+	z_Compression_HeatPump_AirWater_2_1) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_1 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_2..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_2/28 -0.03508
+	 + 0.04251*used_power_Compression_HeatPump_AirWater_2_2/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_2/28)*(
+	used_power_Compression_HeatPump_AirWater_2_2/28))*
+	z_Compression_HeatPump_AirWater_2_2) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_2 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_3..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_3/28 -0.03512
+	 + 0.03924*used_power_Compression_HeatPump_AirWater_2_3/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_3/28)*(
+	used_power_Compression_HeatPump_AirWater_2_3/28))*
+	z_Compression_HeatPump_AirWater_2_3) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_3 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_4..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_4/28 -0.0352
+	 + 0.0327*used_power_Compression_HeatPump_AirWater_2_4/28 -0.5608*
+	(used_power_Compression_HeatPump_AirWater_2_4/28)*(
+	used_power_Compression_HeatPump_AirWater_2_4/28))*
+	z_Compression_HeatPump_AirWater_2_4) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_4 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_5..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_5/28 -0.03524
+	 + 0.02943*used_power_Compression_HeatPump_AirWater_2_5/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_5/28)*(
+	used_power_Compression_HeatPump_AirWater_2_5/28))*
+	z_Compression_HeatPump_AirWater_2_5) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_5 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_6..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_6/28 -0.03528
+	 + 0.02616*used_power_Compression_HeatPump_AirWater_2_6/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_6/28)*(
+	used_power_Compression_HeatPump_AirWater_2_6/28))*
+	z_Compression_HeatPump_AirWater_2_6) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_6 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_7..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_7/28 -0.03524
+	 + 0.02943*used_power_Compression_HeatPump_AirWater_2_7/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_7/28)*(
+	used_power_Compression_HeatPump_AirWater_2_7/28))*
+	z_Compression_HeatPump_AirWater_2_7) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_7 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_8..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_8/28 -0.03516
+	 + 0.03597*used_power_Compression_HeatPump_AirWater_2_8/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_8/28)*(
+	used_power_Compression_HeatPump_AirWater_2_8/28))*
+	z_Compression_HeatPump_AirWater_2_8) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_8 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_9..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_9/28 -0.03496
+	 + 0.05232*used_power_Compression_HeatPump_AirWater_2_9/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_9/28)*(
+	used_power_Compression_HeatPump_AirWater_2_9/28))*
+	z_Compression_HeatPump_AirWater_2_9) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_9 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_10..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_10/28 -0.03456
+	 + 0.08502*used_power_Compression_HeatPump_AirWater_2_10/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_10/28)*(
+	used_power_Compression_HeatPump_AirWater_2_10/28))*
+	z_Compression_HeatPump_AirWater_2_10) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_10 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_11..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_11/28 -0.03392
+	 + 0.13734*used_power_Compression_HeatPump_AirWater_2_11/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_11/28)*(
+	used_power_Compression_HeatPump_AirWater_2_11/28))*
+	z_Compression_HeatPump_AirWater_2_11) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_11 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_12..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_12/28 -0.0332
+	 + 0.1962*used_power_Compression_HeatPump_AirWater_2_12/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_12/28)*(
+	used_power_Compression_HeatPump_AirWater_2_12/28))*
+	z_Compression_HeatPump_AirWater_2_12) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_12 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_13..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_13/28 -0.03236
+	 + 0.26487*used_power_Compression_HeatPump_AirWater_2_13/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_13/28)*(
+	used_power_Compression_HeatPump_AirWater_2_13/28))*
+	z_Compression_HeatPump_AirWater_2_13) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_13 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_14..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_14/28 -0.03216
+	 + 0.28122*used_power_Compression_HeatPump_AirWater_2_14/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_14/28)*(
+	used_power_Compression_HeatPump_AirWater_2_14/28))*
+	z_Compression_HeatPump_AirWater_2_14) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_14 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_15..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_15/28 -0.03276
+	 + 0.23217*used_power_Compression_HeatPump_AirWater_2_15/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_15/28)*(
+	used_power_Compression_HeatPump_AirWater_2_15/28))*
+	z_Compression_HeatPump_AirWater_2_15) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_15 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_16..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_16/28 -0.03292
+	 + 0.21909*used_power_Compression_HeatPump_AirWater_2_16/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_16/28)*(
+	used_power_Compression_HeatPump_AirWater_2_16/28))*
+	z_Compression_HeatPump_AirWater_2_16) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_16 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_17..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_17/28 -0.03324
+	 + 0.19293*used_power_Compression_HeatPump_AirWater_2_17/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_17/28)*(
+	used_power_Compression_HeatPump_AirWater_2_17/28))*
+	z_Compression_HeatPump_AirWater_2_17) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_17 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_18..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_18/28 -0.03376
+	 + 0.15042*used_power_Compression_HeatPump_AirWater_2_18/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_18/28)*(
+	used_power_Compression_HeatPump_AirWater_2_18/28))*
+	z_Compression_HeatPump_AirWater_2_18) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_18 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_19..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_19/28 -0.03408
+	 + 0.12426*used_power_Compression_HeatPump_AirWater_2_19/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_19/28)*(
+	used_power_Compression_HeatPump_AirWater_2_19/28))*
+	z_Compression_HeatPump_AirWater_2_19) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_19 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_20..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_20/28 -0.03424
+	 + 0.11118*used_power_Compression_HeatPump_AirWater_2_20/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_20/28)*(
+	used_power_Compression_HeatPump_AirWater_2_20/28))*
+	z_Compression_HeatPump_AirWater_2_20) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_20 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_21..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_21/28 -0.0344
+	 + 0.0981*used_power_Compression_HeatPump_AirWater_2_21/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_21/28)*(
+	used_power_Compression_HeatPump_AirWater_2_21/28))*
+	z_Compression_HeatPump_AirWater_2_21) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_21 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_22..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_22/28 -0.03456
+	 + 0.08502*used_power_Compression_HeatPump_AirWater_2_22/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_22/28)*(
+	used_power_Compression_HeatPump_AirWater_2_22/28))*
+	z_Compression_HeatPump_AirWater_2_22) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_22 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_23..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_23/28 -0.03468
+	 + 0.07521*used_power_Compression_HeatPump_AirWater_2_23/28 -0.5608*(used_power_Compression_HeatPump_AirWater_2_23/28)*(
+	used_power_Compression_HeatPump_AirWater_2_23/28))*
+	z_Compression_HeatPump_AirWater_2_23) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_23 =L= 0;
+
+low_hp_Compression_HeatPump_AirWater_2_24..
+	-((1.003*used_power_Compression_HeatPump_AirWater_2_24/28 -0.0348
+	 + 0.0654*used_power_Compression_HeatPump_AirWater_2_24/28 -0.5608
+	*(used_power_Compression_HeatPump_AirWater_2_24/28)*(
+	used_power_Compression_HeatPump_AirWater_2_24/28))*
+	z_Compression_HeatPump_AirWater_2_24) + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_24 =L= 0;
+
+low_ice_FuelCell_1_1..
+	gen_low_FuelCell_1_1 =L= 0;
+
+low_ice_FuelCell_1_2..
+	gen_low_FuelCell_1_2 =L= 0;
+
+low_ice_FuelCell_1_3..
+	gen_low_FuelCell_1_3 =L= 0;
+
+low_ice_FuelCell_1_4..
+	gen_low_FuelCell_1_4 =L= 0;
+
+low_ice_FuelCell_1_5..
+	gen_low_FuelCell_1_5 =L= 0;
+
+low_ice_FuelCell_1_6..
+	gen_low_FuelCell_1_6 =L= 0;
+
+low_ice_FuelCell_1_7..
+	gen_low_FuelCell_1_7 =L= 0;
+
+low_ice_FuelCell_1_8..
+	gen_low_FuelCell_1_8 =L= 0;
+
+low_ice_FuelCell_1_9..
+	gen_low_FuelCell_1_9 =L= 0;
+
+low_ice_FuelCell_1_10..
+	gen_low_FuelCell_1_10 =L= 0;
+
+low_ice_FuelCell_1_11..
+	gen_low_FuelCell_1_11 =L= 0;
+
+low_ice_FuelCell_1_12..
+	gen_low_FuelCell_1_12 =L= 0;
+
+low_ice_FuelCell_1_13..
+	gen_low_FuelCell_1_13 =L= 0;
+
+low_ice_FuelCell_1_14..
+	gen_low_FuelCell_1_14 =L= 0;
+
+low_ice_FuelCell_1_15..
+	gen_low_FuelCell_1_15 =L= 0;
+
+low_ice_FuelCell_1_16..
+	gen_low_FuelCell_1_16 =L= 0;
+
+low_ice_FuelCell_1_17..
+	gen_low_FuelCell_1_17 =L= 0;
+
+low_ice_FuelCell_1_18..
+	gen_low_FuelCell_1_18 =L= 0;
+
+low_ice_FuelCell_1_19..
+	gen_low_FuelCell_1_19 =L= 0;
+
+low_ice_FuelCell_1_20..
+	gen_low_FuelCell_1_20 =L= 0;
+
+low_ice_FuelCell_1_21..
+	gen_low_FuelCell_1_21 =L= 0;
+
+low_ice_FuelCell_1_22..
+	gen_low_FuelCell_1_22 =L= 0;
+
+low_ice_FuelCell_1_23..
+	gen_low_FuelCell_1_23 =L= 0;
+
+low_ice_FuelCell_1_24..
+	gen_low_FuelCell_1_24 =L= 0;
+
+low_ice_FuelCell_2_1..
+	gen_low_FuelCell_2_1 =L= 0;
+
+low_ice_FuelCell_2_2..
+	gen_low_FuelCell_2_2 =L= 0;
+
+low_ice_FuelCell_2_3..
+	gen_low_FuelCell_2_3 =L= 0;
+
+low_ice_FuelCell_2_4..
+	gen_low_FuelCell_2_4 =L= 0;
+
+low_ice_FuelCell_2_5..
+	gen_low_FuelCell_2_5 =L= 0;
+
+low_ice_FuelCell_2_6..
+	gen_low_FuelCell_2_6 =L= 0;
+
+low_ice_FuelCell_2_7..
+	gen_low_FuelCell_2_7 =L= 0;
+
+low_ice_FuelCell_2_8..
+	gen_low_FuelCell_2_8 =L= 0;
+
+low_ice_FuelCell_2_9..
+	gen_low_FuelCell_2_9 =L= 0;
+
+low_ice_FuelCell_2_10..
+	gen_low_FuelCell_2_10 =L= 0;
+
+low_ice_FuelCell_2_11..
+	gen_low_FuelCell_2_11 =L= 0;
+
+low_ice_FuelCell_2_12..
+	gen_low_FuelCell_2_12 =L= 0;
+
+low_ice_FuelCell_2_13..
+	gen_low_FuelCell_2_13 =L= 0;
+
+low_ice_FuelCell_2_14..
+	gen_low_FuelCell_2_14 =L= 0;
+
+low_ice_FuelCell_2_15..
+	gen_low_FuelCell_2_15 =L= 0;
+
+low_ice_FuelCell_2_16..
+	gen_low_FuelCell_2_16 =L= 0;
+
+low_ice_FuelCell_2_17..
+	gen_low_FuelCell_2_17 =L= 0;
+
+low_ice_FuelCell_2_18..
+	gen_low_FuelCell_2_18 =L= 0;
+
+low_ice_FuelCell_2_19..
+	gen_low_FuelCell_2_19 =L= 0;
+
+low_ice_FuelCell_2_20..
+	gen_low_FuelCell_2_20 =L= 0;
+
+low_ice_FuelCell_2_21..
+	gen_low_FuelCell_2_21 =L= 0;
+
+low_ice_FuelCell_2_22..
+	gen_low_FuelCell_2_22 =L= 0;
+
+low_ice_FuelCell_2_23..
+	gen_low_FuelCell_2_23 =L= 0;
+
+low_ice_FuelCell_2_24..
+	gen_low_FuelCell_2_24 =L= 0;
+
+high_ice_FuelCell_1_1..
+	-((-1.2266*fuel_FuelCell_1_1/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_1/52.42)*(fuel_FuelCell_1_1/52.42))*
+	z_FuelCell_1_1) + 0.0673854*gen_high_FuelCell_1_1 =L= 0;
+
+high_ice_FuelCell_1_2..
+	-((-1.2266*fuel_FuelCell_1_2/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_2/52.42)*(fuel_FuelCell_1_2/52.42))*
+	z_FuelCell_1_2) + 0.0673854*gen_high_FuelCell_1_2 =L= 0;
+
+high_ice_FuelCell_1_3..
+	-((-1.2266*fuel_FuelCell_1_3/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_3/52.42)*(fuel_FuelCell_1_3/52.42))*
+	z_FuelCell_1_3) + 0.0673854*gen_high_FuelCell_1_3 =L= 0;
+
+high_ice_FuelCell_1_4..
+	-((-1.2266*fuel_FuelCell_1_4/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_4/52.42)*(fuel_FuelCell_1_4/52.42))*
+	z_FuelCell_1_4) + 0.0673854*gen_high_FuelCell_1_4 =L= 0;
+
+high_ice_FuelCell_1_5..
+	-((-1.2266*fuel_FuelCell_1_5/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_5/52.42)*(fuel_FuelCell_1_5/52.42))*
+	z_FuelCell_1_5) + 0.0673854*gen_high_FuelCell_1_5 =L= 0;
+
+high_ice_FuelCell_1_6..
+	-((-1.2266*fuel_FuelCell_1_6/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_6/52.42)*(fuel_FuelCell_1_6/52.42))*
+	z_FuelCell_1_6) + 0.0673854*gen_high_FuelCell_1_6 =L= 0;
+
+high_ice_FuelCell_1_7..
+	-((-1.2266*fuel_FuelCell_1_7/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_7/52.42)*(fuel_FuelCell_1_7/52.42))*
+	z_FuelCell_1_7) + 0.0673854*gen_high_FuelCell_1_7 =L= 0;
+
+high_ice_FuelCell_1_8..
+	-((-1.2266*fuel_FuelCell_1_8/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_8/52.42)*(fuel_FuelCell_1_8/52.42))*
+	z_FuelCell_1_8) + 0.0673854*gen_high_FuelCell_1_8 =L= 0;
+
+high_ice_FuelCell_1_9..
+	-((-1.2266*fuel_FuelCell_1_9/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_9/52.42)*(fuel_FuelCell_1_9/52.42))*
+	z_FuelCell_1_9) + 0.0673854*gen_high_FuelCell_1_9 =L= 0;
+
+high_ice_FuelCell_1_10..
+	-((-1.2266*fuel_FuelCell_1_10/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_10/52.42)*(fuel_FuelCell_1_10/52.42))*
+	z_FuelCell_1_10) + 0.0673854*gen_high_FuelCell_1_10 =L= 0;
+
+high_ice_FuelCell_1_11..
+	-((-1.2266*fuel_FuelCell_1_11/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_11/52.42)*(fuel_FuelCell_1_11/52.42))*
+	z_FuelCell_1_11) + 0.0673854*gen_high_FuelCell_1_11 =L= 0;
+
+high_ice_FuelCell_1_12..
+	-((-1.2266*fuel_FuelCell_1_12/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_12/52.42)*(fuel_FuelCell_1_12/52.42))*
+	z_FuelCell_1_12) + 0.0673854*gen_high_FuelCell_1_12 =L= 0;
+
+high_ice_FuelCell_1_13..
+	-((-1.2266*fuel_FuelCell_1_13/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_13/52.42)*(fuel_FuelCell_1_13/52.42))*
+	z_FuelCell_1_13) + 0.0673854*gen_high_FuelCell_1_13 =L= 0;
+
+high_ice_FuelCell_1_14..
+	-((-1.2266*fuel_FuelCell_1_14/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_14/52.42)*(fuel_FuelCell_1_14/52.42))*
+	z_FuelCell_1_14) + 0.0673854*gen_high_FuelCell_1_14 =L= 0;
+
+high_ice_FuelCell_1_15..
+	-((-1.2266*fuel_FuelCell_1_15/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_15/52.42)*(fuel_FuelCell_1_15/52.42))*
+	z_FuelCell_1_15) + 0.0673854*gen_high_FuelCell_1_15 =L= 0;
+
+high_ice_FuelCell_1_16..
+	-((-1.2266*fuel_FuelCell_1_16/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_16/52.42)*(fuel_FuelCell_1_16/52.42))*
+	z_FuelCell_1_16) + 0.0673854*gen_high_FuelCell_1_16 =L= 0;
+
+high_ice_FuelCell_1_17..
+	-((-1.2266*fuel_FuelCell_1_17/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_17/52.42)*(fuel_FuelCell_1_17/52.42))*
+	z_FuelCell_1_17) + 0.0673854*gen_high_FuelCell_1_17 =L= 0;
+
+high_ice_FuelCell_1_18..
+	-((-1.2266*fuel_FuelCell_1_18/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_18/52.42)*(fuel_FuelCell_1_18/52.42))*
+	z_FuelCell_1_18) + 0.0673854*gen_high_FuelCell_1_18 =L= 0;
+
+high_ice_FuelCell_1_19..
+	-((-1.2266*fuel_FuelCell_1_19/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_19/52.42)*(fuel_FuelCell_1_19/52.42))*
+	z_FuelCell_1_19) + 0.0673854*gen_high_FuelCell_1_19 =L= 0;
+
+high_ice_FuelCell_1_20..
+	-((-1.2266*fuel_FuelCell_1_20/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_20/52.42)*(fuel_FuelCell_1_20/52.42))*
+	z_FuelCell_1_20) + 0.0673854*gen_high_FuelCell_1_20 =L= 0;
+
+high_ice_FuelCell_1_21..
+	-((-1.2266*fuel_FuelCell_1_21/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_21/52.42)*(fuel_FuelCell_1_21/52.42))*
+	z_FuelCell_1_21) + 0.0673854*gen_high_FuelCell_1_21 =L= 0;
+
+high_ice_FuelCell_1_22..
+	-((-1.2266*fuel_FuelCell_1_22/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_22/52.42)*(fuel_FuelCell_1_22/52.42))*
+	z_FuelCell_1_22) + 0.0673854*gen_high_FuelCell_1_22 =L= 0;
+
+high_ice_FuelCell_1_23..
+	-((-1.2266*fuel_FuelCell_1_23/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_23/52.42)*(fuel_FuelCell_1_23/52.42))*
+	z_FuelCell_1_23) + 0.0673854*gen_high_FuelCell_1_23 =L= 0;
+
+high_ice_FuelCell_1_24..
+	-((-1.2266*fuel_FuelCell_1_24/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_1_24/52.42)*(fuel_FuelCell_1_24/52.42))*
+	z_FuelCell_1_24) + 0.0673854*gen_high_FuelCell_1_24 =L= 0;
+
+high_ice_FuelCell_2_1..
+	-((-1.2266*fuel_FuelCell_2_1/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_1/52.42)*(fuel_FuelCell_2_1/52.42))*
+	z_FuelCell_2_1) + 0.0673854*gen_high_FuelCell_2_1 =L= 0;
+
+high_ice_FuelCell_2_2..
+	-((-1.2266*fuel_FuelCell_2_2/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_2/52.42)*(fuel_FuelCell_2_2/52.42))*
+	z_FuelCell_2_2) + 0.0673854*gen_high_FuelCell_2_2 =L= 0;
+
+high_ice_FuelCell_2_3..
+	-((-1.2266*fuel_FuelCell_2_3/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_3/52.42)*(fuel_FuelCell_2_3/52.42))*
+	z_FuelCell_2_3) + 0.0673854*gen_high_FuelCell_2_3 =L= 0;
+
+high_ice_FuelCell_2_4..
+	-((-1.2266*fuel_FuelCell_2_4/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_4/52.42)*(fuel_FuelCell_2_4/52.42))*
+	z_FuelCell_2_4) + 0.0673854*gen_high_FuelCell_2_4 =L= 0;
+
+high_ice_FuelCell_2_5..
+	-((-1.2266*fuel_FuelCell_2_5/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_5/52.42)*(fuel_FuelCell_2_5/52.42))*
+	z_FuelCell_2_5) + 0.0673854*gen_high_FuelCell_2_5 =L= 0;
+
+high_ice_FuelCell_2_6..
+	-((-1.2266*fuel_FuelCell_2_6/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_6/52.42)*(fuel_FuelCell_2_6/52.42))*
+	z_FuelCell_2_6) + 0.0673854*gen_high_FuelCell_2_6 =L= 0;
+
+high_ice_FuelCell_2_7..
+	-((-1.2266*fuel_FuelCell_2_7/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_7/52.42)*(fuel_FuelCell_2_7/52.42))*
+	z_FuelCell_2_7) + 0.0673854*gen_high_FuelCell_2_7 =L= 0;
+
+high_ice_FuelCell_2_8..
+	-((-1.2266*fuel_FuelCell_2_8/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_8/52.42)*(fuel_FuelCell_2_8/52.42))*
+	z_FuelCell_2_8) + 0.0673854*gen_high_FuelCell_2_8 =L= 0;
+
+high_ice_FuelCell_2_9..
+	-((-1.2266*fuel_FuelCell_2_9/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_9/52.42)*(fuel_FuelCell_2_9/52.42))*
+	z_FuelCell_2_9) + 0.0673854*gen_high_FuelCell_2_9 =L= 0;
+
+high_ice_FuelCell_2_10..
+	-((-1.2266*fuel_FuelCell_2_10/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_10/52.42)*(fuel_FuelCell_2_10/52.42))*
+	z_FuelCell_2_10) + 0.0673854*gen_high_FuelCell_2_10 =L= 0;
+
+high_ice_FuelCell_2_11..
+	-((-1.2266*fuel_FuelCell_2_11/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_11/52.42)*(fuel_FuelCell_2_11/52.42))*
+	z_FuelCell_2_11) + 0.0673854*gen_high_FuelCell_2_11 =L= 0;
+
+high_ice_FuelCell_2_12..
+	-((-1.2266*fuel_FuelCell_2_12/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_12/52.42)*(fuel_FuelCell_2_12/52.42))*
+	z_FuelCell_2_12) + 0.0673854*gen_high_FuelCell_2_12 =L= 0;
+
+high_ice_FuelCell_2_13..
+	-((-1.2266*fuel_FuelCell_2_13/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_13/52.42)*(fuel_FuelCell_2_13/52.42))*
+	z_FuelCell_2_13) + 0.0673854*gen_high_FuelCell_2_13 =L= 0;
+
+high_ice_FuelCell_2_14..
+	-((-1.2266*fuel_FuelCell_2_14/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_14/52.42)*(fuel_FuelCell_2_14/52.42))*
+	z_FuelCell_2_14) + 0.0673854*gen_high_FuelCell_2_14 =L= 0;
+
+high_ice_FuelCell_2_15..
+	-((-1.2266*fuel_FuelCell_2_15/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_15/52.42)*(fuel_FuelCell_2_15/52.42))*
+	z_FuelCell_2_15) + 0.0673854*gen_high_FuelCell_2_15 =L= 0;
+
+high_ice_FuelCell_2_16..
+	-((-1.2266*fuel_FuelCell_2_16/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_16/52.42)*(fuel_FuelCell_2_16/52.42))*
+	z_FuelCell_2_16) + 0.0673854*gen_high_FuelCell_2_16 =L= 0;
+
+high_ice_FuelCell_2_17..
+	-((-1.2266*fuel_FuelCell_2_17/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_17/52.42)*(fuel_FuelCell_2_17/52.42))*
+	z_FuelCell_2_17) + 0.0673854*gen_high_FuelCell_2_17 =L= 0;
+
+high_ice_FuelCell_2_18..
+	-((-1.2266*fuel_FuelCell_2_18/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_18/52.42)*(fuel_FuelCell_2_18/52.42))*
+	z_FuelCell_2_18) + 0.0673854*gen_high_FuelCell_2_18 =L= 0;
+
+high_ice_FuelCell_2_19..
+	-((-1.2266*fuel_FuelCell_2_19/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_19/52.42)*(fuel_FuelCell_2_19/52.42))*
+	z_FuelCell_2_19) + 0.0673854*gen_high_FuelCell_2_19 =L= 0;
+
+high_ice_FuelCell_2_20..
+	-((-1.2266*fuel_FuelCell_2_20/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_20/52.42)*(fuel_FuelCell_2_20/52.42))*
+	z_FuelCell_2_20) + 0.0673854*gen_high_FuelCell_2_20 =L= 0;
+
+high_ice_FuelCell_2_21..
+	-((-1.2266*fuel_FuelCell_2_21/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_21/52.42)*(fuel_FuelCell_2_21/52.42))*
+	z_FuelCell_2_21) + 0.0673854*gen_high_FuelCell_2_21 =L= 0;
+
+high_ice_FuelCell_2_22..
+	-((-1.2266*fuel_FuelCell_2_22/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_22/52.42)*(fuel_FuelCell_2_22/52.42))*
+	z_FuelCell_2_22) + 0.0673854*gen_high_FuelCell_2_22 =L= 0;
+
+high_ice_FuelCell_2_23..
+	-((-1.2266*fuel_FuelCell_2_23/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_23/52.42)*(fuel_FuelCell_2_23/52.42))*
+	z_FuelCell_2_23) + 0.0673854*gen_high_FuelCell_2_23 =L= 0;
+
+high_ice_FuelCell_2_24..
+	-((-1.2266*fuel_FuelCell_2_24/52.42 + 0.5698 + 1.8498*(
+	fuel_FuelCell_2_24/52.42)*(fuel_FuelCell_2_24/52.42))*
+	z_FuelCell_2_24) + 0.0673854*gen_high_FuelCell_2_24 =L= 0;
+
+power_ice_FuelCell_1_1..
+	-((1.9961*fuel_FuelCell_1_1/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_1/52.42)*(fuel_FuelCell_1_1/52.42))*
+	z_FuelCell_1_1) + 0.0333667*gen_power_FuelCell_1_1 =L= 0;
+
+power_ice_FuelCell_1_2..
+	-((1.9961*fuel_FuelCell_1_2/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_2/52.42)*(fuel_FuelCell_1_2/52.42))*
+	z_FuelCell_1_2) + 0.0333667*gen_power_FuelCell_1_2 =L= 0;
+
+power_ice_FuelCell_1_3..
+	-((1.9961*fuel_FuelCell_1_3/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_3/52.42)*(fuel_FuelCell_1_3/52.42))*
+	z_FuelCell_1_3) + 0.0333667*gen_power_FuelCell_1_3 =L= 0;
+
+power_ice_FuelCell_1_4..
+	-((1.9961*fuel_FuelCell_1_4/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_4/52.42)*(fuel_FuelCell_1_4/52.42))*
+	z_FuelCell_1_4) + 0.0333667*gen_power_FuelCell_1_4 =L= 0;
+
+power_ice_FuelCell_1_5..
+	-((1.9961*fuel_FuelCell_1_5/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_5/52.42)*(fuel_FuelCell_1_5/52.42))*
+	z_FuelCell_1_5) + 0.0333667*gen_power_FuelCell_1_5 =L= 0;
+
+power_ice_FuelCell_1_6..
+	-((1.9961*fuel_FuelCell_1_6/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_6/52.42)*(fuel_FuelCell_1_6/52.42))*
+	z_FuelCell_1_6) + 0.0333667*gen_power_FuelCell_1_6 =L= 0;
+
+power_ice_FuelCell_1_7..
+	-((1.9961*fuel_FuelCell_1_7/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_7/52.42)*(fuel_FuelCell_1_7/52.42))*
+	z_FuelCell_1_7) + 0.0333667*gen_power_FuelCell_1_7 =L= 0;
+
+power_ice_FuelCell_1_8..
+	-((1.9961*fuel_FuelCell_1_8/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_8/52.42)*(fuel_FuelCell_1_8/52.42))*
+	z_FuelCell_1_8) + 0.0333667*gen_power_FuelCell_1_8 =L= 0;
+
+power_ice_FuelCell_1_9..
+	-((1.9961*fuel_FuelCell_1_9/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_9/52.42)*(fuel_FuelCell_1_9/52.42))*
+	z_FuelCell_1_9) + 0.0333667*gen_power_FuelCell_1_9 =L= 0;
+
+power_ice_FuelCell_1_10..
+	-((1.9961*fuel_FuelCell_1_10/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_10/52.42)*(fuel_FuelCell_1_10/52.42))*
+	z_FuelCell_1_10) + 0.0333667*gen_power_FuelCell_1_10 =L= 0;
+
+power_ice_FuelCell_1_11..
+	-((1.9961*fuel_FuelCell_1_11/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_11/52.42)*(fuel_FuelCell_1_11/52.42))*
+	z_FuelCell_1_11) + 0.0333667*gen_power_FuelCell_1_11 =L= 0;
+
+power_ice_FuelCell_1_12..
+	-((1.9961*fuel_FuelCell_1_12/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_12/52.42)*(fuel_FuelCell_1_12/52.42))*
+	z_FuelCell_1_12) + 0.0333667*gen_power_FuelCell_1_12 =L= 0;
+
+power_ice_FuelCell_1_13..
+	-((1.9961*fuel_FuelCell_1_13/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_13/52.42)*(fuel_FuelCell_1_13/52.42))*
+	z_FuelCell_1_13) + 0.0333667*gen_power_FuelCell_1_13 =L= 0;
+
+power_ice_FuelCell_1_14..
+	-((1.9961*fuel_FuelCell_1_14/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_14/52.42)*(fuel_FuelCell_1_14/52.42))*
+	z_FuelCell_1_14) + 0.0333667*gen_power_FuelCell_1_14 =L= 0;
+
+power_ice_FuelCell_1_15..
+	-((1.9961*fuel_FuelCell_1_15/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_15/52.42)*(fuel_FuelCell_1_15/52.42))*
+	z_FuelCell_1_15) + 0.0333667*gen_power_FuelCell_1_15 =L= 0;
+
+power_ice_FuelCell_1_16..
+	-((1.9961*fuel_FuelCell_1_16/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_16/52.42)*(fuel_FuelCell_1_16/52.42))*
+	z_FuelCell_1_16) + 0.0333667*gen_power_FuelCell_1_16 =L= 0;
+
+power_ice_FuelCell_1_17..
+	-((1.9961*fuel_FuelCell_1_17/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_17/52.42)*(fuel_FuelCell_1_17/52.42))*
+	z_FuelCell_1_17) + 0.0333667*gen_power_FuelCell_1_17 =L= 0;
+
+power_ice_FuelCell_1_18..
+	-((1.9961*fuel_FuelCell_1_18/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_18/52.42)*(fuel_FuelCell_1_18/52.42))*
+	z_FuelCell_1_18) + 0.0333667*gen_power_FuelCell_1_18 =L= 0;
+
+power_ice_FuelCell_1_19..
+	-((1.9961*fuel_FuelCell_1_19/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_19/52.42)*(fuel_FuelCell_1_19/52.42))*
+	z_FuelCell_1_19) + 0.0333667*gen_power_FuelCell_1_19 =L= 0;
+
+power_ice_FuelCell_1_20..
+	-((1.9961*fuel_FuelCell_1_20/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_20/52.42)*(fuel_FuelCell_1_20/52.42))*
+	z_FuelCell_1_20) + 0.0333667*gen_power_FuelCell_1_20 =L= 0;
+
+power_ice_FuelCell_1_21..
+	-((1.9961*fuel_FuelCell_1_21/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_21/52.42)*(fuel_FuelCell_1_21/52.42))*
+	z_FuelCell_1_21) + 0.0333667*gen_power_FuelCell_1_21 =L= 0;
+
+power_ice_FuelCell_1_22..
+	-((1.9961*fuel_FuelCell_1_22/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_22/52.42)*(fuel_FuelCell_1_22/52.42))*
+	z_FuelCell_1_22) + 0.0333667*gen_power_FuelCell_1_22 =L= 0;
+
+power_ice_FuelCell_1_23..
+	-((1.9961*fuel_FuelCell_1_23/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_23/52.42)*(fuel_FuelCell_1_23/52.42))*
+	z_FuelCell_1_23) + 0.0333667*gen_power_FuelCell_1_23 =L= 0;
+
+power_ice_FuelCell_1_24..
+	-((1.9961*fuel_FuelCell_1_24/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_1_24/52.42)*(fuel_FuelCell_1_24/52.42))*
+	z_FuelCell_1_24) + 0.0333667*gen_power_FuelCell_1_24 =L= 0;
+
+power_ice_FuelCell_2_1..
+	-((1.9961*fuel_FuelCell_2_1/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_1/52.42)*(fuel_FuelCell_2_1/52.42))*
+	z_FuelCell_2_1) + 0.0333667*gen_power_FuelCell_2_1 =L= 0;
+
+power_ice_FuelCell_2_2..
+	-((1.9961*fuel_FuelCell_2_2/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_2/52.42)*(fuel_FuelCell_2_2/52.42))*
+	z_FuelCell_2_2) + 0.0333667*gen_power_FuelCell_2_2 =L= 0;
+
+power_ice_FuelCell_2_3..
+	-((1.9961*fuel_FuelCell_2_3/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_3/52.42)*(fuel_FuelCell_2_3/52.42))*
+	z_FuelCell_2_3) + 0.0333667*gen_power_FuelCell_2_3 =L= 0;
+
+power_ice_FuelCell_2_4..
+	-((1.9961*fuel_FuelCell_2_4/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_4/52.42)*(fuel_FuelCell_2_4/52.42))*
+	z_FuelCell_2_4) + 0.0333667*gen_power_FuelCell_2_4 =L= 0;
+
+power_ice_FuelCell_2_5..
+	-((1.9961*fuel_FuelCell_2_5/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_5/52.42)*(fuel_FuelCell_2_5/52.42))*
+	z_FuelCell_2_5) + 0.0333667*gen_power_FuelCell_2_5 =L= 0;
+
+power_ice_FuelCell_2_6..
+	-((1.9961*fuel_FuelCell_2_6/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_6/52.42)*(fuel_FuelCell_2_6/52.42))*
+	z_FuelCell_2_6) + 0.0333667*gen_power_FuelCell_2_6 =L= 0;
+
+power_ice_FuelCell_2_7..
+	-((1.9961*fuel_FuelCell_2_7/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_7/52.42)*(fuel_FuelCell_2_7/52.42))*
+	z_FuelCell_2_7) + 0.0333667*gen_power_FuelCell_2_7 =L= 0;
+
+power_ice_FuelCell_2_8..
+	-((1.9961*fuel_FuelCell_2_8/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_8/52.42)*(fuel_FuelCell_2_8/52.42))*
+	z_FuelCell_2_8) + 0.0333667*gen_power_FuelCell_2_8 =L= 0;
+
+power_ice_FuelCell_2_9..
+	-((1.9961*fuel_FuelCell_2_9/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_9/52.42)*(fuel_FuelCell_2_9/52.42))*
+	z_FuelCell_2_9) + 0.0333667*gen_power_FuelCell_2_9 =L= 0;
+
+power_ice_FuelCell_2_10..
+	-((1.9961*fuel_FuelCell_2_10/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_10/52.42)*(fuel_FuelCell_2_10/52.42))*
+	z_FuelCell_2_10) + 0.0333667*gen_power_FuelCell_2_10 =L= 0;
+
+power_ice_FuelCell_2_11..
+	-((1.9961*fuel_FuelCell_2_11/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_11/52.42)*(fuel_FuelCell_2_11/52.42))*
+	z_FuelCell_2_11) + 0.0333667*gen_power_FuelCell_2_11 =L= 0;
+
+power_ice_FuelCell_2_12..
+	-((1.9961*fuel_FuelCell_2_12/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_12/52.42)*(fuel_FuelCell_2_12/52.42))*
+	z_FuelCell_2_12) + 0.0333667*gen_power_FuelCell_2_12 =L= 0;
+
+power_ice_FuelCell_2_13..
+	-((1.9961*fuel_FuelCell_2_13/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_13/52.42)*(fuel_FuelCell_2_13/52.42))*
+	z_FuelCell_2_13) + 0.0333667*gen_power_FuelCell_2_13 =L= 0;
+
+power_ice_FuelCell_2_14..
+	-((1.9961*fuel_FuelCell_2_14/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_14/52.42)*(fuel_FuelCell_2_14/52.42))*
+	z_FuelCell_2_14) + 0.0333667*gen_power_FuelCell_2_14 =L= 0;
+
+power_ice_FuelCell_2_15..
+	-((1.9961*fuel_FuelCell_2_15/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_15/52.42)*(fuel_FuelCell_2_15/52.42))*
+	z_FuelCell_2_15) + 0.0333667*gen_power_FuelCell_2_15 =L= 0;
+
+power_ice_FuelCell_2_16..
+	-((1.9961*fuel_FuelCell_2_16/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_16/52.42)*(fuel_FuelCell_2_16/52.42))*
+	z_FuelCell_2_16) + 0.0333667*gen_power_FuelCell_2_16 =L= 0;
+
+power_ice_FuelCell_2_17..
+	-((1.9961*fuel_FuelCell_2_17/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_17/52.42)*(fuel_FuelCell_2_17/52.42))*
+	z_FuelCell_2_17) + 0.0333667*gen_power_FuelCell_2_17 =L= 0;
+
+power_ice_FuelCell_2_18..
+	-((1.9961*fuel_FuelCell_2_18/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_18/52.42)*(fuel_FuelCell_2_18/52.42))*
+	z_FuelCell_2_18) + 0.0333667*gen_power_FuelCell_2_18 =L= 0;
+
+power_ice_FuelCell_2_19..
+	-((1.9961*fuel_FuelCell_2_19/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_19/52.42)*(fuel_FuelCell_2_19/52.42))*
+	z_FuelCell_2_19) + 0.0333667*gen_power_FuelCell_2_19 =L= 0;
+
+power_ice_FuelCell_2_20..
+	-((1.9961*fuel_FuelCell_2_20/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_20/52.42)*(fuel_FuelCell_2_20/52.42))*
+	z_FuelCell_2_20) + 0.0333667*gen_power_FuelCell_2_20 =L= 0;
+
+power_ice_FuelCell_2_21..
+	-((1.9961*fuel_FuelCell_2_21/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_21/52.42)*(fuel_FuelCell_2_21/52.42))*
+	z_FuelCell_2_21) + 0.0333667*gen_power_FuelCell_2_21 =L= 0;
+
+power_ice_FuelCell_2_22..
+	-((1.9961*fuel_FuelCell_2_22/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_22/52.42)*(fuel_FuelCell_2_22/52.42))*
+	z_FuelCell_2_22) + 0.0333667*gen_power_FuelCell_2_22 =L= 0;
+
+power_ice_FuelCell_2_23..
+	-((1.9961*fuel_FuelCell_2_23/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_23/52.42)*(fuel_FuelCell_2_23/52.42))*
+	z_FuelCell_2_23) + 0.0333667*gen_power_FuelCell_2_23 =L= 0;
+
+power_ice_FuelCell_2_24..
+	-((1.9961*fuel_FuelCell_2_24/52.42 -0.437 -1.2705*(
+	fuel_FuelCell_2_24/52.42)*(fuel_FuelCell_2_24/52.42))*
+	z_FuelCell_2_24) + 0.0333667*gen_power_FuelCell_2_24 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_1..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_1/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_1/113.64)*(fuel_AuxiliaryBoilerHT_1_1/
+	113.64))*z_AuxiliaryBoilerHT_1_1) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_1 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_2..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_2/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_2/113.64)*(fuel_AuxiliaryBoilerHT_1_2/
+	113.64))*z_AuxiliaryBoilerHT_1_2) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_2 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_3..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_3/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_3/113.64)*(fuel_AuxiliaryBoilerHT_1_3/
+	113.64))*z_AuxiliaryBoilerHT_1_3) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_3 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_4..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_4/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_4/113.64)*(fuel_AuxiliaryBoilerHT_1_4/
+	113.64))*z_AuxiliaryBoilerHT_1_4) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_4 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_5..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_5/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_5/113.64)*(fuel_AuxiliaryBoilerHT_1_5/
+	113.64))*z_AuxiliaryBoilerHT_1_5) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_5 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_6..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_6/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_6/113.64)*(fuel_AuxiliaryBoilerHT_1_6/
+	113.64))*z_AuxiliaryBoilerHT_1_6) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_6 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_7..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_7/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_7/113.64)*(fuel_AuxiliaryBoilerHT_1_7/
+	113.64))*z_AuxiliaryBoilerHT_1_7) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_7 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_8..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_8/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_8/113.64)*(fuel_AuxiliaryBoilerHT_1_8/
+	113.64))*z_AuxiliaryBoilerHT_1_8) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_8 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_9..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_9/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_9/113.64)*(fuel_AuxiliaryBoilerHT_1_9/
+	113.64))*z_AuxiliaryBoilerHT_1_9) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_9 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_10..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_10/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_10/113.64)*(fuel_AuxiliaryBoilerHT_1_10/
+	113.64))*z_AuxiliaryBoilerHT_1_10) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_10 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_11..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_11/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_11/113.64)*(fuel_AuxiliaryBoilerHT_1_11/
+	113.64))*z_AuxiliaryBoilerHT_1_11) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_11 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_12..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_12/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_12/113.64)*(fuel_AuxiliaryBoilerHT_1_12/
+	113.64))*z_AuxiliaryBoilerHT_1_12) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_12 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_13..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_13/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_13/113.64)*(fuel_AuxiliaryBoilerHT_1_13/
+	113.64))*z_AuxiliaryBoilerHT_1_13) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_13 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_14..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_14/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_14/113.64)*(fuel_AuxiliaryBoilerHT_1_14/
+	113.64))*z_AuxiliaryBoilerHT_1_14) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_14 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_15..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_15/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_15/113.64)*(fuel_AuxiliaryBoilerHT_1_15/
+	113.64))*z_AuxiliaryBoilerHT_1_15) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_15 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_16..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_16/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_16/113.64)*(fuel_AuxiliaryBoilerHT_1_16/
+	113.64))*z_AuxiliaryBoilerHT_1_16) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_16 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_17..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_17/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_17/113.64)*(fuel_AuxiliaryBoilerHT_1_17/
+	113.64))*z_AuxiliaryBoilerHT_1_17) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_17 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_18..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_18/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_18/113.64)*(fuel_AuxiliaryBoilerHT_1_18/
+	113.64))*z_AuxiliaryBoilerHT_1_18) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_18 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_19..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_19/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_19/113.64)*(fuel_AuxiliaryBoilerHT_1_19/
+	113.64))*z_AuxiliaryBoilerHT_1_19) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_19 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_20..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_20/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_20/113.64)*(fuel_AuxiliaryBoilerHT_1_20/
+	113.64))*z_AuxiliaryBoilerHT_1_20) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_20 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_21..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_21/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_21/113.64)*(fuel_AuxiliaryBoilerHT_1_21/
+	113.64))*z_AuxiliaryBoilerHT_1_21) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_21 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_22..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_22/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_22/113.64)*(fuel_AuxiliaryBoilerHT_1_22/
+	113.64))*z_AuxiliaryBoilerHT_1_22) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_22 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_23..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_23/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_23/113.64)*(fuel_AuxiliaryBoilerHT_1_23/
+	113.64))*z_AuxiliaryBoilerHT_1_23) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_23 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_1_24..
+	-((1.1378*fuel_AuxiliaryBoilerHT_1_24/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_1_24/113.64)*(fuel_AuxiliaryBoilerHT_1_24/
+	113.64))*z_AuxiliaryBoilerHT_1_24) + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_24 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_1..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_1/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_1/113.64)*(fuel_AuxiliaryBoilerHT_2_1/
+	113.64))*z_AuxiliaryBoilerHT_2_1) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_1 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_2..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_2/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_2/113.64)*(fuel_AuxiliaryBoilerHT_2_2/
+	113.64))*z_AuxiliaryBoilerHT_2_2) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_2 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_3..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_3/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_3/113.64)*(fuel_AuxiliaryBoilerHT_2_3/
+	113.64))*z_AuxiliaryBoilerHT_2_3) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_3 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_4..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_4/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_4/113.64)*(fuel_AuxiliaryBoilerHT_2_4/
+	113.64))*z_AuxiliaryBoilerHT_2_4) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_4 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_5..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_5/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_5/113.64)*(fuel_AuxiliaryBoilerHT_2_5/
+	113.64))*z_AuxiliaryBoilerHT_2_5) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_5 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_6..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_6/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_6/113.64)*(fuel_AuxiliaryBoilerHT_2_6/
+	113.64))*z_AuxiliaryBoilerHT_2_6) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_6 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_7..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_7/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_7/113.64)*(fuel_AuxiliaryBoilerHT_2_7/
+	113.64))*z_AuxiliaryBoilerHT_2_7) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_7 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_8..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_8/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_8/113.64)*(fuel_AuxiliaryBoilerHT_2_8/
+	113.64))*z_AuxiliaryBoilerHT_2_8) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_8 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_9..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_9/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_9/113.64)*(fuel_AuxiliaryBoilerHT_2_9/
+	113.64))*z_AuxiliaryBoilerHT_2_9) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_9 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_10..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_10/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_10/113.64)*(fuel_AuxiliaryBoilerHT_2_10/
+	113.64))*z_AuxiliaryBoilerHT_2_10) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_10 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_11..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_11/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_11/113.64)*(fuel_AuxiliaryBoilerHT_2_11/
+	113.64))*z_AuxiliaryBoilerHT_2_11) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_11 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_12..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_12/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_12/113.64)*(fuel_AuxiliaryBoilerHT_2_12/
+	113.64))*z_AuxiliaryBoilerHT_2_12) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_12 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_13..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_13/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_13/113.64)*(fuel_AuxiliaryBoilerHT_2_13/
+	113.64))*z_AuxiliaryBoilerHT_2_13) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_13 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_14..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_14/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_14/113.64)*(fuel_AuxiliaryBoilerHT_2_14/
+	113.64))*z_AuxiliaryBoilerHT_2_14) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_14 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_15..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_15/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_15/113.64)*(fuel_AuxiliaryBoilerHT_2_15/
+	113.64))*z_AuxiliaryBoilerHT_2_15) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_15 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_16..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_16/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_16/113.64)*(fuel_AuxiliaryBoilerHT_2_16/
+	113.64))*z_AuxiliaryBoilerHT_2_16) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_16 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_17..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_17/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_17/113.64)*(fuel_AuxiliaryBoilerHT_2_17/
+	113.64))*z_AuxiliaryBoilerHT_2_17) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_17 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_18..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_18/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_18/113.64)*(fuel_AuxiliaryBoilerHT_2_18/
+	113.64))*z_AuxiliaryBoilerHT_2_18) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_18 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_19..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_19/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_19/113.64)*(fuel_AuxiliaryBoilerHT_2_19/
+	113.64))*z_AuxiliaryBoilerHT_2_19) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_19 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_20..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_20/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_20/113.64)*(fuel_AuxiliaryBoilerHT_2_20/
+	113.64))*z_AuxiliaryBoilerHT_2_20) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_20 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_21..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_21/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_21/113.64)*(fuel_AuxiliaryBoilerHT_2_21/
+	113.64))*z_AuxiliaryBoilerHT_2_21) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_21 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_22..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_22/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_22/113.64)*(fuel_AuxiliaryBoilerHT_2_22/
+	113.64))*z_AuxiliaryBoilerHT_2_22) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_22 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_23..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_23/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_23/113.64)*(fuel_AuxiliaryBoilerHT_2_23/
+	113.64))*z_AuxiliaryBoilerHT_2_23) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_23 =L= 0;
+
+high_ab_AuxiliaryBoilerHT_2_24..
+	-((1.1378*fuel_AuxiliaryBoilerHT_2_24/113.64 -0.0245 -0.415*(
+	fuel_AuxiliaryBoilerHT_2_24/113.64)*(fuel_AuxiliaryBoilerHT_2_24/
+	113.64))*z_AuxiliaryBoilerHT_2_24) + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_24 =L= 0;
+
+low_hp_M_Compression_HeatPump_AirWater_1_1..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_1/28)*(
+	used_power_Compression_HeatPump_AirWater_1_1/28)) - 
+	0.0375732*used_power_Compression_HeatPump_AirWater_1_1 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_1 + 
+	60.0425*z_Compression_HeatPump_AirWater_1_1 =L= 60.0075;
+
+low_hp_M_Compression_HeatPump_AirWater_1_2..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_2/28)*(
+	used_power_Compression_HeatPump_AirWater_1_2/28)) - 
+	0.0373396*used_power_Compression_HeatPump_AirWater_1_2 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_2 + 
+	59.1713*z_Compression_HeatPump_AirWater_1_2 =L= 59.1362;
+
+low_hp_M_Compression_HeatPump_AirWater_1_3..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_3/28)*(
+	used_power_Compression_HeatPump_AirWater_1_3/28)) - 
+	0.0372229*used_power_Compression_HeatPump_AirWater_1_3 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_3 + 
+	58.7357*z_Compression_HeatPump_AirWater_1_3 =L= 58.7006;
+
+low_hp_M_Compression_HeatPump_AirWater_1_4..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_4/28)*(
+	used_power_Compression_HeatPump_AirWater_1_4/28)) - 
+	0.0369893*used_power_Compression_HeatPump_AirWater_1_4 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_4 + 
+	57.8645*z_Compression_HeatPump_AirWater_1_4 =L= 57.8293;
+
+low_hp_M_Compression_HeatPump_AirWater_1_5..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_5/28)*(
+	used_power_Compression_HeatPump_AirWater_1_5/28)) - 
+	0.0368725*used_power_Compression_HeatPump_AirWater_1_5 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_5 + 
+	57.4289*z_Compression_HeatPump_AirWater_1_5 =L= 57.3937;
+
+low_hp_M_Compression_HeatPump_AirWater_1_6..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_6/28)*(
+	used_power_Compression_HeatPump_AirWater_1_6/28)) - 
+	0.0367557*used_power_Compression_HeatPump_AirWater_1_6 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_6 + 
+	56.9933*z_Compression_HeatPump_AirWater_1_6 =L= 56.958;
+
+low_hp_M_Compression_HeatPump_AirWater_1_7..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_7/28)*(
+	used_power_Compression_HeatPump_AirWater_1_7/28)) - 
+	0.0368725*used_power_Compression_HeatPump_AirWater_1_7 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_7 + 
+	57.4289*z_Compression_HeatPump_AirWater_1_7 =L= 57.3937;
+
+low_hp_M_Compression_HeatPump_AirWater_1_8..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_8/28)*(
+	used_power_Compression_HeatPump_AirWater_1_8/28)) - 
+	0.0371061*used_power_Compression_HeatPump_AirWater_1_8 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_8 + 
+	58.3001*z_Compression_HeatPump_AirWater_1_8 =L= 58.265;
+
+low_hp_M_Compression_HeatPump_AirWater_1_9..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_9/28)*(
+	used_power_Compression_HeatPump_AirWater_1_9/28)) - 
+	0.03769*used_power_Compression_HeatPump_AirWater_1_9 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_9 + 
+	60.4781*z_Compression_HeatPump_AirWater_1_9 =L= 60.4431;
+
+low_hp_M_Compression_HeatPump_AirWater_1_10..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_10/28)*(
+	used_power_Compression_HeatPump_AirWater_1_10/28)) - 
+	0.0388579*used_power_Compression_HeatPump_AirWater_1_10 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_10 + 
+	64.8341*z_Compression_HeatPump_AirWater_1_10 =L= 64.7995;
+
+low_hp_M_Compression_HeatPump_AirWater_1_11..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_11/28)*(
+	used_power_Compression_HeatPump_AirWater_1_11/28)) - 
+	0.0407264*used_power_Compression_HeatPump_AirWater_1_11 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_11 + 
+	71.8036*z_Compression_HeatPump_AirWater_1_11 =L= 71.7697;
+
+low_hp_M_Compression_HeatPump_AirWater_1_12..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_12/28)*(
+	used_power_Compression_HeatPump_AirWater_1_12/28)) - 
+	0.0428286*used_power_Compression_HeatPump_AirWater_1_12 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_12 + 
+	79.6443*z_Compression_HeatPump_AirWater_1_12 =L= 79.6111;
+
+low_hp_M_Compression_HeatPump_AirWater_1_13..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_13/28)*(
+	used_power_Compression_HeatPump_AirWater_1_13/28)) - 
+	0.0452811*used_power_Compression_HeatPump_AirWater_1_13 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_13 + 
+	88.7918*z_Compression_HeatPump_AirWater_1_13 =L= 88.7595;
+
+low_hp_M_Compression_HeatPump_AirWater_1_14..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_14/28)*(
+	used_power_Compression_HeatPump_AirWater_1_14/28)) - 
+	0.045865*used_power_Compression_HeatPump_AirWater_1_14 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_14 + 
+	90.9698*z_Compression_HeatPump_AirWater_1_14 =L= 90.9377;
+
+low_hp_M_Compression_HeatPump_AirWater_1_15..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_15/28)*(
+	used_power_Compression_HeatPump_AirWater_1_15/28)) - 
+	0.0441132*used_power_Compression_HeatPump_AirWater_1_15 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_15 + 
+	84.4359*z_Compression_HeatPump_AirWater_1_15 =L= 84.4031;
+
+low_hp_M_Compression_HeatPump_AirWater_1_16..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_16/28)*(
+	used_power_Compression_HeatPump_AirWater_1_16/28)) - 
+	0.0436461*used_power_Compression_HeatPump_AirWater_1_16 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_16 + 
+	82.6935*z_Compression_HeatPump_AirWater_1_16 =L= 82.6606;
+
+low_hp_M_Compression_HeatPump_AirWater_1_17..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_17/28)*(
+	used_power_Compression_HeatPump_AirWater_1_17/28)) - 
+	0.0427118*used_power_Compression_HeatPump_AirWater_1_17 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_17 + 
+	79.2087*z_Compression_HeatPump_AirWater_1_17 =L= 79.1755;
+
+low_hp_M_Compression_HeatPump_AirWater_1_18..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_18/28)*(
+	used_power_Compression_HeatPump_AirWater_1_18/28)) - 
+	0.0411936*used_power_Compression_HeatPump_AirWater_1_18 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_18 + 
+	73.546*z_Compression_HeatPump_AirWater_1_18 =L= 73.5122;
+
+low_hp_M_Compression_HeatPump_AirWater_1_19..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_19/28)*(
+	used_power_Compression_HeatPump_AirWater_1_19/28)) - 
+	0.0402593*used_power_Compression_HeatPump_AirWater_1_19 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_19 + 
+	70.0612*z_Compression_HeatPump_AirWater_1_19 =L= 70.0271;
+
+low_hp_M_Compression_HeatPump_AirWater_1_20..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_20/28)*(
+	used_power_Compression_HeatPump_AirWater_1_20/28)) - 
+	0.0397921*used_power_Compression_HeatPump_AirWater_1_20 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_20 + 
+	68.3188*z_Compression_HeatPump_AirWater_1_20 =L= 68.2846;
+
+low_hp_M_Compression_HeatPump_AirWater_1_21..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_21/28)*(
+	used_power_Compression_HeatPump_AirWater_1_21/28)) - 
+	0.039325*used_power_Compression_HeatPump_AirWater_1_21 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_21 + 
+	66.5764*z_Compression_HeatPump_AirWater_1_21 =L= 66.542;
+
+low_hp_M_Compression_HeatPump_AirWater_1_22..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_22/28)*(
+	used_power_Compression_HeatPump_AirWater_1_22/28)) - 
+	0.0388579*used_power_Compression_HeatPump_AirWater_1_22 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_22 + 
+	64.8341*z_Compression_HeatPump_AirWater_1_22 =L= 64.7995;
+
+low_hp_M_Compression_HeatPump_AirWater_1_23..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_23/28)*(
+	used_power_Compression_HeatPump_AirWater_1_23/28)) - 
+	0.0385075*used_power_Compression_HeatPump_AirWater_1_23 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_23 + 
+	63.5273*z_Compression_HeatPump_AirWater_1_23 =L= 63.4926;
+
+low_hp_M_Compression_HeatPump_AirWater_1_24..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_1_24/28)*(
+	used_power_Compression_HeatPump_AirWater_1_24/28)) - 
+	0.0381571*used_power_Compression_HeatPump_AirWater_1_24 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_1_24 + 
+	62.2205*z_Compression_HeatPump_AirWater_1_24 =L= 62.1857;
+
+low_hp_M_Compression_HeatPump_AirWater_2_1..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_1/28)*(
+	used_power_Compression_HeatPump_AirWater_2_1/28)) - 
+	0.0375732*used_power_Compression_HeatPump_AirWater_2_1 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_1 + 
+	60.0425*z_Compression_HeatPump_AirWater_2_1 =L= 60.0075;
+
+low_hp_M_Compression_HeatPump_AirWater_2_2..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_2/28)*(
+	used_power_Compression_HeatPump_AirWater_2_2/28)) - 
+	0.0373396*used_power_Compression_HeatPump_AirWater_2_2 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_2 + 
+	59.1713*z_Compression_HeatPump_AirWater_2_2 =L= 59.1362;
+
+low_hp_M_Compression_HeatPump_AirWater_2_3..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_3/28)*(
+	used_power_Compression_HeatPump_AirWater_2_3/28)) - 
+	0.0372229*used_power_Compression_HeatPump_AirWater_2_3 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_3 + 
+	58.7357*z_Compression_HeatPump_AirWater_2_3 =L= 58.7006;
+
+low_hp_M_Compression_HeatPump_AirWater_2_4..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_4/28)*(
+	used_power_Compression_HeatPump_AirWater_2_4/28)) - 
+	0.0369893*used_power_Compression_HeatPump_AirWater_2_4 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_4 + 
+	57.8645*z_Compression_HeatPump_AirWater_2_4 =L= 57.8293;
+
+low_hp_M_Compression_HeatPump_AirWater_2_5..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_5/28)*(
+	used_power_Compression_HeatPump_AirWater_2_5/28)) - 
+	0.0368725*used_power_Compression_HeatPump_AirWater_2_5 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_5 + 
+	57.4289*z_Compression_HeatPump_AirWater_2_5 =L= 57.3937;
+
+low_hp_M_Compression_HeatPump_AirWater_2_6..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_6/28)*(
+	used_power_Compression_HeatPump_AirWater_2_6/28)) - 
+	0.0367557*used_power_Compression_HeatPump_AirWater_2_6 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_6 + 
+	56.9933*z_Compression_HeatPump_AirWater_2_6 =L= 56.958;
+
+low_hp_M_Compression_HeatPump_AirWater_2_7..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_7/28)*(
+	used_power_Compression_HeatPump_AirWater_2_7/28)) - 
+	0.0368725*used_power_Compression_HeatPump_AirWater_2_7 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_7 + 
+	57.4289*z_Compression_HeatPump_AirWater_2_7 =L= 57.3937;
+
+low_hp_M_Compression_HeatPump_AirWater_2_8..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_8/28)*(
+	used_power_Compression_HeatPump_AirWater_2_8/28)) - 
+	0.0371061*used_power_Compression_HeatPump_AirWater_2_8 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_8 + 
+	58.3001*z_Compression_HeatPump_AirWater_2_8 =L= 58.265;
+
+low_hp_M_Compression_HeatPump_AirWater_2_9..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_9/28)*(
+	used_power_Compression_HeatPump_AirWater_2_9/28)) - 
+	0.03769*used_power_Compression_HeatPump_AirWater_2_9 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_9 + 
+	60.4781*z_Compression_HeatPump_AirWater_2_9 =L= 60.4431;
+
+low_hp_M_Compression_HeatPump_AirWater_2_10..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_10/28)*(
+	used_power_Compression_HeatPump_AirWater_2_10/28)) - 
+	0.0388579*used_power_Compression_HeatPump_AirWater_2_10 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_10 + 
+	64.8341*z_Compression_HeatPump_AirWater_2_10 =L= 64.7995;
+
+low_hp_M_Compression_HeatPump_AirWater_2_11..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_11/28)*(
+	used_power_Compression_HeatPump_AirWater_2_11/28)) - 
+	0.0407264*used_power_Compression_HeatPump_AirWater_2_11 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_11 + 
+	71.8036*z_Compression_HeatPump_AirWater_2_11 =L= 71.7697;
+
+low_hp_M_Compression_HeatPump_AirWater_2_12..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_12/28)*(
+	used_power_Compression_HeatPump_AirWater_2_12/28)) - 
+	0.0428286*used_power_Compression_HeatPump_AirWater_2_12 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_12 + 
+	79.6443*z_Compression_HeatPump_AirWater_2_12 =L= 79.6111;
+
+low_hp_M_Compression_HeatPump_AirWater_2_13..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_13/28)*(
+	used_power_Compression_HeatPump_AirWater_2_13/28)) - 
+	0.0452811*used_power_Compression_HeatPump_AirWater_2_13 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_13 + 
+	88.7918*z_Compression_HeatPump_AirWater_2_13 =L= 88.7595;
+
+low_hp_M_Compression_HeatPump_AirWater_2_14..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_14/28)*(
+	used_power_Compression_HeatPump_AirWater_2_14/28)) - 
+	0.045865*used_power_Compression_HeatPump_AirWater_2_14 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_14 + 
+	90.9698*z_Compression_HeatPump_AirWater_2_14 =L= 90.9377;
+
+low_hp_M_Compression_HeatPump_AirWater_2_15..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_15/28)*(
+	used_power_Compression_HeatPump_AirWater_2_15/28)) - 
+	0.0441132*used_power_Compression_HeatPump_AirWater_2_15 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_15 + 
+	84.4359*z_Compression_HeatPump_AirWater_2_15 =L= 84.4031;
+
+low_hp_M_Compression_HeatPump_AirWater_2_16..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_16/28)*(
+	used_power_Compression_HeatPump_AirWater_2_16/28)) - 
+	0.0436461*used_power_Compression_HeatPump_AirWater_2_16 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_16 + 
+	82.6935*z_Compression_HeatPump_AirWater_2_16 =L= 82.6606;
+
+low_hp_M_Compression_HeatPump_AirWater_2_17..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_17/28)*(
+	used_power_Compression_HeatPump_AirWater_2_17/28)) - 
+	0.0427118*used_power_Compression_HeatPump_AirWater_2_17 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_17 + 
+	79.2087*z_Compression_HeatPump_AirWater_2_17 =L= 79.1755;
+
+low_hp_M_Compression_HeatPump_AirWater_2_18..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_18/28)*(
+	used_power_Compression_HeatPump_AirWater_2_18/28)) - 
+	0.0411936*used_power_Compression_HeatPump_AirWater_2_18 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_18 + 
+	73.546*z_Compression_HeatPump_AirWater_2_18 =L= 73.5122;
+
+low_hp_M_Compression_HeatPump_AirWater_2_19..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_19/28)*(
+	used_power_Compression_HeatPump_AirWater_2_19/28)) - 
+	0.0402593*used_power_Compression_HeatPump_AirWater_2_19 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_19 + 
+	70.0612*z_Compression_HeatPump_AirWater_2_19 =L= 70.0271;
+
+low_hp_M_Compression_HeatPump_AirWater_2_20..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_20/28)*(
+	used_power_Compression_HeatPump_AirWater_2_20/28)) - 
+	0.0397921*used_power_Compression_HeatPump_AirWater_2_20 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_20 + 
+	68.3188*z_Compression_HeatPump_AirWater_2_20 =L= 68.2846;
+
+low_hp_M_Compression_HeatPump_AirWater_2_21..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_21/28)*(
+	used_power_Compression_HeatPump_AirWater_2_21/28)) - 
+	0.039325*used_power_Compression_HeatPump_AirWater_2_21 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_21 + 
+	66.5764*z_Compression_HeatPump_AirWater_2_21 =L= 66.542;
+
+low_hp_M_Compression_HeatPump_AirWater_2_22..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_22/28)*(
+	used_power_Compression_HeatPump_AirWater_2_22/28)) - 
+	0.0388579*used_power_Compression_HeatPump_AirWater_2_22 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_22 + 
+	64.8341*z_Compression_HeatPump_AirWater_2_22 =L= 64.7995;
+
+low_hp_M_Compression_HeatPump_AirWater_2_23..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_23/28)*(
+	used_power_Compression_HeatPump_AirWater_2_23/28)) - 
+	0.0385075*used_power_Compression_HeatPump_AirWater_2_23 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_23 + 
+	63.5273*z_Compression_HeatPump_AirWater_2_23 =L= 63.4926;
+
+low_hp_M_Compression_HeatPump_AirWater_2_24..
+	-(-0.5608*(used_power_Compression_HeatPump_AirWater_2_24/28)*(
+	used_power_Compression_HeatPump_AirWater_2_24/28)) - 
+	0.0381571*used_power_Compression_HeatPump_AirWater_2_24 + 
+	0.00759878*gen_low_Compression_HeatPump_AirWater_2_24 + 
+	62.2205*z_Compression_HeatPump_AirWater_2_24 =L= 62.1857;
+
+low_ice_M_FuelCell_1_1..
+	gen_low_FuelCell_1_1 =L= 0;
+
+low_ice_M_FuelCell_1_2..
+	gen_low_FuelCell_1_2 =L= 0;
+
+low_ice_M_FuelCell_1_3..
+	gen_low_FuelCell_1_3 =L= 0;
+
+low_ice_M_FuelCell_1_4..
+	gen_low_FuelCell_1_4 =L= 0;
+
+low_ice_M_FuelCell_1_5..
+	gen_low_FuelCell_1_5 =L= 0;
+
+low_ice_M_FuelCell_1_6..
+	gen_low_FuelCell_1_6 =L= 0;
+
+low_ice_M_FuelCell_1_7..
+	gen_low_FuelCell_1_7 =L= 0;
+
+low_ice_M_FuelCell_1_8..
+	gen_low_FuelCell_1_8 =L= 0;
+
+low_ice_M_FuelCell_1_9..
+	gen_low_FuelCell_1_9 =L= 0;
+
+low_ice_M_FuelCell_1_10..
+	gen_low_FuelCell_1_10 =L= 0;
+
+low_ice_M_FuelCell_1_11..
+	gen_low_FuelCell_1_11 =L= 0;
+
+low_ice_M_FuelCell_1_12..
+	gen_low_FuelCell_1_12 =L= 0;
+
+low_ice_M_FuelCell_1_13..
+	gen_low_FuelCell_1_13 =L= 0;
+
+low_ice_M_FuelCell_1_14..
+	gen_low_FuelCell_1_14 =L= 0;
+
+low_ice_M_FuelCell_1_15..
+	gen_low_FuelCell_1_15 =L= 0;
+
+low_ice_M_FuelCell_1_16..
+	gen_low_FuelCell_1_16 =L= 0;
+
+low_ice_M_FuelCell_1_17..
+	gen_low_FuelCell_1_17 =L= 0;
+
+low_ice_M_FuelCell_1_18..
+	gen_low_FuelCell_1_18 =L= 0;
+
+low_ice_M_FuelCell_1_19..
+	gen_low_FuelCell_1_19 =L= 0;
+
+low_ice_M_FuelCell_1_20..
+	gen_low_FuelCell_1_20 =L= 0;
+
+low_ice_M_FuelCell_1_21..
+	gen_low_FuelCell_1_21 =L= 0;
+
+low_ice_M_FuelCell_1_22..
+	gen_low_FuelCell_1_22 =L= 0;
+
+low_ice_M_FuelCell_1_23..
+	gen_low_FuelCell_1_23 =L= 0;
+
+low_ice_M_FuelCell_1_24..
+	gen_low_FuelCell_1_24 =L= 0;
+
+low_ice_M_FuelCell_2_1..
+	gen_low_FuelCell_2_1 =L= 0;
+
+low_ice_M_FuelCell_2_2..
+	gen_low_FuelCell_2_2 =L= 0;
+
+low_ice_M_FuelCell_2_3..
+	gen_low_FuelCell_2_3 =L= 0;
+
+low_ice_M_FuelCell_2_4..
+	gen_low_FuelCell_2_4 =L= 0;
+
+low_ice_M_FuelCell_2_5..
+	gen_low_FuelCell_2_5 =L= 0;
+
+low_ice_M_FuelCell_2_6..
+	gen_low_FuelCell_2_6 =L= 0;
+
+low_ice_M_FuelCell_2_7..
+	gen_low_FuelCell_2_7 =L= 0;
+
+low_ice_M_FuelCell_2_8..
+	gen_low_FuelCell_2_8 =L= 0;
+
+low_ice_M_FuelCell_2_9..
+	gen_low_FuelCell_2_9 =L= 0;
+
+low_ice_M_FuelCell_2_10..
+	gen_low_FuelCell_2_10 =L= 0;
+
+low_ice_M_FuelCell_2_11..
+	gen_low_FuelCell_2_11 =L= 0;
+
+low_ice_M_FuelCell_2_12..
+	gen_low_FuelCell_2_12 =L= 0;
+
+low_ice_M_FuelCell_2_13..
+	gen_low_FuelCell_2_13 =L= 0;
+
+low_ice_M_FuelCell_2_14..
+	gen_low_FuelCell_2_14 =L= 0;
+
+low_ice_M_FuelCell_2_15..
+	gen_low_FuelCell_2_15 =L= 0;
+
+low_ice_M_FuelCell_2_16..
+	gen_low_FuelCell_2_16 =L= 0;
+
+low_ice_M_FuelCell_2_17..
+	gen_low_FuelCell_2_17 =L= 0;
+
+low_ice_M_FuelCell_2_18..
+	gen_low_FuelCell_2_18 =L= 0;
+
+low_ice_M_FuelCell_2_19..
+	gen_low_FuelCell_2_19 =L= 0;
+
+low_ice_M_FuelCell_2_20..
+	gen_low_FuelCell_2_20 =L= 0;
+
+low_ice_M_FuelCell_2_21..
+	gen_low_FuelCell_2_21 =L= 0;
+
+low_ice_M_FuelCell_2_22..
+	gen_low_FuelCell_2_22 =L= 0;
+
+low_ice_M_FuelCell_2_23..
+	gen_low_FuelCell_2_23 =L= 0;
+
+low_ice_M_FuelCell_2_24..
+	gen_low_FuelCell_2_24 =L= 0;
+
+high_ice_M_FuelCell_1_1..
+	-(1.8498*(fuel_FuelCell_1_1/52.42)*(fuel_FuelCell_1_1/52.42)) + 
+	0.0233995*fuel_FuelCell_1_1 + 0.0673854*gen_high_FuelCell_1_1 + 
+	17.4118*z_FuelCell_1_1 =L= 17.9816;
+
+high_ice_M_FuelCell_1_2..
+	-(1.8498*(fuel_FuelCell_1_2/52.42)*(fuel_FuelCell_1_2/52.42)) + 
+	0.0233995*fuel_FuelCell_1_2 + 0.0673854*gen_high_FuelCell_1_2 + 
+	17.4118*z_FuelCell_1_2 =L= 17.9816;
+
+high_ice_M_FuelCell_1_3..
+	-(1.8498*(fuel_FuelCell_1_3/52.42)*(fuel_FuelCell_1_3/52.42)) + 
+	0.0233995*fuel_FuelCell_1_3 + 0.0673854*gen_high_FuelCell_1_3 + 
+	17.4118*z_FuelCell_1_3 =L= 17.9816;
+
+high_ice_M_FuelCell_1_4..
+	-(1.8498*(fuel_FuelCell_1_4/52.42)*(fuel_FuelCell_1_4/52.42)) + 
+	0.0233995*fuel_FuelCell_1_4 + 0.0673854*gen_high_FuelCell_1_4 + 
+	17.4118*z_FuelCell_1_4 =L= 17.9816;
+
+high_ice_M_FuelCell_1_5..
+	-(1.8498*(fuel_FuelCell_1_5/52.42)*(fuel_FuelCell_1_5/52.42)) + 
+	0.0233995*fuel_FuelCell_1_5 + 0.0673854*gen_high_FuelCell_1_5 + 
+	17.4118*z_FuelCell_1_5 =L= 17.9816;
+
+high_ice_M_FuelCell_1_6..
+	-(1.8498*(fuel_FuelCell_1_6/52.42)*(fuel_FuelCell_1_6/52.42)) + 
+	0.0233995*fuel_FuelCell_1_6 + 0.0673854*gen_high_FuelCell_1_6 + 
+	17.4118*z_FuelCell_1_6 =L= 17.9816;
+
+high_ice_M_FuelCell_1_7..
+	-(1.8498*(fuel_FuelCell_1_7/52.42)*(fuel_FuelCell_1_7/52.42)) + 
+	0.0233995*fuel_FuelCell_1_7 + 0.0673854*gen_high_FuelCell_1_7 + 
+	17.4118*z_FuelCell_1_7 =L= 17.9816;
+
+high_ice_M_FuelCell_1_8..
+	-(1.8498*(fuel_FuelCell_1_8/52.42)*(fuel_FuelCell_1_8/52.42)) + 
+	0.0233995*fuel_FuelCell_1_8 + 0.0673854*gen_high_FuelCell_1_8 + 
+	17.4118*z_FuelCell_1_8 =L= 17.9816;
+
+high_ice_M_FuelCell_1_9..
+	-(1.8498*(fuel_FuelCell_1_9/52.42)*(fuel_FuelCell_1_9/52.42)) + 
+	0.0233995*fuel_FuelCell_1_9 + 0.0673854*gen_high_FuelCell_1_9 + 
+	17.4118*z_FuelCell_1_9 =L= 17.9816;
+
+high_ice_M_FuelCell_1_10..
+	-(1.8498*(fuel_FuelCell_1_10/52.42)*(fuel_FuelCell_1_10/52.42))
+	 + 0.0233995*fuel_FuelCell_1_10 + 
+	0.0673854*gen_high_FuelCell_1_10 + 17.4118*z_FuelCell_1_10 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_11..
+	-(1.8498*(fuel_FuelCell_1_11/52.42)*(fuel_FuelCell_1_11/52.42))
+	 + 0.0233995*fuel_FuelCell_1_11 + 
+	0.0673854*gen_high_FuelCell_1_11 + 17.4118*z_FuelCell_1_11 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_12..
+	-(1.8498*(fuel_FuelCell_1_12/52.42)*(fuel_FuelCell_1_12/52.42))
+	 + 0.0233995*fuel_FuelCell_1_12 + 
+	0.0673854*gen_high_FuelCell_1_12 + 17.4118*z_FuelCell_1_12 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_13..
+	-(1.8498*(fuel_FuelCell_1_13/52.42)*(fuel_FuelCell_1_13/52.42))
+	 + 0.0233995*fuel_FuelCell_1_13 + 
+	0.0673854*gen_high_FuelCell_1_13 + 17.4118*z_FuelCell_1_13 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_14..
+	-(1.8498*(fuel_FuelCell_1_14/52.42)*(fuel_FuelCell_1_14/52.42))
+	 + 0.0233995*fuel_FuelCell_1_14 + 
+	0.0673854*gen_high_FuelCell_1_14 + 17.4118*z_FuelCell_1_14 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_15..
+	-(1.8498*(fuel_FuelCell_1_15/52.42)*(fuel_FuelCell_1_15/52.42))
+	 + 0.0233995*fuel_FuelCell_1_15 + 
+	0.0673854*gen_high_FuelCell_1_15 + 17.4118*z_FuelCell_1_15 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_16..
+	-(1.8498*(fuel_FuelCell_1_16/52.42)*(fuel_FuelCell_1_16/52.42))
+	 + 0.0233995*fuel_FuelCell_1_16 + 
+	0.0673854*gen_high_FuelCell_1_16 + 17.4118*z_FuelCell_1_16 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_17..
+	-(1.8498*(fuel_FuelCell_1_17/52.42)*(fuel_FuelCell_1_17/52.42))
+	 + 0.0233995*fuel_FuelCell_1_17 + 
+	0.0673854*gen_high_FuelCell_1_17 + 17.4118*z_FuelCell_1_17 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_18..
+	-(1.8498*(fuel_FuelCell_1_18/52.42)*(fuel_FuelCell_1_18/52.42))
+	 + 0.0233995*fuel_FuelCell_1_18 + 
+	0.0673854*gen_high_FuelCell_1_18 + 17.4118*z_FuelCell_1_18 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_19..
+	-(1.8498*(fuel_FuelCell_1_19/52.42)*(fuel_FuelCell_1_19/52.42))
+	 + 0.0233995*fuel_FuelCell_1_19 + 
+	0.0673854*gen_high_FuelCell_1_19 + 17.4118*z_FuelCell_1_19 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_20..
+	-(1.8498*(fuel_FuelCell_1_20/52.42)*(fuel_FuelCell_1_20/52.42))
+	 + 0.0233995*fuel_FuelCell_1_20 + 
+	0.0673854*gen_high_FuelCell_1_20 + 17.4118*z_FuelCell_1_20 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_21..
+	-(1.8498*(fuel_FuelCell_1_21/52.42)*(fuel_FuelCell_1_21/52.42))
+	 + 0.0233995*fuel_FuelCell_1_21 + 
+	0.0673854*gen_high_FuelCell_1_21 + 17.4118*z_FuelCell_1_21 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_22..
+	-(1.8498*(fuel_FuelCell_1_22/52.42)*(fuel_FuelCell_1_22/52.42))
+	 + 0.0233995*fuel_FuelCell_1_22 + 
+	0.0673854*gen_high_FuelCell_1_22 + 17.4118*z_FuelCell_1_22 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_23..
+	-(1.8498*(fuel_FuelCell_1_23/52.42)*(fuel_FuelCell_1_23/52.42))
+	 + 0.0233995*fuel_FuelCell_1_23 + 
+	0.0673854*gen_high_FuelCell_1_23 + 17.4118*z_FuelCell_1_23 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_1_24..
+	-(1.8498*(fuel_FuelCell_1_24/52.42)*(fuel_FuelCell_1_24/52.42))
+	 + 0.0233995*fuel_FuelCell_1_24 + 
+	0.0673854*gen_high_FuelCell_1_24 + 17.4118*z_FuelCell_1_24 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_1..
+	-(1.8498*(fuel_FuelCell_2_1/52.42)*(fuel_FuelCell_2_1/52.42)) + 
+	0.0233995*fuel_FuelCell_2_1 + 0.0673854*gen_high_FuelCell_2_1 + 
+	17.4118*z_FuelCell_2_1 =L= 17.9816;
+
+high_ice_M_FuelCell_2_2..
+	-(1.8498*(fuel_FuelCell_2_2/52.42)*(fuel_FuelCell_2_2/52.42)) + 
+	0.0233995*fuel_FuelCell_2_2 + 0.0673854*gen_high_FuelCell_2_2 + 
+	17.4118*z_FuelCell_2_2 =L= 17.9816;
+
+high_ice_M_FuelCell_2_3..
+	-(1.8498*(fuel_FuelCell_2_3/52.42)*(fuel_FuelCell_2_3/52.42)) + 
+	0.0233995*fuel_FuelCell_2_3 + 0.0673854*gen_high_FuelCell_2_3 + 
+	17.4118*z_FuelCell_2_3 =L= 17.9816;
+
+high_ice_M_FuelCell_2_4..
+	-(1.8498*(fuel_FuelCell_2_4/52.42)*(fuel_FuelCell_2_4/52.42)) + 
+	0.0233995*fuel_FuelCell_2_4 + 0.0673854*gen_high_FuelCell_2_4 + 
+	17.4118*z_FuelCell_2_4 =L= 17.9816;
+
+high_ice_M_FuelCell_2_5..
+	-(1.8498*(fuel_FuelCell_2_5/52.42)*(fuel_FuelCell_2_5/52.42)) + 
+	0.0233995*fuel_FuelCell_2_5 + 0.0673854*gen_high_FuelCell_2_5 + 
+	17.4118*z_FuelCell_2_5 =L= 17.9816;
+
+high_ice_M_FuelCell_2_6..
+	-(1.8498*(fuel_FuelCell_2_6/52.42)*(fuel_FuelCell_2_6/52.42)) + 
+	0.0233995*fuel_FuelCell_2_6 + 0.0673854*gen_high_FuelCell_2_6 + 
+	17.4118*z_FuelCell_2_6 =L= 17.9816;
+
+high_ice_M_FuelCell_2_7..
+	-(1.8498*(fuel_FuelCell_2_7/52.42)*(fuel_FuelCell_2_7/52.42)) + 
+	0.0233995*fuel_FuelCell_2_7 + 0.0673854*gen_high_FuelCell_2_7 + 
+	17.4118*z_FuelCell_2_7 =L= 17.9816;
+
+high_ice_M_FuelCell_2_8..
+	-(1.8498*(fuel_FuelCell_2_8/52.42)*(fuel_FuelCell_2_8/52.42)) + 
+	0.0233995*fuel_FuelCell_2_8 + 0.0673854*gen_high_FuelCell_2_8 + 
+	17.4118*z_FuelCell_2_8 =L= 17.9816;
+
+high_ice_M_FuelCell_2_9..
+	-(1.8498*(fuel_FuelCell_2_9/52.42)*(fuel_FuelCell_2_9/52.42)) + 
+	0.0233995*fuel_FuelCell_2_9 + 0.0673854*gen_high_FuelCell_2_9 + 
+	17.4118*z_FuelCell_2_9 =L= 17.9816;
+
+high_ice_M_FuelCell_2_10..
+	-(1.8498*(fuel_FuelCell_2_10/52.42)*(fuel_FuelCell_2_10/52.42))
+	 + 0.0233995*fuel_FuelCell_2_10 + 
+	0.0673854*gen_high_FuelCell_2_10 + 17.4118*z_FuelCell_2_10 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_11..
+	-(1.8498*(fuel_FuelCell_2_11/52.42)*(fuel_FuelCell_2_11/52.42))
+	 + 0.0233995*fuel_FuelCell_2_11 + 
+	0.0673854*gen_high_FuelCell_2_11 + 17.4118*z_FuelCell_2_11 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_12..
+	-(1.8498*(fuel_FuelCell_2_12/52.42)*(fuel_FuelCell_2_12/52.42))
+	 + 0.0233995*fuel_FuelCell_2_12 + 
+	0.0673854*gen_high_FuelCell_2_12 + 17.4118*z_FuelCell_2_12 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_13..
+	-(1.8498*(fuel_FuelCell_2_13/52.42)*(fuel_FuelCell_2_13/52.42))
+	 + 0.0233995*fuel_FuelCell_2_13 + 
+	0.0673854*gen_high_FuelCell_2_13 + 17.4118*z_FuelCell_2_13 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_14..
+	-(1.8498*(fuel_FuelCell_2_14/52.42)*(fuel_FuelCell_2_14/52.42))
+	 + 0.0233995*fuel_FuelCell_2_14 + 
+	0.0673854*gen_high_FuelCell_2_14 + 17.4118*z_FuelCell_2_14 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_15..
+	-(1.8498*(fuel_FuelCell_2_15/52.42)*(fuel_FuelCell_2_15/52.42))
+	 + 0.0233995*fuel_FuelCell_2_15 + 
+	0.0673854*gen_high_FuelCell_2_15 + 17.4118*z_FuelCell_2_15 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_16..
+	-(1.8498*(fuel_FuelCell_2_16/52.42)*(fuel_FuelCell_2_16/52.42))
+	 + 0.0233995*fuel_FuelCell_2_16 + 
+	0.0673854*gen_high_FuelCell_2_16 + 17.4118*z_FuelCell_2_16 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_17..
+	-(1.8498*(fuel_FuelCell_2_17/52.42)*(fuel_FuelCell_2_17/52.42))
+	 + 0.0233995*fuel_FuelCell_2_17 + 
+	0.0673854*gen_high_FuelCell_2_17 + 17.4118*z_FuelCell_2_17 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_18..
+	-(1.8498*(fuel_FuelCell_2_18/52.42)*(fuel_FuelCell_2_18/52.42))
+	 + 0.0233995*fuel_FuelCell_2_18 + 
+	0.0673854*gen_high_FuelCell_2_18 + 17.4118*z_FuelCell_2_18 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_19..
+	-(1.8498*(fuel_FuelCell_2_19/52.42)*(fuel_FuelCell_2_19/52.42))
+	 + 0.0233995*fuel_FuelCell_2_19 + 
+	0.0673854*gen_high_FuelCell_2_19 + 17.4118*z_FuelCell_2_19 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_20..
+	-(1.8498*(fuel_FuelCell_2_20/52.42)*(fuel_FuelCell_2_20/52.42))
+	 + 0.0233995*fuel_FuelCell_2_20 + 
+	0.0673854*gen_high_FuelCell_2_20 + 17.4118*z_FuelCell_2_20 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_21..
+	-(1.8498*(fuel_FuelCell_2_21/52.42)*(fuel_FuelCell_2_21/52.42))
+	 + 0.0233995*fuel_FuelCell_2_21 + 
+	0.0673854*gen_high_FuelCell_2_21 + 17.4118*z_FuelCell_2_21 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_22..
+	-(1.8498*(fuel_FuelCell_2_22/52.42)*(fuel_FuelCell_2_22/52.42))
+	 + 0.0233995*fuel_FuelCell_2_22 + 
+	0.0673854*gen_high_FuelCell_2_22 + 17.4118*z_FuelCell_2_22 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_23..
+	-(1.8498*(fuel_FuelCell_2_23/52.42)*(fuel_FuelCell_2_23/52.42))
+	 + 0.0233995*fuel_FuelCell_2_23 + 
+	0.0673854*gen_high_FuelCell_2_23 + 17.4118*z_FuelCell_2_23 =L= 
+	17.9816;
+
+high_ice_M_FuelCell_2_24..
+	-(1.8498*(fuel_FuelCell_2_24/52.42)*(fuel_FuelCell_2_24/52.42))
+	 + 0.0233995*fuel_FuelCell_2_24 + 
+	0.0673854*gen_high_FuelCell_2_24 + 17.4118*z_FuelCell_2_24 =L= 
+	17.9816;
+
+power_ice_M_FuelCell_1_1..
+	-(-1.2705*(fuel_FuelCell_1_1/52.42)*(fuel_FuelCell_1_1/52.42)) - 
+	0.038079*fuel_FuelCell_1_1 + 0.0333667*gen_power_FuelCell_1_1 + 
+	8.77774*z_FuelCell_1_1 =L= 8.34074;
+
+power_ice_M_FuelCell_1_2..
+	-(-1.2705*(fuel_FuelCell_1_2/52.42)*(fuel_FuelCell_1_2/52.42)) - 
+	0.038079*fuel_FuelCell_1_2 + 0.0333667*gen_power_FuelCell_1_2 + 
+	8.77774*z_FuelCell_1_2 =L= 8.34074;
+
+power_ice_M_FuelCell_1_3..
+	-(-1.2705*(fuel_FuelCell_1_3/52.42)*(fuel_FuelCell_1_3/52.42)) - 
+	0.038079*fuel_FuelCell_1_3 + 0.0333667*gen_power_FuelCell_1_3 + 
+	8.77774*z_FuelCell_1_3 =L= 8.34074;
+
+power_ice_M_FuelCell_1_4..
+	-(-1.2705*(fuel_FuelCell_1_4/52.42)*(fuel_FuelCell_1_4/52.42)) - 
+	0.038079*fuel_FuelCell_1_4 + 0.0333667*gen_power_FuelCell_1_4 + 
+	8.77774*z_FuelCell_1_4 =L= 8.34074;
+
+power_ice_M_FuelCell_1_5..
+	-(-1.2705*(fuel_FuelCell_1_5/52.42)*(fuel_FuelCell_1_5/52.42)) - 
+	0.038079*fuel_FuelCell_1_5 + 0.0333667*gen_power_FuelCell_1_5 + 
+	8.77774*z_FuelCell_1_5 =L= 8.34074;
+
+power_ice_M_FuelCell_1_6..
+	-(-1.2705*(fuel_FuelCell_1_6/52.42)*(fuel_FuelCell_1_6/52.42)) - 
+	0.038079*fuel_FuelCell_1_6 + 0.0333667*gen_power_FuelCell_1_6 + 
+	8.77774*z_FuelCell_1_6 =L= 8.34074;
+
+power_ice_M_FuelCell_1_7..
+	-(-1.2705*(fuel_FuelCell_1_7/52.42)*(fuel_FuelCell_1_7/52.42)) - 
+	0.038079*fuel_FuelCell_1_7 + 0.0333667*gen_power_FuelCell_1_7 + 
+	8.77774*z_FuelCell_1_7 =L= 8.34074;
+
+power_ice_M_FuelCell_1_8..
+	-(-1.2705*(fuel_FuelCell_1_8/52.42)*(fuel_FuelCell_1_8/52.42)) - 
+	0.038079*fuel_FuelCell_1_8 + 0.0333667*gen_power_FuelCell_1_8 + 
+	8.77774*z_FuelCell_1_8 =L= 8.34074;
+
+power_ice_M_FuelCell_1_9..
+	-(-1.2705*(fuel_FuelCell_1_9/52.42)*(fuel_FuelCell_1_9/52.42)) - 
+	0.038079*fuel_FuelCell_1_9 + 0.0333667*gen_power_FuelCell_1_9 + 
+	8.77774*z_FuelCell_1_9 =L= 8.34074;
+
+power_ice_M_FuelCell_1_10..
+	-(-1.2705*(fuel_FuelCell_1_10/52.42)*(fuel_FuelCell_1_10/52.42))
+	 - 0.038079*fuel_FuelCell_1_10 + 
+	0.0333667*gen_power_FuelCell_1_10 + 8.77774*z_FuelCell_1_10 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_11..
+	-(-1.2705*(fuel_FuelCell_1_11/52.42)*(fuel_FuelCell_1_11/52.42))
+	 - 0.038079*fuel_FuelCell_1_11 + 
+	0.0333667*gen_power_FuelCell_1_11 + 8.77774*z_FuelCell_1_11 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_12..
+	-(-1.2705*(fuel_FuelCell_1_12/52.42)*(fuel_FuelCell_1_12/52.42))
+	 - 0.038079*fuel_FuelCell_1_12 + 
+	0.0333667*gen_power_FuelCell_1_12 + 8.77774*z_FuelCell_1_12 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_13..
+	-(-1.2705*(fuel_FuelCell_1_13/52.42)*(fuel_FuelCell_1_13/52.42))
+	 - 0.038079*fuel_FuelCell_1_13 + 
+	0.0333667*gen_power_FuelCell_1_13 + 8.77774*z_FuelCell_1_13 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_14..
+	-(-1.2705*(fuel_FuelCell_1_14/52.42)*(fuel_FuelCell_1_14/52.42))
+	 - 0.038079*fuel_FuelCell_1_14 + 
+	0.0333667*gen_power_FuelCell_1_14 + 8.77774*z_FuelCell_1_14 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_15..
+	-(-1.2705*(fuel_FuelCell_1_15/52.42)*(fuel_FuelCell_1_15/52.42))
+	 - 0.038079*fuel_FuelCell_1_15 + 
+	0.0333667*gen_power_FuelCell_1_15 + 8.77774*z_FuelCell_1_15 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_16..
+	-(-1.2705*(fuel_FuelCell_1_16/52.42)*(fuel_FuelCell_1_16/52.42))
+	 - 0.038079*fuel_FuelCell_1_16 + 
+	0.0333667*gen_power_FuelCell_1_16 + 8.77774*z_FuelCell_1_16 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_17..
+	-(-1.2705*(fuel_FuelCell_1_17/52.42)*(fuel_FuelCell_1_17/52.42))
+	 - 0.038079*fuel_FuelCell_1_17 + 
+	0.0333667*gen_power_FuelCell_1_17 + 8.77774*z_FuelCell_1_17 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_18..
+	-(-1.2705*(fuel_FuelCell_1_18/52.42)*(fuel_FuelCell_1_18/52.42))
+	 - 0.038079*fuel_FuelCell_1_18 + 
+	0.0333667*gen_power_FuelCell_1_18 + 8.77774*z_FuelCell_1_18 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_19..
+	-(-1.2705*(fuel_FuelCell_1_19/52.42)*(fuel_FuelCell_1_19/52.42))
+	 - 0.038079*fuel_FuelCell_1_19 + 
+	0.0333667*gen_power_FuelCell_1_19 + 8.77774*z_FuelCell_1_19 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_20..
+	-(-1.2705*(fuel_FuelCell_1_20/52.42)*(fuel_FuelCell_1_20/52.42))
+	 - 0.038079*fuel_FuelCell_1_20 + 
+	0.0333667*gen_power_FuelCell_1_20 + 8.77774*z_FuelCell_1_20 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_21..
+	-(-1.2705*(fuel_FuelCell_1_21/52.42)*(fuel_FuelCell_1_21/52.42))
+	 - 0.038079*fuel_FuelCell_1_21 + 
+	0.0333667*gen_power_FuelCell_1_21 + 8.77774*z_FuelCell_1_21 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_22..
+	-(-1.2705*(fuel_FuelCell_1_22/52.42)*(fuel_FuelCell_1_22/52.42))
+	 - 0.038079*fuel_FuelCell_1_22 + 
+	0.0333667*gen_power_FuelCell_1_22 + 8.77774*z_FuelCell_1_22 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_23..
+	-(-1.2705*(fuel_FuelCell_1_23/52.42)*(fuel_FuelCell_1_23/52.42))
+	 - 0.038079*fuel_FuelCell_1_23 + 
+	0.0333667*gen_power_FuelCell_1_23 + 8.77774*z_FuelCell_1_23 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_1_24..
+	-(-1.2705*(fuel_FuelCell_1_24/52.42)*(fuel_FuelCell_1_24/52.42))
+	 - 0.038079*fuel_FuelCell_1_24 + 
+	0.0333667*gen_power_FuelCell_1_24 + 8.77774*z_FuelCell_1_24 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_1..
+	-(-1.2705*(fuel_FuelCell_2_1/52.42)*(fuel_FuelCell_2_1/52.42)) - 
+	0.038079*fuel_FuelCell_2_1 + 0.0333667*gen_power_FuelCell_2_1 + 
+	8.77774*z_FuelCell_2_1 =L= 8.34074;
+
+power_ice_M_FuelCell_2_2..
+	-(-1.2705*(fuel_FuelCell_2_2/52.42)*(fuel_FuelCell_2_2/52.42)) - 
+	0.038079*fuel_FuelCell_2_2 + 0.0333667*gen_power_FuelCell_2_2 + 
+	8.77774*z_FuelCell_2_2 =L= 8.34074;
+
+power_ice_M_FuelCell_2_3..
+	-(-1.2705*(fuel_FuelCell_2_3/52.42)*(fuel_FuelCell_2_3/52.42)) - 
+	0.038079*fuel_FuelCell_2_3 + 0.0333667*gen_power_FuelCell_2_3 + 
+	8.77774*z_FuelCell_2_3 =L= 8.34074;
+
+power_ice_M_FuelCell_2_4..
+	-(-1.2705*(fuel_FuelCell_2_4/52.42)*(fuel_FuelCell_2_4/52.42)) - 
+	0.038079*fuel_FuelCell_2_4 + 0.0333667*gen_power_FuelCell_2_4 + 
+	8.77774*z_FuelCell_2_4 =L= 8.34074;
+
+power_ice_M_FuelCell_2_5..
+	-(-1.2705*(fuel_FuelCell_2_5/52.42)*(fuel_FuelCell_2_5/52.42)) - 
+	0.038079*fuel_FuelCell_2_5 + 0.0333667*gen_power_FuelCell_2_5 + 
+	8.77774*z_FuelCell_2_5 =L= 8.34074;
+
+power_ice_M_FuelCell_2_6..
+	-(-1.2705*(fuel_FuelCell_2_6/52.42)*(fuel_FuelCell_2_6/52.42)) - 
+	0.038079*fuel_FuelCell_2_6 + 0.0333667*gen_power_FuelCell_2_6 + 
+	8.77774*z_FuelCell_2_6 =L= 8.34074;
+
+power_ice_M_FuelCell_2_7..
+	-(-1.2705*(fuel_FuelCell_2_7/52.42)*(fuel_FuelCell_2_7/52.42)) - 
+	0.038079*fuel_FuelCell_2_7 + 0.0333667*gen_power_FuelCell_2_7 + 
+	8.77774*z_FuelCell_2_7 =L= 8.34074;
+
+power_ice_M_FuelCell_2_8..
+	-(-1.2705*(fuel_FuelCell_2_8/52.42)*(fuel_FuelCell_2_8/52.42)) - 
+	0.038079*fuel_FuelCell_2_8 + 0.0333667*gen_power_FuelCell_2_8 + 
+	8.77774*z_FuelCell_2_8 =L= 8.34074;
+
+power_ice_M_FuelCell_2_9..
+	-(-1.2705*(fuel_FuelCell_2_9/52.42)*(fuel_FuelCell_2_9/52.42)) - 
+	0.038079*fuel_FuelCell_2_9 + 0.0333667*gen_power_FuelCell_2_9 + 
+	8.77774*z_FuelCell_2_9 =L= 8.34074;
+
+power_ice_M_FuelCell_2_10..
+	-(-1.2705*(fuel_FuelCell_2_10/52.42)*(fuel_FuelCell_2_10/52.42))
+	 - 0.038079*fuel_FuelCell_2_10 + 
+	0.0333667*gen_power_FuelCell_2_10 + 8.77774*z_FuelCell_2_10 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_11..
+	-(-1.2705*(fuel_FuelCell_2_11/52.42)*(fuel_FuelCell_2_11/52.42))
+	 - 0.038079*fuel_FuelCell_2_11 + 
+	0.0333667*gen_power_FuelCell_2_11 + 8.77774*z_FuelCell_2_11 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_12..
+	-(-1.2705*(fuel_FuelCell_2_12/52.42)*(fuel_FuelCell_2_12/52.42))
+	 - 0.038079*fuel_FuelCell_2_12 + 
+	0.0333667*gen_power_FuelCell_2_12 + 8.77774*z_FuelCell_2_12 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_13..
+	-(-1.2705*(fuel_FuelCell_2_13/52.42)*(fuel_FuelCell_2_13/52.42))
+	 - 0.038079*fuel_FuelCell_2_13 + 
+	0.0333667*gen_power_FuelCell_2_13 + 8.77774*z_FuelCell_2_13 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_14..
+	-(-1.2705*(fuel_FuelCell_2_14/52.42)*(fuel_FuelCell_2_14/52.42))
+	 - 0.038079*fuel_FuelCell_2_14 + 
+	0.0333667*gen_power_FuelCell_2_14 + 8.77774*z_FuelCell_2_14 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_15..
+	-(-1.2705*(fuel_FuelCell_2_15/52.42)*(fuel_FuelCell_2_15/52.42))
+	 - 0.038079*fuel_FuelCell_2_15 + 
+	0.0333667*gen_power_FuelCell_2_15 + 8.77774*z_FuelCell_2_15 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_16..
+	-(-1.2705*(fuel_FuelCell_2_16/52.42)*(fuel_FuelCell_2_16/52.42))
+	 - 0.038079*fuel_FuelCell_2_16 + 
+	0.0333667*gen_power_FuelCell_2_16 + 8.77774*z_FuelCell_2_16 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_17..
+	-(-1.2705*(fuel_FuelCell_2_17/52.42)*(fuel_FuelCell_2_17/52.42))
+	 - 0.038079*fuel_FuelCell_2_17 + 
+	0.0333667*gen_power_FuelCell_2_17 + 8.77774*z_FuelCell_2_17 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_18..
+	-(-1.2705*(fuel_FuelCell_2_18/52.42)*(fuel_FuelCell_2_18/52.42))
+	 - 0.038079*fuel_FuelCell_2_18 + 
+	0.0333667*gen_power_FuelCell_2_18 + 8.77774*z_FuelCell_2_18 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_19..
+	-(-1.2705*(fuel_FuelCell_2_19/52.42)*(fuel_FuelCell_2_19/52.42))
+	 - 0.038079*fuel_FuelCell_2_19 + 
+	0.0333667*gen_power_FuelCell_2_19 + 8.77774*z_FuelCell_2_19 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_20..
+	-(-1.2705*(fuel_FuelCell_2_20/52.42)*(fuel_FuelCell_2_20/52.42))
+	 - 0.038079*fuel_FuelCell_2_20 + 
+	0.0333667*gen_power_FuelCell_2_20 + 8.77774*z_FuelCell_2_20 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_21..
+	-(-1.2705*(fuel_FuelCell_2_21/52.42)*(fuel_FuelCell_2_21/52.42))
+	 - 0.038079*fuel_FuelCell_2_21 + 
+	0.0333667*gen_power_FuelCell_2_21 + 8.77774*z_FuelCell_2_21 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_22..
+	-(-1.2705*(fuel_FuelCell_2_22/52.42)*(fuel_FuelCell_2_22/52.42))
+	 - 0.038079*fuel_FuelCell_2_22 + 
+	0.0333667*gen_power_FuelCell_2_22 + 8.77774*z_FuelCell_2_22 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_23..
+	-(-1.2705*(fuel_FuelCell_2_23/52.42)*(fuel_FuelCell_2_23/52.42))
+	 - 0.038079*fuel_FuelCell_2_23 + 
+	0.0333667*gen_power_FuelCell_2_23 + 8.77774*z_FuelCell_2_23 =L= 
+	8.34074;
+
+power_ice_M_FuelCell_2_24..
+	-(-1.2705*(fuel_FuelCell_2_24/52.42)*(fuel_FuelCell_2_24/52.42))
+	 - 0.038079*fuel_FuelCell_2_24 + 
+	0.0333667*gen_power_FuelCell_2_24 + 8.77774*z_FuelCell_2_24 =L= 
+	8.34074;
+
+high_ab_M_AuxiliaryBoilerHT_1_1..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_1/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_1/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_1 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_1 + 
+	69.792*z_AuxiliaryBoilerHT_1_1 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_2..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_2/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_2/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_2 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_2 + 
+	69.792*z_AuxiliaryBoilerHT_1_2 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_3..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_3/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_3/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_3 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_3 + 
+	69.792*z_AuxiliaryBoilerHT_1_3 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_4..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_4/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_4/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_4 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_4 + 
+	69.792*z_AuxiliaryBoilerHT_1_4 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_5..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_5/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_5/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_5 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_5 + 
+	69.792*z_AuxiliaryBoilerHT_1_5 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_6..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_6/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_6/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_6 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_6 + 
+	69.792*z_AuxiliaryBoilerHT_1_6 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_7..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_7/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_7/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_7 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_7 + 
+	69.792*z_AuxiliaryBoilerHT_1_7 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_8..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_8/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_8/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_8 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_8 + 
+	69.792*z_AuxiliaryBoilerHT_1_8 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_9..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_9/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_9/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_9 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_9 + 
+	69.792*z_AuxiliaryBoilerHT_1_9 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_10..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_10/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_10/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_10 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_10 + 
+	69.792*z_AuxiliaryBoilerHT_1_10 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_11..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_11/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_11/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_11 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_11 + 
+	69.792*z_AuxiliaryBoilerHT_1_11 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_12..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_12/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_12/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_12 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_12 + 
+	69.792*z_AuxiliaryBoilerHT_1_12 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_13..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_13/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_13/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_13 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_13 + 
+	69.792*z_AuxiliaryBoilerHT_1_13 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_14..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_14/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_14/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_14 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_14 + 
+	69.792*z_AuxiliaryBoilerHT_1_14 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_15..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_15/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_15/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_15 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_15 + 
+	69.792*z_AuxiliaryBoilerHT_1_15 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_16..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_16/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_16/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_16 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_16 + 
+	69.792*z_AuxiliaryBoilerHT_1_16 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_17..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_17/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_17/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_17 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_17 + 
+	69.792*z_AuxiliaryBoilerHT_1_17 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_18..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_18/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_18/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_18 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_18 + 
+	69.792*z_AuxiliaryBoilerHT_1_18 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_19..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_19/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_19/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_19 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_19 + 
+	69.792*z_AuxiliaryBoilerHT_1_19 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_20..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_20/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_20/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_20 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_20 + 
+	69.792*z_AuxiliaryBoilerHT_1_20 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_21..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_21/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_21/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_21 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_21 + 
+	69.792*z_AuxiliaryBoilerHT_1_21 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_22..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_22/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_22/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_22 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_22 + 
+	69.792*z_AuxiliaryBoilerHT_1_22 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_23..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_23/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_23/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_23 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_23 + 
+	69.792*z_AuxiliaryBoilerHT_1_23 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_1_24..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_1_24/113.64)*(
+	fuel_AuxiliaryBoilerHT_1_24/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_1_24 + 
+	0.01*gen_high_AuxiliaryBoilerHT_1_24 + 
+	69.792*z_AuxiliaryBoilerHT_1_24 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_1..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_1/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_1/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_1 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_1 + 
+	69.792*z_AuxiliaryBoilerHT_2_1 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_2..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_2/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_2/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_2 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_2 + 
+	69.792*z_AuxiliaryBoilerHT_2_2 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_3..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_3/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_3/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_3 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_3 + 
+	69.792*z_AuxiliaryBoilerHT_2_3 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_4..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_4/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_4/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_4 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_4 + 
+	69.792*z_AuxiliaryBoilerHT_2_4 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_5..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_5/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_5/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_5 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_5 + 
+	69.792*z_AuxiliaryBoilerHT_2_5 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_6..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_6/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_6/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_6 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_6 + 
+	69.792*z_AuxiliaryBoilerHT_2_6 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_7..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_7/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_7/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_7 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_7 + 
+	69.792*z_AuxiliaryBoilerHT_2_7 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_8..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_8/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_8/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_8 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_8 + 
+	69.792*z_AuxiliaryBoilerHT_2_8 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_9..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_9/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_9/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_9 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_9 + 
+	69.792*z_AuxiliaryBoilerHT_2_9 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_10..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_10/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_10/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_10 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_10 + 
+	69.792*z_AuxiliaryBoilerHT_2_10 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_11..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_11/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_11/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_11 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_11 + 
+	69.792*z_AuxiliaryBoilerHT_2_11 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_12..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_12/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_12/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_12 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_12 + 
+	69.792*z_AuxiliaryBoilerHT_2_12 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_13..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_13/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_13/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_13 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_13 + 
+	69.792*z_AuxiliaryBoilerHT_2_13 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_14..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_14/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_14/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_14 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_14 + 
+	69.792*z_AuxiliaryBoilerHT_2_14 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_15..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_15/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_15/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_15 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_15 + 
+	69.792*z_AuxiliaryBoilerHT_2_15 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_16..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_16/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_16/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_16 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_16 + 
+	69.792*z_AuxiliaryBoilerHT_2_16 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_17..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_17/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_17/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_17 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_17 + 
+	69.792*z_AuxiliaryBoilerHT_2_17 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_18..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_18/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_18/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_18 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_18 + 
+	69.792*z_AuxiliaryBoilerHT_2_18 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_19..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_19/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_19/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_19 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_19 + 
+	69.792*z_AuxiliaryBoilerHT_2_19 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_20..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_20/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_20/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_20 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_20 + 
+	69.792*z_AuxiliaryBoilerHT_2_20 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_21..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_21/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_21/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_21 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_21 + 
+	69.792*z_AuxiliaryBoilerHT_2_21 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_22..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_22/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_22/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_22 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_22 + 
+	69.792*z_AuxiliaryBoilerHT_2_22 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_23..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_23/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_23/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_23 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_23 + 
+	69.792*z_AuxiliaryBoilerHT_2_23 =L= 69.7675;
+
+high_ab_M_AuxiliaryBoilerHT_2_24..
+	-(-0.415*(fuel_AuxiliaryBoilerHT_2_24/113.64)*(
+	fuel_AuxiliaryBoilerHT_2_24/113.64)) - 
+	0.0100123*fuel_AuxiliaryBoilerHT_2_24 + 
+	0.01*gen_high_AuxiliaryBoilerHT_2_24 + 
+	69.792*z_AuxiliaryBoilerHT_2_24 =L= 69.7675;
+
+fuel_AuxiliaryBoilerHT_1_1.lo = 0;
+fuel_AuxiliaryBoilerHT_1_1.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_2.lo = 0;
+fuel_AuxiliaryBoilerHT_1_2.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_3.lo = 0;
+fuel_AuxiliaryBoilerHT_1_3.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_4.lo = 0;
+fuel_AuxiliaryBoilerHT_1_4.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_5.lo = 0;
+fuel_AuxiliaryBoilerHT_1_5.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_6.lo = 0;
+fuel_AuxiliaryBoilerHT_1_6.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_7.lo = 0;
+fuel_AuxiliaryBoilerHT_1_7.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_8.lo = 0;
+fuel_AuxiliaryBoilerHT_1_8.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_9.lo = 0;
+fuel_AuxiliaryBoilerHT_1_9.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_10.lo = 0;
+fuel_AuxiliaryBoilerHT_1_10.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_11.lo = 0;
+fuel_AuxiliaryBoilerHT_1_11.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_12.lo = 0;
+fuel_AuxiliaryBoilerHT_1_12.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_13.lo = 0;
+fuel_AuxiliaryBoilerHT_1_13.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_14.lo = 0;
+fuel_AuxiliaryBoilerHT_1_14.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_15.lo = 0;
+fuel_AuxiliaryBoilerHT_1_15.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_16.lo = 0;
+fuel_AuxiliaryBoilerHT_1_16.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_17.lo = 0;
+fuel_AuxiliaryBoilerHT_1_17.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_18.lo = 0;
+fuel_AuxiliaryBoilerHT_1_18.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_19.lo = 0;
+fuel_AuxiliaryBoilerHT_1_19.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_20.lo = 0;
+fuel_AuxiliaryBoilerHT_1_20.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_21.lo = 0;
+fuel_AuxiliaryBoilerHT_1_21.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_22.lo = 0;
+fuel_AuxiliaryBoilerHT_1_22.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_23.lo = 0;
+fuel_AuxiliaryBoilerHT_1_23.up = 113.5;
+fuel_AuxiliaryBoilerHT_1_24.lo = 0;
+fuel_AuxiliaryBoilerHT_1_24.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_1.lo = 0;
+fuel_AuxiliaryBoilerHT_2_1.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_2.lo = 0;
+fuel_AuxiliaryBoilerHT_2_2.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_3.lo = 0;
+fuel_AuxiliaryBoilerHT_2_3.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_4.lo = 0;
+fuel_AuxiliaryBoilerHT_2_4.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_5.lo = 0;
+fuel_AuxiliaryBoilerHT_2_5.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_6.lo = 0;
+fuel_AuxiliaryBoilerHT_2_6.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_7.lo = 0;
+fuel_AuxiliaryBoilerHT_2_7.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_8.lo = 0;
+fuel_AuxiliaryBoilerHT_2_8.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_9.lo = 0;
+fuel_AuxiliaryBoilerHT_2_9.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_10.lo = 0;
+fuel_AuxiliaryBoilerHT_2_10.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_11.lo = 0;
+fuel_AuxiliaryBoilerHT_2_11.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_12.lo = 0;
+fuel_AuxiliaryBoilerHT_2_12.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_13.lo = 0;
+fuel_AuxiliaryBoilerHT_2_13.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_14.lo = 0;
+fuel_AuxiliaryBoilerHT_2_14.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_15.lo = 0;
+fuel_AuxiliaryBoilerHT_2_15.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_16.lo = 0;
+fuel_AuxiliaryBoilerHT_2_16.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_17.lo = 0;
+fuel_AuxiliaryBoilerHT_2_17.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_18.lo = 0;
+fuel_AuxiliaryBoilerHT_2_18.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_19.lo = 0;
+fuel_AuxiliaryBoilerHT_2_19.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_20.lo = 0;
+fuel_AuxiliaryBoilerHT_2_20.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_21.lo = 0;
+fuel_AuxiliaryBoilerHT_2_21.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_22.lo = 0;
+fuel_AuxiliaryBoilerHT_2_22.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_23.lo = 0;
+fuel_AuxiliaryBoilerHT_2_23.up = 113.5;
+fuel_AuxiliaryBoilerHT_2_24.lo = 0;
+fuel_AuxiliaryBoilerHT_2_24.up = 113.5;
+fuel_FuelCell_1_1.lo = 0;
+fuel_FuelCell_1_1.up = 52;
+fuel_FuelCell_1_2.lo = 0;
+fuel_FuelCell_1_2.up = 52;
+fuel_FuelCell_1_3.lo = 0;
+fuel_FuelCell_1_3.up = 52;
+fuel_FuelCell_1_4.lo = 0;
+fuel_FuelCell_1_4.up = 52;
+fuel_FuelCell_1_5.lo = 0;
+fuel_FuelCell_1_5.up = 52;
+fuel_FuelCell_1_6.lo = 0;
+fuel_FuelCell_1_6.up = 52;
+fuel_FuelCell_1_7.lo = 0;
+fuel_FuelCell_1_7.up = 52;
+fuel_FuelCell_1_8.lo = 0;
+fuel_FuelCell_1_8.up = 52;
+fuel_FuelCell_1_9.lo = 0;
+fuel_FuelCell_1_9.up = 52;
+fuel_FuelCell_1_10.lo = 0;
+fuel_FuelCell_1_10.up = 52;
+fuel_FuelCell_1_11.lo = 0;
+fuel_FuelCell_1_11.up = 52;
+fuel_FuelCell_1_12.lo = 0;
+fuel_FuelCell_1_12.up = 52;
+fuel_FuelCell_1_13.lo = 0;
+fuel_FuelCell_1_13.up = 52;
+fuel_FuelCell_1_14.lo = 0;
+fuel_FuelCell_1_14.up = 52;
+fuel_FuelCell_1_15.lo = 0;
+fuel_FuelCell_1_15.up = 52;
+fuel_FuelCell_1_16.lo = 0;
+fuel_FuelCell_1_16.up = 52;
+fuel_FuelCell_1_17.lo = 0;
+fuel_FuelCell_1_17.up = 52;
+fuel_FuelCell_1_18.lo = 0;
+fuel_FuelCell_1_18.up = 52;
+fuel_FuelCell_1_19.lo = 0;
+fuel_FuelCell_1_19.up = 52;
+fuel_FuelCell_1_20.lo = 0;
+fuel_FuelCell_1_20.up = 52;
+fuel_FuelCell_1_21.lo = 0;
+fuel_FuelCell_1_21.up = 52;
+fuel_FuelCell_1_22.lo = 0;
+fuel_FuelCell_1_22.up = 52;
+fuel_FuelCell_1_23.lo = 0;
+fuel_FuelCell_1_23.up = 52;
+fuel_FuelCell_1_24.lo = 0;
+fuel_FuelCell_1_24.up = 52;
+fuel_FuelCell_2_1.lo = 0;
+fuel_FuelCell_2_1.up = 52;
+fuel_FuelCell_2_2.lo = 0;
+fuel_FuelCell_2_2.up = 52;
+fuel_FuelCell_2_3.lo = 0;
+fuel_FuelCell_2_3.up = 52;
+fuel_FuelCell_2_4.lo = 0;
+fuel_FuelCell_2_4.up = 52;
+fuel_FuelCell_2_5.lo = 0;
+fuel_FuelCell_2_5.up = 52;
+fuel_FuelCell_2_6.lo = 0;
+fuel_FuelCell_2_6.up = 52;
+fuel_FuelCell_2_7.lo = 0;
+fuel_FuelCell_2_7.up = 52;
+fuel_FuelCell_2_8.lo = 0;
+fuel_FuelCell_2_8.up = 52;
+fuel_FuelCell_2_9.lo = 0;
+fuel_FuelCell_2_9.up = 52;
+fuel_FuelCell_2_10.lo = 0;
+fuel_FuelCell_2_10.up = 52;
+fuel_FuelCell_2_11.lo = 0;
+fuel_FuelCell_2_11.up = 52;
+fuel_FuelCell_2_12.lo = 0;
+fuel_FuelCell_2_12.up = 52;
+fuel_FuelCell_2_13.lo = 0;
+fuel_FuelCell_2_13.up = 52;
+fuel_FuelCell_2_14.lo = 0;
+fuel_FuelCell_2_14.up = 52;
+fuel_FuelCell_2_15.lo = 0;
+fuel_FuelCell_2_15.up = 52;
+fuel_FuelCell_2_16.lo = 0;
+fuel_FuelCell_2_16.up = 52;
+fuel_FuelCell_2_17.lo = 0;
+fuel_FuelCell_2_17.up = 52;
+fuel_FuelCell_2_18.lo = 0;
+fuel_FuelCell_2_18.up = 52;
+fuel_FuelCell_2_19.lo = 0;
+fuel_FuelCell_2_19.up = 52;
+fuel_FuelCell_2_20.lo = 0;
+fuel_FuelCell_2_20.up = 52;
+fuel_FuelCell_2_21.lo = 0;
+fuel_FuelCell_2_21.up = 52;
+fuel_FuelCell_2_22.lo = 0;
+fuel_FuelCell_2_22.up = 52;
+fuel_FuelCell_2_23.lo = 0;
+fuel_FuelCell_2_23.up = 52;
+fuel_FuelCell_2_24.lo = 0;
+fuel_FuelCell_2_24.up = 52;
+used_power_Compression_HeatPump_AirWater_1_1.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_1.up = 28;
+used_power_Compression_HeatPump_AirWater_1_2.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_2.up = 28;
+used_power_Compression_HeatPump_AirWater_1_3.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_3.up = 28;
+used_power_Compression_HeatPump_AirWater_1_4.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_4.up = 28;
+used_power_Compression_HeatPump_AirWater_1_5.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_5.up = 28;
+used_power_Compression_HeatPump_AirWater_1_6.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_6.up = 28;
+used_power_Compression_HeatPump_AirWater_1_7.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_7.up = 28;
+used_power_Compression_HeatPump_AirWater_1_8.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_8.up = 28;
+used_power_Compression_HeatPump_AirWater_1_9.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_9.up = 28;
+used_power_Compression_HeatPump_AirWater_1_10.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_10.up = 28;
+used_power_Compression_HeatPump_AirWater_1_11.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_11.up = 28;
+used_power_Compression_HeatPump_AirWater_1_12.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_12.up = 28;
+used_power_Compression_HeatPump_AirWater_1_13.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_13.up = 28;
+used_power_Compression_HeatPump_AirWater_1_14.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_14.up = 28;
+used_power_Compression_HeatPump_AirWater_1_15.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_15.up = 28;
+used_power_Compression_HeatPump_AirWater_1_16.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_16.up = 28;
+used_power_Compression_HeatPump_AirWater_1_17.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_17.up = 28;
+used_power_Compression_HeatPump_AirWater_1_18.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_18.up = 28;
+used_power_Compression_HeatPump_AirWater_1_19.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_19.up = 28;
+used_power_Compression_HeatPump_AirWater_1_20.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_20.up = 28;
+used_power_Compression_HeatPump_AirWater_1_21.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_21.up = 28;
+used_power_Compression_HeatPump_AirWater_1_22.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_22.up = 28;
+used_power_Compression_HeatPump_AirWater_1_23.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_23.up = 28;
+used_power_Compression_HeatPump_AirWater_1_24.lo = 0;
+used_power_Compression_HeatPump_AirWater_1_24.up = 28;
+used_power_Compression_HeatPump_AirWater_2_1.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_1.up = 28;
+used_power_Compression_HeatPump_AirWater_2_2.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_2.up = 28;
+used_power_Compression_HeatPump_AirWater_2_3.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_3.up = 28;
+used_power_Compression_HeatPump_AirWater_2_4.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_4.up = 28;
+used_power_Compression_HeatPump_AirWater_2_5.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_5.up = 28;
+used_power_Compression_HeatPump_AirWater_2_6.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_6.up = 28;
+used_power_Compression_HeatPump_AirWater_2_7.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_7.up = 28;
+used_power_Compression_HeatPump_AirWater_2_8.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_8.up = 28;
+used_power_Compression_HeatPump_AirWater_2_9.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_9.up = 28;
+used_power_Compression_HeatPump_AirWater_2_10.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_10.up = 28;
+used_power_Compression_HeatPump_AirWater_2_11.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_11.up = 28;
+used_power_Compression_HeatPump_AirWater_2_12.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_12.up = 28;
+used_power_Compression_HeatPump_AirWater_2_13.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_13.up = 28;
+used_power_Compression_HeatPump_AirWater_2_14.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_14.up = 28;
+used_power_Compression_HeatPump_AirWater_2_15.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_15.up = 28;
+used_power_Compression_HeatPump_AirWater_2_16.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_16.up = 28;
+used_power_Compression_HeatPump_AirWater_2_17.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_17.up = 28;
+used_power_Compression_HeatPump_AirWater_2_18.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_18.up = 28;
+used_power_Compression_HeatPump_AirWater_2_19.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_19.up = 28;
+used_power_Compression_HeatPump_AirWater_2_20.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_20.up = 28;
+used_power_Compression_HeatPump_AirWater_2_21.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_21.up = 28;
+used_power_Compression_HeatPump_AirWater_2_22.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_22.up = 28;
+used_power_Compression_HeatPump_AirWater_2_23.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_23.up = 28;
+used_power_Compression_HeatPump_AirWater_2_24.lo = 0;
+used_power_Compression_HeatPump_AirWater_2_24.up = 28;
+grid_power_sold_1_1.lo = 0;
+grid_power_sold_1_1.up = 8.777742241801288;
+grid_power_sold_1_2.lo = 0;
+grid_power_sold_1_2.up = 8.777742241801288;
+grid_power_sold_1_3.lo = 0;
+grid_power_sold_1_3.up = 8.777742241801288;
+grid_power_sold_1_4.lo = 0;
+grid_power_sold_1_4.up = 8.777742241801288;
+grid_power_sold_1_5.lo = 0;
+grid_power_sold_1_5.up = 8.777742241801288;
+grid_power_sold_1_6.lo = 0;
+grid_power_sold_1_6.up = 8.777742241801288;
+grid_power_sold_1_7.lo = 0;
+grid_power_sold_1_7.up = 8.777742241801288;
+grid_power_sold_1_8.lo = 0;
+grid_power_sold_1_8.up = 8.777742241801288;
+grid_power_sold_1_9.lo = 0;
+grid_power_sold_1_9.up = 8.777742241801288;
+grid_power_sold_1_10.lo = 0;
+grid_power_sold_1_10.up = 8.777742241801288;
+grid_power_sold_1_11.lo = 0;
+grid_power_sold_1_11.up = 8.777742241801288;
+grid_power_sold_1_12.lo = 0;
+grid_power_sold_1_12.up = 8.777742241801288;
+grid_power_sold_1_13.lo = 0;
+grid_power_sold_1_13.up = 8.777742241801288;
+grid_power_sold_1_14.lo = 0;
+grid_power_sold_1_14.up = 8.777742241801288;
+grid_power_sold_1_15.lo = 0;
+grid_power_sold_1_15.up = 8.777742241801288;
+grid_power_sold_1_16.lo = 0;
+grid_power_sold_1_16.up = 8.777742241801288;
+grid_power_sold_1_17.lo = 0;
+grid_power_sold_1_17.up = 8.777742241801288;
+grid_power_sold_1_18.lo = 0;
+grid_power_sold_1_18.up = 8.777742241801288;
+grid_power_sold_1_19.lo = 0;
+grid_power_sold_1_19.up = 8.777742241801288;
+grid_power_sold_1_20.lo = 0;
+grid_power_sold_1_20.up = 8.777742241801288;
+grid_power_sold_1_21.lo = 0;
+grid_power_sold_1_21.up = 8.777742241801288;
+grid_power_sold_1_22.lo = 0;
+grid_power_sold_1_22.up = 8.777742241801288;
+grid_power_sold_1_23.lo = 0;
+grid_power_sold_1_23.up = 8.777742241801288;
+grid_power_sold_1_24.lo = 0;
+grid_power_sold_1_24.up = 8.777742241801288;
+grid_power_sold_2_1.lo = 0;
+grid_power_sold_2_1.up = 8.777742241801288;
+grid_power_sold_2_2.lo = 0;
+grid_power_sold_2_2.up = 8.777742241801288;
+grid_power_sold_2_3.lo = 0;
+grid_power_sold_2_3.up = 8.777742241801288;
+grid_power_sold_2_4.lo = 0;
+grid_power_sold_2_4.up = 8.777742241801288;
+grid_power_sold_2_5.lo = 0;
+grid_power_sold_2_5.up = 8.777742241801288;
+grid_power_sold_2_6.lo = 0;
+grid_power_sold_2_6.up = 8.777742241801288;
+grid_power_sold_2_7.lo = 0;
+grid_power_sold_2_7.up = 8.777742241801288;
+grid_power_sold_2_8.lo = 0;
+grid_power_sold_2_8.up = 8.777742241801288;
+grid_power_sold_2_9.lo = 0;
+grid_power_sold_2_9.up = 8.777742241801288;
+grid_power_sold_2_10.lo = 0;
+grid_power_sold_2_10.up = 8.777742241801288;
+grid_power_sold_2_11.lo = 0;
+grid_power_sold_2_11.up = 8.777742241801288;
+grid_power_sold_2_12.lo = 0;
+grid_power_sold_2_12.up = 8.777742241801288;
+grid_power_sold_2_13.lo = 0;
+grid_power_sold_2_13.up = 8.777742241801288;
+grid_power_sold_2_14.lo = 0;
+grid_power_sold_2_14.up = 8.777742241801288;
+grid_power_sold_2_15.lo = 0;
+grid_power_sold_2_15.up = 8.777742241801288;
+grid_power_sold_2_16.lo = 0;
+grid_power_sold_2_16.up = 8.777742241801288;
+grid_power_sold_2_17.lo = 0;
+grid_power_sold_2_17.up = 8.777742241801288;
+grid_power_sold_2_18.lo = 0;
+grid_power_sold_2_18.up = 8.777742241801288;
+grid_power_sold_2_19.lo = 0;
+grid_power_sold_2_19.up = 8.777742241801288;
+grid_power_sold_2_20.lo = 0;
+grid_power_sold_2_20.up = 8.777742241801288;
+grid_power_sold_2_21.lo = 0;
+grid_power_sold_2_21.up = 8.777742241801288;
+grid_power_sold_2_22.lo = 0;
+grid_power_sold_2_22.up = 8.777742241801288;
+grid_power_sold_2_23.lo = 0;
+grid_power_sold_2_23.up = 8.777742241801288;
+grid_power_sold_2_24.lo = 0;
+grid_power_sold_2_24.up = 8.777742241801288;
+grid_power_bought_1_1.lo = 0;
+grid_power_bought_1_1.up = 31.88;
+grid_power_bought_1_2.lo = 0;
+grid_power_bought_1_2.up = 31.88;
+grid_power_bought_1_3.lo = 0;
+grid_power_bought_1_3.up = 31.88;
+grid_power_bought_1_4.lo = 0;
+grid_power_bought_1_4.up = 31.88;
+grid_power_bought_1_5.lo = 0;
+grid_power_bought_1_5.up = 31.88;
+grid_power_bought_1_6.lo = 0;
+grid_power_bought_1_6.up = 37.7;
+grid_power_bought_1_7.lo = 0;
+grid_power_bought_1_7.up = 37.7;
+grid_power_bought_1_8.lo = 0;
+grid_power_bought_1_8.up = 55.16;
+grid_power_bought_1_9.lo = 0;
+grid_power_bought_1_9.up = 57.1;
+grid_power_bought_1_10.lo = 0;
+grid_power_bought_1_10.up = 57.1;
+grid_power_bought_1_11.lo = 0;
+grid_power_bought_1_11.up = 57.1;
+grid_power_bought_1_12.lo = 0;
+grid_power_bought_1_12.up = 64.86;
+grid_power_bought_1_13.lo = 0;
+grid_power_bought_1_13.up = 65.67;
+grid_power_bought_1_14.lo = 0;
+grid_power_bought_1_14.up = 64.86;
+grid_power_bought_1_15.lo = 0;
+grid_power_bought_1_15.up = 66.8;
+grid_power_bought_1_16.lo = 0;
+grid_power_bought_1_16.up = 64.86;
+grid_power_bought_1_17.lo = 0;
+grid_power_bought_1_17.up = 66.02000000000001;
+grid_power_bought_1_18.lo = 0;
+grid_power_bought_1_18.up = 64.86;
+grid_power_bought_1_19.lo = 0;
+grid_power_bought_1_19.up = 51.28;
+grid_power_bought_1_20.lo = 0;
+grid_power_bought_1_20.up = 43.519999999999996;
+grid_power_bought_1_21.lo = 0;
+grid_power_bought_1_21.up = 37.7;
+grid_power_bought_1_22.lo = 0;
+grid_power_bought_1_22.up = 31.88;
+grid_power_bought_1_23.lo = 0;
+grid_power_bought_1_23.up = 31.88;
+grid_power_bought_1_24.lo = 0;
+grid_power_bought_1_24.up = 31.88;
+grid_power_bought_2_1.lo = 0;
+grid_power_bought_2_1.up = 31.88;
+grid_power_bought_2_2.lo = 0;
+grid_power_bought_2_2.up = 31.88;
+grid_power_bought_2_3.lo = 0;
+grid_power_bought_2_3.up = 31.88;
+grid_power_bought_2_4.lo = 0;
+grid_power_bought_2_4.up = 31.88;
+grid_power_bought_2_5.lo = 0;
+grid_power_bought_2_5.up = 31.88;
+grid_power_bought_2_6.lo = 0;
+grid_power_bought_2_6.up = 37.7;
+grid_power_bought_2_7.lo = 0;
+grid_power_bought_2_7.up = 37.7;
+grid_power_bought_2_8.lo = 0;
+grid_power_bought_2_8.up = 55.16;
+grid_power_bought_2_9.lo = 0;
+grid_power_bought_2_9.up = 57.1;
+grid_power_bought_2_10.lo = 0;
+grid_power_bought_2_10.up = 57.1;
+grid_power_bought_2_11.lo = 0;
+grid_power_bought_2_11.up = 57.1;
+grid_power_bought_2_12.lo = 0;
+grid_power_bought_2_12.up = 64.86;
+grid_power_bought_2_13.lo = 0;
+grid_power_bought_2_13.up = 65.67;
+grid_power_bought_2_14.lo = 0;
+grid_power_bought_2_14.up = 64.86;
+grid_power_bought_2_15.lo = 0;
+grid_power_bought_2_15.up = 66.8;
+grid_power_bought_2_16.lo = 0;
+grid_power_bought_2_16.up = 64.86;
+grid_power_bought_2_17.lo = 0;
+grid_power_bought_2_17.up = 66.02000000000001;
+grid_power_bought_2_18.lo = 0;
+grid_power_bought_2_18.up = 64.86;
+grid_power_bought_2_19.lo = 0;
+grid_power_bought_2_19.up = 51.28;
+grid_power_bought_2_20.lo = 0;
+grid_power_bought_2_20.up = 43.519999999999996;
+grid_power_bought_2_21.lo = 0;
+grid_power_bought_2_21.up = 37.7;
+grid_power_bought_2_22.lo = 0;
+grid_power_bought_2_22.up = 31.88;
+grid_power_bought_2_23.lo = 0;
+grid_power_bought_2_23.up = 31.88;
+grid_power_bought_2_24.lo = 0;
+grid_power_bought_2_24.up = 31.88;
+gen_power_FuelCell_1_1.lo = 0;
+gen_power_FuelCell_1_1.up = 8.777742241801288;
+gen_power_FuelCell_1_2.lo = 0;
+gen_power_FuelCell_1_2.up = 8.777742241801288;
+gen_power_FuelCell_1_3.lo = 0;
+gen_power_FuelCell_1_3.up = 8.777742241801288;
+gen_power_FuelCell_1_4.lo = 0;
+gen_power_FuelCell_1_4.up = 8.777742241801288;
+gen_power_FuelCell_1_5.lo = 0;
+gen_power_FuelCell_1_5.up = 8.777742241801288;
+gen_power_FuelCell_1_6.lo = 0;
+gen_power_FuelCell_1_6.up = 8.777742241801288;
+gen_power_FuelCell_1_7.lo = 0;
+gen_power_FuelCell_1_7.up = 8.777742241801288;
+gen_power_FuelCell_1_8.lo = 0;
+gen_power_FuelCell_1_8.up = 8.777742241801288;
+gen_power_FuelCell_1_9.lo = 0;
+gen_power_FuelCell_1_9.up = 8.777742241801288;
+gen_power_FuelCell_1_10.lo = 0;
+gen_power_FuelCell_1_10.up = 8.777742241801288;
+gen_power_FuelCell_1_11.lo = 0;
+gen_power_FuelCell_1_11.up = 8.777742241801288;
+gen_power_FuelCell_1_12.lo = 0;
+gen_power_FuelCell_1_12.up = 8.777742241801288;
+gen_power_FuelCell_1_13.lo = 0;
+gen_power_FuelCell_1_13.up = 8.777742241801288;
+gen_power_FuelCell_1_14.lo = 0;
+gen_power_FuelCell_1_14.up = 8.777742241801288;
+gen_power_FuelCell_1_15.lo = 0;
+gen_power_FuelCell_1_15.up = 8.777742241801288;
+gen_power_FuelCell_1_16.lo = 0;
+gen_power_FuelCell_1_16.up = 8.777742241801288;
+gen_power_FuelCell_1_17.lo = 0;
+gen_power_FuelCell_1_17.up = 8.777742241801288;
+gen_power_FuelCell_1_18.lo = 0;
+gen_power_FuelCell_1_18.up = 8.777742241801288;
+gen_power_FuelCell_1_19.lo = 0;
+gen_power_FuelCell_1_19.up = 8.777742241801288;
+gen_power_FuelCell_1_20.lo = 0;
+gen_power_FuelCell_1_20.up = 8.777742241801288;
+gen_power_FuelCell_1_21.lo = 0;
+gen_power_FuelCell_1_21.up = 8.777742241801288;
+gen_power_FuelCell_1_22.lo = 0;
+gen_power_FuelCell_1_22.up = 8.777742241801288;
+gen_power_FuelCell_1_23.lo = 0;
+gen_power_FuelCell_1_23.up = 8.777742241801288;
+gen_power_FuelCell_1_24.lo = 0;
+gen_power_FuelCell_1_24.up = 8.777742241801288;
+gen_power_FuelCell_2_1.lo = 0;
+gen_power_FuelCell_2_1.up = 8.777742241801288;
+gen_power_FuelCell_2_2.lo = 0;
+gen_power_FuelCell_2_2.up = 8.777742241801288;
+gen_power_FuelCell_2_3.lo = 0;
+gen_power_FuelCell_2_3.up = 8.777742241801288;
+gen_power_FuelCell_2_4.lo = 0;
+gen_power_FuelCell_2_4.up = 8.777742241801288;
+gen_power_FuelCell_2_5.lo = 0;
+gen_power_FuelCell_2_5.up = 8.777742241801288;
+gen_power_FuelCell_2_6.lo = 0;
+gen_power_FuelCell_2_6.up = 8.777742241801288;
+gen_power_FuelCell_2_7.lo = 0;
+gen_power_FuelCell_2_7.up = 8.777742241801288;
+gen_power_FuelCell_2_8.lo = 0;
+gen_power_FuelCell_2_8.up = 8.777742241801288;
+gen_power_FuelCell_2_9.lo = 0;
+gen_power_FuelCell_2_9.up = 8.777742241801288;
+gen_power_FuelCell_2_10.lo = 0;
+gen_power_FuelCell_2_10.up = 8.777742241801288;
+gen_power_FuelCell_2_11.lo = 0;
+gen_power_FuelCell_2_11.up = 8.777742241801288;
+gen_power_FuelCell_2_12.lo = 0;
+gen_power_FuelCell_2_12.up = 8.777742241801288;
+gen_power_FuelCell_2_13.lo = 0;
+gen_power_FuelCell_2_13.up = 8.777742241801288;
+gen_power_FuelCell_2_14.lo = 0;
+gen_power_FuelCell_2_14.up = 8.777742241801288;
+gen_power_FuelCell_2_15.lo = 0;
+gen_power_FuelCell_2_15.up = 8.777742241801288;
+gen_power_FuelCell_2_16.lo = 0;
+gen_power_FuelCell_2_16.up = 8.777742241801288;
+gen_power_FuelCell_2_17.lo = 0;
+gen_power_FuelCell_2_17.up = 8.777742241801288;
+gen_power_FuelCell_2_18.lo = 0;
+gen_power_FuelCell_2_18.up = 8.777742241801288;
+gen_power_FuelCell_2_19.lo = 0;
+gen_power_FuelCell_2_19.up = 8.777742241801288;
+gen_power_FuelCell_2_20.lo = 0;
+gen_power_FuelCell_2_20.up = 8.777742241801288;
+gen_power_FuelCell_2_21.lo = 0;
+gen_power_FuelCell_2_21.up = 8.777742241801288;
+gen_power_FuelCell_2_22.lo = 0;
+gen_power_FuelCell_2_22.up = 8.777742241801288;
+gen_power_FuelCell_2_23.lo = 0;
+gen_power_FuelCell_2_23.up = 8.777742241801288;
+gen_power_FuelCell_2_24.lo = 0;
+gen_power_FuelCell_2_24.up = 8.777742241801288;
+gen_high_AuxiliaryBoilerHT_1_1.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_1.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_2.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_2.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_3.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_3.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_4.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_4.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_5.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_5.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_6.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_6.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_7.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_7.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_8.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_8.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_9.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_9.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_10.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_10.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_11.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_11.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_12.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_12.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_13.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_13.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_14.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_14.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_15.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_15.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_16.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_16.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_17.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_17.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_18.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_18.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_19.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_19.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_20.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_20.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_21.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_21.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_22.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_22.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_23.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_23.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_1_24.lo = 0;
+gen_high_AuxiliaryBoilerHT_1_24.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_1.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_1.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_2.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_2.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_3.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_3.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_4.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_4.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_5.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_5.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_6.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_6.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_7.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_7.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_8.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_8.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_9.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_9.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_10.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_10.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_11.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_11.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_12.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_12.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_13.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_13.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_14.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_14.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_15.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_15.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_16.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_16.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_17.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_17.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_18.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_18.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_19.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_19.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_20.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_20.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_21.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_21.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_22.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_22.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_23.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_23.up = 69.79201726776702;
+gen_high_AuxiliaryBoilerHT_2_24.lo = 0;
+gen_high_AuxiliaryBoilerHT_2_24.up = 69.79201726776702;
+gen_high_FuelCell_1_1.lo = 0;
+gen_high_FuelCell_1_1.up = 17.41183960761734;
+gen_high_FuelCell_1_2.lo = 0;
+gen_high_FuelCell_1_2.up = 17.41183960761734;
+gen_high_FuelCell_1_3.lo = 0;
+gen_high_FuelCell_1_3.up = 17.41183960761734;
+gen_high_FuelCell_1_4.lo = 0;
+gen_high_FuelCell_1_4.up = 17.41183960761734;
+gen_high_FuelCell_1_5.lo = 0;
+gen_high_FuelCell_1_5.up = 17.41183960761734;
+gen_high_FuelCell_1_6.lo = 0;
+gen_high_FuelCell_1_6.up = 17.41183960761734;
+gen_high_FuelCell_1_7.lo = 0;
+gen_high_FuelCell_1_7.up = 17.41183960761734;
+gen_high_FuelCell_1_8.lo = 0;
+gen_high_FuelCell_1_8.up = 17.41183960761734;
+gen_high_FuelCell_1_9.lo = 0;
+gen_high_FuelCell_1_9.up = 17.41183960761734;
+gen_high_FuelCell_1_10.lo = 0;
+gen_high_FuelCell_1_10.up = 17.41183960761734;
+gen_high_FuelCell_1_11.lo = 0;
+gen_high_FuelCell_1_11.up = 17.41183960761734;
+gen_high_FuelCell_1_12.lo = 0;
+gen_high_FuelCell_1_12.up = 17.41183960761734;
+gen_high_FuelCell_1_13.lo = 0;
+gen_high_FuelCell_1_13.up = 17.41183960761734;
+gen_high_FuelCell_1_14.lo = 0;
+gen_high_FuelCell_1_14.up = 17.41183960761734;
+gen_high_FuelCell_1_15.lo = 0;
+gen_high_FuelCell_1_15.up = 17.41183960761734;
+gen_high_FuelCell_1_16.lo = 0;
+gen_high_FuelCell_1_16.up = 17.41183960761734;
+gen_high_FuelCell_1_17.lo = 0;
+gen_high_FuelCell_1_17.up = 17.41183960761734;
+gen_high_FuelCell_1_18.lo = 0;
+gen_high_FuelCell_1_18.up = 17.41183960761734;
+gen_high_FuelCell_1_19.lo = 0;
+gen_high_FuelCell_1_19.up = 17.41183960761734;
+gen_high_FuelCell_1_20.lo = 0;
+gen_high_FuelCell_1_20.up = 17.41183960761734;
+gen_high_FuelCell_1_21.lo = 0;
+gen_high_FuelCell_1_21.up = 17.41183960761734;
+gen_high_FuelCell_1_22.lo = 0;
+gen_high_FuelCell_1_22.up = 17.41183960761734;
+gen_high_FuelCell_1_23.lo = 0;
+gen_high_FuelCell_1_23.up = 17.41183960761734;
+gen_high_FuelCell_1_24.lo = 0;
+gen_high_FuelCell_1_24.up = 17.41183960761734;
+gen_high_FuelCell_2_1.lo = 0;
+gen_high_FuelCell_2_1.up = 17.41183960761734;
+gen_high_FuelCell_2_2.lo = 0;
+gen_high_FuelCell_2_2.up = 17.41183960761734;
+gen_high_FuelCell_2_3.lo = 0;
+gen_high_FuelCell_2_3.up = 17.41183960761734;
+gen_high_FuelCell_2_4.lo = 0;
+gen_high_FuelCell_2_4.up = 17.41183960761734;
+gen_high_FuelCell_2_5.lo = 0;
+gen_high_FuelCell_2_5.up = 17.41183960761734;
+gen_high_FuelCell_2_6.lo = 0;
+gen_high_FuelCell_2_6.up = 17.41183960761734;
+gen_high_FuelCell_2_7.lo = 0;
+gen_high_FuelCell_2_7.up = 17.41183960761734;
+gen_high_FuelCell_2_8.lo = 0;
+gen_high_FuelCell_2_8.up = 17.41183960761734;
+gen_high_FuelCell_2_9.lo = 0;
+gen_high_FuelCell_2_9.up = 17.41183960761734;
+gen_high_FuelCell_2_10.lo = 0;
+gen_high_FuelCell_2_10.up = 17.41183960761734;
+gen_high_FuelCell_2_11.lo = 0;
+gen_high_FuelCell_2_11.up = 17.41183960761734;
+gen_high_FuelCell_2_12.lo = 0;
+gen_high_FuelCell_2_12.up = 17.41183960761734;
+gen_high_FuelCell_2_13.lo = 0;
+gen_high_FuelCell_2_13.up = 17.41183960761734;
+gen_high_FuelCell_2_14.lo = 0;
+gen_high_FuelCell_2_14.up = 17.41183960761734;
+gen_high_FuelCell_2_15.lo = 0;
+gen_high_FuelCell_2_15.up = 17.41183960761734;
+gen_high_FuelCell_2_16.lo = 0;
+gen_high_FuelCell_2_16.up = 17.41183960761734;
+gen_high_FuelCell_2_17.lo = 0;
+gen_high_FuelCell_2_17.up = 17.41183960761734;
+gen_high_FuelCell_2_18.lo = 0;
+gen_high_FuelCell_2_18.up = 17.41183960761734;
+gen_high_FuelCell_2_19.lo = 0;
+gen_high_FuelCell_2_19.up = 17.41183960761734;
+gen_high_FuelCell_2_20.lo = 0;
+gen_high_FuelCell_2_20.up = 17.41183960761734;
+gen_high_FuelCell_2_21.lo = 0;
+gen_high_FuelCell_2_21.up = 17.41183960761734;
+gen_high_FuelCell_2_22.lo = 0;
+gen_high_FuelCell_2_22.up = 17.41183960761734;
+gen_high_FuelCell_2_23.lo = 0;
+gen_high_FuelCell_2_23.up = 17.41183960761734;
+gen_high_FuelCell_2_24.lo = 0;
+gen_high_FuelCell_2_24.up = 17.41183960761734;
+gen_low_FuelCell_1_1.lo = 0;
+gen_low_FuelCell_1_1.up = 0;
+gen_low_FuelCell_1_2.lo = 0;
+gen_low_FuelCell_1_2.up = 0;
+gen_low_FuelCell_1_3.lo = 0;
+gen_low_FuelCell_1_3.up = 0;
+gen_low_FuelCell_1_4.lo = 0;
+gen_low_FuelCell_1_4.up = 0;
+gen_low_FuelCell_1_5.lo = 0;
+gen_low_FuelCell_1_5.up = 0;
+gen_low_FuelCell_1_6.lo = 0;
+gen_low_FuelCell_1_6.up = 0;
+gen_low_FuelCell_1_7.lo = 0;
+gen_low_FuelCell_1_7.up = 0;
+gen_low_FuelCell_1_8.lo = 0;
+gen_low_FuelCell_1_8.up = 0;
+gen_low_FuelCell_1_9.lo = 0;
+gen_low_FuelCell_1_9.up = 0;
+gen_low_FuelCell_1_10.lo = 0;
+gen_low_FuelCell_1_10.up = 0;
+gen_low_FuelCell_1_11.lo = 0;
+gen_low_FuelCell_1_11.up = 0;
+gen_low_FuelCell_1_12.lo = 0;
+gen_low_FuelCell_1_12.up = 0;
+gen_low_FuelCell_1_13.lo = 0;
+gen_low_FuelCell_1_13.up = 0;
+gen_low_FuelCell_1_14.lo = 0;
+gen_low_FuelCell_1_14.up = 0;
+gen_low_FuelCell_1_15.lo = 0;
+gen_low_FuelCell_1_15.up = 0;
+gen_low_FuelCell_1_16.lo = 0;
+gen_low_FuelCell_1_16.up = 0;
+gen_low_FuelCell_1_17.lo = 0;
+gen_low_FuelCell_1_17.up = 0;
+gen_low_FuelCell_1_18.lo = 0;
+gen_low_FuelCell_1_18.up = 0;
+gen_low_FuelCell_1_19.lo = 0;
+gen_low_FuelCell_1_19.up = 0;
+gen_low_FuelCell_1_20.lo = 0;
+gen_low_FuelCell_1_20.up = 0;
+gen_low_FuelCell_1_21.lo = 0;
+gen_low_FuelCell_1_21.up = 0;
+gen_low_FuelCell_1_22.lo = 0;
+gen_low_FuelCell_1_22.up = 0;
+gen_low_FuelCell_1_23.lo = 0;
+gen_low_FuelCell_1_23.up = 0;
+gen_low_FuelCell_1_24.lo = 0;
+gen_low_FuelCell_1_24.up = 0;
+gen_low_FuelCell_2_1.lo = 0;
+gen_low_FuelCell_2_1.up = 0;
+gen_low_FuelCell_2_2.lo = 0;
+gen_low_FuelCell_2_2.up = 0;
+gen_low_FuelCell_2_3.lo = 0;
+gen_low_FuelCell_2_3.up = 0;
+gen_low_FuelCell_2_4.lo = 0;
+gen_low_FuelCell_2_4.up = 0;
+gen_low_FuelCell_2_5.lo = 0;
+gen_low_FuelCell_2_5.up = 0;
+gen_low_FuelCell_2_6.lo = 0;
+gen_low_FuelCell_2_6.up = 0;
+gen_low_FuelCell_2_7.lo = 0;
+gen_low_FuelCell_2_7.up = 0;
+gen_low_FuelCell_2_8.lo = 0;
+gen_low_FuelCell_2_8.up = 0;
+gen_low_FuelCell_2_9.lo = 0;
+gen_low_FuelCell_2_9.up = 0;
+gen_low_FuelCell_2_10.lo = 0;
+gen_low_FuelCell_2_10.up = 0;
+gen_low_FuelCell_2_11.lo = 0;
+gen_low_FuelCell_2_11.up = 0;
+gen_low_FuelCell_2_12.lo = 0;
+gen_low_FuelCell_2_12.up = 0;
+gen_low_FuelCell_2_13.lo = 0;
+gen_low_FuelCell_2_13.up = 0;
+gen_low_FuelCell_2_14.lo = 0;
+gen_low_FuelCell_2_14.up = 0;
+gen_low_FuelCell_2_15.lo = 0;
+gen_low_FuelCell_2_15.up = 0;
+gen_low_FuelCell_2_16.lo = 0;
+gen_low_FuelCell_2_16.up = 0;
+gen_low_FuelCell_2_17.lo = 0;
+gen_low_FuelCell_2_17.up = 0;
+gen_low_FuelCell_2_18.lo = 0;
+gen_low_FuelCell_2_18.up = 0;
+gen_low_FuelCell_2_19.lo = 0;
+gen_low_FuelCell_2_19.up = 0;
+gen_low_FuelCell_2_20.lo = 0;
+gen_low_FuelCell_2_20.up = 0;
+gen_low_FuelCell_2_21.lo = 0;
+gen_low_FuelCell_2_21.up = 0;
+gen_low_FuelCell_2_22.lo = 0;
+gen_low_FuelCell_2_22.up = 0;
+gen_low_FuelCell_2_23.lo = 0;
+gen_low_FuelCell_2_23.up = 0;
+gen_low_FuelCell_2_24.lo = 0;
+gen_low_FuelCell_2_24.up = 0;
+gen_low_Compression_HeatPump_AirWater_1_1.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_1.up = 60.042499999999976;
+gen_low_Compression_HeatPump_AirWater_1_2.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_2.up = 59.171307999999996;
+gen_low_Compression_HeatPump_AirWater_1_3.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_3.up = 58.73571199999998;
+gen_low_Compression_HeatPump_AirWater_1_4.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_4.up = 57.86451999999999;
+gen_low_Compression_HeatPump_AirWater_1_5.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_5.up = 57.428923999999974;
+gen_low_Compression_HeatPump_AirWater_1_6.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_6.up = 56.993327999999984;
+gen_low_Compression_HeatPump_AirWater_1_7.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_7.up = 57.428923999999974;
+gen_low_Compression_HeatPump_AirWater_1_8.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_8.up = 58.30011599999998;
+gen_low_Compression_HeatPump_AirWater_1_9.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_9.up = 60.478095999999994;
+gen_low_Compression_HeatPump_AirWater_1_10.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_10.up = 64.83405599999998;
+gen_low_Compression_HeatPump_AirWater_1_11.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_11.up = 71.803592;
+gen_low_Compression_HeatPump_AirWater_1_12.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_12.up = 79.64432;
+gen_low_Compression_HeatPump_AirWater_1_13.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_13.up = 88.79183599999999;
+gen_low_Compression_HeatPump_AirWater_1_14.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_14.up = 90.969816;
+gen_low_Compression_HeatPump_AirWater_1_15.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_15.up = 84.435876;
+gen_low_Compression_HeatPump_AirWater_1_16.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_16.up = 82.69349199999998;
+gen_low_Compression_HeatPump_AirWater_1_17.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_17.up = 79.20872399999998;
+gen_low_Compression_HeatPump_AirWater_1_18.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_18.up = 73.54597599999998;
+gen_low_Compression_HeatPump_AirWater_1_19.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_19.up = 70.06120799999998;
+gen_low_Compression_HeatPump_AirWater_1_20.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_20.up = 68.31882399999999;
+gen_low_Compression_HeatPump_AirWater_1_21.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_21.up = 66.57644;
+gen_low_Compression_HeatPump_AirWater_1_22.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_22.up = 64.83405599999998;
+gen_low_Compression_HeatPump_AirWater_1_23.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_23.up = 63.527267999999985;
+gen_low_Compression_HeatPump_AirWater_1_24.lo = 0;
+gen_low_Compression_HeatPump_AirWater_1_24.up = 62.22047999999998;
+gen_low_Compression_HeatPump_AirWater_2_1.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_1.up = 60.042499999999976;
+gen_low_Compression_HeatPump_AirWater_2_2.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_2.up = 59.171307999999996;
+gen_low_Compression_HeatPump_AirWater_2_3.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_3.up = 58.73571199999998;
+gen_low_Compression_HeatPump_AirWater_2_4.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_4.up = 57.86451999999999;
+gen_low_Compression_HeatPump_AirWater_2_5.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_5.up = 57.428923999999974;
+gen_low_Compression_HeatPump_AirWater_2_6.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_6.up = 56.993327999999984;
+gen_low_Compression_HeatPump_AirWater_2_7.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_7.up = 57.428923999999974;
+gen_low_Compression_HeatPump_AirWater_2_8.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_8.up = 58.30011599999998;
+gen_low_Compression_HeatPump_AirWater_2_9.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_9.up = 60.478095999999994;
+gen_low_Compression_HeatPump_AirWater_2_10.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_10.up = 64.83405599999998;
+gen_low_Compression_HeatPump_AirWater_2_11.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_11.up = 71.803592;
+gen_low_Compression_HeatPump_AirWater_2_12.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_12.up = 79.64432;
+gen_low_Compression_HeatPump_AirWater_2_13.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_13.up = 88.79183599999999;
+gen_low_Compression_HeatPump_AirWater_2_14.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_14.up = 90.969816;
+gen_low_Compression_HeatPump_AirWater_2_15.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_15.up = 84.435876;
+gen_low_Compression_HeatPump_AirWater_2_16.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_16.up = 82.69349199999998;
+gen_low_Compression_HeatPump_AirWater_2_17.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_17.up = 79.20872399999998;
+gen_low_Compression_HeatPump_AirWater_2_18.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_18.up = 73.54597599999998;
+gen_low_Compression_HeatPump_AirWater_2_19.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_19.up = 70.06120799999998;
+gen_low_Compression_HeatPump_AirWater_2_20.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_20.up = 68.31882399999999;
+gen_low_Compression_HeatPump_AirWater_2_21.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_21.up = 66.57644;
+gen_low_Compression_HeatPump_AirWater_2_22.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_22.up = 64.83405599999998;
+gen_low_Compression_HeatPump_AirWater_2_23.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_23.up = 63.527267999999985;
+gen_low_Compression_HeatPump_AirWater_2_24.lo = 0;
+gen_low_Compression_HeatPump_AirWater_2_24.up = 62.22047999999998;
+u_low_1_1.lo = 0;
+u_low_1_1.up = 100;
+u_low_1_2.lo = 0;
+u_low_1_2.up = 100;
+u_low_1_3.lo = 0;
+u_low_1_3.up = 100;
+u_low_1_4.lo = 0;
+u_low_1_4.up = 100;
+u_low_1_5.lo = 0;
+u_low_1_5.up = 100;
+u_low_1_6.lo = 0;
+u_low_1_6.up = 100;
+u_low_1_7.lo = 0;
+u_low_1_7.up = 100;
+u_low_1_8.lo = 0;
+u_low_1_8.up = 100;
+u_low_1_9.lo = 0;
+u_low_1_9.up = 100;
+u_low_1_10.lo = 0;
+u_low_1_10.up = 100;
+u_low_1_11.lo = 0;
+u_low_1_11.up = 100;
+u_low_1_12.lo = 0;
+u_low_1_12.up = 100;
+u_low_1_13.lo = 0;
+u_low_1_13.up = 100;
+u_low_1_14.lo = 0;
+u_low_1_14.up = 100;
+u_low_1_15.lo = 0;
+u_low_1_15.up = 100;
+u_low_1_16.lo = 0;
+u_low_1_16.up = 100;
+u_low_1_17.lo = 0;
+u_low_1_17.up = 100;
+u_low_1_18.lo = 0;
+u_low_1_18.up = 100;
+u_low_1_19.lo = 0;
+u_low_1_19.up = 100;
+u_low_1_20.lo = 0;
+u_low_1_20.up = 100;
+u_low_1_21.lo = 0;
+u_low_1_21.up = 100;
+u_low_1_22.lo = 0;
+u_low_1_22.up = 100;
+u_low_1_23.lo = 0;
+u_low_1_23.up = 100;
+u_low_1_24.lo = 0;
+u_low_1_24.up = 100;
+u_low_2_1.lo = 0;
+u_low_2_1.up = 100;
+u_low_2_2.lo = 0;
+u_low_2_2.up = 100;
+u_low_2_3.lo = 0;
+u_low_2_3.up = 100;
+u_low_2_4.lo = 0;
+u_low_2_4.up = 100;
+u_low_2_5.lo = 0;
+u_low_2_5.up = 100;
+u_low_2_6.lo = 0;
+u_low_2_6.up = 100;
+u_low_2_7.lo = 0;
+u_low_2_7.up = 100;
+u_low_2_8.lo = 0;
+u_low_2_8.up = 100;
+u_low_2_9.lo = 0;
+u_low_2_9.up = 100;
+u_low_2_10.lo = 0;
+u_low_2_10.up = 100;
+u_low_2_11.lo = 0;
+u_low_2_11.up = 100;
+u_low_2_12.lo = 0;
+u_low_2_12.up = 100;
+u_low_2_13.lo = 0;
+u_low_2_13.up = 100;
+u_low_2_14.lo = 0;
+u_low_2_14.up = 100;
+u_low_2_15.lo = 0;
+u_low_2_15.up = 100;
+u_low_2_16.lo = 0;
+u_low_2_16.up = 100;
+u_low_2_17.lo = 0;
+u_low_2_17.up = 100;
+u_low_2_18.lo = 0;
+u_low_2_18.up = 100;
+u_low_2_19.lo = 0;
+u_low_2_19.up = 100;
+u_low_2_20.lo = 0;
+u_low_2_20.up = 100;
+u_low_2_21.lo = 0;
+u_low_2_21.up = 100;
+u_low_2_22.lo = 0;
+u_low_2_22.up = 100;
+u_low_2_23.lo = 0;
+u_low_2_23.up = 100;
+u_low_2_24.lo = 0;
+u_low_2_24.up = 100;
+u_high_1_1.lo = 0;
+u_high_1_1.up = 200;
+u_high_1_2.lo = 0;
+u_high_1_2.up = 200;
+u_high_1_3.lo = 0;
+u_high_1_3.up = 200;
+u_high_1_4.lo = 0;
+u_high_1_4.up = 200;
+u_high_1_5.lo = 0;
+u_high_1_5.up = 200;
+u_high_1_6.lo = 0;
+u_high_1_6.up = 200;
+u_high_1_7.lo = 0;
+u_high_1_7.up = 200;
+u_high_1_8.lo = 0;
+u_high_1_8.up = 200;
+u_high_1_9.lo = 0;
+u_high_1_9.up = 200;
+u_high_1_10.lo = 0;
+u_high_1_10.up = 200;
+u_high_1_11.lo = 0;
+u_high_1_11.up = 200;
+u_high_1_12.lo = 0;
+u_high_1_12.up = 200;
+u_high_1_13.lo = 0;
+u_high_1_13.up = 200;
+u_high_1_14.lo = 0;
+u_high_1_14.up = 200;
+u_high_1_15.lo = 0;
+u_high_1_15.up = 200;
+u_high_1_16.lo = 0;
+u_high_1_16.up = 200;
+u_high_1_17.lo = 0;
+u_high_1_17.up = 200;
+u_high_1_18.lo = 0;
+u_high_1_18.up = 200;
+u_high_1_19.lo = 0;
+u_high_1_19.up = 200;
+u_high_1_20.lo = 0;
+u_high_1_20.up = 200;
+u_high_1_21.lo = 0;
+u_high_1_21.up = 200;
+u_high_1_22.lo = 0;
+u_high_1_22.up = 200;
+u_high_1_23.lo = 0;
+u_high_1_23.up = 200;
+u_high_1_24.lo = 0;
+u_high_1_24.up = 200;
+u_high_2_1.lo = 0;
+u_high_2_1.up = 200;
+u_high_2_2.lo = 0;
+u_high_2_2.up = 200;
+u_high_2_3.lo = 0;
+u_high_2_3.up = 200;
+u_high_2_4.lo = 0;
+u_high_2_4.up = 200;
+u_high_2_5.lo = 0;
+u_high_2_5.up = 200;
+u_high_2_6.lo = 0;
+u_high_2_6.up = 200;
+u_high_2_7.lo = 0;
+u_high_2_7.up = 200;
+u_high_2_8.lo = 0;
+u_high_2_8.up = 200;
+u_high_2_9.lo = 0;
+u_high_2_9.up = 200;
+u_high_2_10.lo = 0;
+u_high_2_10.up = 200;
+u_high_2_11.lo = 0;
+u_high_2_11.up = 200;
+u_high_2_12.lo = 0;
+u_high_2_12.up = 200;
+u_high_2_13.lo = 0;
+u_high_2_13.up = 200;
+u_high_2_14.lo = 0;
+u_high_2_14.up = 200;
+u_high_2_15.lo = 0;
+u_high_2_15.up = 200;
+u_high_2_16.lo = 0;
+u_high_2_16.up = 200;
+u_high_2_17.lo = 0;
+u_high_2_17.up = 200;
+u_high_2_18.lo = 0;
+u_high_2_18.up = 200;
+u_high_2_19.lo = 0;
+u_high_2_19.up = 200;
+u_high_2_20.lo = 0;
+u_high_2_20.up = 200;
+u_high_2_21.lo = 0;
+u_high_2_21.up = 200;
+u_high_2_22.lo = 0;
+u_high_2_22.up = 200;
+u_high_2_23.lo = 0;
+u_high_2_23.up = 200;
+u_high_2_24.lo = 0;
+u_high_2_24.up = 200;
+u_cold_1_1.lo = 0;
+u_cold_1_1.up = 0;
+u_cold_1_2.lo = 0;
+u_cold_1_2.up = 0;
+u_cold_1_3.lo = 0;
+u_cold_1_3.up = 0;
+u_cold_1_4.lo = 0;
+u_cold_1_4.up = 0;
+u_cold_1_5.lo = 0;
+u_cold_1_5.up = 0;
+u_cold_1_6.lo = 0;
+u_cold_1_6.up = 0;
+u_cold_1_7.lo = 0;
+u_cold_1_7.up = 0;
+u_cold_1_8.lo = 0;
+u_cold_1_8.up = 0;
+u_cold_1_9.lo = 0;
+u_cold_1_9.up = 0;
+u_cold_1_10.lo = 0;
+u_cold_1_10.up = 0;
+u_cold_1_11.lo = 0;
+u_cold_1_11.up = 0;
+u_cold_1_12.lo = 0;
+u_cold_1_12.up = 0;
+u_cold_1_13.lo = 0;
+u_cold_1_13.up = 0;
+u_cold_1_14.lo = 0;
+u_cold_1_14.up = 0;
+u_cold_1_15.lo = 0;
+u_cold_1_15.up = 0;
+u_cold_1_16.lo = 0;
+u_cold_1_16.up = 0;
+u_cold_1_17.lo = 0;
+u_cold_1_17.up = 0;
+u_cold_1_18.lo = 0;
+u_cold_1_18.up = 0;
+u_cold_1_19.lo = 0;
+u_cold_1_19.up = 0;
+u_cold_1_20.lo = 0;
+u_cold_1_20.up = 0;
+u_cold_1_21.lo = 0;
+u_cold_1_21.up = 0;
+u_cold_1_22.lo = 0;
+u_cold_1_22.up = 0;
+u_cold_1_23.lo = 0;
+u_cold_1_23.up = 0;
+u_cold_1_24.lo = 0;
+u_cold_1_24.up = 0;
+u_cold_2_1.lo = 0;
+u_cold_2_1.up = 0;
+u_cold_2_2.lo = 0;
+u_cold_2_2.up = 0;
+u_cold_2_3.lo = 0;
+u_cold_2_3.up = 0;
+u_cold_2_4.lo = 0;
+u_cold_2_4.up = 0;
+u_cold_2_5.lo = 0;
+u_cold_2_5.up = 0;
+u_cold_2_6.lo = 0;
+u_cold_2_6.up = 0;
+u_cold_2_7.lo = 0;
+u_cold_2_7.up = 0;
+u_cold_2_8.lo = 0;
+u_cold_2_8.up = 0;
+u_cold_2_9.lo = 0;
+u_cold_2_9.up = 0;
+u_cold_2_10.lo = 0;
+u_cold_2_10.up = 0;
+u_cold_2_11.lo = 0;
+u_cold_2_11.up = 0;
+u_cold_2_12.lo = 0;
+u_cold_2_12.up = 0;
+u_cold_2_13.lo = 0;
+u_cold_2_13.up = 0;
+u_cold_2_14.lo = 0;
+u_cold_2_14.up = 0;
+u_cold_2_15.lo = 0;
+u_cold_2_15.up = 0;
+u_cold_2_16.lo = 0;
+u_cold_2_16.up = 0;
+u_cold_2_17.lo = 0;
+u_cold_2_17.up = 0;
+u_cold_2_18.lo = 0;
+u_cold_2_18.up = 0;
+u_cold_2_19.lo = 0;
+u_cold_2_19.up = 0;
+u_cold_2_20.lo = 0;
+u_cold_2_20.up = 0;
+u_cold_2_21.lo = 0;
+u_cold_2_21.up = 0;
+u_cold_2_22.lo = 0;
+u_cold_2_22.up = 0;
+u_cold_2_23.lo = 0;
+u_cold_2_23.up = 0;
+u_cold_2_24.lo = 0;
+u_cold_2_24.up = 0;
+downgraded_1_1.lo = 0;
+downgraded_1_1.up = 87.20385687538436;
+downgraded_1_2.lo = 0;
+downgraded_1_2.up = 87.20385687538436;
+downgraded_1_3.lo = 0;
+downgraded_1_3.up = 87.20385687538436;
+downgraded_1_4.lo = 0;
+downgraded_1_4.up = 87.20385687538436;
+downgraded_1_5.lo = 0;
+downgraded_1_5.up = 87.20385687538436;
+downgraded_1_6.lo = 0;
+downgraded_1_6.up = 87.20385687538436;
+downgraded_1_7.lo = 0;
+downgraded_1_7.up = 87.20385687538436;
+downgraded_1_8.lo = 0;
+downgraded_1_8.up = 87.20385687538436;
+downgraded_1_9.lo = 0;
+downgraded_1_9.up = 87.20385687538436;
+downgraded_1_10.lo = 0;
+downgraded_1_10.up = 87.20385687538436;
+downgraded_1_11.lo = 0;
+downgraded_1_11.up = 87.20385687538436;
+downgraded_1_12.lo = 0;
+downgraded_1_12.up = 87.20385687538436;
+downgraded_1_13.lo = 0;
+downgraded_1_13.up = 87.20385687538436;
+downgraded_1_14.lo = 0;
+downgraded_1_14.up = 87.20385687538436;
+downgraded_1_15.lo = 0;
+downgraded_1_15.up = 87.20385687538436;
+downgraded_1_16.lo = 0;
+downgraded_1_16.up = 87.20385687538436;
+downgraded_1_17.lo = 0;
+downgraded_1_17.up = 87.20385687538436;
+downgraded_1_18.lo = 0;
+downgraded_1_18.up = 87.20385687538436;
+downgraded_1_19.lo = 0;
+downgraded_1_19.up = 87.20385687538436;
+downgraded_1_20.lo = 0;
+downgraded_1_20.up = 87.20385687538436;
+downgraded_1_21.lo = 0;
+downgraded_1_21.up = 87.20385687538436;
+downgraded_1_22.lo = 0;
+downgraded_1_22.up = 87.20385687538436;
+downgraded_1_23.lo = 0;
+downgraded_1_23.up = 87.20385687538436;
+downgraded_1_24.lo = 0;
+downgraded_1_24.up = 87.20385687538436;
+downgraded_2_1.lo = 0;
+downgraded_2_1.up = 87.20385687538436;
+downgraded_2_2.lo = 0;
+downgraded_2_2.up = 87.20385687538436;
+downgraded_2_3.lo = 0;
+downgraded_2_3.up = 87.20385687538436;
+downgraded_2_4.lo = 0;
+downgraded_2_4.up = 87.20385687538436;
+downgraded_2_5.lo = 0;
+downgraded_2_5.up = 87.20385687538436;
+downgraded_2_6.lo = 0;
+downgraded_2_6.up = 87.20385687538436;
+downgraded_2_7.lo = 0;
+downgraded_2_7.up = 87.20385687538436;
+downgraded_2_8.lo = 0;
+downgraded_2_8.up = 87.20385687538436;
+downgraded_2_9.lo = 0;
+downgraded_2_9.up = 87.20385687538436;
+downgraded_2_10.lo = 0;
+downgraded_2_10.up = 87.20385687538436;
+downgraded_2_11.lo = 0;
+downgraded_2_11.up = 87.20385687538436;
+downgraded_2_12.lo = 0;
+downgraded_2_12.up = 87.20385687538436;
+downgraded_2_13.lo = 0;
+downgraded_2_13.up = 87.20385687538436;
+downgraded_2_14.lo = 0;
+downgraded_2_14.up = 87.20385687538436;
+downgraded_2_15.lo = 0;
+downgraded_2_15.up = 87.20385687538436;
+downgraded_2_16.lo = 0;
+downgraded_2_16.up = 87.20385687538436;
+downgraded_2_17.lo = 0;
+downgraded_2_17.up = 87.20385687538436;
+downgraded_2_18.lo = 0;
+downgraded_2_18.up = 87.20385687538436;
+downgraded_2_19.lo = 0;
+downgraded_2_19.up = 87.20385687538436;
+downgraded_2_20.lo = 0;
+downgraded_2_20.up = 87.20385687538436;
+downgraded_2_21.lo = 0;
+downgraded_2_21.up = 87.20385687538436;
+downgraded_2_22.lo = 0;
+downgraded_2_22.up = 87.20385687538436;
+downgraded_2_23.lo = 0;
+downgraded_2_23.up = 87.20385687538436;
+downgraded_2_24.lo = 0;
+downgraded_2_24.up = 87.20385687538436;
+delta_FuelCell_1_1.lo = 0;
+delta_FuelCell_1_1.up = 1;
+delta_FuelCell_1_2.lo = 0;
+delta_FuelCell_1_2.up = 1;
+delta_FuelCell_1_3.lo = 0;
+delta_FuelCell_1_3.up = 1;
+delta_FuelCell_1_4.lo = 0;
+delta_FuelCell_1_4.up = 1;
+delta_FuelCell_1_5.lo = 0;
+delta_FuelCell_1_5.up = 1;
+delta_FuelCell_1_6.lo = 0;
+delta_FuelCell_1_6.up = 1;
+delta_FuelCell_1_7.lo = 0;
+delta_FuelCell_1_7.up = 1;
+delta_FuelCell_1_8.lo = 0;
+delta_FuelCell_1_8.up = 1;
+delta_FuelCell_1_9.lo = 0;
+delta_FuelCell_1_9.up = 1;
+delta_FuelCell_1_10.lo = 0;
+delta_FuelCell_1_10.up = 1;
+delta_FuelCell_1_11.lo = 0;
+delta_FuelCell_1_11.up = 1;
+delta_FuelCell_1_12.lo = 0;
+delta_FuelCell_1_12.up = 1;
+delta_FuelCell_1_13.lo = 0;
+delta_FuelCell_1_13.up = 1;
+delta_FuelCell_1_14.lo = 0;
+delta_FuelCell_1_14.up = 1;
+delta_FuelCell_1_15.lo = 0;
+delta_FuelCell_1_15.up = 1;
+delta_FuelCell_1_16.lo = 0;
+delta_FuelCell_1_16.up = 1;
+delta_FuelCell_1_17.lo = 0;
+delta_FuelCell_1_17.up = 1;
+delta_FuelCell_1_18.lo = 0;
+delta_FuelCell_1_18.up = 1;
+delta_FuelCell_1_19.lo = 0;
+delta_FuelCell_1_19.up = 1;
+delta_FuelCell_1_20.lo = 0;
+delta_FuelCell_1_20.up = 1;
+delta_FuelCell_1_21.lo = 0;
+delta_FuelCell_1_21.up = 1;
+delta_FuelCell_1_22.lo = 0;
+delta_FuelCell_1_22.up = 1;
+delta_FuelCell_1_23.lo = 0;
+delta_FuelCell_1_23.up = 1;
+delta_FuelCell_1_24.lo = 0;
+delta_FuelCell_1_24.up = 1;
+delta_FuelCell_2_1.lo = 0;
+delta_FuelCell_2_1.up = 1;
+delta_FuelCell_2_2.lo = 0;
+delta_FuelCell_2_2.up = 1;
+delta_FuelCell_2_3.lo = 0;
+delta_FuelCell_2_3.up = 1;
+delta_FuelCell_2_4.lo = 0;
+delta_FuelCell_2_4.up = 1;
+delta_FuelCell_2_5.lo = 0;
+delta_FuelCell_2_5.up = 1;
+delta_FuelCell_2_6.lo = 0;
+delta_FuelCell_2_6.up = 1;
+delta_FuelCell_2_7.lo = 0;
+delta_FuelCell_2_7.up = 1;
+delta_FuelCell_2_8.lo = 0;
+delta_FuelCell_2_8.up = 1;
+delta_FuelCell_2_9.lo = 0;
+delta_FuelCell_2_9.up = 1;
+delta_FuelCell_2_10.lo = 0;
+delta_FuelCell_2_10.up = 1;
+delta_FuelCell_2_11.lo = 0;
+delta_FuelCell_2_11.up = 1;
+delta_FuelCell_2_12.lo = 0;
+delta_FuelCell_2_12.up = 1;
+delta_FuelCell_2_13.lo = 0;
+delta_FuelCell_2_13.up = 1;
+delta_FuelCell_2_14.lo = 0;
+delta_FuelCell_2_14.up = 1;
+delta_FuelCell_2_15.lo = 0;
+delta_FuelCell_2_15.up = 1;
+delta_FuelCell_2_16.lo = 0;
+delta_FuelCell_2_16.up = 1;
+delta_FuelCell_2_17.lo = 0;
+delta_FuelCell_2_17.up = 1;
+delta_FuelCell_2_18.lo = 0;
+delta_FuelCell_2_18.up = 1;
+delta_FuelCell_2_19.lo = 0;
+delta_FuelCell_2_19.up = 1;
+delta_FuelCell_2_20.lo = 0;
+delta_FuelCell_2_20.up = 1;
+delta_FuelCell_2_21.lo = 0;
+delta_FuelCell_2_21.up = 1;
+delta_FuelCell_2_22.lo = 0;
+delta_FuelCell_2_22.up = 1;
+delta_FuelCell_2_23.lo = 0;
+delta_FuelCell_2_23.up = 1;
+delta_FuelCell_2_24.lo = 0;
+delta_FuelCell_2_24.up = 1;
+delta_AuxiliaryBoilerHT_1_1.lo = 0;
+delta_AuxiliaryBoilerHT_1_1.up = 1;
+delta_AuxiliaryBoilerHT_1_2.lo = 0;
+delta_AuxiliaryBoilerHT_1_2.up = 1;
+delta_AuxiliaryBoilerHT_1_3.lo = 0;
+delta_AuxiliaryBoilerHT_1_3.up = 1;
+delta_AuxiliaryBoilerHT_1_4.lo = 0;
+delta_AuxiliaryBoilerHT_1_4.up = 1;
+delta_AuxiliaryBoilerHT_1_5.lo = 0;
+delta_AuxiliaryBoilerHT_1_5.up = 1;
+delta_AuxiliaryBoilerHT_1_6.lo = 0;
+delta_AuxiliaryBoilerHT_1_6.up = 1;
+delta_AuxiliaryBoilerHT_1_7.lo = 0;
+delta_AuxiliaryBoilerHT_1_7.up = 1;
+delta_AuxiliaryBoilerHT_1_8.lo = 0;
+delta_AuxiliaryBoilerHT_1_8.up = 1;
+delta_AuxiliaryBoilerHT_1_9.lo = 0;
+delta_AuxiliaryBoilerHT_1_9.up = 1;
+delta_AuxiliaryBoilerHT_1_10.lo = 0;
+delta_AuxiliaryBoilerHT_1_10.up = 1;
+delta_AuxiliaryBoilerHT_1_11.lo = 0;
+delta_AuxiliaryBoilerHT_1_11.up = 1;
+delta_AuxiliaryBoilerHT_1_12.lo = 0;
+delta_AuxiliaryBoilerHT_1_12.up = 1;
+delta_AuxiliaryBoilerHT_1_13.lo = 0;
+delta_AuxiliaryBoilerHT_1_13.up = 1;
+delta_AuxiliaryBoilerHT_1_14.lo = 0;
+delta_AuxiliaryBoilerHT_1_14.up = 1;
+delta_AuxiliaryBoilerHT_1_15.lo = 0;
+delta_AuxiliaryBoilerHT_1_15.up = 1;
+delta_AuxiliaryBoilerHT_1_16.lo = 0;
+delta_AuxiliaryBoilerHT_1_16.up = 1;
+delta_AuxiliaryBoilerHT_1_17.lo = 0;
+delta_AuxiliaryBoilerHT_1_17.up = 1;
+delta_AuxiliaryBoilerHT_1_18.lo = 0;
+delta_AuxiliaryBoilerHT_1_18.up = 1;
+delta_AuxiliaryBoilerHT_1_19.lo = 0;
+delta_AuxiliaryBoilerHT_1_19.up = 1;
+delta_AuxiliaryBoilerHT_1_20.lo = 0;
+delta_AuxiliaryBoilerHT_1_20.up = 1;
+delta_AuxiliaryBoilerHT_1_21.lo = 0;
+delta_AuxiliaryBoilerHT_1_21.up = 1;
+delta_AuxiliaryBoilerHT_1_22.lo = 0;
+delta_AuxiliaryBoilerHT_1_22.up = 1;
+delta_AuxiliaryBoilerHT_1_23.lo = 0;
+delta_AuxiliaryBoilerHT_1_23.up = 1;
+delta_AuxiliaryBoilerHT_1_24.lo = 0;
+delta_AuxiliaryBoilerHT_1_24.up = 1;
+delta_AuxiliaryBoilerHT_2_1.lo = 0;
+delta_AuxiliaryBoilerHT_2_1.up = 1;
+delta_AuxiliaryBoilerHT_2_2.lo = 0;
+delta_AuxiliaryBoilerHT_2_2.up = 1;
+delta_AuxiliaryBoilerHT_2_3.lo = 0;
+delta_AuxiliaryBoilerHT_2_3.up = 1;
+delta_AuxiliaryBoilerHT_2_4.lo = 0;
+delta_AuxiliaryBoilerHT_2_4.up = 1;
+delta_AuxiliaryBoilerHT_2_5.lo = 0;
+delta_AuxiliaryBoilerHT_2_5.up = 1;
+delta_AuxiliaryBoilerHT_2_6.lo = 0;
+delta_AuxiliaryBoilerHT_2_6.up = 1;
+delta_AuxiliaryBoilerHT_2_7.lo = 0;
+delta_AuxiliaryBoilerHT_2_7.up = 1;
+delta_AuxiliaryBoilerHT_2_8.lo = 0;
+delta_AuxiliaryBoilerHT_2_8.up = 1;
+delta_AuxiliaryBoilerHT_2_9.lo = 0;
+delta_AuxiliaryBoilerHT_2_9.up = 1;
+delta_AuxiliaryBoilerHT_2_10.lo = 0;
+delta_AuxiliaryBoilerHT_2_10.up = 1;
+delta_AuxiliaryBoilerHT_2_11.lo = 0;
+delta_AuxiliaryBoilerHT_2_11.up = 1;
+delta_AuxiliaryBoilerHT_2_12.lo = 0;
+delta_AuxiliaryBoilerHT_2_12.up = 1;
+delta_AuxiliaryBoilerHT_2_13.lo = 0;
+delta_AuxiliaryBoilerHT_2_13.up = 1;
+delta_AuxiliaryBoilerHT_2_14.lo = 0;
+delta_AuxiliaryBoilerHT_2_14.up = 1;
+delta_AuxiliaryBoilerHT_2_15.lo = 0;
+delta_AuxiliaryBoilerHT_2_15.up = 1;
+delta_AuxiliaryBoilerHT_2_16.lo = 0;
+delta_AuxiliaryBoilerHT_2_16.up = 1;
+delta_AuxiliaryBoilerHT_2_17.lo = 0;
+delta_AuxiliaryBoilerHT_2_17.up = 1;
+delta_AuxiliaryBoilerHT_2_18.lo = 0;
+delta_AuxiliaryBoilerHT_2_18.up = 1;
+delta_AuxiliaryBoilerHT_2_19.lo = 0;
+delta_AuxiliaryBoilerHT_2_19.up = 1;
+delta_AuxiliaryBoilerHT_2_20.lo = 0;
+delta_AuxiliaryBoilerHT_2_20.up = 1;
+delta_AuxiliaryBoilerHT_2_21.lo = 0;
+delta_AuxiliaryBoilerHT_2_21.up = 1;
+delta_AuxiliaryBoilerHT_2_22.lo = 0;
+delta_AuxiliaryBoilerHT_2_22.up = 1;
+delta_AuxiliaryBoilerHT_2_23.lo = 0;
+delta_AuxiliaryBoilerHT_2_23.up = 1;
+delta_AuxiliaryBoilerHT_2_24.lo = 0;
+delta_AuxiliaryBoilerHT_2_24.up = 1;
+delta_Compression_HeatPump_AirWater_1_1.lo = 0;
+delta_Compression_HeatPump_AirWater_1_1.up = 1;
+delta_Compression_HeatPump_AirWater_1_2.lo = 0;
+delta_Compression_HeatPump_AirWater_1_2.up = 1;
+delta_Compression_HeatPump_AirWater_1_3.lo = 0;
+delta_Compression_HeatPump_AirWater_1_3.up = 1;
+delta_Compression_HeatPump_AirWater_1_4.lo = 0;
+delta_Compression_HeatPump_AirWater_1_4.up = 1;
+delta_Compression_HeatPump_AirWater_1_5.lo = 0;
+delta_Compression_HeatPump_AirWater_1_5.up = 1;
+delta_Compression_HeatPump_AirWater_1_6.lo = 0;
+delta_Compression_HeatPump_AirWater_1_6.up = 1;
+delta_Compression_HeatPump_AirWater_1_7.lo = 0;
+delta_Compression_HeatPump_AirWater_1_7.up = 1;
+delta_Compression_HeatPump_AirWater_1_8.lo = 0;
+delta_Compression_HeatPump_AirWater_1_8.up = 1;
+delta_Compression_HeatPump_AirWater_1_9.lo = 0;
+delta_Compression_HeatPump_AirWater_1_9.up = 1;
+delta_Compression_HeatPump_AirWater_1_10.lo = 0;
+delta_Compression_HeatPump_AirWater_1_10.up = 1;
+delta_Compression_HeatPump_AirWater_1_11.lo = 0;
+delta_Compression_HeatPump_AirWater_1_11.up = 1;
+delta_Compression_HeatPump_AirWater_1_12.lo = 0;
+delta_Compression_HeatPump_AirWater_1_12.up = 1;
+delta_Compression_HeatPump_AirWater_1_13.lo = 0;
+delta_Compression_HeatPump_AirWater_1_13.up = 1;
+delta_Compression_HeatPump_AirWater_1_14.lo = 0;
+delta_Compression_HeatPump_AirWater_1_14.up = 1;
+delta_Compression_HeatPump_AirWater_1_15.lo = 0;
+delta_Compression_HeatPump_AirWater_1_15.up = 1;
+delta_Compression_HeatPump_AirWater_1_16.lo = 0;
+delta_Compression_HeatPump_AirWater_1_16.up = 1;
+delta_Compression_HeatPump_AirWater_1_17.lo = 0;
+delta_Compression_HeatPump_AirWater_1_17.up = 1;
+delta_Compression_HeatPump_AirWater_1_18.lo = 0;
+delta_Compression_HeatPump_AirWater_1_18.up = 1;
+delta_Compression_HeatPump_AirWater_1_19.lo = 0;
+delta_Compression_HeatPump_AirWater_1_19.up = 1;
+delta_Compression_HeatPump_AirWater_1_20.lo = 0;
+delta_Compression_HeatPump_AirWater_1_20.up = 1;
+delta_Compression_HeatPump_AirWater_1_21.lo = 0;
+delta_Compression_HeatPump_AirWater_1_21.up = 1;
+delta_Compression_HeatPump_AirWater_1_22.lo = 0;
+delta_Compression_HeatPump_AirWater_1_22.up = 1;
+delta_Compression_HeatPump_AirWater_1_23.lo = 0;
+delta_Compression_HeatPump_AirWater_1_23.up = 1;
+delta_Compression_HeatPump_AirWater_1_24.lo = 0;
+delta_Compression_HeatPump_AirWater_1_24.up = 1;
+delta_Compression_HeatPump_AirWater_2_1.lo = 0;
+delta_Compression_HeatPump_AirWater_2_1.up = 1;
+delta_Compression_HeatPump_AirWater_2_2.lo = 0;
+delta_Compression_HeatPump_AirWater_2_2.up = 1;
+delta_Compression_HeatPump_AirWater_2_3.lo = 0;
+delta_Compression_HeatPump_AirWater_2_3.up = 1;
+delta_Compression_HeatPump_AirWater_2_4.lo = 0;
+delta_Compression_HeatPump_AirWater_2_4.up = 1;
+delta_Compression_HeatPump_AirWater_2_5.lo = 0;
+delta_Compression_HeatPump_AirWater_2_5.up = 1;
+delta_Compression_HeatPump_AirWater_2_6.lo = 0;
+delta_Compression_HeatPump_AirWater_2_6.up = 1;
+delta_Compression_HeatPump_AirWater_2_7.lo = 0;
+delta_Compression_HeatPump_AirWater_2_7.up = 1;
+delta_Compression_HeatPump_AirWater_2_8.lo = 0;
+delta_Compression_HeatPump_AirWater_2_8.up = 1;
+delta_Compression_HeatPump_AirWater_2_9.lo = 0;
+delta_Compression_HeatPump_AirWater_2_9.up = 1;
+delta_Compression_HeatPump_AirWater_2_10.lo = 0;
+delta_Compression_HeatPump_AirWater_2_10.up = 1;
+delta_Compression_HeatPump_AirWater_2_11.lo = 0;
+delta_Compression_HeatPump_AirWater_2_11.up = 1;
+delta_Compression_HeatPump_AirWater_2_12.lo = 0;
+delta_Compression_HeatPump_AirWater_2_12.up = 1;
+delta_Compression_HeatPump_AirWater_2_13.lo = 0;
+delta_Compression_HeatPump_AirWater_2_13.up = 1;
+delta_Compression_HeatPump_AirWater_2_14.lo = 0;
+delta_Compression_HeatPump_AirWater_2_14.up = 1;
+delta_Compression_HeatPump_AirWater_2_15.lo = 0;
+delta_Compression_HeatPump_AirWater_2_15.up = 1;
+delta_Compression_HeatPump_AirWater_2_16.lo = 0;
+delta_Compression_HeatPump_AirWater_2_16.up = 1;
+delta_Compression_HeatPump_AirWater_2_17.lo = 0;
+delta_Compression_HeatPump_AirWater_2_17.up = 1;
+delta_Compression_HeatPump_AirWater_2_18.lo = 0;
+delta_Compression_HeatPump_AirWater_2_18.up = 1;
+delta_Compression_HeatPump_AirWater_2_19.lo = 0;
+delta_Compression_HeatPump_AirWater_2_19.up = 1;
+delta_Compression_HeatPump_AirWater_2_20.lo = 0;
+delta_Compression_HeatPump_AirWater_2_20.up = 1;
+delta_Compression_HeatPump_AirWater_2_21.lo = 0;
+delta_Compression_HeatPump_AirWater_2_21.up = 1;
+delta_Compression_HeatPump_AirWater_2_22.lo = 0;
+delta_Compression_HeatPump_AirWater_2_22.up = 1;
+delta_Compression_HeatPump_AirWater_2_23.lo = 0;
+delta_Compression_HeatPump_AirWater_2_23.up = 1;
+delta_Compression_HeatPump_AirWater_2_24.lo = 0;
+delta_Compression_HeatPump_AirWater_2_24.up = 1;
+z_FuelCell_1_1.lo = 0;
+z_FuelCell_1_1.up = 1;
+z_FuelCell_1_2.lo = 0;
+z_FuelCell_1_2.up = 1;
+z_FuelCell_1_3.lo = 0;
+z_FuelCell_1_3.up = 1;
+z_FuelCell_1_4.lo = 0;
+z_FuelCell_1_4.up = 1;
+z_FuelCell_1_5.lo = 0;
+z_FuelCell_1_5.up = 1;
+z_FuelCell_1_6.lo = 0;
+z_FuelCell_1_6.up = 1;
+z_FuelCell_1_7.lo = 0;
+z_FuelCell_1_7.up = 1;
+z_FuelCell_1_8.lo = 0;
+z_FuelCell_1_8.up = 1;
+z_FuelCell_1_9.lo = 0;
+z_FuelCell_1_9.up = 1;
+z_FuelCell_1_10.lo = 0;
+z_FuelCell_1_10.up = 1;
+z_FuelCell_1_11.lo = 0;
+z_FuelCell_1_11.up = 1;
+z_FuelCell_1_12.lo = 0;
+z_FuelCell_1_12.up = 1;
+z_FuelCell_1_13.lo = 0;
+z_FuelCell_1_13.up = 1;
+z_FuelCell_1_14.lo = 0;
+z_FuelCell_1_14.up = 1;
+z_FuelCell_1_15.lo = 0;
+z_FuelCell_1_15.up = 1;
+z_FuelCell_1_16.lo = 0;
+z_FuelCell_1_16.up = 1;
+z_FuelCell_1_17.lo = 0;
+z_FuelCell_1_17.up = 1;
+z_FuelCell_1_18.lo = 0;
+z_FuelCell_1_18.up = 1;
+z_FuelCell_1_19.lo = 0;
+z_FuelCell_1_19.up = 1;
+z_FuelCell_1_20.lo = 0;
+z_FuelCell_1_20.up = 1;
+z_FuelCell_1_21.lo = 0;
+z_FuelCell_1_21.up = 1;
+z_FuelCell_1_22.lo = 0;
+z_FuelCell_1_22.up = 1;
+z_FuelCell_1_23.lo = 0;
+z_FuelCell_1_23.up = 1;
+z_FuelCell_1_24.lo = 0;
+z_FuelCell_1_24.up = 1;
+z_FuelCell_2_1.lo = 0;
+z_FuelCell_2_1.up = 1;
+z_FuelCell_2_2.lo = 0;
+z_FuelCell_2_2.up = 1;
+z_FuelCell_2_3.lo = 0;
+z_FuelCell_2_3.up = 1;
+z_FuelCell_2_4.lo = 0;
+z_FuelCell_2_4.up = 1;
+z_FuelCell_2_5.lo = 0;
+z_FuelCell_2_5.up = 1;
+z_FuelCell_2_6.lo = 0;
+z_FuelCell_2_6.up = 1;
+z_FuelCell_2_7.lo = 0;
+z_FuelCell_2_7.up = 1;
+z_FuelCell_2_8.lo = 0;
+z_FuelCell_2_8.up = 1;
+z_FuelCell_2_9.lo = 0;
+z_FuelCell_2_9.up = 1;
+z_FuelCell_2_10.lo = 0;
+z_FuelCell_2_10.up = 1;
+z_FuelCell_2_11.lo = 0;
+z_FuelCell_2_11.up = 1;
+z_FuelCell_2_12.lo = 0;
+z_FuelCell_2_12.up = 1;
+z_FuelCell_2_13.lo = 0;
+z_FuelCell_2_13.up = 1;
+z_FuelCell_2_14.lo = 0;
+z_FuelCell_2_14.up = 1;
+z_FuelCell_2_15.lo = 0;
+z_FuelCell_2_15.up = 1;
+z_FuelCell_2_16.lo = 0;
+z_FuelCell_2_16.up = 1;
+z_FuelCell_2_17.lo = 0;
+z_FuelCell_2_17.up = 1;
+z_FuelCell_2_18.lo = 0;
+z_FuelCell_2_18.up = 1;
+z_FuelCell_2_19.lo = 0;
+z_FuelCell_2_19.up = 1;
+z_FuelCell_2_20.lo = 0;
+z_FuelCell_2_20.up = 1;
+z_FuelCell_2_21.lo = 0;
+z_FuelCell_2_21.up = 1;
+z_FuelCell_2_22.lo = 0;
+z_FuelCell_2_22.up = 1;
+z_FuelCell_2_23.lo = 0;
+z_FuelCell_2_23.up = 1;
+z_FuelCell_2_24.lo = 0;
+z_FuelCell_2_24.up = 1;
+z_AuxiliaryBoilerHT_1_1.lo = 0;
+z_AuxiliaryBoilerHT_1_1.up = 1;
+z_AuxiliaryBoilerHT_1_2.lo = 0;
+z_AuxiliaryBoilerHT_1_2.up = 1;
+z_AuxiliaryBoilerHT_1_3.lo = 0;
+z_AuxiliaryBoilerHT_1_3.up = 1;
+z_AuxiliaryBoilerHT_1_4.lo = 0;
+z_AuxiliaryBoilerHT_1_4.up = 1;
+z_AuxiliaryBoilerHT_1_5.lo = 0;
+z_AuxiliaryBoilerHT_1_5.up = 1;
+z_AuxiliaryBoilerHT_1_6.lo = 0;
+z_AuxiliaryBoilerHT_1_6.up = 1;
+z_AuxiliaryBoilerHT_1_7.lo = 0;
+z_AuxiliaryBoilerHT_1_7.up = 1;
+z_AuxiliaryBoilerHT_1_8.lo = 0;
+z_AuxiliaryBoilerHT_1_8.up = 1;
+z_AuxiliaryBoilerHT_1_9.lo = 0;
+z_AuxiliaryBoilerHT_1_9.up = 1;
+z_AuxiliaryBoilerHT_1_10.lo = 0;
+z_AuxiliaryBoilerHT_1_10.up = 1;
+z_AuxiliaryBoilerHT_1_11.lo = 0;
+z_AuxiliaryBoilerHT_1_11.up = 1;
+z_AuxiliaryBoilerHT_1_12.lo = 0;
+z_AuxiliaryBoilerHT_1_12.up = 1;
+z_AuxiliaryBoilerHT_1_13.lo = 0;
+z_AuxiliaryBoilerHT_1_13.up = 1;
+z_AuxiliaryBoilerHT_1_14.lo = 0;
+z_AuxiliaryBoilerHT_1_14.up = 1;
+z_AuxiliaryBoilerHT_1_15.lo = 0;
+z_AuxiliaryBoilerHT_1_15.up = 1;
+z_AuxiliaryBoilerHT_1_16.lo = 0;
+z_AuxiliaryBoilerHT_1_16.up = 1;
+z_AuxiliaryBoilerHT_1_17.lo = 0;
+z_AuxiliaryBoilerHT_1_17.up = 1;
+z_AuxiliaryBoilerHT_1_18.lo = 0;
+z_AuxiliaryBoilerHT_1_18.up = 1;
+z_AuxiliaryBoilerHT_1_19.lo = 0;
+z_AuxiliaryBoilerHT_1_19.up = 1;
+z_AuxiliaryBoilerHT_1_20.lo = 0;
+z_AuxiliaryBoilerHT_1_20.up = 1;
+z_AuxiliaryBoilerHT_1_21.lo = 0;
+z_AuxiliaryBoilerHT_1_21.up = 1;
+z_AuxiliaryBoilerHT_1_22.lo = 0;
+z_AuxiliaryBoilerHT_1_22.up = 1;
+z_AuxiliaryBoilerHT_1_23.lo = 0;
+z_AuxiliaryBoilerHT_1_23.up = 1;
+z_AuxiliaryBoilerHT_1_24.lo = 0;
+z_AuxiliaryBoilerHT_1_24.up = 1;
+z_AuxiliaryBoilerHT_2_1.lo = 0;
+z_AuxiliaryBoilerHT_2_1.up = 1;
+z_AuxiliaryBoilerHT_2_2.lo = 0;
+z_AuxiliaryBoilerHT_2_2.up = 1;
+z_AuxiliaryBoilerHT_2_3.lo = 0;
+z_AuxiliaryBoilerHT_2_3.up = 1;
+z_AuxiliaryBoilerHT_2_4.lo = 0;
+z_AuxiliaryBoilerHT_2_4.up = 1;
+z_AuxiliaryBoilerHT_2_5.lo = 0;
+z_AuxiliaryBoilerHT_2_5.up = 1;
+z_AuxiliaryBoilerHT_2_6.lo = 0;
+z_AuxiliaryBoilerHT_2_6.up = 1;
+z_AuxiliaryBoilerHT_2_7.lo = 0;
+z_AuxiliaryBoilerHT_2_7.up = 1;
+z_AuxiliaryBoilerHT_2_8.lo = 0;
+z_AuxiliaryBoilerHT_2_8.up = 1;
+z_AuxiliaryBoilerHT_2_9.lo = 0;
+z_AuxiliaryBoilerHT_2_9.up = 1;
+z_AuxiliaryBoilerHT_2_10.lo = 0;
+z_AuxiliaryBoilerHT_2_10.up = 1;
+z_AuxiliaryBoilerHT_2_11.lo = 0;
+z_AuxiliaryBoilerHT_2_11.up = 1;
+z_AuxiliaryBoilerHT_2_12.lo = 0;
+z_AuxiliaryBoilerHT_2_12.up = 1;
+z_AuxiliaryBoilerHT_2_13.lo = 0;
+z_AuxiliaryBoilerHT_2_13.up = 1;
+z_AuxiliaryBoilerHT_2_14.lo = 0;
+z_AuxiliaryBoilerHT_2_14.up = 1;
+z_AuxiliaryBoilerHT_2_15.lo = 0;
+z_AuxiliaryBoilerHT_2_15.up = 1;
+z_AuxiliaryBoilerHT_2_16.lo = 0;
+z_AuxiliaryBoilerHT_2_16.up = 1;
+z_AuxiliaryBoilerHT_2_17.lo = 0;
+z_AuxiliaryBoilerHT_2_17.up = 1;
+z_AuxiliaryBoilerHT_2_18.lo = 0;
+z_AuxiliaryBoilerHT_2_18.up = 1;
+z_AuxiliaryBoilerHT_2_19.lo = 0;
+z_AuxiliaryBoilerHT_2_19.up = 1;
+z_AuxiliaryBoilerHT_2_20.lo = 0;
+z_AuxiliaryBoilerHT_2_20.up = 1;
+z_AuxiliaryBoilerHT_2_21.lo = 0;
+z_AuxiliaryBoilerHT_2_21.up = 1;
+z_AuxiliaryBoilerHT_2_22.lo = 0;
+z_AuxiliaryBoilerHT_2_22.up = 1;
+z_AuxiliaryBoilerHT_2_23.lo = 0;
+z_AuxiliaryBoilerHT_2_23.up = 1;
+z_AuxiliaryBoilerHT_2_24.lo = 0;
+z_AuxiliaryBoilerHT_2_24.up = 1;
+z_Compression_HeatPump_AirWater_1_1.lo = 0;
+z_Compression_HeatPump_AirWater_1_1.up = 1;
+z_Compression_HeatPump_AirWater_1_2.lo = 0;
+z_Compression_HeatPump_AirWater_1_2.up = 1;
+z_Compression_HeatPump_AirWater_1_3.lo = 0;
+z_Compression_HeatPump_AirWater_1_3.up = 1;
+z_Compression_HeatPump_AirWater_1_4.lo = 0;
+z_Compression_HeatPump_AirWater_1_4.up = 1;
+z_Compression_HeatPump_AirWater_1_5.lo = 0;
+z_Compression_HeatPump_AirWater_1_5.up = 1;
+z_Compression_HeatPump_AirWater_1_6.lo = 0;
+z_Compression_HeatPump_AirWater_1_6.up = 1;
+z_Compression_HeatPump_AirWater_1_7.lo = 0;
+z_Compression_HeatPump_AirWater_1_7.up = 1;
+z_Compression_HeatPump_AirWater_1_8.lo = 0;
+z_Compression_HeatPump_AirWater_1_8.up = 1;
+z_Compression_HeatPump_AirWater_1_9.lo = 0;
+z_Compression_HeatPump_AirWater_1_9.up = 1;
+z_Compression_HeatPump_AirWater_1_10.lo = 0;
+z_Compression_HeatPump_AirWater_1_10.up = 1;
+z_Compression_HeatPump_AirWater_1_11.lo = 0;
+z_Compression_HeatPump_AirWater_1_11.up = 1;
+z_Compression_HeatPump_AirWater_1_12.lo = 0;
+z_Compression_HeatPump_AirWater_1_12.up = 1;
+z_Compression_HeatPump_AirWater_1_13.lo = 0;
+z_Compression_HeatPump_AirWater_1_13.up = 1;
+z_Compression_HeatPump_AirWater_1_14.lo = 0;
+z_Compression_HeatPump_AirWater_1_14.up = 1;
+z_Compression_HeatPump_AirWater_1_15.lo = 0;
+z_Compression_HeatPump_AirWater_1_15.up = 1;
+z_Compression_HeatPump_AirWater_1_16.lo = 0;
+z_Compression_HeatPump_AirWater_1_16.up = 1;
+z_Compression_HeatPump_AirWater_1_17.lo = 0;
+z_Compression_HeatPump_AirWater_1_17.up = 1;
+z_Compression_HeatPump_AirWater_1_18.lo = 0;
+z_Compression_HeatPump_AirWater_1_18.up = 1;
+z_Compression_HeatPump_AirWater_1_19.lo = 0;
+z_Compression_HeatPump_AirWater_1_19.up = 1;
+z_Compression_HeatPump_AirWater_1_20.lo = 0;
+z_Compression_HeatPump_AirWater_1_20.up = 1;
+z_Compression_HeatPump_AirWater_1_21.lo = 0;
+z_Compression_HeatPump_AirWater_1_21.up = 1;
+z_Compression_HeatPump_AirWater_1_22.lo = 0;
+z_Compression_HeatPump_AirWater_1_22.up = 1;
+z_Compression_HeatPump_AirWater_1_23.lo = 0;
+z_Compression_HeatPump_AirWater_1_23.up = 1;
+z_Compression_HeatPump_AirWater_1_24.lo = 0;
+z_Compression_HeatPump_AirWater_1_24.up = 1;
+z_Compression_HeatPump_AirWater_2_1.lo = 0;
+z_Compression_HeatPump_AirWater_2_1.up = 1;
+z_Compression_HeatPump_AirWater_2_2.lo = 0;
+z_Compression_HeatPump_AirWater_2_2.up = 1;
+z_Compression_HeatPump_AirWater_2_3.lo = 0;
+z_Compression_HeatPump_AirWater_2_3.up = 1;
+z_Compression_HeatPump_AirWater_2_4.lo = 0;
+z_Compression_HeatPump_AirWater_2_4.up = 1;
+z_Compression_HeatPump_AirWater_2_5.lo = 0;
+z_Compression_HeatPump_AirWater_2_5.up = 1;
+z_Compression_HeatPump_AirWater_2_6.lo = 0;
+z_Compression_HeatPump_AirWater_2_6.up = 1;
+z_Compression_HeatPump_AirWater_2_7.lo = 0;
+z_Compression_HeatPump_AirWater_2_7.up = 1;
+z_Compression_HeatPump_AirWater_2_8.lo = 0;
+z_Compression_HeatPump_AirWater_2_8.up = 1;
+z_Compression_HeatPump_AirWater_2_9.lo = 0;
+z_Compression_HeatPump_AirWater_2_9.up = 1;
+z_Compression_HeatPump_AirWater_2_10.lo = 0;
+z_Compression_HeatPump_AirWater_2_10.up = 1;
+z_Compression_HeatPump_AirWater_2_11.lo = 0;
+z_Compression_HeatPump_AirWater_2_11.up = 1;
+z_Compression_HeatPump_AirWater_2_12.lo = 0;
+z_Compression_HeatPump_AirWater_2_12.up = 1;
+z_Compression_HeatPump_AirWater_2_13.lo = 0;
+z_Compression_HeatPump_AirWater_2_13.up = 1;
+z_Compression_HeatPump_AirWater_2_14.lo = 0;
+z_Compression_HeatPump_AirWater_2_14.up = 1;
+z_Compression_HeatPump_AirWater_2_15.lo = 0;
+z_Compression_HeatPump_AirWater_2_15.up = 1;
+z_Compression_HeatPump_AirWater_2_16.lo = 0;
+z_Compression_HeatPump_AirWater_2_16.up = 1;
+z_Compression_HeatPump_AirWater_2_17.lo = 0;
+z_Compression_HeatPump_AirWater_2_17.up = 1;
+z_Compression_HeatPump_AirWater_2_18.lo = 0;
+z_Compression_HeatPump_AirWater_2_18.up = 1;
+z_Compression_HeatPump_AirWater_2_19.lo = 0;
+z_Compression_HeatPump_AirWater_2_19.up = 1;
+z_Compression_HeatPump_AirWater_2_20.lo = 0;
+z_Compression_HeatPump_AirWater_2_20.up = 1;
+z_Compression_HeatPump_AirWater_2_21.lo = 0;
+z_Compression_HeatPump_AirWater_2_21.up = 1;
+z_Compression_HeatPump_AirWater_2_22.lo = 0;
+z_Compression_HeatPump_AirWater_2_22.up = 1;
+z_Compression_HeatPump_AirWater_2_23.lo = 0;
+z_Compression_HeatPump_AirWater_2_23.up = 1;
+z_Compression_HeatPump_AirWater_2_24.lo = 0;
+z_Compression_HeatPump_AirWater_2_24.up = 1;
+revenue_1_1.lo = -17.865236;
+revenue_1_1.up = 0.6153197311502703;
+revenue_1_2.lo = -17.865236;
+revenue_1_2.up = 0.6153197311502703;
+revenue_1_3.lo = -17.865236;
+revenue_1_3.up = 0.6153197311502703;
+revenue_1_4.lo = -17.865236;
+revenue_1_4.up = 0.6153197311502703;
+revenue_1_5.lo = -17.865236;
+revenue_1_5.up = 0.6153197311502703;
+revenue_1_6.lo = -18.37565;
+revenue_1_6.up = 0.6153197311502703;
+revenue_1_7.lo = -18.37565;
+revenue_1_7.up = 0.6153197311502703;
+revenue_1_8.lo = -21.529772000000005;
+revenue_1_8.up = 0.8128189315907993;
+revenue_1_9.lo = -24.270030000000006;
+revenue_1_9.up = 1.1077510709153227;
+revenue_1_10.lo = -24.270030000000006;
+revenue_1_10.up = 1.1077510709153227;
+revenue_1_11.lo = -24.270030000000006;
+revenue_1_11.up = 1.1077510709153227;
+revenue_1_12.lo = -25.493782000000007;
+revenue_1_12.up = 1.1077510709153227;
+revenue_1_13.lo = -25.621519000000006;
+revenue_1_13.up = 1.1077510709153227;
+revenue_1_14.lo = -25.493782000000007;
+revenue_1_14.up = 1.1077510709153227;
+revenue_1_15.lo = -25.799720000000004;
+revenue_1_15.up = 1.1077510709153227;
+revenue_1_16.lo = -25.493782000000007;
+revenue_1_16.up = 1.1077510709153227;
+revenue_1_17.lo = -25.676714000000008;
+revenue_1_17.up = 1.1077510709153227;
+revenue_1_18.lo = -25.493782000000007;
+revenue_1_18.up = 1.1077510709153227;
+revenue_1_19.lo = -23.352216000000006;
+revenue_1_19.up = 1.1077510709153227;
+revenue_1_20.lo = -20.183024000000003;
+revenue_1_20.up = 0.8128189315907993;
+revenue_1_21.lo = -19.50965;
+revenue_1_21.up = 0.8128189315907993;
+revenue_1_22.lo = -18.836276;
+revenue_1_22.up = 0.8128189315907993;
+revenue_1_23.lo = -18.836276;
+revenue_1_23.up = 0.8128189315907993;
+revenue_1_24.lo = -17.865236;
+revenue_1_24.up = 0.6153197311502703;
+revenue_2_1.lo = -18.212035999999998;
+revenue_2_1.up = 0.7030971535682833;
+revenue_2_2.lo = -18.212035999999998;
+revenue_2_2.up = 0.7030971535682833;
+revenue_2_3.lo = -18.212035999999998;
+revenue_2_3.up = 0.7030971535682833;
+revenue_2_4.lo = -18.212035999999998;
+revenue_2_4.up = 0.7030971535682833;
+revenue_2_5.lo = -18.212035999999998;
+revenue_2_5.up = 0.7030971535682833;
+revenue_2_6.lo = -18.78065;
+revenue_2_6.up = 0.7030971535682833;
+revenue_2_7.lo = -18.78065;
+revenue_2_7.up = 0.7030971535682833;
+revenue_2_8.lo = -26.166572000000006;
+revenue_2_8.up = 0.8128189315907993;
+revenue_2_9.lo = -24.270030000000006;
+revenue_2_9.up = 1.1077510709153227;
+revenue_2_10.lo = -24.270030000000006;
+revenue_2_10.up = 1.1077510709153227;
+revenue_2_11.lo = -24.270030000000006;
+revenue_2_11.up = 1.1077510709153227;
+revenue_2_12.lo = -26.170382000000007;
+revenue_2_12.up = 1.1955284933333354;
+revenue_2_13.lo = -26.306219000000006;
+revenue_2_13.up = 1.1955284933333354;
+revenue_2_14.lo = -26.170382000000007;
+revenue_2_14.up = 1.2833059157513482;
+revenue_2_15.lo = -25.799720000000004;
+revenue_2_15.up = 1.1955284933333354;
+revenue_2_16.lo = -25.493782000000007;
+revenue_2_16.up = 1.1955284933333354;
+revenue_2_17.lo = -25.676714000000008;
+revenue_2_17.up = 1.1077510709153227;
+revenue_2_18.lo = -25.493782000000007;
+revenue_2_18.up = 1.1077510709153227;
+revenue_2_19.lo = -23.352216000000006;
+revenue_2_19.up = 1.1077510709153227;
+revenue_2_20.lo = -20.183024000000003;
+revenue_2_20.up = 0.8128189315907993;
+revenue_2_21.lo = -19.50965;
+revenue_2_21.up = 0.8128189315907993;
+revenue_2_22.lo = -18.836276;
+revenue_2_22.up = 0.8128189315907993;
+revenue_2_23.lo = -18.836276;
+revenue_2_23.up = 0.8128189315907993;
+revenue_2_24.lo = -17.865236;
+revenue_2_24.up = 0.7030971535682833;
+
+Model m / all /;
+m.workspace = 15000;
+m.optcr = 0.0001;
+m.reslim = 7200;
+Option MINLP = Couenne;
+Solve m using MINLP minimizing total_revenue;
