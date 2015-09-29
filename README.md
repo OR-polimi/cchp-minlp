@@ -1,6 +1,6 @@
 # Short-term planning of cogeneration systems via MINLP
 
-This repository contains the instances used in the article "[Short-term planning of cogeneration energy systems via MINLP]()" by [Leonardo Taccari](), [Edoardo Amaldi](http://home.deib.polimi.it/amaldi/), [Aldo Bischi]() and [Emanuele Martelli](http://www.energia.polimi.it/dipartimento/scheda_persona.php?id=242), 
+This repository contains the instances used in the article "[Short-term planning of cogeneration energy systems via MINLP]()" by [Leonardo Taccari](https://twitter.com/leotac), [Edoardo Amaldi](http://home.deib.polimi.it/amaldi/), [Aldo Bischi]() and [Emanuele Martelli](http://www.energia.polimi.it/dipartimento/scheda_persona.php?id=242), 
 to be published as an invited chapter in "Advances and Trends in Optimization with Engineering Applications. MOS-SIAM series, SIAM, Philadelphia, 2015".
 
 
@@ -8,14 +8,25 @@ If you use these instances, please consider citing the following reference:
 
 > L. Taccari, E. Amaldi, A. Bischi, E. Martelli, "Short-term planning of cogeneration energy systems via MINLP", in T. Terlaky, M. Anjos and S. Ahmed (Eds.), *Advances and Trends in Optimization with Engineering Applications*. MOS-SIAM Series on Optimization, SIAM, Philadelphia, 2015.
 
+Bibtex:
+
+``` latex
+@incollection{TABM2015,
+  author      = "Taccari, Leonardo and Amaldi, Edoardo and Bischi, Aldo and Martelli, Emanuele"
+  title       = "Short-term planning of cogeneration energy systems via MINLP",
+  editor      = "T. Terlaky and M. Anjos and S. Ahmed",
+  booktitle   = "Advances and Trends in Optimization with Engineering Applications"
+  publisher   = "SIAM",
+  series      = "MOS-SIAM Series on Optimization"
+  address     = "Philadelphia",
+  year        = 2015
+}
+```
+
+
 
 ### Data format
-In the folder `instances`, we include the instances used in the article in `.nl` (AMPL binary format) and GAMS format.   
-
-We also provide the raw data as plain text files: the `data` directory contains two subfolders, corresponding to two scenarios. Each scenario includes a set of heat and/or power units, that can be combined in different configurations. 
-Each unit corresponds to a different file.
-To define an instance of the problem, additional parameters must be specified: in particular, power/heat demand profiles, market prices for electrical power, temperature, and storage-related parameters. 
-For scenario 1, we provide one such example (instance `1a` in the article), while, for the scenario 2, we provide four files (corresponding to instances `2a`, `2b`, `2c` and `2d`) with different power/heat demand profiles.
+In the folder `instances`, we include the instances used in the article in `.nl` (AMPL binary format) and `.gms` (GAMS) format.   
 
 ##Description
 
